@@ -272,7 +272,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>HP_Bullet_MeltaGun</defaultProjectile>
         <warmupTime>2</warmupTime>
-       <range>16</range>
+       <range>20</range>
         <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
         <burstShotCount>1</burstShotCount>
         <soundCast>HP_Melta_Gun_Sound</soundCast>
@@ -377,7 +377,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>HP_Bullet_MultiMelta</defaultProjectile>
         <warmupTime>3</warmupTime>
-       <range>30</range>
+       <range>24</range>
         <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
         <burstShotCount>1</burstShotCount>
         <soundCast>HP_Multi_Melta_Gun_Sound</soundCast>
