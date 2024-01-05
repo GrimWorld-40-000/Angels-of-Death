@@ -86,7 +86,7 @@
 	
 	<ThingDef ParentName="GW_SM_TermBase">
 		<defName>GW_SM_Gun_AssualtCannon</defName>
-		<label>Assualt cannon</label>
+		<label>Assault Cannon</label>
 		<description>Brrrrt</description>
 		<equippedAngleOffset>-60</equippedAngleOffset>
 		<graphicData>
