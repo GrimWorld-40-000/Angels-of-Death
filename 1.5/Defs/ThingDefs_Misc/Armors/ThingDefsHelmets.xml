@@ -694,7 +694,7 @@
             </li>
         </comps>
 		<recipeMaker>
-			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+			<researchPrerequisite>GW_SM_AstartesHeavyGravis</researchPrerequisite>
 		</recipeMaker>
 		<costList>
 			<ComponentSpacer>5</ComponentSpacer>
@@ -797,7 +797,7 @@
             <wornGraphicPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Gravis_helmet_winged</wornGraphicPath>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+			<researchPrerequisite>GW_SM_AstartesHeavyGravis</researchPrerequisite>
 		</recipeMaker>
     </ThingDef>
 
@@ -836,7 +836,7 @@
             <wornGraphicPath>Things/Apparel/Armor_IndomitusTerminator/Helmets/Indomitus_helmet_simple</wornGraphicPath>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+			<researchPrerequisite>GW_SM_TerminatorArmor</researchPrerequisite>
 		</recipeMaker>
         <costList>
 			<ComponentSpacer>8</ComponentSpacer>

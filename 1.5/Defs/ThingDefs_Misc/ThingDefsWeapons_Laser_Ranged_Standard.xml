@@ -51,7 +51,7 @@
             <recipeUsers Inherit="False">
                 <li>HP_ImperialFabricationBench</li>
             </recipeUsers>		
-            <researchPrerequisite>GW_PlasmaWeapons</researchPrerequisite>
+            <researchPrerequisite>GW_SM_AstartesEnergyWeapon</researchPrerequisite>
             <skillRequirements>
                 <Crafting>15</Crafting>
             </skillRequirements>
@@ -162,7 +162,7 @@
             <recipeUsers Inherit="False">
                 <li>HP_ImperialFabricationBench</li>
             </recipeUsers>		
-            <researchPrerequisite>GW_PlasmaWeapons</researchPrerequisite>
+            <researchPrerequisite>GW_SM_AstartesEnergyWeapon</researchPrerequisite>
             <skillRequirements>
                 <Crafting>15</Crafting>
             </skillRequirements>
@@ -270,7 +270,7 @@
             <recipeUsers Inherit="False">
                 <li>HP_ImperialFabricationBench</li>
             </recipeUsers>		
-            <researchPrerequisite>GW_MeltaWeapons</researchPrerequisite>
+            <researchPrerequisite>GW_SM_AstartesEnergyWeapon</researchPrerequisite>
             <skillRequirements>
                 <Crafting>15</Crafting>
             </skillRequirements>
@@ -376,7 +376,7 @@
             <recipeUsers Inherit="False">
                 <li>HP_ImperialFabricationBench</li>
             </recipeUsers>		
-            <researchPrerequisite>GW_MeltaWeapons</researchPrerequisite>
+            <researchPrerequisite>GW_SM_AstartesEnergyWeapon</researchPrerequisite>
             <skillRequirements>
                 <Crafting>15</Crafting>
             </skillRequirements>
@@ -484,7 +484,7 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>		
-			<researchPrerequisite>GW_PlasmaWeapons</researchPrerequisite>
+			<researchPrerequisite>GW_SM_AstartesEnergyWeapon</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>15</Crafting>
 			</skillRequirements>
@@ -592,7 +592,7 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>		
-			<researchPrerequisite>GW_MeltaWeapons</researchPrerequisite>
+			<researchPrerequisite>GW_SM_AstartesEnergyWeapon</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>15</Crafting>
 			</skillRequirements>

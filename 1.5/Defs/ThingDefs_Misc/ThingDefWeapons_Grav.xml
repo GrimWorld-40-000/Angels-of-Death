@@ -69,7 +69,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>GW_SM_GravWeapons</researchPrerequisite>
+			<researchPrerequisite>GW_SM_AstartesEnergyWeapon</researchPrerequisite>
 			<displayPriority>420</displayPriority>
 		</recipeMaker>
 		<thingSetMakerTags>

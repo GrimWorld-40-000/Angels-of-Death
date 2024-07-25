@@ -854,7 +854,7 @@
 		<!--Gravis-->
 	<ThingDef Abstract="True" Name="GW_SM_GravisShoulderPads" ParentName="HP_AoD_ShoulderBase">
 		<recipeMaker>
-            <researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+            <researchPrerequisite>GW_SM_AstartesHeavyGravis</researchPrerequisite>
         </recipeMaker>
         <statBases>
 			<WorkToMake>15000</WorkToMake>
@@ -1017,14 +1017,14 @@
             </li>
         </comps>
 		<researchPrerequisites>
-			<li>GW_SM_AstartesHeavy</li>
+			<li>GW_SM_AstartesHeavyGravis</li>
 		</researchPrerequisites>
 	</ThingDef>
 
     	<!--Terminator-->
 	<ThingDef Abstract="True" Name="GW_SM_TerminatorShoulderPads" ParentName="HP_AoD_ShoulderBase">
 		<recipeMaker>
-            <researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+            <researchPrerequisite>GW_SM_TerminatorArmor</researchPrerequisite>
         </recipeMaker>
         <statBases>
 			<WorkToMake>20000</WorkToMake>

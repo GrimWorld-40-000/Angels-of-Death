@@ -419,7 +419,7 @@
 			<texPath>Things/Apparel/Armor_Gravis/Gravis_torso_south</texPath>
 		</graphicData>
 		<recipeMaker>
-            <researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+            <researchPrerequisite>GW_SM_AstartesHeavyGravis</researchPrerequisite>
         </recipeMaker>
         <statBases>
 			<WorkToMake>90000</WorkToMake>
@@ -480,7 +480,7 @@
 			<texPath>Things/Apparel/Armor_IndomitusTerminator/Indomitus_torso_south</texPath>
 		</graphicData>
 		<recipeMaker>
-            <researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+            <researchPrerequisite>GW_SM_TerminatorArmor</researchPrerequisite>
         </recipeMaker>
         <statBases>
 			<WorkToMake>110000</WorkToMake>

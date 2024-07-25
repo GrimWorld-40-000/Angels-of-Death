@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<!--Generic armor base. Every armor will have these things. Only add/change stuff in this if you want every armor to be affected-->
-	<ThingDef Abstract="true" Name="GW_SM_BackpackBase" ParentName="GW_BackpackBase">
+	<ThingDef Abstract="true" Name="GW_SM_BackpackBase" ParentName="ArmorMachineableBase">
 		<techLevel>Spacer</techLevel>
 		<description>Astartes backpacks serve as power hubs for their armors, providing energy to various systems crucial for combat. These backpacks house fusion reactors and energy storage units, supplying the necessary power for mobility, communication, and weapons systems. Designed for reliability and efficiency, they ensure that Space Marines remain fully operational on the battlefield, powering their armor's functions and enhancing their combat effectiveness.</description>
 		<uiIconScale>1.6</uiIconScale>
@@ -26,6 +26,9 @@
 			<tags>
 				<li>Spacer</li>
 			</tags>
+			<layers>
+				<li>Backpack</li>
+			</layers>
 		</apparel>
 		<comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">
@@ -294,7 +297,7 @@
 			<texPath>Things/Apparel/Armor_Gravis/Gravis_backpack_south</texPath>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+			<researchPrerequisite>GW_SM_AstartesHeavyGravis</researchPrerequisite>
 		</recipeMaker>
 		<statBases>
 			<WorkToMake>9000</WorkToMake>
