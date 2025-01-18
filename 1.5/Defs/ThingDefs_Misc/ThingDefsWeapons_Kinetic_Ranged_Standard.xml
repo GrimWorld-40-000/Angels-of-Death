@@ -172,6 +172,15 @@
         <cooldownTime>2.1</cooldownTime>
       </li>
     </tools>
+	<modExtensions>
+		<li MayRequire="issaczhuang.muzzleflash" Class="MuzzleFlash.MuzzleFlashProps">
+			<def>MF_StandardMuzzleFalsh</def>
+			<drawSize>(1,1)</drawSize>
+			<offsets>
+				<li>(0.4,0)</li>
+			</offsets>
+		</li>
+	</modExtensions>
   </ThingDef>
 
 <!-- ====================== ExecutorBoltRifle ===================== -->
