@@ -3,7 +3,7 @@
 
 	<!--===== Relic Weapon Base =====-->
 
-	<ThingDef Abstract="true" ParentName="BaseWeapon" Name="GW_SM_RelicWeapon" >
+	<ThingDef Abstract="true" ParentName="BaseWeapon" Name="GW_SM_RelicWeapon">
 		<techLevel>Archotech</techLevel>
 		<statBases>
 			<MarketValue>800000</MarketValue>
@@ -31,7 +31,7 @@
 		</thingSetMakerTags>
 	</ThingDef>
 
-		<!-- ====================== Chainsword ===================== -->
+	<!-- ====================== Chainsword ===================== -->
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>MeleeWeapon_Chainsword_GrimWorld</defName>
@@ -75,8 +75,8 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-			<power>10</power>
-			<cooldownTime>0.75</cooldownTime>		
+				<power>10</power>
+				<cooldownTime>0.75</cooldownTime>
 			</li>
 			<li>
 				<label>edge</label>
@@ -92,16 +92,16 @@
 		<recipeMaker>
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
-			</recipeUsers>		
+			</recipeUsers>
 			<researchPrerequisite>GW_Chainswords</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>12</Crafting>
 			</skillRequirements>
 			<displayPriority>410</displayPriority>
 		</recipeMaker>
-	  </ThingDef>
+	</ThingDef>
 	  
-		<!-- ====================== Relic Chainsword ===================== -->
+	<!-- ====================== Relic Chainsword ===================== -->
 	  
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>MeleeWeapon_Relic_Chainsword_GrimWorld</defName>
@@ -109,73 +109,73 @@
 		<description>An Astartes-size chainsword design of considerable age. For reasons unknown, it is of lighter weight than a regular chainsword, and cuts even more viciously. \n\nIn the Imperium of Man, “older” is often synonymous with “better”, as relics of the Dark Age of Technology and the following Age of Strife held powerful secrets that no one in the Imperium could truly understand. This became even more true in the 41st Millennium, as even the designs of Great Crusade and Horus Heresy-era technology became lost to the Imperium.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
-		  <texPath>Things/Weapons/Melee/ChainSword</texPath>
-		  <graphicClass>Graphic_Single</graphicClass>
-		  <drawSize>1.5, 1.5</drawSize>
-		  <shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Weapons/Melee/ChainSword</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.5, 1.5</drawSize>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<uiIconScale>1.2</uiIconScale>
 		<techLevel>Spacer</techLevel>
 		<thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
 		<weaponTags>
-		  <li>SpacerMeleeDecent</li>
+			<li>SpacerMeleeDecent</li>
 		</weaponTags>
 		<statBases>
-		  <WorkToMake>34000</WorkToMake>
-		  <Mass>5.8</Mass>
+			<WorkToMake>34000</WorkToMake>
+			<Mass>5.8</Mass>
 		</statBases>
 		<equippedStatOffsets>
-            <MoveSpeed>0.10</MoveSpeed>
-			<Beauty>10</Beauty> 
-        </equippedStatOffsets>
+			<MoveSpeed>0.10</MoveSpeed>
+			<Beauty>10</Beauty>
+		</equippedStatOffsets>
 		<relicChance>5</relicChance>
 		<costStuffCount>100</costStuffCount>
 		<equippedAngleOffset>-65</equippedAngleOffset>
-	   <costList>
-		  <Plasteel>40</Plasteel>
-		  <ComponentIndustrial>10</ComponentIndustrial>
+		<costList>
+			<Plasteel>40</Plasteel>
+			<ComponentIndustrial>10</ComponentIndustrial>
 		</costList>
 		<stuffCategories>
-		  <li>Metallic</li>
+			<li>Metallic</li>
 		</stuffCategories>
 		<tools>
-		  <li>
-			<label>handle</label>
-			<capacities>
-			  <li>Blunt</li>
-			</capacities>
-			<power>20</power>
-			<cooldownTime>0.75</cooldownTime>		
-		  </li>
-		  <li>
-			<label>edge</label>
-			<capacities>
-			  <li>Cut</li>
-			</capacities>
-			<power>45</power>
-			<cooldownTime>1</cooldownTime>
-			<soundMeleeHit>ChainSword</soundMeleeHit>
-			<soundMeleeMiss>Smite</soundMeleeMiss>
-		  </li>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>0.75</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>45</power>
+				<cooldownTime>1</cooldownTime>
+				<soundMeleeHit>ChainSword</soundMeleeHit>
+				<soundMeleeMiss>Smite</soundMeleeMiss>
+			</li>
 		</tools>
 		<recipeMaker>
-		  <recipeUsers Inherit="False">
-			<li>HP_ImperialFabricationBench</li>
-		  </recipeUsers>		
-		  <researchPrerequisite>GW_Chainswords</researchPrerequisite>
-		  <skillRequirements>
-			<Crafting>15</Crafting>
+			<recipeUsers Inherit="False">
+				<li>HP_ImperialFabricationBench</li>
+			</recipeUsers>
+			<researchPrerequisite>GW_Chainswords</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>15</Crafting>
 			</skillRequirements>
-		  <displayPriority>410</displayPriority>
+			<displayPriority>410</displayPriority>
 		</recipeMaker>
 		<comps>
-            <li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit">
+			<li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit">
 				<maxNumberCraftable>3</maxNumberCraftable>
 			</li>
-        </comps>
-	  </ThingDef>
+		</comps>
+	</ThingDef>
 	  
-		<!-- ====================== Powersword ===================== -->
+	<!-- ====================== Powersword ===================== -->
 	  
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>MeleeWeapon_Powersword_GrimWorld</defName>
@@ -183,69 +183,69 @@
 		<description>A large, Astartes-size sword. As well as being a deadly weapon in its own right, the blade is coated in a disruptive power field that disturbs the molecular bonds of objects it touches. This allows the blade to cut through armor and flesh more easily, greatly enhancing its lethality - while a powersword itself may not be as awe-inspiring as a chainsword, the sight of one’s comrade being cleaved in half with one strike certainly is. \n\nSimilar blades are used by the Eldar and Dark Eldar xenos races - one notable example would be the Diresword, which also contains an Eldar spirit in a Spirit Stone. When striking an opponent, the spirit also attempts to destroy the target’s mind, often resulting in instant death.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
-		  <texPath>Things/Weapons/Melee/PowerSword2</texPath>
-		  <graphicClass>Graphic_Single</graphicClass>
-		  <drawSize>1.6, 1.6</drawSize>
-		  <shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Weapons/Melee/PowerSword2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.6, 1.6</drawSize>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<uiIconScale>1.2</uiIconScale>
 		<techLevel>Industrial</techLevel>
 		<thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
 		<weaponTags>
-		    <li>SpacerMeleeDecent</li>
+			<li>SpacerMeleeDecent</li>
 			<li>GW_SM_Melee</li>
 		</weaponTags>
 		<tradeTags>
-		  <li>HPMelee</li>
+			<li>HPMelee</li>
 		</tradeTags>
 		<statBases>
-		  <WorkToMake>42000</WorkToMake>
-		  <Mass>3</Mass>
+			<WorkToMake>42000</WorkToMake>
+			<Mass>3</Mass>
 		</statBases>
 		<relicChance>2</relicChance>
 		<costStuffCount>100</costStuffCount>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<costList>
-		  <Plasteel>40</Plasteel>
-		  <ComponentIndustrial>10</ComponentIndustrial>
+			<Plasteel>40</Plasteel>
+			<ComponentIndustrial>10</ComponentIndustrial>
 		</costList>
 		<stuffCategories>
-		  <li>Metallic</li>
+			<li>Metallic</li>
 		</stuffCategories>
 		<tools>
-		  <li>
-			<label>handle</label>
-			<capacities>
-			  <li>Blunt</li>
-			</capacities>
-			<power>12</power>
-			<cooldownTime>2</cooldownTime>
-		  </li>
-		  <li>
-			<label>edge</label>
-			<capacities>
-			  <li>Cut</li>
-			</capacities>
-			<power>65</power>
-			<cooldownTime>2</cooldownTime>
-			<armorPenetration>1.05</armorPenetration>
-			<soundMeleeHit>PowerSword</soundMeleeHit>
-			<soundMeleeMiss>Smite</soundMeleeMiss>
-		  </li>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>65</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>1.05</armorPenetration>
+				<soundMeleeHit>PowerSword</soundMeleeHit>
+				<soundMeleeMiss>Smite</soundMeleeMiss>
+			</li>
 		</tools>
 		<recipeMaker>
-		  <recipeUsers Inherit="False">
-			<li>HP_ImperialFabricationBench</li>
-		  </recipeUsers>		
-		  <researchPrerequisite>GW_PowerMeleeWeapons</researchPrerequisite>
-		  <skillRequirements>
-			<Crafting>15</Crafting>
+			<recipeUsers Inherit="False">
+				<li>HP_ImperialFabricationBench</li>
+			</recipeUsers>
+			<researchPrerequisite>GW_PowerMeleeWeapons</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>15</Crafting>
 			</skillRequirements>
-		  <displayPriority>410</displayPriority>
+			<displayPriority>410</displayPriority>
 		</recipeMaker>
-	  </ThingDef>
+	</ThingDef>
 	  
-		<!-- ====================== Relic PowerSword ===================== -->
+	<!-- ====================== Relic PowerSword ===================== -->
 	  
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>MeleeWeapon_Relic_Powersword_GrimWorld</defName>
@@ -253,70 +253,70 @@
 		<description>A powersword of older make and greater strength. As well as being a symbol to the Adeptus Astartes, such relics are often of greater quality than equivalents created in more recent years.\n\nIn the Age of the Imperium, much was forgotten, never to be relearned. The Adeptus Mechanicus is a symbol of that, having created a strange mixture of science and religion. They consider technology to be sacred, especially that of the Dark Age of Technology.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
-		  <texPath>Things/Weapons/Melee/PowerSword</texPath>
-		  <graphicClass>Graphic_Single</graphicClass>
-		  <drawSize>1.5, 1.5</drawSize>
-		  <shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Weapons/Melee/PowerSword</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.5, 1.5</drawSize>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<uiIconScale>1.2</uiIconScale>
 		<techLevel>Spacer</techLevel>
 		<thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
 		<weaponTags>
-		    <li>SpacerMeleeDecent</li>
+			<li>SpacerMeleeDecent</li>
 		</weaponTags>
 		<statBases>
-		  <WorkToMake>42000</WorkToMake>
-		  <Mass>2.8</Mass>
+			<WorkToMake>42000</WorkToMake>
+			<Mass>2.8</Mass>
 		</statBases>
 		<relicChance>2</relicChance>
 		<costStuffCount>100</costStuffCount>
 		<equippedAngleOffset>-45</equippedAngleOffset>
-	   <costList>
-		  <Plasteel>40</Plasteel>
-		  <ComponentIndustrial>10</ComponentIndustrial>
+		<costList>
+			<Plasteel>40</Plasteel>
+			<ComponentIndustrial>10</ComponentIndustrial>
 		</costList>
 		<stuffCategories>
-		  <li>Metallic</li>
+			<li>Metallic</li>
 		</stuffCategories>
 		<tools>
-		  <li>
-			<label>handle</label>
-			<capacities>
-			  <li>Blunt</li>
-			</capacities>
-			<power>30</power>
-			<cooldownTime>2</cooldownTime>
-		  </li>
-		  <li>
-			<label>edge</label>
-			<capacities>
-			  <li>Cut</li>
-			</capacities>
-			<power>85</power>
-			<cooldownTime>2</cooldownTime>
-			<armorPenetration>1.2</armorPenetration>
-			<soundMeleeHit>PowerSword</soundMeleeHit>
-			<soundMeleeMiss>Smite</soundMeleeMiss>
-		  </li>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>30</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>85</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>1.2</armorPenetration>
+				<soundMeleeHit>PowerSword</soundMeleeHit>
+				<soundMeleeMiss>Smite</soundMeleeMiss>
+			</li>
 		</tools>
 		<recipeMaker>
-		  <recipeUsers Inherit="False">
-			<li>HP_ImperialFabricationBench</li>
-		  </recipeUsers>		
-		  <researchPrerequisite>GW_PowerMeleeWeapons</researchPrerequisite>
-		  <skillRequirements>
-			<Crafting>15</Crafting>
+			<recipeUsers Inherit="False">
+				<li>HP_ImperialFabricationBench</li>
+			</recipeUsers>
+			<researchPrerequisite>GW_PowerMeleeWeapons</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>15</Crafting>
 			</skillRequirements>
-		  <displayPriority>410</displayPriority>
+			<displayPriority>410</displayPriority>
 		</recipeMaker>
 		<comps>
-            <li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit">
+			<li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit">
 				<maxNumberCraftable>3</maxNumberCraftable>
 			</li>
-        </comps>
-	  </ThingDef>
+		</comps>
+	</ThingDef>
 	  
-	  <!-- ====================== Powerfist ===================== -->
+	<!-- ====================== Powerfist ===================== -->
 
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
 		<defName>GW_SM_Melee_Powerfist</defName>
@@ -347,11 +347,11 @@
 					</west>
 				</weaponCarryDrawOffsets>
 			</li>
-		</modExtensions>		
+		</modExtensions>
 		<techLevel>Spacer</techLevel>
-			<thingSetMakerTags>
-				<li>RewardStandardQualitySuper</li>
-			</thingSetMakerTags>
+		<thingSetMakerTags>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
 		<weaponTags>
 			<li>IndustrialMeleeDecent</li>
 			<li>GW_SM_Melee</li>
@@ -390,19 +390,19 @@
 			</li>
 		</tools>
 		<recipeMaker>
-		<recipeUsers Inherit="False">
-			<li>HP_ImperialFabricationBench</li>
-		</recipeUsers>		
-		<researchPrerequisite>GW_PowerMeleeWeapons</researchPrerequisite>
-		<skillRequirements>
-			<Crafting>14</Crafting>
-		</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>HP_ImperialFabricationBench</li>
+			</recipeUsers>
+			<researchPrerequisite>GW_PowerMeleeWeapons</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>14</Crafting>
+			</skillRequirements>
 			<displayPriority>410</displayPriority>
 		</recipeMaker>
 	</ThingDef>
 	
 
-		<!--===== Thunder Hammer =====-->
+	<!--===== Thunder Hammer =====-->
 	
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
 		<defName>GW_SM_Melee_ThunderHammer</defName>
@@ -432,8 +432,8 @@
 			<Mass>12</Mass>
 		</statBases>
 		<equippedStatOffsets>
-            <MoveSpeed>-0.20</MoveSpeed> 
-        </equippedStatOffsets>
+			<MoveSpeed>-0.20</MoveSpeed>
+		</equippedStatOffsets>
 		<tradeTags>
 			<li>HPMelee</li>
 		</tradeTags>
@@ -467,8 +467,8 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-					<power>54</power>
-					<cooldownTime>2</cooldownTime>
+				<power>54</power>
+				<cooldownTime>2</cooldownTime>
 				<soundMeleeHit>GW_SM_ThunderHammer</soundMeleeHit>
 				<extraMeleeDamages>
 					<li>
@@ -480,7 +480,7 @@
 		</tools>
 	</ThingDef>
 
-		<!-- ====================== Combat Knife ===================== -->
+	<!-- ====================== Combat Knife ===================== -->
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>GW_SM_MeleeWeapon_CombatKnife</defName>
@@ -507,8 +507,8 @@
 			<Mass>4</Mass>
 		</statBases>
 		<equippedStatOffsets>
-            <MoveSpeed>0.20</MoveSpeed>
-        </equippedStatOffsets>
+			<MoveSpeed>0.20</MoveSpeed>
+		</equippedStatOffsets>
 		<costStuffCount>70</costStuffCount>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<costList>
@@ -524,7 +524,7 @@
 					<li>Blunt</li>
 				</capacities>
 				<power>8</power>
-				<cooldownTime>1</cooldownTime>		
+				<cooldownTime>1</cooldownTime>
 			</li>
 			<li>
 				<label>edge</label>
@@ -539,12 +539,92 @@
 		<recipeMaker>
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
-			</recipeUsers>		
+			</recipeUsers>
 			<researchPrerequisite>GW_Chainswords</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
 			<displayPriority>409</displayPriority>
 		</recipeMaker>
-	  </ThingDef>
+	</ThingDef>
+	  
+	<!-- ====================== Force Sword ===================== -->
+	  
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>MeleeWeapon_Forcesword_GrimWorld</defName>
+		<label>Astartes forcesword</label>
+		<description>WIP.</description>
+		<possessionCount>1</possessionCount>
+		<graphicData>
+			<texPath>Things/Weapons/Melee/ForceSword</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.6, 1.6</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<uiIconScale>1.2</uiIconScale>
+		<techLevel>Industrial</techLevel>
+		<thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+		<weaponTags>
+			<li>SpacerMeleeDecent</li>
+			<li>GW_SM_Melee</li>
+		</weaponTags>
+		<tradeTags>
+			<li>HPMelee</li>
+		</tradeTags>
+		<statBases>
+			<WorkToMake>42000</WorkToMake>
+			<Mass>3</Mass>
+		</statBases>
+		<relicChance>2</relicChance>
+		<costStuffCount>100</costStuffCount>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<costList>
+			<Plasteel>40</Plasteel>
+			<ComponentIndustrial>10</ComponentIndustrial>
+		</costList>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>65</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>1.05</armorPenetration>
+				<soundMeleeHit>PowerSword</soundMeleeHit>
+				<soundMeleeMiss>Smite</soundMeleeMiss>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="GW_PsyDamage.ModExtension_PsyToDamage">
+				<minimumPsySensitivityToApply>1</minimumPsySensitivityToApply>
+				<damagePerThresholdMark>0.05</damagePerThresholdMark><!-- + 5% bonus per level -->
+				<applyBonusEveryPercent>0.20</applyBonusEveryPercent><!-- + apply bonus every 10% above minimumPsySensitivityToApply -->
+				<showBonusDamageText>true</showBonusDamageText><!-- show floating text on target pawn -->
+				<dealLessDamageIfBelowThreshold>false</dealLessDamageIfBelowThreshold>
+				<useUserPsySensitivityForScaling>true</useUserPsySensitivityForScaling>
+			</li>
+		</modExtensions>
+		<recipeMaker>
+			<recipeUsers Inherit="False">
+				<li>HP_ImperialFabricationBench</li>
+			</recipeUsers>
+			<researchPrerequisite>GW_PowerMeleeWeapons</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>15</Crafting>
+			</skillRequirements>
+			<displayPriority>410</displayPriority>
+		</recipeMaker>
+	</ThingDef>
 </Defs>
