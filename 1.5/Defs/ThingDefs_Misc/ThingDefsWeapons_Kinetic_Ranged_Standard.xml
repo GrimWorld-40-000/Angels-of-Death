@@ -1,26 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  
-  <ThingDef ParentName="BaseBullet">
-    <defName>HP_Bullet_Bolter</defName>
-    <label>bolter round</label>
-    <graphicData>
-      <texPath>Things/Projectiles/Bolter_Projectile</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>30</damageAmountBase>
-      <stoppingPower>1</stoppingPower>
-	  <armorPenetrationBase>0.55</armorPenetrationBase>
-      <speed>50</speed>
-    </projectile>
-  </ThingDef>
-  
 	<!--===== Astartes Shotgun Projectile =====-->
   
 	<ThingDef ParentName="BaseBullet">
-		<defName>GW_SM_AstartesBullet</defName>
+		<defName>GW_SM_AstartesShotgunBullet</defName>
 		<label>shotgun blast</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet_Shotgun</texPath>
@@ -143,12 +126,12 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>HP_Bullet_Bolter</defaultProjectile>
+        <defaultProjectile>GW_Bullet_Bolter</defaultProjectile>
         <warmupTime>3</warmupTime>
         <range>35</range>
         <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
         <burstShotCount>6</burstShotCount>
-        <soundCast>HP_Bolt_Gun_Sound</soundCast>
+        <soundCast>GW_Bolt_Gun_Sound</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
@@ -415,7 +398,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>GW_SM_AstartesBullet</defaultProjectile>
+				<defaultProjectile>GW_SM_AstartesShotgunBullet</defaultProjectile>
 				<warmupTime>1.2</warmupTime>
 				<range>22</range>
 				<soundCast>GW_Heavy_Bolt_Gun_Sound</soundCast>
@@ -580,7 +563,7 @@
 				<range>16</range>
 				<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
 				<burstShotCount>1</burstShotCount>
-				<soundCast>HP_Bolt_Gun_Sound</soundCast>
+				<soundCast>GW_Bolt_Gun_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>8</muzzleFlashScale>
 			</li>
