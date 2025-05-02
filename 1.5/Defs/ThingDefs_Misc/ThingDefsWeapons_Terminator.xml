@@ -159,7 +159,7 @@
 	<!--===== Reaper Autocannon =====-->
 	
 	<ThingDef ParentName="GW_SM_TermBase">
-		<defName>GW_SM_Gun_ReaperCannon</defName>
+		<defName>GW_AOD_Gun_ReaperCannon</defName>
 		<label>reaper autocannon</label>
 		<description>A double-barrelled version of the Autocannon, used by older Space Marine Terminators. Dating back to the Great Crusade, this weapon can still provide high-powered support at surprising range.\n\nThe Adeptus Astartes no longer uses this weapon, having replaced it with the more effective Assault Cannon. However, they can still be found in the hands of Chaos Space Marine Terminators.</description>
 		<modExtensions>
@@ -250,7 +250,7 @@
 	<!--===== Storm Bolter =====-->
 	
 	<ThingDef ParentName="GW_SM_TermBase">
-		<defName>GW_SM_Gun_StormBolter</defName>
+		<defName>GW_AOD_Gun_StormBolter</defName>
 		<label>Umbra storm bolter</label>
 		<description>A double-barrel, rapid-fire bolter used by Space Marines. Storm Bolters are surprisingly compact for such a powerful weapon, possessing a blistering rate of fire without compromising the power of every bolt. Its size makes it quick to aim and fire, but causes it to lose out on range compared to standard bolters. \n\nThe Umbra-pattern Storm Bolter is popular with Terminators of the Red Scorpions chapter of the Adeptus Astartes. Other chapters use their own patterns of Storm Bolter, and the Astra Militarum uses Storm Bolter emplacements as a crowd control weapon.</description>
 		<graphicData>
@@ -335,7 +335,7 @@
 	<!--===== Plasma Cannon =====-->
 	
 	<ThingDef ParentName="GW_SM_TermBase">
-		<defName>GW_SM_Gun_PlasmaCannon</defName>
+		<defName>GW_AOD_Gun_PlasmaCannon</defName>
 		<label>terminator plasma cannon</label>
 		<description>An Astartes plasma cannon adjusted for the gauntlets of Terminator Armor. Performance is similar to the standard pattern - similarly devastating, that is. \n\nWhile normal Space Marines typically dominate the enemy with speed and ferocity, a squad of Terminators can thoroughly crush opposing forces at a steady pace, leaving behind only mangled corpses and burned-out vehicles.</description>
 		<modExtensions>
