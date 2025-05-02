@@ -156,7 +156,7 @@
 				<range>55</range>
 				<ticksBetweenBurstShots>18</ticksBetweenBurstShots>
 				<burstShotCount>12</burstShotCount>
-				<soundCast>HP_Bolt_Gun_Sound</soundCast>
+				<soundCast>GW_Bolt_Gun_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>10</muzzleFlashScale>
 			</li>
@@ -247,7 +247,7 @@
 				<range>75</range>
 				<ticksBetweenBurstShots>14</ticksBetweenBurstShots>
 				<burstShotCount>4</burstShotCount>
-				<soundCast>HP_Bolt_Gun_Sound</soundCast>
+				<soundCast>GW_Bolt_Gun_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>10</muzzleFlashScale>
 			</li>
@@ -320,7 +320,7 @@
 				<range>28</range>
 				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
 				<burstShotCount>5</burstShotCount>
-				<soundCast>HP_Bolt_Gun_Sound</soundCast>
+				<soundCast>GW_Bolt_Gun_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>10</muzzleFlashScale>
 			</li>

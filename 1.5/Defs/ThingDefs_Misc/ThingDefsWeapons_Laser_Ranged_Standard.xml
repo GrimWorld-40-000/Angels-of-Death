@@ -302,7 +302,7 @@
                 <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
 				<forcedMissRadius>1</forcedMissRadius>
                 <burstShotCount>1</burstShotCount>
-                <soundCast>HP_Melta_Gun_Sound</soundCast>
+                <soundCast>GW_Melta_Gun_Sound</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>12</muzzleFlashScale>	
             </li>
@@ -604,7 +604,7 @@
 				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
                 <forcedMissRadius>1</forcedMissRadius>
 				<burstShotCount>1</burstShotCount>
-				<soundCast>HP_Melta_Gun_Sound</soundCast>
+				<soundCast>GW_Melta_Gun_Sound</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>12</muzzleFlashScale>	
 			</li>
