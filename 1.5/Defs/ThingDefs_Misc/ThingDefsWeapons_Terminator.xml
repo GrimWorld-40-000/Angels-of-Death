@@ -27,7 +27,7 @@
 	<!--=====Assualt Cannon =====-->
 	
 	<ThingDef ParentName="GW_SM_TermBase">
-		<defName>GW_SM_Gun_AssualtCannon</defName>
+		<defName>GW_AOD_Gun_AssualtCannon</defName>
 		<label>Assault cannon</label>
 		<description>A six-barrelled, self-loading rotary autocannon for Space Marine Terminators. An iteration on older rotary cannons, its high power and blistering rate of fire allows it to chew up enemy infantry and light armored vehicles alike.\n\nAssault cannons are also found on Astra Militarum Sentinel walkers and Adeptus Astartes vehicles such as the Dreadnought walker, the Land Raider Crusader tank, and the Razorback APC.</description>
 		<modExtensions>
@@ -515,7 +515,7 @@
 	<!--===== Thunder Hammer 1-H=====-->
 	
 	<ThingDef ParentName="GW_SM_TermBluntBase">
-		<defName>GW_AOD_Melee_Thunder1hHammer</defName>
+		<defName>GW_AOD_Term_Thunder1hHammer</defName>
 		<label>terminator thunder hammer</label>
 		<description>A truly towering Thunder Hammer, able to be used only by Space Marine Terminators. Little can withstand an impact from its crushing weight, and the disruptive power field surrounding the hammers head only ensures that. \n\nTerminator Armor increases the wielders strength even further than standard Power Armor does. This enables them to bring extremely powerful weapons to bear, with even greater destructive potential than those of their battle-brothers.</description>
 		<possessionCount>1</possessionCount>
@@ -536,28 +536,26 @@
 			</skillRequirements>
 		</recipeMaker>
 		<statBases>
-			<WorkToMake>42000</WorkToMake>
-			<Mass>12</Mass>
+			<WorkToMake>40000</WorkToMake>
+			<Mass>5</Mass>
+			<MarketValue>600</MarketValue>
 		</statBases>
 		<relicChance>2</relicChance>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<costList>
-			<Plasteel>45</Plasteel>
-			<ComponentIndustrial>12</ComponentIndustrial>
+			<Plasteel>130</Plasteel>
+			<ComponentSpacer>5</ComponentSpacer>
+			<HP_Adamantium>60</HP_Adamantium>
 		</costList>
-		<costStuffCount>125</costStuffCount>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
 		<tools>
 			<li>
 				<label>handle</label>
 				<capacities>
-					<li>Poke</li>
 					<li>Blunt</li>
 				</capacities>
-				<power>11</power>
-				<cooldownTime>2.2</cooldownTime>
+				<power>14</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.15</armorPenetration>
 			</li>
 			<li>
 				<label>head</label>
@@ -565,15 +563,10 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>44</power>
-				<cooldownTime>2.2</cooldownTime>
+					<power>30</power>
+					<cooldownTime>2.5</cooldownTime>
 				<soundMeleeHit>GW_SM_ThunderHammer</soundMeleeHit>
-				<extraMeleeDamages>
-					<li>
-						<def>Bomb</def>
-						<amount>10</amount>
-					</li>
-				</extraMeleeDamages>
+				<armorPenetration>0.40</armorPenetration>
 			</li>
 		</tools>
 	</ThingDef>
@@ -581,7 +574,7 @@
 	<!--===== Terminator Power Fist =====-->
 	
 	<ThingDef ParentName="GW_SM_TermBluntBase">
-		<defName>GW_AOD_Melee_TermPowerFist</defName>
+		<defName>GW_AOD_TermPowerFist</defName>
 		<label>terminator power fist</label>
 		<description>A power fist scaled to the size of Terminator Armor. Even a tank would be frightened of the crushing power of this fist. \n\nSome Terminators, Loyalist and Traitor both, also use a similar weapon known as the “chainfist”. It combines the blade of a chainsword with the disruptive field of a power fist to form a very vicious punch.</description>
 		<possessionCount>1</possessionCount>
@@ -654,7 +647,7 @@
 	<!--===== Terminator Power Sword =====-->
 	
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-		<defName>GW_AOD_Melee_TermSword</defName>
+		<defName>GW_AOD_TermSword</defName>
 		<label>terminator powersword</label>
 		<description>A giant powersword that can only be wielded by Space Marine Terminators. No infantry armor can hope to withstand a strike from this sword, even other suits of Terminator Armor. \n\nThe traitor Primarchs Perturabo and Angron (of the Iron Warriors and World Eaters respectively) wore custom-built suits of Terminator Armor. Perturabo's armor, “The Logos”, was designed and constructed by him personally, while Angron's armor, the “Armor of Mars”, was actually built by adding systems and materials to the armor of his gladiator-slave days. \n\nThe Arch-Traitor, Horus Lupercal, also wore a unique suit of Terminator Armor - the “Serpent's Scales” - which was decorated with the pelt of an augmented wolf he had slain.</description>
 		<possessionCount>1</possessionCount>
