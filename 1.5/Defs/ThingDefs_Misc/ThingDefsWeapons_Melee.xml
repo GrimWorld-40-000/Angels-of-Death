@@ -415,7 +415,7 @@
 	  <!-- ====================== Powerfist ===================== -->
 
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
-		<defName>GW_SM_Melee_Powerfist</defName>
+		<defName>GW_AOD_Powerfist</defName>
 		<label>astartes power fist</label>
 		<description>A giant, armored fist designed to be worn over Space Marine Power Armor. Power fists further enhance the user’s strength, as well as coating the fist with a disruptive power field that weakens atomic bonds. The end result is a crushing strike able to pulverize armor and smash flesh and bone.\n\nPower fists are somewhat uncommon in normal Space Marine usage - larger power fists are generally worn by Space Marine Terminators, as the relatively slow action of a power fist punch may result in the user getting hit first. The heavy Terminator Armor should help with withstanding such attacks before striking back with incredible force.</description>
 		<possessionCount>1</possessionCount>
@@ -456,13 +456,15 @@
 			<li>HPMelee</li>
 		</tradeTags>
 		<statBases>
-			<WorkToMake>24000</WorkToMake>
-			<Mass>7.4</Mass>
+			<WorkToMake>45000</WorkToMake>
+			<Mass>4</Mass>
+			<MarketValue>700</MarketValue>
 		</statBases>
 		<relicChance>2</relicChance>
 		<costList>
-			<Plasteel>34</Plasteel>
-			<ComponentIndustrial>6</ComponentIndustrial>
+			<Plasteel>1100</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+			<HP_Adamantium>240</HP_Adamantium>
 		</costList>
 		<costStuffCount>90</costStuffCount>
 		<stuffCategories>
@@ -475,14 +477,19 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>48</power>
-				<cooldownTime>2.25</cooldownTime>
-				<extraMeleeDamages>
-					<li>
-						<def>Bomb</def>
-						<amount>7</amount>
-					</li>
-				</extraMeleeDamages>
+				<power>38</power>
+				<cooldownTime>3</cooldownTime>
+				<armorPenetration>0.85</armorPenetration>
+			</li>
+			<li>
+				<label>grip</label>
+				<labelUsedInLogging>false</labelUsedInLogging>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>33</power>
+				<cooldownTime>1.9</cooldownTime>
+				<armorPenetration>0.55</armorPenetration>
 			</li>
 		</tools>
 		<recipeMaker>
