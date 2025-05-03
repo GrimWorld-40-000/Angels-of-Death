@@ -34,7 +34,7 @@
 		<!-- ====================== Chainsword ===================== -->
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-		<defName>MeleeWeapon_Chainsword_GrimWorld</defName>
+		<defName>GW_AOD_Chainsword</defName>
 		<label>Astartes chainsword</label>
 		<description>A large, Astartes-scale chainsword. Chainswords combine the swinging action of a sword and the cutting edge of a chainsaw, resulting in a truly terrifying weapon to face. Only the thick ceramite of Space Marine Power Armor, and other protection of similar toughness, can stand against it - and even then, skilled users can exploit weaknesses in armor to grievous effect. \n\nChainswords are a mainstay of Space Marine Assault Squads - close-combat Marines equipped with Jump Packs to leap into enemy positions and deliver gruesome death. Similarly, chainswords are also frequently used by Chaos Space Marine Raptors, Striking Scorpion Aspect Warriors of the Asuryani, and by various Boyz of the Ork horde.</description>
 		<possessionCount>1</possessionCount>
@@ -56,37 +56,69 @@
 			<li>HPMelee</li>
 		</tradeTags>
 		<statBases>
-			<WorkToMake>22000</WorkToMake>
+			<WorkToMake>15000</WorkToMake>
 			<Mass>6</Mass>
+			<MarketValue>400</MarketValue>
 		</statBases>
 		<relicChance>2</relicChance>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<costList>
-			<Plasteel>40</Plasteel>
-			<ComponentIndustrial>10</ComponentIndustrial>
+			<Plasteel>25</Plasteel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<Steel>100</Steel>
 		</costList>
-		<costStuffCount>100</costStuffCount>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
 		<tools>
 			<li>
 				<label>handle</label>
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-			<power>10</power>
-			<cooldownTime>0.75</cooldownTime>		
+			<power>14</power>
+			<cooldownTime>1.9</cooldownTime>	
+			<armorPenetration>0.15</armorPenetration>	
 			</li>
 			<li>
 				<label>edge</label>
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>35</power>
+				<power>17</power>
+				<cooldownTime>2.5</cooldownTime>
+				<soundMeleeHit>ChainSword</soundMeleeHit>
+				<soundMeleeMiss>Smite</soundMeleeMiss>
+				<armorPenetration>0.11</armorPenetration>
+			</li>
+			<li>
+				<label>blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>9</power>
 				<cooldownTime>1</cooldownTime>
 				<soundMeleeHit>ChainSword</soundMeleeHit>
 				<soundMeleeMiss>Smite</soundMeleeMiss>
+				<armorPenetration>0.27</armorPenetration>
+				<extraMeleeDamages>
+					<li>
+						<def>Cut</def>
+						<amount>4</amount>
+						<chance>0.75</chance>
+					</li>
+					<li>
+						<def>Cut</def>
+						<amount>4</amount>
+						<chance>0.75</chance>
+					</li>
+					<li>
+						<def>Cut</def>
+						<amount>4</amount>
+						<chance>0.75</chance>
+					</li>
+					<li>
+						<def>Cut</def>
+						<amount>4</amount>
+						<chance>0.75</chance>
+					</li>
 			</li>
 		</tools>
 		<recipeMaker>
@@ -104,7 +136,7 @@
 		<!-- ====================== Relic Chainsword ===================== -->
 	  
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-		<defName>MeleeWeapon_Relic_Chainsword_GrimWorld</defName>
+		<defName>GW_AOD_Relic_Chainsword</defName>
 		<label>relic chainsword</label>
 		<description>An Astartes-size chainsword design of considerable age. For reasons unknown, it is of lighter weight than a regular chainsword, and cuts even more viciously. \n\nIn the Imperium of Man, “older” is often synonymous with “better”, as relics of the Dark Age of Technology and the following Age of Strife held powerful secrets that no one in the Imperium could truly understand. This became even more true in the 41st Millennium, as even the designs of Great Crusade and Horus Heresy-era technology became lost to the Imperium.</description>
 		<possessionCount>1</possessionCount>
@@ -121,8 +153,9 @@
 		  <li>SpacerMeleeDecent</li>
 		</weaponTags>
 		<statBases>
-		  <WorkToMake>34000</WorkToMake>
-		  <Mass>5.8</Mass>
+		  <WorkToMake>25000</WorkToMake>
+			<Mass>6</Mass>
+			<MarketValue>600</MarketValue>
 		</statBases>
 		<equippedStatOffsets>
             <MoveSpeed>0.10</MoveSpeed>
@@ -132,31 +165,66 @@
 		<costStuffCount>100</costStuffCount>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 	   <costList>
-		  <Plasteel>40</Plasteel>
-		  <ComponentIndustrial>10</ComponentIndustrial>
+			<Plasteel>30</Plasteel>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<Steel>100</Steel>
 		</costList>
 		<stuffCategories>
 		  <li>Metallic</li>
 		</stuffCategories>
 		<tools>
-		  <li>
-			<label>handle</label>
-			<capacities>
-			  <li>Blunt</li>
-			</capacities>
-			<power>20</power>
-			<cooldownTime>0.75</cooldownTime>		
-		  </li>
-		  <li>
-			<label>edge</label>
-			<capacities>
-			  <li>Cut</li>
-			</capacities>
-			<power>45</power>
-			<cooldownTime>1</cooldownTime>
-			<soundMeleeHit>ChainSword</soundMeleeHit>
-			<soundMeleeMiss>Smite</soundMeleeMiss>
-		  </li>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+			<power>14</power>
+			<cooldownTime>1.9</cooldownTime>	
+			<armorPenetration>0.15</armorPenetration>	
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>2.5</cooldownTime>
+				<soundMeleeHit>ChainSword</soundMeleeHit>
+				<soundMeleeMiss>Smite</soundMeleeMiss>
+				<armorPenetration>0.13</armorPenetration>
+			</li>
+			<li>
+				<label>blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>1</cooldownTime>
+				<soundMeleeHit>ChainSword</soundMeleeHit>
+				<soundMeleeMiss>Smite</soundMeleeMiss>
+				<armorPenetration>0.29</armorPenetration>
+				<extraMeleeDamages>
+					<li>
+						<def>Cut</def>
+						<amount>4</amount>
+						<chance>0.75</chance>
+					</li>
+					<li>
+						<def>Cut</def>
+						<amount>4</amount>
+						<chance>0.75</chance>
+					</li>
+					<li>
+						<def>Cut</def>
+						<amount>4</amount>
+						<chance>0.75</chance>
+					</li>
+					<li>
+						<def>Cut</def>
+						<amount>4</amount>
+						<chance>0.75</chance>
+					</li>
+			</li>
 		</tools>
 		<recipeMaker>
 		  <recipeUsers Inherit="False">
@@ -178,7 +246,7 @@
 		<!-- ====================== Powersword ===================== -->
 	  
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-		<defName>MeleeWeapon_Powersword_GrimWorld</defName>
+		<defName>GW_AOD_Powersword</defName>
 		<label>Astartes powersword</label>
 		<description>A large, Astartes-size sword. As well as being a deadly weapon in its own right, the blade is coated in a disruptive power field that disturbs the molecular bonds of objects it touches. This allows the blade to cut through armor and flesh more easily, greatly enhancing its lethality - while a powersword itself may not be as awe-inspiring as a chainsword, the sight of one’s comrade being cleaved in half with one strike certainly is. \n\nSimilar blades are used by the Eldar and Dark Eldar xenos races - one notable example would be the Diresword, which also contains an Eldar spirit in a Spirit Stone. When striking an opponent, the spirit also attempts to destroy the target’s mind, often resulting in instant death.</description>
 		<possessionCount>1</possessionCount>
