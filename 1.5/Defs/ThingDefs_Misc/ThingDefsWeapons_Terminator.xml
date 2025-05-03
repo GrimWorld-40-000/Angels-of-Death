@@ -2,48 +2,7 @@
 <Defs>
 
 <!--===== Ranged Weapons =====-->
-
-	<!--===== Assualt Cannon Projectile =====-->
-	
-	<ThingDef ParentName="BaseBullet">
-		<defName>GW_SM_Term_CannonBullet</defName>
-		<label>cannon shot</label>
-		<graphicData>
-			<texPath>Things/Projectiles/Bolter_Projectile</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.7</drawSize>
-		</graphicData>
-		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>80</damageAmountBase>
-			<stoppingPower>0.8</stoppingPower>
-			<armorPenetrationBase>0.30</armorPenetrationBase>
-			<speed>80</speed>
-		</projectile>
-	</ThingDef>
-	
-	<!--===== Plasma Cannon Projectile=====-->
-	
-	<ThingDef ParentName="BaseBullet">
-		<defName>GW_SM_Term_PlasmaCBullet</defName>
-		<label>plasma cannon shot</label>
-		<graphicData>
-			<texPath>Things/Projectiles/Plasma_Projectile</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.7</drawSize>
-		</graphicData>
-		<thingClass>Projectile_Explosive</thingClass>
-		<projectile>
-			<damageDef>Burn</damageDef>
-			<damageAmountBase>65</damageAmountBase>
-			<stoppingPower>2.4</stoppingPower>
-			<armorPenetrationBase>0.78</armorPenetrationBase>
-			<explosionRadius>2.8</explosionRadius>
-			<speed>135</speed>
-			<explosionEffect>GW_PlasmaEffecter</explosionEffect>
-		</projectile>
-	</ThingDef>
-	
+		
 	<!--=====Terminator Weapon Base =====-->
 
 	<ThingDef Abstract="true" ParentName="BaseHumanMakeableGun" Name="GW_SM_TermBase">
@@ -105,15 +64,15 @@
 		</recipeMaker>
 		<statBases>
 			<WorkToMake>48000</WorkToMake>
-			<Mass>12</Mass>
-			<AccuracyTouch>0.70</AccuracyTouch>
-			<AccuracyShort>0.65</AccuracyShort>
-			<AccuracyMedium>0.50</AccuracyMedium>
-			<AccuracyLong>0.40</AccuracyLong>
+			<Mass>11</Mass>
+			<AccuracyTouch>0.25</AccuracyTouch>
+			<AccuracyShort>0.40</AccuracyShort>
+			<AccuracyMedium>0.35</AccuracyMedium>
+			<AccuracyLong>0.15</AccuracyLong>
 			<RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>-0.30</MoveSpeed>
+			<MoveSpeed>-0.20</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
 			<Steel>550</Steel>
@@ -133,11 +92,11 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>GW_SM_Term_CannonBullet</defaultProjectile>
-				<warmupTime>5</warmupTime>
-				<range>55</range>
-				<ticksBetweenBurstShots>18</ticksBetweenBurstShots>
-				<burstShotCount>12</burstShotCount>
+				<defaultProjectile>GW_Bullet_Assaultcannon</defaultProjectile>
+				<warmupTime>6</warmupTime>
+				<range>30</range>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+				<burstShotCount>11</burstShotCount>
 				<soundCast>GW_Bolt_Gun_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>10</muzzleFlashScale>
@@ -150,8 +109,9 @@
 					<li>Blunt</li>
 					<li>Poke</li>
 				</capacities>
-				<power>14</power>
-				<cooldownTime>2.5</cooldownTime>
+				<power>11</power>
+				<cooldownTime>2.0</cooldownTime>
+				<armorPenetration>0.13</armorPenetration>
 			</li>
 		</tools>
 	</ThingDef>
@@ -195,21 +155,23 @@
 			</skillRequirements>
 		</recipeMaker>
 		<statBases>
-			<WorkToMake>52000</WorkToMake>
-			<Mass>11</Mass>
+			<WorkToMake>90000</WorkToMake>
+			<Mass>12</Mass>
 			<AccuracyTouch>0.35</AccuracyTouch>
-			<AccuracyShort>0.45</AccuracyShort>
-			<AccuracyMedium>0.75</AccuracyMedium>
-			<AccuracyLong>0.70</AccuracyLong>
+			<AccuracyShort>0.70</AccuracyShort>
+			<AccuracyMedium>0.60</AccuracyMedium>
+			<AccuracyLong>0.55</AccuracyLong>
 			<RangedWeapon_Cooldown>4.0</RangedWeapon_Cooldown>
+			<MarketValue>2000</MarketValue>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>-0.50</MoveSpeed>
+			<MoveSpeed>-0.20</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
-			<Steel>575</Steel>
-			<ComponentIndustrial>40</ComponentIndustrial>
-			<HP_Ceramite>35</HP_Ceramite>
+			<Plasteel>90</Plasteel>
+			<ComponentSpacer>4</ComponentSpacer>
+			<ComponentIndustrial>1</ComponentIndustrial>
+			<HP_Adamantium>50</HP_Adamantium>
 		</costList>
 		<weaponTags>
 			<li>IndustrialGunAdvanced</li>
@@ -224,12 +186,12 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>GW_SM_Term_CannonBullet</defaultProjectile>
-				<warmupTime>3</warmupTime>
-				<range>75</range>
-				<ticksBetweenBurstShots>14</ticksBetweenBurstShots>
+				<defaultProjectile>GW_Bullet_Autocannon</defaultProjectile>
+				<warmupTime>4.5</warmupTime>
+				<range>35.5</range>
+				<ticksBetweenBurstShots>16</ticksBetweenBurstShots>
 				<burstShotCount>4</burstShotCount>
-				<soundCast>GW_Bolt_Gun_Sound</soundCast>
+				<soundCast>Shot_Autocannon</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>10</muzzleFlashScale>
 			</li>
@@ -241,8 +203,9 @@
 					<li>Blunt</li>
 					<li>Poke</li>
 				</capacities>
-				<power>14</power>
-				<cooldownTime>2.5</cooldownTime>
+				<power>11</power>
+				<cooldownTime>2.0</cooldownTime>
+				<armorPenetration>0.13</armorPenetration>
 			</li>
 		</tools>
 	</ThingDef>
@@ -401,7 +364,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>GW_SM_Term_PlasmaCBullet</defaultProjectile>
+				<defaultProjectile>GW_Bullet_Plasma_CannonShot</defaultProjectile>
 				<warmupTime>5</warmupTime>
 				<range>75</range>
 				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
@@ -431,7 +394,7 @@
 	<!--===== Astartes Plasma Cannon =====-->
 	
 	<ThingDef ParentName="GW_SM_TermBase">
-		<defName>GW_SM_Gun_AstartesPlasmaCannon</defName>
+		<defName>GW_AOD_Gun_AstartesPlasmaCannon</defName>
 		<label>astartes plasma cannon</label>
 		<description>A hard-hitting plasma weapon used by Devastator Squads of Firstborn Space Marines. Also known as a heavy plasma gun, the larger size of this weapon allows its shots to affect a wider area, as well as being more deadly. \n\nSimilar weapons are found mounted on Imperial vehicles, which have no risk of overheating due to the vehicle’s systems.</description>
 		<modExtensions>
@@ -497,7 +460,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>GW_SM_Term_PlasmaCBullet</defaultProjectile>
+				<defaultProjectile>GW_Bullet_Plasma_CannonShot</defaultProjectile>
 				<warmupTime>5</warmupTime>
 				<range>65</range>
 				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
@@ -552,7 +515,7 @@
 	<!--===== Thunder Hammer 1-H=====-->
 	
 	<ThingDef ParentName="GW_SM_TermBluntBase">
-		<defName>GW_SM_Melee_Thunder1hHammer</defName>
+		<defName>GW_AOD_Melee_Thunder1hHammer</defName>
 		<label>terminator thunder hammer</label>
 		<description>A truly towering Thunder Hammer, able to be used only by Space Marine Terminators. Little can withstand an impact from its crushing weight, and the disruptive power field surrounding the hammers head only ensures that. \n\nTerminator Armor increases the wielders strength even further than standard Power Armor does. This enables them to bring extremely powerful weapons to bear, with even greater destructive potential than those of their battle-brothers.</description>
 		<possessionCount>1</possessionCount>
@@ -618,7 +581,7 @@
 	<!--===== Terminator Power Fist =====-->
 	
 	<ThingDef ParentName="GW_SM_TermBluntBase">
-		<defName>GW_SM_Melee_TermPowerFist</defName>
+		<defName>GW_AOD_Melee_TermPowerFist</defName>
 		<label>terminator power fist</label>
 		<description>A power fist scaled to the size of Terminator Armor. Even a tank would be frightened of the crushing power of this fist. \n\nSome Terminators, Loyalist and Traitor both, also use a similar weapon known as the “chainfist”. It combines the blade of a chainsword with the disruptive field of a power fist to form a very vicious punch.</description>
 		<possessionCount>1</possessionCount>
@@ -691,7 +654,7 @@
 	<!--===== Terminator Power Sword =====-->
 	
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-		<defName>GW_SM_Melee_TermSword</defName>
+		<defName>GW_AOD_Melee_TermSword</defName>
 		<label>terminator powersword</label>
 		<description>A giant powersword that can only be wielded by Space Marine Terminators. No infantry armor can hope to withstand a strike from this sword, even other suits of Terminator Armor. \n\nThe traitor Primarchs Perturabo and Angron (of the Iron Warriors and World Eaters respectively) wore custom-built suits of Terminator Armor. Perturabo's armor, “The Logos”, was designed and constructed by him personally, while Angron's armor, the “Armor of Mars”, was actually built by adding systems and materials to the armor of his gladiator-slave days. \n\nThe Arch-Traitor, Horus Lupercal, also wore a unique suit of Terminator Armor - the “Serpent's Scales” - which was decorated with the pelt of an augmented wolf he had slain.</description>
 		<possessionCount>1</possessionCount>
