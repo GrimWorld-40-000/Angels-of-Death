@@ -462,9 +462,9 @@
 		</statBases>
 		<relicChance>2</relicChance>
 		<costList>
-			<Plasteel>1100</Plasteel>
+			<Plasteel>110</Plasteel>
 			<ComponentSpacer>3</ComponentSpacer>
-			<HP_Adamantium>240</HP_Adamantium>
+			<HP_Adamantium>40</HP_Adamantium>
 		</costList>
 		<costStuffCount>90</costStuffCount>
 		<stuffCategories>
@@ -508,7 +508,7 @@
 		<!--===== Thunder Hammer =====-->
 	
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
-		<defName>GW_SM_Melee_ThunderHammer</defName>
+		<defName>GW_AOD_ThunderHammer</defName>
 		<label>stormlord thunder hammer</label>
 		<description>A heavy, towering, two-handed warhammer built for use by the Adeptus Astartes. Its weight is such that even the genetically-enhanced Space Marines cannot use it one-handed. However, the crushing power of a Thunder Hammer is without comparison among infantry weapons - this is further enhanced by its disruptive power field, which only activates on impact to release its energy at the correct time.\n\nThunder Hammers are comparatively rare compared to weapons such as chainswords. They are typically seen in the hands of the heavyweight Assault Terminators in conjunction with a Storm Shield for better protection.</description>
 		<possessionCount>1</possessionCount>
@@ -531,12 +531,10 @@
 			</skillRequirements>
 		</recipeMaker>
 		<statBases>
-			<WorkToMake>48000</WorkToMake>
-			<Mass>12</Mass>
+			<WorkToMake>40000</WorkToMake>
+			<Mass>5</Mass>
+			<MarketValue>600</MarketValue>
 		</statBases>
-		<equippedStatOffsets>
-            <MoveSpeed>-0.20</MoveSpeed> 
-        </equippedStatOffsets>
 		<tradeTags>
 			<li>HPMelee</li>
 		</tradeTags>
@@ -547,8 +545,9 @@
 		<relicChance>2</relicChance>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<costList>
-			<Plasteel>85</Plasteel>
-			<ComponentIndustrial>15</ComponentIndustrial>
+			<Plasteel>130</Plasteel>
+			<ComponentSpacer>5</ComponentSpacer>
+			<HP_Adamantium>60</HP_Adamantium>
 		</costList>
 		<costStuffCount>175</costStuffCount>
 		<stuffCategories>
@@ -558,11 +557,11 @@
 			<li>
 				<label>handle</label>
 				<capacities>
-					<li>Poke</li>
 					<li>Blunt</li>
 				</capacities>
-				<power>15</power>
-				<cooldownTime>1.75</cooldownTime>
+				<power>14</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.15</armorPenetration>
 			</li>
 			<li>
 				<label>head</label>
@@ -570,15 +569,10 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-					<power>54</power>
-					<cooldownTime>2</cooldownTime>
+					<power>30</power>
+					<cooldownTime>2.5</cooldownTime>
 				<soundMeleeHit>GW_SM_ThunderHammer</soundMeleeHit>
-				<extraMeleeDamages>
-					<li>
-						<def>Bomb</def>
-						<amount>14</amount>
-					</li>
-				</extraMeleeDamages>
+				<armorPenetration>0.40</armorPenetration>
 			</li>
 		</tools>
 	</ThingDef>
@@ -586,7 +580,7 @@
 		<!-- ====================== Combat Knife ===================== -->
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-		<defName>GW_SM_MeleeWeapon_CombatKnife</defName>
+		<defName>GW_AOD_CombatKnife</defName>
 		<label>Astartes combat knife</label>
 		<description>A large, heavy combat knife scaled for use by the Adeptus Astartes. While it is shorter and fairly crude compared to a Astartes chainsword or powersword, a Space Marine’s enhanced strength can use this weapon to great effect against unarmored or lightly-armored opponents. For a baseline human, the length of the blade would be equivalent to a sword. \n\nEvery Space Marine is issued a combat knife as soon as they recover from their gene-seed implants. While they are often used in ceremony, some Assault Marines still favor the Combat Knife in close combat.</description>
 		<possessionCount>1</possessionCount>
@@ -606,13 +600,14 @@
 			<li>HPMelee</li>
 		</tradeTags>
 		<statBases>
-			<WorkToMake>15000</WorkToMake>
-			<Mass>4</Mass>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>1.5</Mass>
+			<MarketValue>300</MarketValue>
 		</statBases>
 		<equippedStatOffsets>
             <MoveSpeed>0.20</MoveSpeed>
         </equippedStatOffsets>
-		<costStuffCount>70</costStuffCount>
+		<costStuffCount>110</costStuffCount>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<costList>
 			<Steel>150</Steel>
@@ -626,16 +621,28 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>8</power>
-				<cooldownTime>1</cooldownTime>		
+				<power>14</power>
+				<cooldownTime>2</cooldownTime>		
+				<armorPenetration>0.15</armorPenetration>
 			</li>
 			<li>
 				<label>edge</label>
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>30</power>
-				<cooldownTime>1.5</cooldownTime>
+				<power>15</power>
+				<cooldownTime>1.6</cooldownTime>
+				<armorPenetration>0.19</armorPenetration>
+				<soundMeleeMiss>Smite</soundMeleeMiss>
+			</li>
+			<li>
+				<label>blade</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.20</armorPenetration>
 				<soundMeleeMiss>Smite</soundMeleeMiss>
 			</li>
 		</tools>
