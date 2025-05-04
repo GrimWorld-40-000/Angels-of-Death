@@ -532,7 +532,7 @@
 		</recipeMaker>
 		<statBases>
 			<WorkToMake>40000</WorkToMake>
-			<Mass>5</Mass>
+			<Mass>8</Mass>
 			<MarketValue>600</MarketValue>
 		</statBases>
 		<tradeTags>
@@ -545,14 +545,13 @@
 		<relicChance>2</relicChance>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<costList>
-			<Plasteel>130</Plasteel>
+			<Plasteel>150</Plasteel>
 			<ComponentSpacer>5</ComponentSpacer>
-			<HP_Adamantium>60</HP_Adamantium>
+			<HP_Adamantium>70</HP_Adamantium>
 		</costList>
-		<costStuffCount>175</costStuffCount>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.20</MoveSpeed>
+		</equippedStatOffsets>
 		<tools>
 			<li>
 				<label>handle</label>
@@ -560,8 +559,8 @@
 					<li>Blunt</li>
 				</capacities>
 				<power>14</power>
-				<cooldownTime>2</cooldownTime>
-				<armorPenetration>0.15</armorPenetration>
+				<cooldownTime>2.5</cooldownTime>
+				<armorPenetration>0.18</armorPenetration>
 			</li>
 			<li>
 				<label>head</label>
@@ -569,7 +568,7 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-					<power>30</power>
+					<power>37</power>
 					<cooldownTime>2.5</cooldownTime>
 				<soundMeleeHit>GW_SM_ThunderHammer</soundMeleeHit>
 				<armorPenetration>0.40</armorPenetration>
