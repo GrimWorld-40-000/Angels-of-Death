@@ -119,6 +119,7 @@
 						<amount>4</amount>
 						<chance>0.75</chance>
 					</li>
+				</extraMeleeDamages>
 			</li>
 		</tools>
 		<recipeMaker>
@@ -224,6 +225,7 @@
 						<amount>4</amount>
 						<chance>0.75</chance>
 					</li>
+				</extraMeleeDamages>
 			</li>
 		</tools>
 		<recipeMaker>
@@ -608,9 +610,6 @@
         </equippedStatOffsets>
 		<costStuffCount>110</costStuffCount>
 		<equippedAngleOffset>-65</equippedAngleOffset>
-		<costList>
-			<Steel>150</Steel>
-		</costList>
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
