@@ -265,7 +265,7 @@
 				<defaultProjectile>GW_Bullet_Bolter</defaultProjectile>
 				<warmupTime>2</warmupTime>
 				<range>28</range>
-				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
+				<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
 				<burstShotCount>6</burstShotCount>
 				<soundCast>GW_Bolt_Gun_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
