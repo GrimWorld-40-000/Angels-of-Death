@@ -29,7 +29,7 @@
         <thingCategories Inherit="False">
             <li>GW_Shield</li>
         </thingCategories>
-        <costStuffCount>60</costStuffCount>
+		<stuffCategories Inherit="False" />
 		<costList>
 			<Plasteel>80</Plasteel>
 			<HP_Ceramite>50</HP_Ceramite>
@@ -163,7 +163,7 @@
         <thingCategories Inherit="False">
             <li>GW_Shield</li>
         </thingCategories>
-        <costStuffCount>90</costStuffCount>
+		<stuffCategories Inherit="False" />		
 		<costList>
 			<Plasteel>100</Plasteel>
 			<HP_Ceramite>100</HP_Ceramite>
@@ -319,7 +319,7 @@
                 <li>40kPrimaris_Shield</li>
             </tags>
         </apparel>
-        <costStuffCount>90</costStuffCount>
+		<stuffCategories Inherit="False" />
 		<costList>
 			<Plasteel>120</Plasteel>
 			<HP_Ceramite>50</HP_Ceramite>
