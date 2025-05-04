@@ -18,7 +18,7 @@
 				<stunDuration>120</stunDuration>
 				
 				<isNullifyDamage>true</isNullifyDamage>
-				<nullifyDamageChance>0.05</nullifyDamageChance>
+				<nullifyDamageChance>0.35</nullifyDamageChance>
 				
 				<isReduceDamageTakenWhenParry>true</isReduceDamageTakenWhenParry>
 				<damageReduction>0.50</damageReduction>
@@ -30,10 +30,10 @@
 				
 				<isReflectDamage>true</isReflectDamage>
 				<reflectDamageMultiplier>1.00</reflectDamageMultiplier>
-				<reflectDamageChance>0.05</reflectDamageChance>
+				<reflectDamageChance>0.03</reflectDamageChance>
 				
 				<isKnockbackAttacker>true</isKnockbackAttacker>
-				<knockbackDistance>2.0</knockbackDistance>
+				<knockbackDistance>1.0</knockbackDistance>
 				
 				<isReflectProjectile>true</isReflectProjectile>
 				<reflectProjectileChance>0.05</reflectProjectileChance>
@@ -67,7 +67,7 @@
 				<stunDuration>120</stunDuration>
 				
 				<isNullifyDamage>true</isNullifyDamage>
-				<nullifyDamageChance>0.15</nullifyDamageChance>
+				<nullifyDamageChance>0.40</nullifyDamageChance>
 				
 				<isReduceDamageTakenWhenParry>true</isReduceDamageTakenWhenParry>
 				<damageReduction>0.50</damageReduction>
@@ -79,10 +79,10 @@
 				
 				<isReflectDamage>true</isReflectDamage>
 				<reflectDamageMultiplier>1.00</reflectDamageMultiplier>
-				<reflectDamageChance>0.10</reflectDamageChance>
+				<reflectDamageChance>0.05</reflectDamageChance>
 				
-				<isKnockbackAttacker>true</isKnockbackAttacker>
-				<knockbackDistance>2.0</knockbackDistance>
+				<isKnockbackAttacker>false</isKnockbackAttacker>
+				<knockbackDistance>0.0</knockbackDistance>
 				
 				<isReflectProjectile>true</isReflectProjectile>
 				<reflectProjectileChance>0.05</reflectProjectileChance>
@@ -116,7 +116,7 @@
 				<stunDuration>120</stunDuration>
 				
 				<isNullifyDamage>true</isNullifyDamage>
-				<nullifyDamageChance>0.15</nullifyDamageChance>
+				<nullifyDamageChance>0.50</nullifyDamageChance>
 				
 				<isReduceDamageTakenWhenParry>true</isReduceDamageTakenWhenParry>
 				<damageReduction>0.50</damageReduction>
@@ -130,8 +130,8 @@
 				<reflectDamageMultiplier>1.00</reflectDamageMultiplier>
 				<reflectDamageChance>0.05</reflectDamageChance>
 				
-				<isKnockbackAttacker>true</isKnockbackAttacker>
-				<knockbackDistance>2.0</knockbackDistance>
+				<isKnockbackAttacker>false</isKnockbackAttacker>
+				<knockbackDistance>0</knockbackDistance>
 				
 				<isReflectProjectile>true</isReflectProjectile>
 				<reflectProjectileChance>0.05</reflectProjectileChance>

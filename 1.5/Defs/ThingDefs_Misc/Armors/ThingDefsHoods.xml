@@ -45,6 +45,24 @@
     </ThingDef>
 
     <ThingDef ParentName="GW_SM_HoodBase" Name="GW_SM_ScoutHoodBase" Abstract="True">
+		<equippedStatOffsets>
+			<MoveSpeed>-0.1</MoveSpeed>
+		</equippedStatOffsets>
+		<statBases>
+            <MaxHitPoints>220</MaxHitPoints>
+            <WorkToMake>16000</WorkToMake>
+            <Mass>0.5</Mass>
+			<MarketValue>120</MarketValue>
+			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.18</ArmorRating_Heat>
+			<Insulation_Cold>4</Insulation_Cold>
+			<Insulation_Heat>8</Insulation_Heat>
+        </statBases>
+		<costStuffCount>150</costStuffCount>		
+		<costList>
+			<HP_Ceramite>15</HP_Ceramite>
+		</costList>
         <apparel>
             <tags>
                 <li>GW_SM_ScoutHood</li>

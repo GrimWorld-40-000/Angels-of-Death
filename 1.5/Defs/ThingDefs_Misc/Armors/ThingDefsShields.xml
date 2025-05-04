@@ -21,7 +21,7 @@
             </li>
 			<li Class="GWParryShield.CompProperties_GW_Parryable">
 				<parryHediff>GW_CombatShieldParry</parryHediff>
-				<parryChance>0.20</parryChance> <!-- 0.20 = 20% -->
+				<parryChance>0.10</parryChance> <!-- 0.20 = 20% -->
 				<parryWindow>30</parryWindow>
 				<parryCooldown>90</parryCooldown>
 			</li>
@@ -30,16 +30,27 @@
             <li>GW_Shield</li>
         </thingCategories>
         <costStuffCount>60</costStuffCount>
+		<costList>
+			<Plasteel>80</Plasteel>
+			<HP_Ceramite>50</HP_Ceramite>
+			<HP_Adamantium>15</HP_Adamantium>
+		</costList>
         <statBases>
+			<WorkToMake>55000</WorkToMake>
+			<MarketValue>650</MarketValue>
+			<MaxHitPoints>300</MaxHitPoints>
             <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
-            <Mass>7</Mass>
+			<ArmorRating_Sharp>.52</ArmorRating_Sharp>
+			<ArmorRating_Blunt>.40</ArmorRating_Blunt>
+			<ArmorRating_Heat>.45</ArmorRating_Heat>
+            <Mass>5</Mass>
             <Bulk MayRequire="CETeam.CombatExtended">8</Bulk>
             <WornBulk MayRequire="CETeam.CombatExtended">5</WornBulk>
         </statBases>
         <equippedStatOffsets>
             <ReloadSpeed MayRequire="CETeam.CombatExtended">-0.2</ReloadSpeed>
             <MeleeHitChance>-1</MeleeHitChance>
-            <ShootingAccuracyPawn>-0.15</ShootingAccuracyPawn>
+            <ShootingAccuracyPawn>-4</ShootingAccuracyPawn>
             <AimingAccuracy MayRequire="CETeam.CombatExtended">-0.08</AimingAccuracy>
             <Suppressability MayRequire="CETeam.CombatExtended">-0.25</Suppressability>
             <MeleeCritChance MayRequire="CETeam.CombatExtended">-0.05</MeleeCritChance>
@@ -144,7 +155,7 @@
             </li>
 			<li Class="GWParryShield.CompProperties_GW_Parryable">
 				<parryHediff>GW_StormShieldParry</parryHediff><!-- the parry hediff-->
-				<parryChance>0.25</parryChance> <!-- 0.20 = 20% -->
+				<parryChance>0.15</parryChance> <!-- 0.20 = 20% -->
 				<parryWindow>30</parryWindow><!-- duration of parry hediff-->
 				<parryCooldown>120</parryCooldown>
 			</li>
@@ -153,15 +164,25 @@
             <li>GW_Shield</li>
         </thingCategories>
         <costStuffCount>90</costStuffCount>
+		<costList>
+			<Plasteel>100</Plasteel>
+			<HP_Ceramite>100</HP_Ceramite>
+			<HP_Adamantium>30</HP_Adamantium>
+		</costList>
         <statBases>
+			<WorkToMake>75000</WorkToMake>
             <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
-            <Mass>12</Mass>
+            <Mass>4</Mass>
+			<MarketValue>650</MarketValue>			
+			<MaxHitPoints>650</MaxHitPoints>			
+			<ArmorRating_Sharp>.55</ArmorRating_Sharp>
+			<ArmorRating_Blunt>.47</ArmorRating_Blunt>
+			<ArmorRating_Heat>.50</ArmorRating_Heat>
             <Bulk MayRequire="CETeam.CombatExtended">8</Bulk>
             <WornBulk MayRequire="CETeam.CombatExtended">5</WornBulk>
         </statBases>
         <equippedStatOffsets>
             <ReloadSpeed MayRequire="CETeam.CombatExtended">-0.3</ReloadSpeed>
-            <MeleeHitChance>-4</MeleeHitChance>
             <ShootingAccuracyPawn>-0.4</ShootingAccuracyPawn>
             <AimingAccuracy MayRequire="CETeam.CombatExtended">-0.2</AimingAccuracy>
             <Suppressability MayRequire="CETeam.CombatExtended">-0.5</Suppressability>
@@ -267,7 +288,7 @@
             </li>
 			<li Class="GWParryShield.CompProperties_GW_Parryable">
 				<parryHediff>GW_PrimarisShieldParry</parryHediff>
-				<parryChance>0.20</parryChance> <!-- 0.50 = 50% -->
+				<parryChance>0.03</parryChance> <!-- 0.50 = 50% -->
 				<parryWindow>30</parryWindow>
 				<parryCooldown>90</parryCooldown>
 			</li>
@@ -299,10 +320,21 @@
             </tags>
         </apparel>
         <costStuffCount>90</costStuffCount>
+		<costList>
+			<Plasteel>120</Plasteel>
+			<HP_Ceramite>50</HP_Ceramite>
+			<HP_Adamantium>15</HP_Adamantium>
+		</costList>
         <statBases>
-            <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
-            <Mass>12</Mass>
-            <Bulk MayRequire="CETeam.CombatExtended">8</Bulk>
+			<WorkToMake>55000</WorkToMake>			
+            <MaxHitPoints>350</MaxHitPoints>
+			<Mass>6</Mass>
+			<MarketValue>650</MarketValue>						
+			<StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>            
+            <ArmorRating_Sharp>.60</ArmorRating_Sharp>
+			<ArmorRating_Blunt>.35</ArmorRating_Blunt>
+			<ArmorRating_Heat>.45</ArmorRating_Heat>
+			<Bulk MayRequire="CETeam.CombatExtended">8</Bulk>
             <WornBulk MayRequire="CETeam.CombatExtended">5</WornBulk>
         </statBases>
         <equippedStatOffsets>
