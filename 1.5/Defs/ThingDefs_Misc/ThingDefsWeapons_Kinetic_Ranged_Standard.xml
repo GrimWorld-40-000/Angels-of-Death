@@ -161,6 +161,90 @@
     </tools>
   </ThingDef>
 
+  	<!--===== Bolt Pistol =====-->
+	
+	<ThingDefParentName="BaseHumanMakeableGun">
+        <defName>GW_AOD_Gun_BoltPistol</defName>
+        <label>Bolt Pistol (Astartes)</label>
+        <description>A semi-automatic pistol firing smaller, but still powerful bolts. A common sidearm of Space Marines.</description>
+        <possessionCount>1</possessionCount>
+        <graphicData>
+            <drawSize>1.1</drawSize>
+            <texPath>Weapons/GW_AOD_BoltPistol</texPath>
+        </graphicData>
+        <soundInteract>Interact_Autopistol</soundInteract>
+        <weaponClasses>
+            <li>RangedHeavy</li>
+        </weaponClasses>
+        <weaponTags>
+			<li>IndustrialGunAdvanced</li>
+			<li>GW_SM_Ranged</li>
+    </weaponTags>
+        <statBases>
+            <WorkToMake>20000</WorkToMake>
+            <Mass>3</Mass>
+            <AccuracyTouch>0.80</AccuracyTouch>
+            <AccuracyShort>0.70</AccuracyShort>
+            <AccuracyMedium>0.35</AccuracyMedium>
+            <AccuracyLong>0.30</AccuracyLong>
+            <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+			<MarketValue>1000</MarketValue>
+        </statBases>
+		<equippedStatOffsets>
+      <MoveSpeed>0.20</MoveSpeed>
+		</equippedStatOffsets>
+        <costList>
+            <Plasteel>20</Plasteel>
+            <ComponentSpacer>2</Componentspacer>
+			<HP_Adamantium>10</HP_Adamantium>
+        </costList>
+        <recipeMaker>
+		<unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+		<recipeUsers Inherit="False">
+			<li>HP_AM_MilitarumFabricationBench</li>
+		</recipeUsers>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+	 	</skillRequirements>
+		<workSkill>Crafting</workSkill>
+            <displayPriority>430</displayPriority>
+        </recipeMaker>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>GW_Bullet_BoltPistol</defaultProjectile>
+                <warmupTime>0.4</warmupTime>
+                <range>24</range>
+				<burstShotCount>1</burstShotCount>
+                <soundCast>GW_AM_Bolt_Pistol_Sound</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+			<li>
+				<label>grip</label>
+				<capacities>
+				<li>Blunt</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>2.0</cooldownTime>
+				<armorPenetration>0.13</armorPenetration>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+				<li>Blunt</li>
+				<li>Poke</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>2.0</cooldownTime>
+				<armorPenetration>0.13</armorPenetration>
+			</li>
+        </tools>
+    </ThingDef>
+
 <!-- ====================== ExecutorBoltRifle ===================== -->
   
   <ThingDef ParentName="BaseBullet">
