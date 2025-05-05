@@ -70,6 +70,7 @@
 			<AccuracyMedium>0.35</AccuracyMedium>
 			<AccuracyLong>0.15</AccuracyLong>
 			<RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+			<MarketValue>1800</MarketValue>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.20</MoveSpeed>
