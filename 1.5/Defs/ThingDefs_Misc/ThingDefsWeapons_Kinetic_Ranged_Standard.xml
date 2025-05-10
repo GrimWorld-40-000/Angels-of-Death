@@ -164,7 +164,7 @@
 
   	<!--===== Bolt Pistol =====-->
 	
-	<ThingDefParentName="BaseHumanMakeableGun">
+	<ThingDef ParentName="BaseHumanMakeableGun">
         <defName>GW_AOD_Gun_BoltPistol</defName>
         <label>Bolt Pistol (Astartes)</label>
         <description>A semi-automatic pistol firing smaller, but still powerful bolts. A common sidearm of Space Marines.</description>
