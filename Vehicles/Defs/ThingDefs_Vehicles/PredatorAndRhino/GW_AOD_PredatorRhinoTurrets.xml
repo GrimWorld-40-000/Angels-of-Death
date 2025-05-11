@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	
-	<!--===== Chimera Main Turret =====-->
-	
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
-		<defName>GW_Rhino_Main</defName>
-		<label>Rhino Heavy Bolter Main</label>
+		<defName>GW_AOD_PredatorRhino_StormBolter</defName>
+		<label>Rhino Heavy Bolter</label>
 		<description>A turret-mounted heavy bolter used on the Rhino. Fires 0.998 cal bolts.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>Shot_Autocannon</shotSound>
