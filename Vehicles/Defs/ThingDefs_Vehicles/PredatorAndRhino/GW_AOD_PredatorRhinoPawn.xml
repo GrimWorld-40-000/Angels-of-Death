@@ -15,7 +15,7 @@
 			<colorThree>(45, 50, 45)</colorThree>
 		</graphicData>
 		<fillPercent>1</fillPercent>
-		<buildDef>GW_Rhino_Blueprint</buildDef>
+		<buildDef>GW_AOD_PredatorRhino_Blueprint</buildDef>
 		<size>(4, 4)</size>
 		<vehicleMovementPermissions>DriverNeeded</vehicleMovementPermissions>
 		<vehicleCategory>Combat</vehicleCategory>
