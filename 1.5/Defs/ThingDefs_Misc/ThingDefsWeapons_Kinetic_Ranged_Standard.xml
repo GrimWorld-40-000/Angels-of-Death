@@ -171,6 +171,7 @@
         <possessionCount>1</possessionCount>
         <graphicData>
             <drawSize>1.1</drawSize>
+			<graphicClass>Graphic_Single</graphicClass>
             <texPath>Things/Weapons/Ranged/GW_AOD_BoltPistol</texPath>
         </graphicData>
         <soundInteract>Interact_Autopistol</soundInteract>
@@ -202,7 +203,7 @@
         <recipeMaker>
 		<unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
 		<recipeUsers Inherit="False">
-			<li>HP_AM_MilitarumFabricationBench</li>
+			<li>HP_ImperialFabricationBench</li>
 		</recipeUsers>
 		<skillRequirements>
 			<Crafting>10</Crafting>
