@@ -5,14 +5,14 @@
         <label>Xenophase Blade</label>
         <description>Xenophase Blade is a potent, Power Sword-like melee weapon derived from xenos technology used by select warriors of the Deathwatch Chapter who have earned by their deeds and time of service in the Long Vigil the special trust of their watch fortress' watch commander.</description>
         <graphicData>
-            <texPath>Things/Weapons/GW_Phaseblade</texPath>
+            <texPath>Things/Weapons/Melee/GW_Phaseblade</texPath>
             <graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
             <drawSize>1.5</drawSize>
 			<onGroundRandomRotateAngle>45</onGroundRandomRotateAngle>
         </graphicData>
         <tradeability>Sellable</tradeability>
-		<uiIconPath>Things/Weapons/GW_Phaseblade</uiIconPath>
+		<uiIconPath>Things/Weapons/Melee/GW_Phaseblade</uiIconPath>
         <techLevel>Spacer</techLevel>
         <weaponTags>
             <li>GW_PhaseBlade</li>
@@ -79,17 +79,17 @@
         </tools>
     </ThingDef>
 
-    <!--Volk weapons-->
+   <!--Volk weapons-->
     <ThingDef ParentName="GW_LaserBullet" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
         <defName>GW_SS_VolkCulverinBolt</defName>
         <label>volkite bolt</label>
         <description>Pew pew.</description>
         <graphicData>
-            <texPath>Things/Weapons/GW_Volkite_Bolt</texPath>
+            <texPath>Projectiles/GW_Volkite_Bolt</texPath>
             <drawSize>1.0</drawSize>
         </graphicData>
         <textures>
-            <li>Things/Weapons/GW_Volkite_Bolt</li>
+            <li>Projectiles/GW_Volkite_Bolt</li>
         </textures>
         <seam>0</seam>
         <causefireChance>0.08</causefireChance>
@@ -106,7 +106,7 @@
         <label>volkite culverin</label>
         <description>The Volkite Culverin is a type of Volkite Weapon, and is the heaviest man-portable Volkite Weapon known to have been available to Imperial forces during the Great Crusade and Horus Heresy-eras.</description>
         <graphicData>
-            <texPath>Things/Weapons/GW_VolkCulverin</texPath>
+            <texPath>Things/Weapons/Ranged/GW_VolkCulverin</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>1.1</drawSize>
         </graphicData>
@@ -177,10 +177,10 @@
         <label>volk bolt</label>
         <description>Pew pew.</description>
         <graphicData>
-            <texPath>Things/Weapons/GW_Volkite_Bolt</texPath>
+            <texPath>Projectiles/GW_Volkite_Bolt</texPath>
         </graphicData>
         <textures>
-            <li>Things/Weapons/GW_Volkite_Bolt</li>
+            <li>Projectiles/GW_Volkite_Bolt</li>
         </textures>
         <seam>0</seam>
         <causefireChance>0.08</causefireChance>
@@ -197,7 +197,7 @@
         <label>Volkite caliver</label>
         <description>The Volkite Caliver was a Volkite heavy weapon variant carried by Space Marine and Mechanicum infantry forces. A Volkite rifle with a devastating effect on flesh and bone.</description>
         <graphicData>
-          <texPath>Things/Weapons/GW_VolkCaliver</texPath>
+          <texPath>Things/Weapons/Ranged/GW_VolkCaliver</texPath>
           <graphicClass>Graphic_Single</graphicClass>
           <drawSize>1.1</drawSize>
         </graphicData>
@@ -265,11 +265,11 @@
         <label>volk bolt</label>
         <description>Pew pew.</description>
         <graphicData>
-            <texPath>Things/Weapons/GW_Volkite_Bolt</texPath>
+            <texPath>Projectiles/GW_Volkite_Bolt</texPath>
             <drawSize>1</drawSize>
         </graphicData>
         <textures>
-            <li>Things/Weapons/GW_Volkite_Bolt</li>
+            <li>Projectiles/GW_Volkite_Bolt</li>
         </textures>
         <seam>0</seam>
         <causefireChance>0.08</causefireChance>
@@ -286,7 +286,7 @@
 		<label>Volkite serpenta</label>
 		<description>The pistol variant of a Volkite Weapon wielded single-handed, the Volkite Serpenta was sometimes carried by high-ranking soldiers of the Imperial Army and the Tech-priests of the ancient Mechanicum during the Great Crusade era.</description>
 		<graphicData>
-			<texPath>Things/Weapons/GW_VolkSerpenta</texPath>
+			<texPath>Things/Weapons/Ranged/GW_VolkSerpenta</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.1</drawSize>
 		</graphicData>
@@ -357,11 +357,11 @@
         <label>volk bolt</label>
         <description>Pew pew.</description>
         <graphicData>
-            <texPath>Things/Weapons/GW_Volkite_Bolt</texPath>
+            <texPath>Projectiles/GW_Volkite_Bolt</texPath>
             <drawSize>2.0</drawSize>
         </graphicData>
         <textures>
-            <li>Things/Weapons/GW_Volkite_Bolt</li>
+            <li>Projectiles/GW_Volkite_Bolt</li>
         </textures>
         <seam>0</seam>
         <causefireChance>0.08</causefireChance>
@@ -378,7 +378,7 @@
 		<label>Volkite blaster</label>
 		<description>The Volkite Blaster is one of the few types of Volkite Weapon still used by the military forces of the Imperium in the 41st Millennium. Volkite Blasters are known to be wielded by Adeptus Mechanicus magi dominus.</description>
 		<graphicData>
-			<texPath>Things/Weapons/GW_VolkBlast</texPath>
+			<texPath>Things/Weapons/Ranged/GW_VolkBlast</texPath>
             <graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.4</drawSize>
 		</graphicData>
