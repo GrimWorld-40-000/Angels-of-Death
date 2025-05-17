@@ -44,7 +44,7 @@
 			</li>
 		</fireModes>
 		<graphicData>
-			<texPath>Things/Vehicles/RhinoTank/RhinoTank_TurretTop</texPath>
+			<texPath>Things/Vehicles/PredatorAndRhino/Sponsons/BolterTurret_Rhino</texPath>
 			<graphicClass>Vehicles.Graphic_Turret</graphicClass>
 			<shaderType>CutoutComplexPattern</shaderType>
 			<drawSize>(1.75, 1.75)</drawSize>
