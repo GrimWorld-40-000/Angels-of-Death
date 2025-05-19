@@ -95,7 +95,7 @@
 			<li>
 				<start>AerialVehicleLanding</start>
 				<stop>Spawned</stop>
-				<value>VVE_VehicleEngineRocket</value>
+				<value>podpodland</value>
 			</li>
 		</soundSustainersOnEvent>
 		
