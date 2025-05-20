@@ -85,11 +85,11 @@
         <label>volkite bolt</label>
         <description>Pew pew.</description>
         <graphicData>
-            <texPath>Projectiles/GW_Volkite_Bolt</texPath>
+            <texPath>Things/Projectiles/GW_Volkite_Bolt</texPath>
             <drawSize>1.0</drawSize>
         </graphicData>
         <textures>
-            <li>Projectiles/GW_Volkite_Bolt</li>
+            <li>Things/Projectiles/GW_Volkite_Bolt</li>
         </textures>
         <seam>0</seam>
         <causefireChance>0.08</causefireChance>
@@ -177,10 +177,10 @@
         <label>volk bolt</label>
         <description>Pew pew.</description>
         <graphicData>
-            <texPath>Projectiles/GW_Volkite_Bolt</texPath>
+            <texPath>Things/Projectiles/GW_Volkite_Bolt</texPath>
         </graphicData>
         <textures>
-            <li>Projectiles/GW_Volkite_Bolt</li>
+            <li>Things/Projectiles/GW_Volkite_Bolt</li>
         </textures>
         <seam>0</seam>
         <causefireChance>0.08</causefireChance>
@@ -265,11 +265,11 @@
         <label>volk bolt</label>
         <description>Pew pew.</description>
         <graphicData>
-            <texPath>Projectiles/GW_Volkite_Bolt</texPath>
+            <texPath>Things/Projectiles/GW_Volkite_Bolt</texPath>
             <drawSize>1</drawSize>
         </graphicData>
         <textures>
-            <li>Projectiles/GW_Volkite_Bolt</li>
+            <li>Things/Projectiles/GW_Volkite_Bolt</li>
         </textures>
         <seam>0</seam>
         <causefireChance>0.08</causefireChance>
@@ -357,11 +357,11 @@
         <label>volk bolt</label>
         <description>Pew pew.</description>
         <graphicData>
-            <texPath>Projectiles/GW_Volkite_Bolt</texPath>
+            <texPath>Things/Projectiles/GW_Volkite_Bolt</texPath>
             <drawSize>2.0</drawSize>
         </graphicData>
         <textures>
-            <li>Projectiles/GW_Volkite_Bolt</li>
+            <li>Things/Projectiles/GW_Volkite_Bolt</li>
         </textures>
         <seam>0</seam>
         <causefireChance>0.08</causefireChance>
