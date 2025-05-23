@@ -694,7 +694,7 @@
 		<label>astartes missile launcher</label>
 		<description>A shoulder-fired rocket launcher of suitable size for Adeptus Astartes use. Suitable for bunker-busting and anti-personnel fighting alike, all one has to do is fire this launcher at the enemy, and heresy shall be detected no more. \n\nThis design is relatively new, based on the older Soundstrike pattern. Those missile launchers included a missile rack and autoloading arm, which was attached to the Space Marine’s backpack. Every time the Soundstrike launcher was fired, the autoloader would reload the launcher without any action required from the Marine.</description>
 		<graphicData>
-			<texPath>Things/Weapons/Ranged/RocketLauncher1Grey</texPath>
+			<texPath>Things/Weapons/Ranged/GW_AOD_RocketLauncher</texPath>
 			<drawSize>1.3</drawSize>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
