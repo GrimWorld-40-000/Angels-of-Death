@@ -25,8 +25,8 @@
     </ThingDef>
 
     <ThingDef ParentName="BaseHumanMakeableGun">
-        <defName>HP_Gun_PlasmaGun</defName>
-        <label>Astartes plasma gun</label>
+        <defName>GW_AOD_PlasmaGun</defName>
+        <label>Mars Mk V Plasma Gun</label>
         <description>A plasma weapon scaled for use by Space Marines in Power Armor. These weapons use fusion cores to energize hydrogen fuel into a ball of plasma, which is then fired out of the weapon to devastating effect. \n\nThey are almost as powerful as Melta weapons, making short work of heavily-armored infantry (such as Space Marine Terminators), emplaced weapons, and light vehicles such as APCs, and possess much greater range. However, they are somewhat slow to fire, and have in rare cases been known to destabilize and violently explode in the user’s hands.</description>
         <techLevel>Spacer</techLevel>
         <graphicData>
@@ -36,16 +36,17 @@
         </graphicData>
         <soundInteract>Interact_ChargeRifle</soundInteract>
         <statBases>
-            <WorkToMake>38000</WorkToMake>
-            <Mass>5.5</Mass>
-            <AccuracyTouch>0.90</AccuracyTouch>
-            <AccuracyShort>0.85</AccuracyShort>
-            <AccuracyMedium>0.75</AccuracyMedium>
-            <AccuracyLong>0.70</AccuracyLong>
-            <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+            <WorkToMake>60000</WorkToMake>
+            <Mass>8</Mass>
+            <AccuracyTouch>0.60</AccuracyTouch>
+            <AccuracyShort>0.80</AccuracyShort>
+            <AccuracyMedium>0.65</AccuracyMedium>
+            <AccuracyLong>0.30</AccuracyLong>
+            <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+            <MarketValue>1800</MarketValue>
         </statBases>
 		<equippedStatOffsets>
-            <MoveSpeed>-0.20</MoveSpeed>
+            <MoveSpeed>-0.05</MoveSpeed>
         </equippedStatOffsets>
         <recipeMaker>
             <recipeUsers Inherit="False">
@@ -57,10 +58,10 @@
             </skillRequirements>
         </recipeMaker>
         <costList>
-            <Plasteel>180</Plasteel>
-            <Steel>300</Steel>
-            <ComponentIndustrial>20</ComponentIndustrial>
-            <HP_Ceramite>50</HP_Ceramite>
+            <Plasteel>40</Plasteel>
+            <HP_Adamantium>10</HP_Adamantium>
+            <ComponentSpacer>4</ComponentSpacer>
+            <HP_Ceramite>20</HP_Ceramite>
         </costList>
         <weaponTags>
             <li>SpacerGun</li>
@@ -78,14 +79,14 @@
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>VFEP_Bullet_PlasmaShot</defaultProjectile>
-                <warmupTime>3</warmupTime>
-                <range>40</range>
+                <warmupTime>1</warmupTime>
+                <range>32</range>
                 <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
                 <forcedMissRadius>1.9</forcedMissRadius>
                 <burstShotCount>1</burstShotCount>
                 <soundCast>GW_Plasma_Gun_Sound</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
-                <muzzleFlashScale>12</muzzleFlashScale>	
+                <muzzleFlashScale>13</muzzleFlashScale>	
                 <targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -99,6 +100,7 @@
                 </capacities>
                 <power>9</power>
                 <cooldownTime>2</cooldownTime>
+                <armorPenetration>0.13</armorPenetration>
             </li>
             <li>
                 <label>barrel</label>
@@ -108,6 +110,7 @@
                 </capacities>
                 <power>9</power>
                 <cooldownTime>2</cooldownTime>
+                <armorPenetration>0.13</armorPenetration>
             </li>
         </tools>
     </ThingDef>
