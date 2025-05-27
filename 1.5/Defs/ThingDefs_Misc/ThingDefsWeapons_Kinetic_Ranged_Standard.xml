@@ -237,13 +237,13 @@
     <graphicData>
       <texPath>Things/Projectiles/Bolter_Projectile</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.35</drawSize>
+      <drawSize>0.7</drawSize>
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>22</damageAmountBase>
-      <stoppingPower>0.4</stoppingPower>
-      <armorPenetrationBase>0.33</armorPenetrationBase>
+      <stoppingPower>0.42</stoppingPower>
+      <armorPenetrationBase>0.36</armorPenetrationBase>
       <speed>80</speed>
     </projectile>
   </ThingDef>
