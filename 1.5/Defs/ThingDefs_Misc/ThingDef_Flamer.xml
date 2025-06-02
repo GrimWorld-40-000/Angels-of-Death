@@ -32,36 +32,6 @@
 		<minDistanceToAffect>2</minDistanceToAffect>
 	</VFECore.ExpandableProjectileDef>
 	
-	<!--====== Burner Projectile ======-->
-		
-	<VFECore.ExpandableProjectileDef ParentName="BaseBullet">
-		<defName>GW_SM_Bullet_Burner</defName>
-		<label>burner shot</label>
-		<thingClass>VFECore.FlamethrowProjectile</thingClass>
-		<graphicData>
-			<texPath>Things/Projectiles/Flamer_Flame</texPath>
-			<texPathFadeOut>Things/Projectiles/Flamer_End</texPathFadeOut>
-			<shaderType>MoteGlow</shaderType>
-		</graphicData>
-		<projectile>
-			<damageDef>Flame</damageDef>
-			<speed>45</speed>
-			<damageAmountBase>2</damageAmountBase>
-		</projectile>
-
-		<drawOffscreen>true</drawOffscreen>
-		<lifeTimeDuration>55</lifeTimeDuration>
-		<widthScaleFactor>0.65</widthScaleFactor>
-		<heightScaleFactor>1</heightScaleFactor>
-		<startingPositionOffset>(0, 0, -1)</startingPositionOffset>
-		<totalSizeScale>1.15</totalSizeScale>
-		<tickFrameRate>2</tickFrameRate>
-		<finalTickFrameRate>5</finalTickFrameRate>
-		<tickDamageRate>20</tickDamageRate>
-		<dealsDamageOnce>true</dealsDamageOnce>
-		<minDistanceToAffect>2</minDistanceToAffect>
-	</VFECore.ExpandableProjectileDef>
-	
 	<!--===== Flamer Base =====-->
 		
 	<ThingDef Abstract="True" ParentName="BaseGunWithQuality" Name="GW_SM_FlamerBase">
@@ -233,6 +203,36 @@
 	</ThingDef>
 	
 	<!--===== Burner =====-->
+
+	<!--====== Burner Projectile ======-->
+		
+	<VFECore.ExpandableProjectileDef ParentName="BaseBullet">
+		<defName>GW_AOD_Bullet_Burner</defName>
+		<label>burner shot</label>
+		<thingClass>VFECore.FlamethrowProjectile</thingClass>
+		<graphicData>
+			<texPath>Things/Projectiles/Flamer_Flame</texPath>
+			<texPathFadeOut>Things/Projectiles/Flamer_End</texPathFadeOut>
+			<shaderType>MoteGlow</shaderType>
+		</graphicData>
+		<projectile>
+			<damageDef>Flame</damageDef>
+			<speed>25</speed>
+			<damageAmountBase>2</damageAmountBase>
+		</projectile>
+
+		<drawOffscreen>true</drawOffscreen>
+		<lifeTimeDuration>55</lifeTimeDuration>
+		<widthScaleFactor>0.65</widthScaleFactor>
+		<heightScaleFactor>1</heightScaleFactor>
+		<startingPositionOffset>(0, 0, -1)</startingPositionOffset>
+		<totalSizeScale>1.00</totalSizeScale>
+		<tickFrameRate>2</tickFrameRate>
+		<finalTickFrameRate>5</finalTickFrameRate>
+		<tickDamageRate>20</tickDamageRate>
+		<dealsDamageOnce>true</dealsDamageOnce>
+		<minDistanceToAffect>2</minDistanceToAffect>
+	</VFECore.ExpandableProjectileDef>
 	
 	<ThingDef ParentName="GW_SM_FlamerBase">
 		<defName>GW_SM_Gun_Burner</defName>
@@ -290,7 +290,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>GW_SM_Bullet_Burner</defaultProjectile>
+				<defaultProjectile>GW_AOD_Bullet_Burner</defaultProjectile>
 				<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
 				<warmupTime>1.25</warmupTime>
 				<range>8</range>
