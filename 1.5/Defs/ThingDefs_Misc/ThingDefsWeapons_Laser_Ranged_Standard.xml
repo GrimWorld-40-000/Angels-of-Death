@@ -324,7 +324,6 @@
                 <warmupTime>1</warmupTime>
                 <range>18</range>
                 <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
-				<forcedMissRadius>1</forcedMissRadius>
                 <burstShotCount>1</burstShotCount>
                 <soundCast>GW_Melta_Gun_Sound</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -414,7 +413,6 @@
                 <warmupTime>5</warmupTime>
                 <range>45</range>
                 <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
-				<forcedMissRadius>1</forcedMissRadius>
                 <burstShotCount>2</burstShotCount>
                 <soundCast>GW_Multi_Melta_Gun_Sound</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -653,7 +651,6 @@
 				<warmupTime>0.6</warmupTime>
 				<range>10</range>
 				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-                <forcedMissRadius>1</forcedMissRadius>
 				<burstShotCount>1</burstShotCount>
 				<soundCast>GW_Melta_Gun_Sound</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
