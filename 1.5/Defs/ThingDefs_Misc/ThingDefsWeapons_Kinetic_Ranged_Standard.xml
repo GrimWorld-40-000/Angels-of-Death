@@ -517,6 +517,89 @@
             </li>
 			</tools>
 	</ThingDef>
+
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>GW_AOD_DeathwatchShotgun</defName>
+		<label>deathwatch pattern shotgun</label>
+		<description>WIP.</description>
+		<graphicData>
+			<texPath>Things/Weapons/Ranged/DeathwatchShotgun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<recipeMaker>
+			<recipeUsers Inherit="False">
+				<li>HP_ImperialFabricationBench</li>
+			</recipeUsers>
+			<researchPrerequisite>GW_Bolters</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>15</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>25000</WorkToMake>
+			<Mass>4.5</Mass>
+			<AccuracyTouch>0.75</AccuracyTouch>
+			<AccuracyShort>0.45</AccuracyShort>
+			<AccuracyMedium>0.35</AccuracyMedium>
+			<AccuracyLong>0.20</AccuracyLong>
+			<RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
+			<MarketValue>1000</MarketValue>
+		</statBases>
+		<costList>
+			<Plasteel>35</Plasteel>
+			<ComponentIndustrial>8</ComponentIndustrial>
+			<HP_Adamantium>25</HP_Adamantium>
+		</costList>
+		<weaponTags>
+			<li>IndustrialGunAdvanced</li>
+			<li>GW_SM_Ranged</li>
+			<li>GW_SM_ScoutShotgun</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>RangedHeavy</li>
+		</weaponClasses>
+		<tradeTags>
+			<li>HPRanged</li>
+		</tradeTags>
+		<verbs>
+			<li Class="Shotgunz.Verb_Properties_Shotgunz">
+                <verbClass>Shotgunz.Verb_Shoot_Shotgunz</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>GW_AOD_ShotgunBullet</defaultProjectile>
+                <warmupTime>0.70</warmupTime>
+                <range>14.5</range>
+                <burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>25</ticksBetweenBurstShots>
+                <soundCast>Shot_Shotgun</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>10</muzzleFlashScale>
+                <pellets>6</pellets>
+      </li>
+		</verbs>
+			<tools>
+				<li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+                <armorPenetration>0.13</armorPenetration>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+                <armorPenetration>0.13</armorPenetration>
+            </li>
+			</tools>
+	</ThingDef>
 	
 	<!--===== Sniper Rifle =====-->
 	
