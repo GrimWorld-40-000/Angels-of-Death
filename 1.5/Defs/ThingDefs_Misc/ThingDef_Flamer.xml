@@ -55,13 +55,24 @@
 		</graphicData>
 		<tools>
 			<li>
-				<label>barrel</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>11.7</power>
-				<cooldownTime>2.6</cooldownTime>
-			</li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+                <armorPenetration>0.13</armorPenetration>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+                <armorPenetration>0.13</armorPenetration>
+            </li>
 		</tools>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
@@ -75,27 +86,25 @@
 			</skillRequirements>
 		</recipeMaker>
 		<costList>
-			<Plasteel>105</Plasteel>
-			<Steel>125</Steel>
-			<ComponentIndustrial>15</ComponentIndustrial>
+			<Plasteel>40</Plasteel>
+			<HP_Adamantium>10</HP_Adamantium>
+			<ComponentSpacer>2</ComponentSpacer>
 			<HP_Ceramite>35</HP_Ceramite>
 		</costList>
 		<statBases>
-			<Mass>18</Mass>
-			<RangedWeapon_Cooldown>4.2</RangedWeapon_Cooldown>
-			<WorkToMake>42000</WorkToMake>
+			<Mass>5</Mass>
+			<RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+			<WorkToMake>55000</WorkToMake>
+			<MarketValue>900</MarketValue>
 		</statBases>
-		<equippedStatOffsets>
-			<MoveSpeed>-0.20</MoveSpeed>
-		</equippedStatOffsets>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GW_SM_Bullet_Flamer</defaultProjectile>
 				<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
-				<warmupTime>1.25</warmupTime>
-				<range>16</range>
+				<warmupTime>0.6</warmupTime>
+				<range>12</range>
 				<burstShotCount>1</burstShotCount>
 				<soundCast>GW_SM_Flamer_Sound</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
