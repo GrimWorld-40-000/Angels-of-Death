@@ -245,21 +245,24 @@
 		</graphicData>
 		<tools>
 			<li>
-				<label>barrel</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>5</power>
-				<cooldownTime>2.6</cooldownTime>
-			</li>
-			<li>
-				<label>grip</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>5</power>
-				<cooldownTime>2.6</cooldownTime>
-			</li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>5</power>
+                <cooldownTime>2</cooldownTime>
+                <armorPenetration>0.13</armorPenetration>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>5</power>
+                <cooldownTime>2</cooldownTime>
+                <armorPenetration>0.13</armorPenetration>
+            </li>
 		</tools>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
@@ -273,15 +276,16 @@
 			</skillRequirements>
 		</recipeMaker>
 		<costList>
-			<Plasteel>85</Plasteel>
-			<Steel>115</Steel>
-			<ComponentIndustrial>12</ComponentIndustrial>
-			<HP_Ceramite>28</HP_Ceramite>
+			<Plasteel>25</Plasteel>
+			<HP_Adamantium>10<HP_Adamantium>
+			<ComponentSpacerl>1</ComponentSpacer>
+			<HP_Ceramite>10</HP_Ceramite>
 		</costList>
 		<statBases>
-			<Mass>6.4</Mass>
-			<RangedWeapon_Cooldown>4.2</RangedWeapon_Cooldown>
-			<WorkToMake>36000</WorkToMake>
+			<Mass>3</Mass>
+			<RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
+			<WorkToMake>50000</WorkToMake>
+			<MarketValue>500</MarketValue>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.10</MoveSpeed>
@@ -292,7 +296,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GW_AOD_Bullet_Burner</defaultProjectile>
 				<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
-				<warmupTime>1.25</warmupTime>
+				<warmupTime>0.6</warmupTime>
 				<range>8</range>
 				<burstShotCount>1</burstShotCount>
 				<soundCast>GW_SM_Flamer_Sound</soundCast>
