@@ -538,18 +538,18 @@
 			</skillRequirements>
 		</recipeMaker>
 		<statBases>
-			<WorkToMake>25000</WorkToMake>
+			<WorkToMake>40000</WorkToMake>
 			<Mass>4.5</Mass>
 			<AccuracyTouch>0.75</AccuracyTouch>
 			<AccuracyShort>0.45</AccuracyShort>
 			<AccuracyMedium>0.35</AccuracyMedium>
 			<AccuracyLong>0.20</AccuracyLong>
-			<RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
 			<MarketValue>1000</MarketValue>
 		</statBases>
 		<costList>
-			<Plasteel>35</Plasteel>
-			<ComponentIndustrial>8</ComponentIndustrial>
+			<Plasteel>45</Plasteel>
+			<ComponentSpacer>1</ComponentSpacer>
 			<HP_Adamantium>25</HP_Adamantium>
 		</costList>
 		<weaponTags>
