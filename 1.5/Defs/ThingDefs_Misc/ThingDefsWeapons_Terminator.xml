@@ -279,7 +279,7 @@
 				<capacities>
 				<li>Blunt</li>
 				</capacities>
-				<power>9</power>
+				<power>11</power>
 				<cooldownTime>2.0</cooldownTime>
 				<armorPenetration>0.13</armorPenetration>
 			</li>
@@ -289,7 +289,7 @@
 				<li>Blunt</li>
 				<li>Poke</li>
 				</capacities>
-				<power>9</power>
+				<power>11</power>
 				<cooldownTime>2.0</cooldownTime>
 				<armorPenetration>0.13</armorPenetration>
 			</li>
@@ -381,13 +381,23 @@
 		</verbs>
 		<tools>
 			<li>
+				<label>stock</label>
+				<capacities>
+				<li>Blunt</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>2.0</cooldownTime>
+				<armorPenetration>0.13</armorPenetration>
+			</li>
+			<li>
 				<label>barrel</label>
 				<capacities>
-					<li>Blunt</li>
-					<li>Poke</li>
+				<li>Blunt</li>
+				<li>Poke</li>
 				</capacities>
-				<power>14</power>
-				<cooldownTime>2.5</cooldownTime>
+				<power>11</power>
+				<cooldownTime>2.0</cooldownTime>
+				<armorPenetration>0.13</armorPenetration>
 			</li>
 		</tools>
 	</ThingDef>
@@ -431,22 +441,23 @@
 			</skillRequirements>
 		</recipeMaker>
 		<statBases>
-			<WorkToMake>58000</WorkToMake>
-			<Mass>11</Mass>
-			<AccuracyTouch>0.35</AccuracyTouch>
-			<AccuracyShort>0.45</AccuracyShort>
-			<AccuracyMedium>0.80</AccuracyMedium>
-			<AccuracyLong>0.75</AccuracyLong>
-			<RangedWeapon_Cooldown>5.4</RangedWeapon_Cooldown>
+			<WorkToMake>80000</WorkToMake>
+			<Mass>8.5</Mass>
+			<AccuracyTouch>0.60</AccuracyTouch>
+			<AccuracyShort>0.80</AccuracyShort>
+			<AccuracyMedium>0.65</AccuracyMedium>
+			<AccuracyLong>0.30</AccuracyLong>
+			<RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+			<MarketValue>1300</MarketValue>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.50</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
-			<Steel>575</Steel>
-			<Plasteel>125</Plasteel>
-			<ComponentIndustrial>35</ComponentIndustrial>
-			<HP_Ceramite>45</HP_Ceramite>
+			<Plasteel>60</Plasteel>
+			<ComponentSpacer>5</ComponentSpacer>
+			<HP_Ceramite>40</HP_Ceramite>
+			<HP_Adamantium>25</HP_Adamantium>
 		</costList>
 		<weaponTags>
 			<li>IndustrialGunAdvanced</li>
@@ -462,10 +473,10 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GW_Bullet_Plasma_CannonShot</defaultProjectile>
-				<warmupTime>5</warmupTime>
-				<range>65</range>
+				<warmupTime>1.2</warmupTime>
+				<range>35</range>
 				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
-				<forcedMissRadius>2.9</forcedMissRadius>
+				<forcedMissRadius>2.5</forcedMissRadius>
 				<burstShotCount>1</burstShotCount>
 				<soundCast>GW_Plasma_Gun_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
@@ -477,13 +488,23 @@
 		</verbs>
 		<tools>
 			<li>
+				<label>stock</label>
+				<capacities>
+				<li>Blunt</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>2.0</cooldownTime>
+				<armorPenetration>0.13</armorPenetration>
+			</li>
+			<li>
 				<label>barrel</label>
 				<capacities>
-					<li>Blunt</li>
-					<li>Poke</li>
+				<li>Blunt</li>
+				<li>Poke</li>
 				</capacities>
-				<power>14</power>
-				<cooldownTime>2.5</cooldownTime>
+				<power>11</power>
+				<cooldownTime>2.0</cooldownTime>
+				<armorPenetration>0.13</armorPenetration>
 			</li>
 		</tools>
 	</ThingDef>
