@@ -289,7 +289,7 @@
 		<costList>
 			<Plasteel>25</Plasteel>
 			<HP_Adamantium>10<HP_Adamantium>
-			<ComponentSpacerl>1</ComponentSpacer>
+			<ComponentSpacer>1</ComponentSpacer>
 			<HP_Ceramite>10</HP_Ceramite>
 		</costList>
 		<statBases>
