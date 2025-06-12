@@ -18,7 +18,7 @@
         </graphicData>
         <projectile>
             <damageDef>Burn</damageDef>
-            <damageAmountBase>30</damageAmountBase>
+            <damageAmountBase>15</damageAmountBase>
             <armorPenetrationBase>0.70</armorPenetrationBase>
             <stoppingPower>2.0</stoppingPower>
             <speed>50</speed>
@@ -27,7 +27,7 @@
         <modExtensions>
             <li Class="taranchuk_lasers.LaserProperties">
                 <damageTickRate>9</damageTickRate>
-                <lifetimeTicks>500</lifetimeTicks>
+                <lifetimeTicks>140</lifetimeTicks>
                 <beamWidth>1.2</beamWidth>
                 <beamWidthDrawScale>1</beamWidthDrawScale>
                 <sweepRatePerTick>0</sweepRatePerTick>
@@ -56,7 +56,7 @@
 		<thingClass>Projectile_Explosive</thingClass>
 		<projectile>
             <damageDef>Burn</damageDef>
-            <damageAmountBase>30</damageAmountBase>
+            <damageAmountBase>10</damageAmountBase>
             <armorPenetrationBase>0.70</armorPenetrationBase>
             <stoppingPower>2.0</stoppingPower>
             <speed>50</speed>
@@ -65,7 +65,7 @@
         <modExtensions>
             <li Class="taranchuk_lasers.LaserProperties">
                 <damageTickRate>9</damageTickRate>
-                <lifetimeTicks>500</lifetimeTicks>
+                <lifetimeTicks>120</lifetimeTicks>
                 <beamWidth>1.2</beamWidth>
                 <beamWidthDrawScale>1</beamWidthDrawScale>
                 <sweepRatePerTick>0</sweepRatePerTick>
@@ -94,8 +94,8 @@
 		<thingClass>Projectile_Explosive</thingClass>
 		<projectile>
             <damageDef>Burn</damageDef>
-            <damageAmountBase>30</damageAmountBase>
-            <armorPenetrationBase>0.70</armorPenetrationBase>
+            <damageAmountBase>6</damageAmountBase>
+            <armorPenetrationBase>0.09</armorPenetrationBase>
             <stoppingPower>2.0</stoppingPower>
             <speed>50</speed>
         </projectile>
@@ -103,7 +103,7 @@
         <modExtensions>
             <li Class="taranchuk_lasers.LaserProperties">
                 <damageTickRate>9</damageTickRate>
-                <lifetimeTicks>500</lifetimeTicks>
+                <lifetimeTicks>60</lifetimeTicks>
                 <beamWidth>1.2</beamWidth>
                 <beamWidthDrawScale>1</beamWidthDrawScale>
                 <sweepRatePerTick>0</sweepRatePerTick>
@@ -159,23 +159,23 @@
 			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
 		</recipeMaker>
 		<statBases>
-			<WorkToMake>52000</WorkToMake>
-			<Mass>16</Mass>
-			<AccuracyTouch>0.82</AccuracyTouch>
-			<AccuracyShort>0.85</AccuracyShort>
-			<AccuracyMedium>0.76</AccuracyMedium>
-			<AccuracyLong>0.62</AccuracyLong>
-			<RangedWeapon_Cooldown>6</RangedWeapon_Cooldown>
+			<WorkToMake>90000</WorkToMake>
+			<Mass>8</Mass>
+			<MarketValue>2300</MarketValue>
+			<AccuracyTouch>1</AccuracyTouch>
+			<AccuracyShort>1</AccuracyShort>
+			<AccuracyMedium>1</AccuracyMedium>
+			<AccuracyLong>1</AccuracyLong>
+			<!-- <RangedWeapon_Cooldown>6</RangedWeapon_Cooldown> -->
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>-0.50</MoveSpeed>
+			<MoveSpeed>-0.30</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
-			<Steel>550</Steel>
-			<Plasteel>175</Plasteel>
-			<ComponentIndustrial>40</ComponentIndustrial>
-			<GW_ComponentRelic>2</GW_ComponentRelic>
+			<Plasteel>35</Plasteel>
 			<HP_Ceramite>15</HP_Ceramite>
+			<HP_Adamantium>10</HP_Adamantium>
+			<GW_ComponentRelic>1</GW_ComponentRelic>
 		</costList>
 		<weaponClasses>
 			<li>RangedHeavy</li>
@@ -186,8 +186,8 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GW_AOD_GravCannon_Bullet</defaultProjectile>
 				<forcedMissRadius>2.9</forcedMissRadius>
-				<warmupTime>5</warmupTime>
-				<range>35</range>
+				<warmupTime>2</warmupTime>
+				<range>18</range>
 				<burstShotCount>1</burstShotCount>
 				<soundCast>GW_SM_Grav_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
@@ -207,7 +207,7 @@
 		</tools>
 		<modExtensions>
 			<li Class="GravDamege.ModExtension_MassToDamage">
-                <weightThreshold>5</weightThreshold> <!-- added bonus every X kg, in this case. it 5kg -->
+                <weightThreshold>1.5</weightThreshold> <!-- added bonus every X kg, in this case. it 5kg -->
                 <damagePerBonus>1</damagePerBonus> <!-- bonus damage per threshold, in this case it 1 damage per 5kg -->
                 <showBonusDamageText>true</showBonusDamageText> <!-- throw a little green text next to target on hit, telling how much bonus damage is done -->
             </li>
@@ -235,23 +235,23 @@
 			<researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
 		</recipeMaker>
 		<statBases>
-			<WorkToMake>49000</WorkToMake>
-			<Mass>12</Mass>
-			<AccuracyTouch>0.75</AccuracyTouch>
-			<AccuracyShort>0.82</AccuracyShort>
-			<AccuracyMedium>0.85</AccuracyMedium>
-			<AccuracyLong>0.62</AccuracyLong>
-			<RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
+			<WorkToMake>60000</WorkToMake>
+			<Mass>5</Mass>
+			<MarketValue>1000</MarketValue>
+			<AccuracyTouch>1</AccuracyTouch>
+			<AccuracyShort>1</AccuracyShort>
+			<AccuracyMedium>1</AccuracyMedium>
+			<AccuracyLong>1</AccuracyLong>
+			<!-- <RangedWeapon_Cooldown>4</RangedWeapon_Cooldown> -->
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.20</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
-			<Steel>485</Steel>
-			<Plasteel>155</Plasteel>
-			<ComponentIndustrial>36</ComponentIndustrial>
+			<Plasteel>35</Plasteel>
+			<HP_Ceramite>15</HP_Ceramite>
+			<HP_Adamantium>10</HP_Adamantium>
 			<GW_ComponentRelic>1</GW_ComponentRelic>
-			<HP_Ceramite>12</HP_Ceramite>
 		</costList>
 		<weaponClasses>
 			<li>RangedHeavy</li>
@@ -261,9 +261,9 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GW_SM_GravRifle_Bullet</defaultProjectile>
-				<forcedMissRadius>1.9</forcedMissRadius>
-				<warmupTime>3</warmupTime>
-				<range>24</range>
+				<!-- <forcedMissRadius>1.9</forcedMissRadius> -->
+				<warmupTime>2</warmupTime>
+				<range>15</range>
 				<burstShotCount>1</burstShotCount>
 				<soundCast>GW_SM_Grav_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
@@ -291,8 +291,8 @@
 		</tools>
 		<modExtensions>
 			<li Class="GravDamege.ModExtension_MassToDamage">
-                <weightThreshold>5</weightThreshold> <!-- added bonus every X kg, in this case. it 5kg -->
-                <damagePerBonus>0.55</damagePerBonus> <!-- bonus damage per threshold, in this case it 0.55 damage per 5kg -->
+                <weightThreshold>2</weightThreshold> <!-- added bonus every X kg, in this case. it 5kg -->
+                <damagePerBonus>1</damagePerBonus> <!-- bonus damage per threshold, in this case it 0.55 damage per 5kg -->
                 <showBonusDamageText>true</showBonusDamageText> <!-- throw a little green text next to target on hit, telling how much bonus damage is done -->
             </li>
 		</modExtensions>
@@ -320,12 +320,13 @@
 		</recipeMaker>
 		<statBases>
 			<WorkToMake>50000</WorkToMake>
+			<MarketValue>900</MarketValue>
 			<Mass>3</Mass>
-			<AccuracyTouch>0.75</AccuracyTouch>
-			<AccuracyShort>0.82</AccuracyShort>
-			<AccuracyMedium>0.85</AccuracyMedium>
+			<AccuracyTouch>1</AccuracyTouch>
+			<AccuracyShort>1</AccuracyShort>
+			<AccuracyMedium>1</AccuracyMedium>
 			<AccuracyLong>0.62</AccuracyLong>
-			<RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>0</RangedWeapon_Cooldown>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.10</MoveSpeed>
@@ -344,7 +345,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GW_SM_GravPistol_Bullet</defaultProjectile>
-				<forcedMissRadius>0.9</forcedMissRadius>
+				<!-- <forcedMissRadius>0.9</forcedMissRadius> -->
 				<warmupTime>1</warmupTime>
 				<range>10</range>
 				<burstShotCount>1</burstShotCount>
@@ -374,8 +375,8 @@
 		</tools>
 		<modExtensions>
 			<li Class="GravDamege.ModExtension_MassToDamage">
-                <weightThreshold>5</weightThreshold> <!-- added bonus every X kg, in this case. it 5kg -->
-                <damagePerBonus>0.20</damagePerBonus> <!-- bonus damage per threshold, in this case it 0.2 damage per 5kg -->
+                <weightThreshold>3</weightThreshold> <!-- added bonus every X kg, in this case. it 5kg -->
+                <damagePerBonus>1</damagePerBonus> <!-- bonus damage per threshold, in this case it 0.2 damage per 5kg -->
                 <showBonusDamageText>true</showBonusDamageText> <!-- throw a little green text next to target on hit, telling how much bonus damage is done -->
             </li>
 		</modExtensions>
