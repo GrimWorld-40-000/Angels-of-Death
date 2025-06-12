@@ -288,7 +288,7 @@
 		</recipeMaker>
 		<costList>
 			<Plasteel>25</Plasteel>
-			<HP_Adamantium>10<HP_Adamantium>
+			<HP_Adamantium>10</HP_Adamantium>
 			<ComponentSpacer>1</ComponentSpacer>
 			<HP_Ceramite>10</HP_Ceramite>
 		</costList>
