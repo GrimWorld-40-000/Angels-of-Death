@@ -114,6 +114,7 @@
 				</targetParams>
 			</li>
 		</verbs>
+		<equippedAngleOffset>45</equippedAngleOffset>
 	</ThingDef>
 	
 	<!--===== Heavy Flamer =====-->
