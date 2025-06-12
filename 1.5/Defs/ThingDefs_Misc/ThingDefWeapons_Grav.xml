@@ -2,25 +2,43 @@
 
 <Defs>
 
-	<!--===== Grav Cannon Projectile =====-->
+	<!--===== Grav Cannon Projectile =====-->0
 
 	<ThingDef ParentName="BaseBullet">
-		<defName>GW_SM_GravCannon_Bullet</defName>
-		<label>grav cannon bomb</label>
-		<graphicData>
-			<texPath>Things/Projectiles/Grav_Projectile</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.7</drawSize>
-		</graphicData>
-		<thingClass>Projectile_Explosive</thingClass>
-		<projectile>
-			<damageDef>Thump</damageDef>
-			<damageAmountBase>22</damageAmountBase>
-			<explosionRadius>2.4</explosionRadius>
-			<stoppingPower>4</stoppingPower>
-			<speed>80</speed>
-		</projectile>
-	</ThingDef>
+        <defName>GW_AOD_GravCannon_Bullet</defName>
+        <label>Grav</label>
+        <description>grav beam</description>
+        <drawOffscreen>true</drawOffscreen>
+        <seeThroughFog>true</seeThroughFog>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Projectiles/Grav_Projectile</texPath>
+            <shaderType>TransparentPostLight</shaderType>
+            <drawSize>1</drawSize>
+        </graphicData>
+        <projectile>
+            <damageDef>Burn</damageDef>
+            <damageAmountBase>30</damageAmountBase>
+            <armorPenetrationBase>0.70</armorPenetrationBase>
+            <stoppingPower>2.0</stoppingPower>
+            <speed>50</speed>
+        </projectile>
+        <thingClass>taranchuk_lasers.LaserProjectile</thingClass>
+        <modExtensions>
+            <li Class="taranchuk_lasers.LaserProperties">
+                <damageTickRate>9</damageTickRate>
+                <lifetimeTicks>500</lifetimeTicks>
+                <beamWidth>1.2</beamWidth>
+                <beamWidthDrawScale>1</beamWidthDrawScale>
+                <sweepRatePerTick>0</sweepRatePerTick>
+                <maxSweepAngle>0</maxSweepAngle>
+                <damageThingsAcrossBeamLine>false</damageThingsAcrossBeamLine>
+                <debugCells>false</debugCells>
+                <textureScrollOffsetPerTick>(0, -0.1)</textureScrollOffsetPerTick>
+                <lockOnTarget>true</lockOnTarget>
+            </li>
+        </modExtensions>
+    </ThingDef>
 	
 	<!--===== Grav Rifle Projectile =====-->
 
@@ -87,7 +105,7 @@
 	<!--===== Grav Cannon =====-->
 
 	<ThingDef ParentName="GW_SM_GravBase">
-		<defName>GW_SM_Gun_GravCannon</defName>
+		<defName>GW_AOD_Gun_GravCannon</defName>
 		<label>graviton cannon</label>
 		<description>A special design of graviton weapon. With its higher output, even great bunker walls of thick plascrete will collapse before long. \n\nWhile graviton cannons are typically vehicle-mounted, the techmarines of the Deathwatch created this man-portable design.</description>
 		<graphicData>
@@ -130,7 +148,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>GW_SM_GravCannon_Bullet</defaultProjectile>
+				<defaultProjectile>GW_AOD_GravCannon_Bullet</defaultProjectile>
 				<forcedMissRadius>2.9</forcedMissRadius>
 				<warmupTime>5</warmupTime>
 				<range>35</range>
