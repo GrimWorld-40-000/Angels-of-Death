@@ -2,7 +2,7 @@
 
 <Defs>
 
-	<!--===== Grav Cannon Projectile =====-->0
+	<!--===== Grav Cannon Projectile =====-->
 
 	<ThingDef ParentName="BaseBullet">
         <defName>GW_AOD_GravCannon_Bullet</defName>
@@ -319,8 +319,8 @@
 			<researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
 		</recipeMaker>
 		<statBases>
-			<WorkToMake>46000</WorkToMake>
-			<Mass>8</Mass>
+			<WorkToMake>50000</WorkToMake>
+			<Mass>3</Mass>
 			<AccuracyTouch>0.75</AccuracyTouch>
 			<AccuracyShort>0.82</AccuracyShort>
 			<AccuracyMedium>0.85</AccuracyMedium>
@@ -331,10 +331,10 @@
 			<MoveSpeed>0.10</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
-			<Steel>375</Steel>
-			<Plasteel>115</Plasteel>
-			<ComponentIndustrial>24</ComponentIndustrial>
-			<HP_Ceramite>8</HP_Ceramite>
+			<Plasteel>40</Plasteel>
+			<HP_Ceramite>30</HP_Ceramite>
+			<HP_Adamantium>10</HP_Adamantium>
+			<ComponentSpacer>3</ComponentSpacer>
 		</costList>
 		<weaponClasses>
 			<li>RangedHeavy</li>
@@ -346,7 +346,7 @@
 				<defaultProjectile>GW_SM_GravPistol_Bullet</defaultProjectile>
 				<forcedMissRadius>0.9</forcedMissRadius>
 				<warmupTime>1</warmupTime>
-				<range>18</range>
+				<range>10</range>
 				<burstShotCount>1</burstShotCount>
 				<soundCast>GW_SM_Grav_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
