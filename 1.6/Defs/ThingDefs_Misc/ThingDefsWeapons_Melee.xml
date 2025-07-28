@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--===== Relic Weapon Base =====-->
+
+	<ThingDef Abstract="true" ParentName="BaseWeapon" Name="GW_SM_RelicWeapon" >
+		<techLevel>Archotech</techLevel>
+		<statBases>
+			<MarketValue>800000</MarketValue>
+		</statBases>
+		<relicChance>3</relicChance>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
+		<smeltable>true</smeltable>
+		<burnableByRecipe>true</burnableByRecipe>
+		<thingCategories>
+			<li>WeaponsMelee</li>
+		</thingCategories>
+		<weaponTags>
+			<li>UltratechMelee</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>Ultratech</li>
+		</weaponClasses>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
+		<!-- ====================== Chainsword ===================== -->
+
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>GW_AOD_Chainsword</defName>
+		<label>Astartes chainsword</label>
+		<description>A large, Astartes-scale chainsword. Chainswords combine the swinging action of a sword and the cutting edge of a chainsaw, resulting in a truly terrifying weapon to face. Only the thick ceramite of Space Marine Power Armor, and other protection of similar toughness, can stand against it - and even then, skilled users can exploit weaknesses in armor to grievous effect. \n\nChainswords are a mainstay of Space Marine Assault Squads - close-combat Marines equipped with Jump Packs to leap into enemy positions and deliver gruesome death. Similarly, chainswords are also frequently used by Chaos Space Marine Raptors, Striking Scorpion Aspect Warriors of the Asuryani, and by various Boyz of the Ork horde.</description>
+		<possessionCount>1</possessionCount>
+		<graphicData>
+			<texPath>Things/Weapons/Melee/ChainSwordStandard</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.5, 1.5</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<uiIconScale>1.2</uiIconScale>
+		<techLevel>Industrial</techLevel>
+		<thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+		<weaponTags>
+			<li>IndustrialMeleeDecent</li>
+			<li>GW_SM_Melee</li>
+			<li>GW_SM_ScoutMelee</li>
+		</weaponTags>
+		<tradeTags>
+			<li>HPMelee</li>
+		</tradeTags>
+		<statBases>
+			<WorkToMake>15000</WorkToMake>
+			<Mass>6</Mass>
+			<MarketValue>400</MarketValue>
+		</statBases>
+		<relicChance>2</relicChance>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<costList>
+			<Plasteel>25</Plasteel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<Steel>100</Steel>
+		</costList>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+			<power>14</power>
+			<cooldownTime>1.9</cooldownTime>	
+			<armorPenetration>0.15</armorPenetration>	
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>17</power>
+				<cooldownTime>2.5</cooldownTime>
+				<soundMeleeHit>ChainSword</soundMeleeHit>
+				<soundMeleeMiss>Smite</soundMeleeMiss>
+				<armorPenetration>0.11</armorPenetration>
+			</li>
+			<li>
+				<label>blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>1</cooldownTime>
+				<soundMeleeHit>ChainSword</soundMeleeHit>
+				<soundMeleeMiss>Smite</soundMeleeMiss>
+				<armorPenetration>0.27</armorPenetration>
+				<extraMeleeDamages>
+					<li>
+						<def>Cut</def>
+						<amount>4</amount>
+						<chance>0.75</chance>
+					</li>
+					<li>
+						<def>Cut</def>
+						<amount>4</amount>
+						<chance>0.75</chance>
+					</li>
+					<li>
+						<def>Cut</def>
+						<amount>4</amount>
+						<chance>0.75</chance>
+					</li>
+					<li>
+						<def>Cut</def>
+						<amount>4</amount>
+						<chance>0.75</chance>
+					</li>
+				</extraMeleeDamages>
+			</li>
+		</tools>
+		<recipeMaker>
+			<recipeUsers Inherit="False">
+				<li>HP_ImperialFabricationBench</li>
+			</recipeUsers>		
+			<researchPrerequisite>GW_Chainswords</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>12</Crafting>
+			</skillRequirements>
+			<displayPriority>410</displayPriority>
+		</recipeMaker>
+	  </ThingDef>
+	  
+		<!-- ====================== Relic Chainsword ===================== -->
+	  
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>GW_AOD_Relic_Chainsword</defName>
+		<label>relic chainsword</label>
+		<description>An Astartes-size chainsword design of considerable age. For reasons unknown, it is of lighter weight than a regular chainsword, and cuts even more viciously. \n\nIn the Imperium of Man, “older” is often synonymous with “better”, as relics of the Dark Age of Technology and the following Age of Strife held powerful secrets that no one in the Imperium could truly understand. This became even more true in the 41st Millennium, as even the designs of Great Crusade and Horus Heresy-era technology became lost to the Imperium.</description>
+		<possessionCount>1</possessionCount>
+		<graphicData>
+		  <texPath>Things/Weapons/Melee/ChainSword</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <drawSize>1.5, 1.5</drawSize>
+		  <shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<uiIconScale>1.2</uiIconScale>
+		<techLevel>Spacer</techLevel>
+		<thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+		<weaponTags>
+		  <li>SpacerMeleeDecent</li>
+		</weaponTags>
+		<statBases>
+		  <WorkToMake>25000</WorkToMake>
+			<Mass>6</Mass>
+			<MarketValue>600</MarketValue>
+		</statBases>
+		<equippedStatOffsets>
+            <MoveSpeed>0.10</MoveSpeed>
+			<Beauty>10</Beauty> 
+        </equippedStatOffsets>
+		<relicChance>5</relicChance>
+		<costStuffCount>100</costStuffCount>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+	   <costList>
+			<Plasteel>30</Plasteel>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<Steel>100</Steel>
+		</costList>
+		<stuffCategories>
+		  <li>Metallic</li>
+		</stuffCategories>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+			<power>14</power>
+			<cooldownTime>1.9</cooldownTime>	
+			<armorPenetration>0.15</armorPenetration>	
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>2.5</cooldownTime>
+				<soundMeleeHit>ChainSword</soundMeleeHit>
+				<soundMeleeMiss>Smite</soundMeleeMiss>
+				<armorPenetration>0.13</armorPenetration>
+			</li>
+			<li>
+				<label>blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>1</cooldownTime>
+				<soundMeleeHit>ChainSword</soundMeleeHit>
+				<soundMeleeMiss>Smite</soundMeleeMiss>
+				<armorPenetration>0.29</armorPenetration>
+				<extraMeleeDamages>
+					<li>
+						<def>Cut</def>
+						<amount>4</amount>
+						<chance>0.75</chance>
+					</li>
+					<li>
+						<def>Cut</def>
+						<amount>4</amount>
+						<chance>0.75</chance>
+					</li>
+					<li>
+						<def>Cut</def>
+						<amount>4</amount>
+						<chance>0.75</chance>
+					</li>
+					<li>
+						<def>Cut</def>
+						<amount>4</amount>
+						<chance>0.75</chance>
+					</li>
+				</extraMeleeDamages>
+			</li>
+		</tools>
+		<recipeMaker>
+		  <recipeUsers Inherit="False">
+			<li>HP_ImperialFabricationBench</li>
+		  </recipeUsers>		
+		  <researchPrerequisite>GW_Chainswords</researchPrerequisite>
+		  <skillRequirements>
+			<Crafting>15</Crafting>
+			</skillRequirements>
+		  <displayPriority>410</displayPriority>
+		</recipeMaker>
+		<comps>
+            <!-- <li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"> -->
+				<!-- <maxNumberCraftable>3</maxNumberCraftable> -->
+			<!-- </li> -->
+        </comps>
+	  </ThingDef>
+	  
+		<!-- ====================== Powersword ===================== -->
+	  
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>GW_AOD_Powersword</defName>
+		<label>Astartes powersword</label>
+		<description>A large, Astartes-size sword. As well as being a deadly weapon in its own right, the blade is coated in a disruptive power field that disturbs the molecular bonds of objects it touches. This allows the blade to cut through armor and flesh more easily, greatly enhancing its lethality - while a powersword itself may not be as awe-inspiring as a chainsword, the sight of one’s comrade being cleaved in half with one strike certainly is. \n\nSimilar blades are used by the Eldar and Dark Eldar xenos races - one notable example would be the Diresword, which also contains an Eldar spirit in a Spirit Stone. When striking an opponent, the spirit also attempts to destroy the target’s mind, often resulting in instant death.</description>
+		<possessionCount>1</possessionCount>
+		<graphicData>
+		  <texPath>Things/Weapons/Melee/PowerSword2</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <drawSize>1.6, 1.6</drawSize>
+		  <shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<uiIconScale>1.2</uiIconScale>
+		<techLevel>Industrial</techLevel>
+		<thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+		<weaponTags>
+		    <li>SpacerMeleeDecent</li>
+			<li>GW_SM_Melee</li>
+		</weaponTags>
+		<tradeTags>
+		  <li>HPMelee</li>
+		</tradeTags>
+		<statBases>
+		  <WorkToMake>30000</WorkToMake>
+			<Mass>5</Mass>
+			<MarketValue>720</MarketValue>
+		</statBases>
+		<relicChance>2</relicChance>
+		<costStuffCount>100</costStuffCount>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<costList>
+		  	<Plasteel>70</Plasteel>
+			<ComponentSpacer>2</ComponentSpacer>
+			<HP_Adamantium>20</HP_Adamantium>
+		</costList>
+		<stuffCategories>
+		  <li>Metallic</li>
+		</stuffCategories>
+		<tools>
+		  <li>
+			<label>handle</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>14</power>
+			<cooldownTime>2</cooldownTime>
+			<armorPenetration>0.15</armorPenetration>
+		  </li>
+		  <li>
+			<label>edge</label>
+			<capacities>
+			  <li>Cut</li>
+			</capacities>
+			<power>30</power>
+			<cooldownTime>1.6</cooldownTime>
+			<armorPenetration>0.70</armorPenetration>
+			<soundMeleeHit>PowerSword</soundMeleeHit>
+			<soundMeleeMiss>Smite</soundMeleeMiss>
+		  </li>
+		  <li>
+			<label>blade</label>
+			<capacities>
+			  <li>Stab</li>
+			</capacities>
+			<power>33</power>
+			<cooldownTime>2</cooldownTime>
+			<armorPenetration>0.73</armorPenetration>
+			<soundMeleeHit>PowerSword</soundMeleeHit>
+			<soundMeleeMiss>Smite</soundMeleeMiss>
+		  </li>
+		</tools>
+		<recipeMaker>
+		  <recipeUsers Inherit="False">
+			<li>HP_ImperialFabricationBench</li>
+		  </recipeUsers>		
+		  <researchPrerequisite>GW_PowerMeleeWeapons</researchPrerequisite>
+		  <skillRequirements>
+			<Crafting>15</Crafting>
+			</skillRequirements>
+		  <displayPriority>410</displayPriority>
+		</recipeMaker>
+	  </ThingDef>
+	  
+		<!-- ====================== Relic PowerSword ===================== -->
+	  
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>GW_AOD_Relic_Powersword</defName>
+		<label>Astartes relic powersword</label>
+		<description>A powersword of older make and greater strength. As well as being a symbol to the Adeptus Astartes, such relics are often of greater quality than equivalents created in more recent years.\n\nIn the Age of the Imperium, much was forgotten, never to be relearned. The Adeptus Mechanicus is a symbol of that, having created a strange mixture of science and religion. They consider technology to be sacred, especially that of the Dark Age of Technology.</description>
+		<possessionCount>1</possessionCount>
+		<graphicData>
+		  <texPath>Things/Weapons/Melee/PowerSword</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <drawSize>1.5, 1.5</drawSize>
+		  <shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<uiIconScale>1.2</uiIconScale>
+		<techLevel>Spacer</techLevel>
+		<thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+		<weaponTags>
+		    <li>SpacerMeleeDecent</li>
+		</weaponTags>
+		<statBases>
+		  <WorkToMake>40000</WorkToMake>
+			<Mass>5</Mass>
+			<MarketValue>800</MarketValue>
+		</statBases>
+		<relicChance>2</relicChance>
+		<costStuffCount>100</costStuffCount>
+		<equippedAngleOffset>-45</equippedAngleOffset>
+	   <costList>
+		  	<Plasteel>80</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+			<HP_Adamantium>25</HP_Adamantium>
+		</costList>
+		<stuffCategories>
+		  <li>Metallic</li>
+		</stuffCategories>
+		<tools>
+		  <li>
+			<label>handle</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>14</power>
+			<cooldownTime>2</cooldownTime>
+			<armorPenetration>0.15</armorPenetration>
+		  </li>
+		  <li>
+			<label>edge</label>
+			<capacities>
+			  <li>Cut</li>
+			</capacities>
+			<power>32</power>
+			<cooldownTime>1.6</cooldownTime>
+			<armorPenetration>0.72</armorPenetration>
+			<soundMeleeHit>PowerSword</soundMeleeHit>
+			<soundMeleeMiss>Smite</soundMeleeMiss>
+		  </li>
+		  <li>
+			<label>blade</label>
+			<capacities>
+			  <li>Stab</li>
+			</capacities>
+			<power>35</power>
+			<cooldownTime>2</cooldownTime>
+			<armorPenetration>0.76</armorPenetration>
+			<soundMeleeHit>PowerSword</soundMeleeHit>
+			<soundMeleeMiss>Smite</soundMeleeMiss>
+		  </li>
+		</tools>
+		<recipeMaker>
+		  <recipeUsers Inherit="False">
+			<li>HP_ImperialFabricationBench</li>
+		  </recipeUsers>		
+		  <researchPrerequisite>GW_PowerMeleeWeapons</researchPrerequisite>
+		  <skillRequirements>
+			<Crafting>15</Crafting>
+			</skillRequirements>
+		  <displayPriority>410</displayPriority>
+		</recipeMaker>
+		<comps>
+            <!-- <li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"> -->
+				<!-- <maxNumberCraftable>3</maxNumberCraftable> -->
+			<!-- </li> -->
+        </comps>
+	  </ThingDef>
+	  
+	  <!-- ====================== Powerfist ===================== -->
+
+	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+		<defName>GW_AOD_Powerfist</defName>
+		<label>astartes power fist</label>
+		<description>A giant, armored fist designed to be worn over Space Marine Power Armor. Power fists further enhance the user’s strength, as well as coating the fist with a disruptive power field that weakens atomic bonds. The end result is a crushing strike able to pulverize armor and smash flesh and bone.\n\nPower fists are somewhat uncommon in normal Space Marine usage - larger power fists are generally worn by Space Marine Terminators, as the relatively slow action of a power fist punch may result in the user getting hit first. The heavy Terminator Armor should help with withstanding such attacks before striking back with incredible force.</description>
+		<possessionCount>1</possessionCount>
+		<graphicData>
+			<texPath>Things/Weapons/Melee/Fist</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.5, 1.5</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<uiIconScale>1.2</uiIconScale>
+		<modExtensions>
+			<li Class="VEF.Things.ThingDefExtension">
+				<weaponCarryDrawOffsets>
+					<north>
+						<drawOffset>(0.15,0,-0.18)</drawOffset>
+					</north>
+					<east>
+						<drawOffset>(0,0,-0.18)</drawOffset>
+					</east>
+					<south>
+						<drawOffset>(-0.15,0,-0.18)</drawOffset>
+					</south>
+					<west>
+						<drawOffset>(0,-0.1,-0.18)</drawOffset>
+					</west>
+				</weaponCarryDrawOffsets>
+			</li>
+		</modExtensions>		
+		<techLevel>Spacer</techLevel>
+			<thingSetMakerTags>
+				<li>RewardStandardQualitySuper</li>
+			</thingSetMakerTags>
+		<weaponTags>
+			<li>IndustrialMeleeDecent</li>
+			<li>GW_SM_Melee</li>
+		</weaponTags>
+		<tradeTags>
+			<li>HPMelee</li>
+		</tradeTags>
+		<statBases>
+			<WorkToMake>45000</WorkToMake>
+			<Mass>4</Mass>
+			<MarketValue>700</MarketValue>
+		</statBases>
+		<relicChance>2</relicChance>
+		<costList>
+			<Plasteel>110</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+			<HP_Adamantium>40</HP_Adamantium>
+		</costList>
+		<costStuffCount>90</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<tools>
+			<li>
+				<label>fist</label>
+				<labelUsedInLogging>false</labelUsedInLogging>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>38</power>
+				<cooldownTime>3</cooldownTime>
+				<armorPenetration>0.85</armorPenetration>
+			</li>
+			<li>
+				<label>grip</label>
+				<labelUsedInLogging>false</labelUsedInLogging>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>33</power>
+				<cooldownTime>1.9</cooldownTime>
+				<armorPenetration>0.55</armorPenetration>
+			</li>
+		</tools>
+		<recipeMaker>
+		<recipeUsers Inherit="False">
+			<li>HP_ImperialFabricationBench</li>
+		</recipeUsers>		
+		<researchPrerequisite>GW_PowerMeleeWeapons</researchPrerequisite>
+		<skillRequirements>
+			<Crafting>14</Crafting>
+		</skillRequirements>
+			<displayPriority>410</displayPriority>
+		</recipeMaker>
+	</ThingDef>
+	
+
+		<!--===== Thunder Hammer =====-->
+	
+	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+		<defName>GW_AOD_ThunderHammer</defName>
+		<label>stormlord thunder hammer</label>
+		<description>A heavy, towering, two-handed warhammer built for use by the Adeptus Astartes. Its weight is such that even the genetically-enhanced Space Marines cannot use it one-handed. However, the crushing power of a Thunder Hammer is without comparison among infantry weapons - this is further enhanced by its disruptive power field, which only activates on impact to release its energy at the correct time.\n\nThunder Hammers are comparatively rare compared to weapons such as chainswords. They are typically seen in the hands of the heavyweight Assault Terminators in conjunction with a Storm Shield for better protection.</description>
+		<possessionCount>1</possessionCount>
+		<graphicData>
+			<texPath>Things/Weapons/Melee/ThunderHammer</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.5, 1.5</drawSize>
+		</graphicData>
+		<thingSetMakerTags>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+		<recipeMaker>
+			<recipeUsers Inherit="False">
+				<li>HP_ImperialFabricationBench</li>
+			</recipeUsers>
+			<researchPrerequisite>GW_PowerMeleeWeapons</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>13</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>40000</WorkToMake>
+			<Mass>8</Mass>
+			<MarketValue>600</MarketValue>
+		</statBases>
+		<tradeTags>
+			<li>HPMelee</li>
+		</tradeTags>
+		<weaponTags>
+			<li>SpacerMeleeDecent</li>
+			<li>GW_SM_Melee</li>
+		</weaponTags>
+		<relicChance>2</relicChance>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<costList>
+			<Plasteel>150</Plasteel>
+			<ComponentSpacer>5</ComponentSpacer>
+			<HP_Adamantium>70</HP_Adamantium>
+		</costList>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.20</MoveSpeed>
+		</equippedStatOffsets>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>2.5</cooldownTime>
+				<armorPenetration>0.18</armorPenetration>
+			</li>
+			<li>
+				<label>head</label>
+				<labelUsedInLogging>false</labelUsedInLogging>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+					<power>37</power>
+					<cooldownTime>2.5</cooldownTime>
+				<soundMeleeHit>GW_SM_ThunderHammer</soundMeleeHit>
+				<armorPenetration>0.40</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+
+		<!-- ====================== Combat Knife ===================== -->
+
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>GW_AOD_CombatKnife</defName>
+		<label>Astartes combat knife</label>
+		<description>A large, heavy combat knife scaled for use by the Adeptus Astartes. While it is shorter and fairly crude compared to a Astartes chainsword or powersword, a Space Marine’s enhanced strength can use this weapon to great effect against unarmored or lightly-armored opponents. For a baseline human, the length of the blade would be equivalent to a sword. \n\nEvery Space Marine is issued a combat knife as soon as they recover from their gene-seed implants. While they are often used in ceremony, some Assault Marines still favor the Combat Knife in close combat.</description>
+		<possessionCount>1</possessionCount>
+		<graphicData>
+			<texPath>Things/Weapons/Melee/Combat-knife</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1.5, 1.5</drawSize>
+		</graphicData>
+		<uiIconScale>1.2</uiIconScale>
+		<techLevel>Industrial</techLevel>
+		<thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+		<weaponTags>
+			<li>GW_SM_Melee</li>
+		</weaponTags>
+		<tradeTags>
+			<li>HPMelee</li>
+		</tradeTags>
+		<statBases>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>1.5</Mass>
+			<MarketValue>300</MarketValue>
+		</statBases>
+		<equippedStatOffsets>
+            <MoveSpeed>0.20</MoveSpeed>
+        </equippedStatOffsets>
+		<costStuffCount>110</costStuffCount>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>2</cooldownTime>		
+				<armorPenetration>0.15</armorPenetration>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>1.6</cooldownTime>
+				<armorPenetration>0.19</armorPenetration>
+				<soundMeleeMiss>Smite</soundMeleeMiss>
+			</li>
+			<li>
+				<label>blade</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.20</armorPenetration>
+				<soundMeleeMiss>Smite</soundMeleeMiss>
+			</li>
+		</tools>
+		<recipeMaker>
+			<recipeUsers Inherit="False">
+				<li>HP_ImperialFabricationBench</li>
+			</recipeUsers>		
+			<researchPrerequisite>GW_Chainswords</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+			<displayPriority>409</displayPriority>
+		</recipeMaker>
+	  </ThingDef>
+</Defs>

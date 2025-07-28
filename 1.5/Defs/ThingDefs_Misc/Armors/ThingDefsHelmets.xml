@@ -78,24 +78,24 @@
 		</comps>
 		<equippedStatOffsets>
 			<AimingDelayFactor>-0.1</AimingDelayFactor>
-			<ShootingAccuracyPawn>1</ShootingAccuracyPawn>
 		</equippedStatOffsets>
 		<costList>
-			<ComponentIndustrial>3</ComponentIndustrial>
-			<Plasteel>20</Plasteel>						
-			<HP_Ceramite>10</HP_Ceramite>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>50</Plasteel>
+			<Steel>30</Steel>
+			<Uranium>10</Uranium>
+			<HP_Ceramite>5</HP_Ceramite>
 		</costList>
 		<statBases>
-			<WorkToMake>30000</WorkToMake>
-			<MaxHitPoints>260</MaxHitPoints>
-			<Mass>0.8</Mass>
-			<MarketValue>150</MarketValue>
+			<WorkToMake>15000</WorkToMake>
+			<MaxHitPoints>400</MaxHitPoints>
+			<Mass>1.5</Mass>
 			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.18</ArmorRating_Heat>
-			<Insulation_Cold>4</Insulation_Cold>
-			<Insulation_Heat>8</Insulation_Heat>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.7</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<recipeMaker>
@@ -178,26 +178,26 @@
 			</li>
 		</comps>
 		<equippedStatOffsets>
-			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
-			<MeleeHitChance>2</MeleeHitChance>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.2</AimingDelayFactor>
 		</equippedStatOffsets>
 		<costList>
-			<Plasteel>40</Plasteel>
-			<ComponentIndustrial>3</ComponentIndustrial>
 			<ComponentSpacer>1</ComponentSpacer>
-			<HP_Ceramite>40</HP_Ceramite>
+			<Plasteel>80</Plasteel>
+			<Steel>40</Steel>
+			<Uranium>15</Uranium>
+			<HP_Ceramite>10</HP_Ceramite>
 		</costList>
 		<statBases>
-			<WorkToMake>40000</WorkToMake>
-			<MaxHitPoints>300</MaxHitPoints>
-			<Mass>1</Mass>
-			<MarketValue>400</MarketValue>
+			<WorkToMake>20000</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Mass>2</Mass>
 			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>0.95</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.43</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.49</ArmorRating_Heat>
-			<Insulation_Cold>5</Insulation_Cold>
-			<Insulation_Heat>4</Insulation_Heat>
+			<ArmorRating_Sharp>1.30</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.90</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<recipeMaker>
@@ -256,26 +256,26 @@
 			</li>
 		</comps>
 		<equippedStatOffsets>
-			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
-			<ShootingAccuracyPawn>0.5</ShootingAccuracyPawn>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.2</AimingDelayFactor>
 		</equippedStatOffsets>
 		<costList>
-			<ComponentIndustrial>3</ComponentIndustrial>
 			<ComponentSpacer>1</ComponentSpacer>
-			<Plasteel>40</Plasteel>
-			<HP_Ceramite>40</HP_Ceramite>
+			<Plasteel>80</Plasteel>
+			<Steel>40</Steel>
+			<Uranium>15</Uranium>
+			<HP_Ceramite>10</HP_Ceramite>
 		</costList>
 		<statBases>
-			<WorkToMake>40000</WorkToMake>
-			<MaxHitPoints>300</MaxHitPoints>
-			<Mass>1</Mass>
-			<MarketValue>400</MarketValue>
+			<WorkToMake>20000</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Mass>2</Mass>
 			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>0.95</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.43</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.49</ArmorRating_Heat>
-			<Insulation_Cold>5</Insulation_Cold>
-			<Insulation_Heat>4</Insulation_Heat>
+			<ArmorRating_Sharp>1.30</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.90</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<recipeMaker>
@@ -600,26 +600,26 @@
 			<wornGraphicPath>Things/Apparel/Armor_Tacticus/Helmets/Tacticus_helmet_simple</wornGraphicPath>
 		</apparel>		
 		<equippedStatOffsets>
-			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
-			<MoveSpeed>-0.05</MoveSpeed>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.2</AimingDelayFactor>
 		</equippedStatOffsets>
 		<costList>
-			<ComponentIndustrial>2</ComponentIndustrial>
 			<ComponentSpacer>1</ComponentSpacer>
-			<Plasteel>40</Plasteel>
-			<HP_Ceramite>40</HP_Ceramite>
+			<Plasteel>100</Plasteel>
+			<Steel>50</Steel>
+			<Uranium>15</Uranium>
+			<HP_Ceramite>10</HP_Ceramite>
 		</costList>
 		<statBases>
-			<WorkToMake>45000</WorkToMake>
-			<MaxHitPoints>320</MaxHitPoints>
-			<Mass>2</Mass>
-			<MarketValue>600</MarketValue>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>700</MaxHitPoints>
+			<Mass>3</Mass>
 			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>1</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.47</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.58</ArmorRating_Heat>
-			<Insulation_Cold>6</Insulation_Cold>
-			<Insulation_Heat>5</Insulation_Heat>
+			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.10</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<recipeMaker>
@@ -627,6 +627,17 @@
 				<li>GW_SM_AstartesMedium</li>
 			</researchPrerequisites>
 		</recipeMaker>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>9</maskCount>
+				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+				<defaultPalette>
+					<colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+				</defaultPalette>
+			</li>
+		</comps>
 	</ThingDef>
 
 	<ThingDef ParentName="GW_SM_MKXHelmet_Base">
@@ -761,28 +772,30 @@
 		<recipeMaker>
 			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
 		</recipeMaker>
-		<equippedStatOffsets>
-			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
-			<MoveSpeed>-0.1</MoveSpeed>
-		</equippedStatOffsets>
 		<costList>
-			<ComponentSpacer>2</ComponentSpacer>
-			<Plasteel>65</Plasteel>
-			<HP_Ceramite>80</HP_Ceramite>
+			<ComponentSpacer>5</ComponentSpacer>
+			<Plasteel>350</Plasteel>
+			<Steel>300</Steel>
+			<Uranium>100</Uranium>
+			<HP_Ceramite>25</HP_Ceramite>
 		</costList>
 		<statBases>
-			<WorkToMake>50000</WorkToMake>
-			<MaxHitPoints>350</MaxHitPoints>
-			<Mass>1</Mass>
-			<MarketValue>500</MarketValue>
+			<WorkToMake>55000</WorkToMake>
+			<MaxHitPoints>900</MaxHitPoints>
+			<Mass>4</Mass>
 			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>1.05</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.50</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.55</ArmorRating_Heat>
-			<Insulation_Cold>4</Insulation_Cold>
-			<Insulation_Heat>6</Insulation_Heat>
-			<EquipDelay>2</EquipDelay>
+			<ArmorRating_Sharp>1.85</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.55</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.3</ArmorRating_Heat>
+			<Insulation_Cold>40</Insulation_Cold>
+			<Insulation_Heat>40</Insulation_Heat>
+			<EquipDelay>3</EquipDelay>
 		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.3</AimingDelayFactor>
+			<SocialImpact>0.35</SocialImpact>
+		</equippedStatOffsets>
 	</ThingDef>
 
 	<ThingDef ParentName="GW_SM_GravisHelmet_Base">
@@ -906,29 +919,30 @@
 		<recipeMaker>
 			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
 		</recipeMaker>
-		<equippedStatOffsets>
-			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
-			<MoveSpeed>-0.2</MoveSpeed>
-		</equippedStatOffsets>
 		<costList>
-			<ComponentIndustrial>10</ComponentIndustrial>
-			<ComponentSpacer>3</ComponentSpacer>
-			<Plasteel>80</Plasteel>
-			<HP_Ceramite>80</HP_Ceramite>
+			<ComponentSpacer>8</ComponentSpacer>
+			<Plasteel>400</Plasteel>
+			<Steel>300</Steel>
+			<Uranium>120</Uranium>
+			<HP_Ceramite>40</HP_Ceramite>
 		</costList>
 		<statBases>
-			<WorkToMake>55000</WorkToMake>
-			<MaxHitPoints>400</MaxHitPoints>
-			<Mass>1</Mass>
-			<MarketValue>750</MarketValue>
+			<WorkToMake>5500</WorkToMake>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<Mass>5</Mass>
 			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>1.20</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.52</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.62</ArmorRating_Heat>
-			<Insulation_Cold>6</Insulation_Cold>
-			<Insulation_Heat>4</Insulation_Heat>
-			<EquipDelay>2</EquipDelay>
+			<ArmorRating_Sharp>2.0</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.7</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.5</ArmorRating_Heat>
+			<Insulation_Cold>50</Insulation_Cold>
+			<Insulation_Heat>50</Insulation_Heat>
+			<EquipDelay>4</EquipDelay>
 		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.3</AimingDelayFactor>
+			<SocialImpact>0.50</SocialImpact>
+		</equippedStatOffsets>
 	</ThingDef>
 
 	<ThingDef ParentName="GW_SM_TerminatorHelmet">

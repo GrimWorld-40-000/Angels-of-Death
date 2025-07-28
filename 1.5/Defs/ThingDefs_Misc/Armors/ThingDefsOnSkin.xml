@@ -10,7 +10,12 @@
 			<recipeUsers Inherit="false">
 				<li>GW_SM_ArmorBench</li>
 			</recipeUsers>
-		</recipeMaker>        
+		</recipeMaker>
+        <costList>
+            <Plasteel>100</Plasteel>
+            <HP_Ceramite>20</HP_Ceramite>
+            <ComponentSpacer>2</ComponentSpacer>
+        </costList>
 		<uiIconScale>1.6</uiIconScale>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -67,25 +72,6 @@
         <graphicData>
             <texPath>Things/OnSkin/FibroLayer/FibroLayer_Male_south</texPath>
         </graphicData>
-		<costList>
-            <Steel>150</Steel>
-            <HP_Ceramite>50</HP_Ceramite>
-            <ComponentIndustrial>2</ComponentIndustrial>
-            <Synthread>50</Synthread>
-        </costList>
-		<statBases>
-            <MaxHitPoints>270</MaxHitPoints>
-            <WorkToMake>5000</WorkToMake>
-            <Mass>1.5</Mass>
-			<MarketValue>250</MarketValue>
-            <EquipDelay>1.5</EquipDelay>
-            <Flammability>0</Flammability>
-            <ArmorRating_Sharp>0.24</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.12</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.16</ArmorRating_Heat>
-			<Insulation_Cold>6</Insulation_Cold>
-			<Insulation_Heat>8</Insulation_Heat>
-        </statBases>
         <apparel>
             <wornGraphicPath>Things/OnSkin/FibroLayer/FibroLayer</wornGraphicPath>
             <tags>

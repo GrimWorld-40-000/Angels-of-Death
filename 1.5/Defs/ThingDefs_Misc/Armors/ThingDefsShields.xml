@@ -3,8 +3,7 @@
     <ThingDef ParentName="GWShieldBase" Name="GWCombatShieldBase">
         <defName>GW_SM_CombatShieldA</defName>
         <label>Combat shield(A)</label>
-        <description>A lighter version of the Storm Shield, using similar principles. While it is not as protective as a full-sized storm shield, it remains a strong defensive bulwark against enemy attacks, especially due to the power field coating the shield.
-		\n\n&lt;color=#FFFF00&gt;Parry Stat&lt;/color&gt;\nParry Chance: 10%\nParry Cooldown: 1.5s\nStun Duration: 2s\nDamage Reduction: 50%\nDamage Nullify Chance: 35%\nPose Break duration: 2s\nReflect Damage Chance: 3%\nReflect Multiplier: 100%\nKnockback: Yes\nReflect Projectile chance: 5%</description>
+        <description>A lighter version of the Storm Shield, using similar principles. While it is not as protective as a full-sized storm shield, it remains a strong defensive bulwark against enemy attacks, especially due to the power field coating the shield.</description>
         <graphicData>
             <texPath>Things/Apparel/ArmorUpgrade_Shields/Combat shields/Preview/CombatShield1_preview</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -22,7 +21,7 @@
             </li>
 			<li Class="GWParryShield.CompProperties_GW_Parryable">
 				<parryHediff>GW_CombatShieldParry</parryHediff>
-				<parryChance>0.10</parryChance> <!-- 0.20 = 20% -->
+				<parryChance>0.20</parryChance> <!-- 0.20 = 20% -->
 				<parryWindow>30</parryWindow>
 				<parryCooldown>90</parryCooldown>
 			</li>
@@ -30,28 +29,17 @@
         <thingCategories Inherit="False">
             <li>GW_Shield</li>
         </thingCategories>
-		<stuffCategories Inherit="False" />
-		<costList>
-			<Plasteel>80</Plasteel>
-			<HP_Ceramite>50</HP_Ceramite>
-			<HP_Adamantium>15</HP_Adamantium>
-		</costList>
+        <costStuffCount>60</costStuffCount>
         <statBases>
-			<WorkToMake>55000</WorkToMake>
-			<MarketValue>650</MarketValue>
-			<MaxHitPoints>300</MaxHitPoints>
             <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
-			<ArmorRating_Sharp>.52</ArmorRating_Sharp>
-			<ArmorRating_Blunt>.40</ArmorRating_Blunt>
-			<ArmorRating_Heat>.45</ArmorRating_Heat>
-            <Mass>5</Mass>
+            <Mass>7</Mass>
             <Bulk MayRequire="CETeam.CombatExtended">8</Bulk>
             <WornBulk MayRequire="CETeam.CombatExtended">5</WornBulk>
         </statBases>
         <equippedStatOffsets>
             <ReloadSpeed MayRequire="CETeam.CombatExtended">-0.2</ReloadSpeed>
             <MeleeHitChance>-1</MeleeHitChance>
-            <ShootingAccuracyPawn>-4</ShootingAccuracyPawn>
+            <ShootingAccuracyPawn>-0.15</ShootingAccuracyPawn>
             <AimingAccuracy MayRequire="CETeam.CombatExtended">-0.08</AimingAccuracy>
             <Suppressability MayRequire="CETeam.CombatExtended">-0.25</Suppressability>
             <MeleeCritChance MayRequire="CETeam.CombatExtended">-0.05</MeleeCritChance>
@@ -138,8 +126,7 @@
     <ThingDef ParentName="GWShieldBase" Name="GWStormShieldBase">
         <defName>GW_SM_StormShieldA</defName>
         <label>storm shield(A)</label>
-        <description>A heavy ballistic shield used by some Space Marine Terminators. As well as being a durable shield in its own right, it has an integrated energy field generator (similar to a power weapon), using gravitational forces to defeat incoming threats.\n\nThe Adeptus Custodes - the personal guard of the God-Emperor of Mankind - have also been known to use storm shields, and smaller versions are used by Daemonhunters of the Inquisition.
-		\n\n&lt;color=#FFFF00&gt;Parry Stat&lt;/color&gt;\nParry Chance: 15%\nParry Cooldown: 2s\nStun Duration: 2s\nDamage Reduction: 50%\nDamage Nullify Chance: 40%\nPose Break duration: 2s\nReflect Damage Chance: 5%\nReflect Multiplier: 100%\nKnockback: No\nReflect Projectile chance: 5%</description>
+        <description>A heavy ballistic shield used by some Space Marine Terminators. As well as being a durable shield in its own right, it has an integrated energy field generator (similar to a power weapon), using gravitational forces to defeat incoming threats.\n\nThe Adeptus Custodes - the personal guard of the God-Emperor of Mankind - have also been known to use storm shields, and smaller versions are used by Daemonhunters of the Inquisition.</description>
         <graphicData>
             <texPath>Things/Apparel/ArmorUpgrade_Shields/Storm shields/Preview/StormShield1_preview</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -157,7 +144,7 @@
             </li>
 			<li Class="GWParryShield.CompProperties_GW_Parryable">
 				<parryHediff>GW_StormShieldParry</parryHediff><!-- the parry hediff-->
-				<parryChance>0.15</parryChance> <!-- 0.20 = 20% -->
+				<parryChance>0.25</parryChance> <!-- 0.20 = 20% -->
 				<parryWindow>30</parryWindow><!-- duration of parry hediff-->
 				<parryCooldown>120</parryCooldown>
 			</li>
@@ -165,26 +152,16 @@
         <thingCategories Inherit="False">
             <li>GW_Shield</li>
         </thingCategories>
-		<stuffCategories Inherit="False" />		
-		<costList>
-			<Plasteel>100</Plasteel>
-			<HP_Ceramite>100</HP_Ceramite>
-			<HP_Adamantium>30</HP_Adamantium>
-		</costList>
+        <costStuffCount>90</costStuffCount>
         <statBases>
-			<WorkToMake>75000</WorkToMake>
             <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
-            <Mass>4</Mass>
-			<MarketValue>650</MarketValue>			
-			<MaxHitPoints>650</MaxHitPoints>			
-			<ArmorRating_Sharp>.55</ArmorRating_Sharp>
-			<ArmorRating_Blunt>.47</ArmorRating_Blunt>
-			<ArmorRating_Heat>.50</ArmorRating_Heat>
+            <Mass>12</Mass>
             <Bulk MayRequire="CETeam.CombatExtended">8</Bulk>
             <WornBulk MayRequire="CETeam.CombatExtended">5</WornBulk>
         </statBases>
         <equippedStatOffsets>
             <ReloadSpeed MayRequire="CETeam.CombatExtended">-0.3</ReloadSpeed>
+            <MeleeHitChance>-4</MeleeHitChance>
             <ShootingAccuracyPawn>-0.4</ShootingAccuracyPawn>
             <AimingAccuracy MayRequire="CETeam.CombatExtended">-0.2</AimingAccuracy>
             <Suppressability MayRequire="CETeam.CombatExtended">-0.5</Suppressability>
@@ -272,8 +249,7 @@
     <ThingDef ParentName="GWShieldBase">
         <defName>GW_SM_PrimarisShield</defName>
         <label>primaris shield</label>
-        <description>A Relic Shield, used by Primaris Space Marine Captains. A stronger version of the Storm Shield, it also contains the bones of Imperial martyrs, symbolizing their sacrifice. \n\nThe idea to use them was that of the Imperial Regent, Roboute Guilliman. He intended for the newly-forged Primaris Marines to gain a connection to the long and storied history of the Imperium.
-		\n\n&lt;color=#FFFF00&gt;Parry Stat&lt;/color&gt;\nParry Chance: 3%\nParry Cooldown: 1.5s\nStun Duration: 2s\nDamage Reduction: 50%\nDamage Nullify Chance: 50%\nPose Break duration: 2s\nReflect Damage Chance: 5%\nReflect Multiplier: 100%\nKnockback: No\nReflect Projectile chance: 5%</description>
+        <description>A Relic Shield, used by Primaris Space Marine Captains. A stronger version of the Storm Shield, it also contains the bones of Imperial martyrs, symbolizing their sacrifice. \n\nThe idea to use them was that of the Imperial Regent, Roboute Guilliman. He intended for the newly-forged Primaris Marines to gain a connection to the long and storied history of the Imperium.</description>
         <graphicData>
             <texPath>Things/Apparel/ArmorUpgrade_Shields/Primaris shields/Previews/PrimarisShield1_preview</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -291,7 +267,7 @@
             </li>
 			<li Class="GWParryShield.CompProperties_GW_Parryable">
 				<parryHediff>GW_PrimarisShieldParry</parryHediff>
-				<parryChance>0.03</parryChance> <!-- 0.50 = 50% -->
+				<parryChance>0.20</parryChance> <!-- 0.50 = 50% -->
 				<parryWindow>30</parryWindow>
 				<parryCooldown>90</parryCooldown>
 			</li>
@@ -322,22 +298,11 @@
                 <li>40kPrimaris_Shield</li>
             </tags>
         </apparel>
-		<stuffCategories Inherit="False" />
-		<costList>
-			<Plasteel>120</Plasteel>
-			<HP_Ceramite>50</HP_Ceramite>
-			<HP_Adamantium>15</HP_Adamantium>
-		</costList>
+        <costStuffCount>90</costStuffCount>
         <statBases>
-			<WorkToMake>55000</WorkToMake>			
-            <MaxHitPoints>350</MaxHitPoints>
-			<Mass>6</Mass>
-			<MarketValue>650</MarketValue>						
-			<StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>            
-            <ArmorRating_Sharp>.60</ArmorRating_Sharp>
-			<ArmorRating_Blunt>.35</ArmorRating_Blunt>
-			<ArmorRating_Heat>.45</ArmorRating_Heat>
-			<Bulk MayRequire="CETeam.CombatExtended">8</Bulk>
+            <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+            <Mass>12</Mass>
+            <Bulk MayRequire="CETeam.CombatExtended">8</Bulk>
             <WornBulk MayRequire="CETeam.CombatExtended">5</WornBulk>
         </statBases>
         <equippedStatOffsets>
@@ -371,8 +336,7 @@
     <ThingDef ParentName="GWShieldBase">
         <defName>GW_SM_SalamanderShield</defName>
         <label>salamander shield</label>
-        <description>WIP.
-		\n\n&lt;color=#FFFF00&gt;Parry Stat&lt;/color&gt;\nParry Chance: 20%\nParry Cooldown: 1.5s\nStun Duration: 2s\nDamage Reduction: 50%\nDamage Nullify Chance: 15%\nPose Break duration: 2s\nReflect Damage Chance: 5%\nReflect Multiplier: 100%\nKnockback: No\nReflect Projectile chance: 5%</description>
+        <description>WIP.</description>
         <graphicData>
             <texPath>Things/Apparel/ArmorUpgrade_Salamander/Shields/SalamandersShield_south</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -415,7 +379,7 @@
                 <scale>1.0</scale>
                 <childScale>1.0</childScale>
             </drawData>
-            <wornGraphicPath>Things/Apparel/ArmorUpgrade_Salamander/Shields/SalamandersShield_south</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/ArmorUpgrade_Salamander/Shields/SalamandersShield</wornGraphicPath>
             <developmentalStageFilter>Child, Adult</developmentalStageFilter>
             <tags>
                 <li>40kPrimaris_Shield</li>
