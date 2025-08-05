@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+        <!--Generic shoulder base. Every armor will have these things. Only add/change stuff in this if you want every armor to be affected-->
+    <ThingDef Abstract="true" Name="HP_AoD_ShoulderBase" ParentName="ArmorMachineableBase">
+        <techLevel>Spacer</techLevel>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>15</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="false">
+				<li>GW_SM_ArmorBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<uiIconScale>1.0</uiIconScale>
+		<thingCategories>
+			<li>GW_ArmorShoulderPad</li>
+		</thingCategories>
+        <tradeTags>
+            <li>HPArmor</li>
+        </tradeTags>
+		<apparel>
+			<drawData>
+				<defaultData>
+					<layer>75</layer> <!--70-77 is over helmet and under gun-->
+				</defaultData>
+                <scale>1</scale>
+                <childScale>1</childScale>
+            </drawData>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li MayRequire="ceteam.combatextended">Hands</li>
+			</bodyPartGroups>
+			<layers>
+				<li>GW_Shoulder</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+	    <modExtensions>
+            <li Class="CombatExtended.PartialArmorExt" MayRequire="ceteam.combatextended">
+                <stats>		  				  
+                    <li>
+                        <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+                        <parts>
+                            <li>Hand</li>
+                        </parts>
+                    </li>
+                    <li>
+                        <ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+                        <parts>
+                            <li>Hand</li>
+                        </parts>
+                    </li>
+                </stats>
+            </li>
+			<li Class="VEF.Apparels.ApparelExtension">
+                <isUnifiedApparel>true</isUnifiedApparel>
+				<hideHead>false</hideHead>
+            </li>
+	    </modExtensions>
+    </ThingDef>
+
+		<!--Scout-->
+
+	<ThingDef Abstract="True" Name="GW_SM_ScoutShoulderPads" ParentName="HP_AoD_ShoulderBase">
+		<recipeMaker>
+			<researchPrerequisite>GW_SM_AstartesFabrication</researchPrerequisite>
+		</recipeMaker>
+		<description>Shoulder pads for Space Marine Scout armor. Compared to the shoulder pads of other suits of Power Armor, they are relatively small, retaining the Scout’s stealthy profile. \n\nScout Marines are sometimes known to wear camouflage, to assist in concealment. It is a rare thing indeed for battleline Space Marines to wear camouflage - such a thing has not been widely seen since the days of the Horus Heresy.</description>
+		<statBases>
+			<WorkToMake>16000</WorkToMake>
+			<MaxHitPoints>240</MaxHitPoints>
+			<Mass>0.7</Mass>
+			<MarketValue>180</MarketValue>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.1</ArmorRating_Heat>
+			<Insulation_Cold>1</Insulation_Cold>
+			<Insulation_Heat>2</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.1</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<Plasteel>50</Plasteel>
+			<Steel>100</Steel>
+			<HP_Ceramite>20</HP_Ceramite>
+		</costList>
+		<apparel>
+			<tags>
+				<li>GW_Scout</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_ScoutShoulderPads">
+		<defName>GW_SM_ScoutShoulderPads_TypeA</defName>
+		<label>scout shoulder pads (a)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Scouts/Shoulder pads/Scout_sp_modelA_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Scouts/Shoulder pads/Scout_sp_modelA</wornGraphicPath>
+		</apparel>
+		<comps>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>3</maskCount> -->
+				<!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_ScoutShoulderPads">
+		<defName>GW_SM_ScoutShoulderPads_TypeB</defName>
+		<label>scout shoulder pads (b)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Scouts/Shoulder pads/Scout_sp_modelB_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Scouts/Shoulder pads/Scout_sp_modelB</wornGraphicPath>
+		</apparel>
+		<comps>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>3</maskCount> -->
+				<!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_ScoutShoulderPads">
+		<defName>GW_SM_ScoutShoulderPads_TypeC</defName>
+		<label>scout shoulder pads (c)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Scouts/Shoulder pads/Scout_sp_modelC_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Scouts/Shoulder pads/Scout_sp_modelC</wornGraphicPath>
+		</apparel>
+		<comps>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>3</maskCount> -->
+				<!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
+		</comps>
+	</ThingDef>
+
+		<!--MKX Reiver-->
+
+	<ThingDef Abstract="True" Name="GW_SM_MKXReiverShoulderPads" ParentName="HP_AoD_ShoulderBase">
+		<description>Shoulder pads of Reiver power armor. The left pauldron is noticeably larger than the right - this is because most Reivers with pistols also wield a melee weapon in their left hand, so the larger pauldron helps protect them in melee combat. \n\nThe Space Marine remnants above this rimworld are roughly Chapter-strength, with those not stationed on the planet's surface instead residing in orbit. However, the actual composition of the Marine remnant is a mish-mash of multiple chapters pulled together, a far cry from the strict organization of the Codex Astartes. \n\nThe Chapter Master leading them is painfully aware of the daunting task facing him. While the likelihood of outright mutiny is very low, the cultural and doctrinal friction between the Marines is constantly grinding away at their combat effectiveness.</description>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesLight</researchPrerequisite>
+        </recipeMaker>
+		<statBases>
+			<WorkToMake>22000</WorkToMake>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Mass>1.0</Mass>
+			<MarketValue>300</MarketValue>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.14</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.16</ArmorRating_Heat>
+			<Insulation_Cold>2</Insulation_Cold>
+			<Insulation_Heat>4</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<MeleeHitChance>2</MeleeHitChance>
+		</equippedStatOffsets>
+		<costList>
+			<Plasteel>75</Plasteel>
+			<Steel>125</Steel>
+			<HP_Ceramite>80</HP_Ceramite>
+		</costList>
+		<apparel>
+			<tags>
+				<li>GW_Reiver</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKXReiverShoulderPads">
+		<defName>GW_SM_ReiverShoulderPads_TypeA</defName>
+		<label>reiver shoulder pads (a)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Reiver/Shoulder pads/Reiver_sp_modelA_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Reiver/Shoulder pads/Reiver_sp_modelA</wornGraphicPath>
+		</apparel>
+		<comps>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>4</maskCount> -->
+				<!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKXReiverShoulderPads">
+		<defName>GW_SM_ReiverShoulderPads_TypeB</defName>
+		<label>reiver shoulder pads (b)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Reiver/Shoulder pads/Reiver_sp_modelB_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Reiver/Shoulder pads/Reiver_sp_modelB</wornGraphicPath>
+		</apparel>
+		<comps>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>4</maskCount> -->
+				<!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKXReiverShoulderPads">
+		<defName>GW_SM_ReiverShoulderPads_TypeC</defName>
+		<label>reiver shoulder pads (c)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Reiver/Shoulder pads/Reiver_sp_modelC_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Reiver/Shoulder pads/Reiver_sp_modelC</wornGraphicPath>
+		</apparel>
+		<comps>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>4</maskCount> -->
+				<!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="GW_SM_MKXReiverShoulderPads">
+		<defName>GW_SM_ReiverShoulderPads_TypeD</defName>
+		<label>reiver shoulder pads (d)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Reiver/Shoulder pads/Reiver_sp_modelD_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Reiver/Shoulder pads/Reiver_sp_modelD</wornGraphicPath>
+		</apparel>
+		<comps>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>4</maskCount> -->
+				<!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
+		</comps>
+	</ThingDef>
+
+		<!--MKX Phobos-->
+
+	<ThingDef Abstract="True" Name="GW_SM_MKXPhobosShoulderPads" ParentName="HP_AoD_ShoulderBase">
+		<description>Shoulder pads, built for Mk X Phobos Power Armor. While large shoulder pads provide protection when facing the enemy side-on in a shooting stance, it also provides ample room to show their Chapter heraldry, like the knights of old. \n\nOne of the archotechs, having noted the seemingly-impossible arrival of the wrecked Imperial fleet, skipped a large quantity of helpful materials onto the voidships, as well as some samples of archotechnology such as advanced prosthetic limbs. The Imperial forces, regarding this as a show of force, were greatly intimidated by this move - while the resources were used to repair the ships, the limbs and other equipment remained untouched except for study..</description>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesLight</researchPrerequisite>
+        </recipeMaker>
+		<statBases>
+			<WorkToMake>22000</WorkToMake>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Mass>1.0</Mass>
+			<MarketValue>300</MarketValue>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.14</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.16</ArmorRating_Heat>
+			<Insulation_Cold>2</Insulation_Cold>
+			<Insulation_Heat>4</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<ShootingAccuracyPawn>0.5</ShootingAccuracyPawn>
+		</equippedStatOffsets>
+		<costList>
+			<Plasteel>75</Plasteel>
+			<Steel>125</Steel>
+			<HP_Ceramite>80</HP_Ceramite>
+		</costList>
+		<apparel>
+			<tags>
+				<li>GW_Phobos</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKXPhobosShoulderPads">
+		<defName>GW_SM_PhobosShoulderPads_TypeA</defName>
+		<label>phobos shoulder pads (a)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Phobos/Shoulder pads/Phobos_sp_modelA_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Phobos/Shoulder pads/Phobos_sp_modelA</wornGraphicPath>
+		</apparel>
+		<comps>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>4</maskCount> -->
+				<!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKXPhobosShoulderPads">
+		<defName>GW_SM_PhobosShoulderPads_TypeB</defName>
+		<label>phobos shoulder pads (b)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Phobos/Shoulder pads/Phobos_sp_modelB_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Phobos/Shoulder pads/Phobos_sp_modelB</wornGraphicPath>
+		</apparel>
+		<comps>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>4</maskCount> -->
+				<!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKXPhobosShoulderPads">
+		<defName>GW_SM_PhobosShoulderPads_TypeC</defName>
+		<label>phobos shoulder pads (c)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Phobos/Shoulder pads/Phobos_sp_modelC_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Phobos/Shoulder pads/Phobos_sp_modelC</wornGraphicPath>
+		</apparel>
+		<comps>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>4</maskCount> -->
+				<!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
+		</comps>
+	</ThingDef>
+
+        <!--MKIV-->
+
+	<ThingDef Abstract="True" Name="GW_SM_MKIVShoulderPads" ParentName="HP_AoD_ShoulderBase">
+		<description>Shoulder pads built for Mk IV Maximus-pattern Power Armor. \n\nDuring and after the unification of Terra, the God-Emperor of Mankind began the First Founding - the creation of the Primarchs and the legions of transhuman Space Marines based on them. Twenty Primarchs were made, and so twenty Legions were forged - two failed, and nine fell to Chaos.</description>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
+        </recipeMaker>
+		<statBases>
+			<WorkToMake>10000</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Mass>3</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.5</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<costList>
+			<ComponentSpacer>5</ComponentSpacer>
+			<Plasteel>250</Plasteel>
+			<Steel>180</Steel>
+			<Uranium>90</Uranium>
+			<HP_Ceramite>30</HP_Ceramite>
+		</costList>
+		<apparel>
+			<tags>
+				<li>GW_Maximus</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKIVShoulderPads">
+		<defName>GW_SM_MaximusShoulderPads_TypeA</defName>
+		<label>maximus shoulder pads (a)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Maximus/Shoulder pads/Maximus_sp_modelA_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Maximus/Shoulder pads/Maximus_sp_modelA</wornGraphicPath>
+		</apparel>
+		<comps>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>6</maskCount> -->
+				<!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKIVShoulderPads">
+		<defName>GW_SM_MaximusShoulderPads_TypeB</defName>
+		<label>maximus shoulder pads (b)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Maximus/Shoulder pads/Maximus_sp_modelB_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Maximus/Shoulder pads/Maximus_sp_modelB</wornGraphicPath>
+		</apparel>
+		<comps>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>10</maskCount> -->
+				<!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKIVShoulderPads">
+		<defName>GW_SM_MaximusShoulderPads_TypeC</defName>
+		<label>maximus shoulder pads (c)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Maximus/Shoulder pads/Maximus_sp_modelC_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Maximus/Shoulder pads/Maximus_sp_modelC</wornGraphicPath>
+		</apparel>
+		<comps>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>6</maskCount> -->
+				<!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
+		</comps>
+	</ThingDef>
+
+        <!--MKVI-->
+
+	<ThingDef Abstract="True" Name="GW_SM_MKVIShoulderPads" ParentName="HP_AoD_ShoulderBase">
+		<description>Shoulder pads built for Mk VI Corvus-pattern Power Armor. \n\nAs a loyalist legion, the Raven Guard was fought in the Horus Heresy, but were shattered and broken during the Drop Site Massacre. The Primarch Corvus Corax, seeking a way to rebuild his legion, attempted to rush the process with some guidance from the Emperor, but sabotage by Alpha Legion infiltrators caused the new Marines to mutate into monstrosities. \n\nAfter the Heresy ended, Corvus Corax administered the Emperor’s Peace to the surviving mutants, even those that had remained loyal. Wracked with guilt, he then plunged into the Eye of Terror on a mission of vengeance and has never been seen since.</description>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
+        </recipeMaker>
+		<statBases>
+			<WorkToMake>10000</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Mass>3</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.5</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<costList>
+			<ComponentSpacer>5</ComponentSpacer>
+			<Plasteel>250</Plasteel>
+			<Steel>180</Steel>
+			<Uranium>90</Uranium>
+			<HP_Ceramite>30</HP_Ceramite>
+		</costList>
+		<apparel>
+			<tags>
+				<li>GW_Corvus</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKVIShoulderPads">
+		<defName>GW_SM_CorvusShoulderPads_TypeA</defName>
+		<label>corvus shoulder pads (a)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Corvus/Shoulder pads/Corvus_sp_modelA_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Corvus/Shoulder pads/Corvus_sp_modelA</wornGraphicPath>
+		</apparel>
+		<comps>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>2</maskCount> -->
+				<!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKVIShoulderPads">
+		<defName>GW_SM_CorvusShoulderPads_TypeB</defName>
+		<label>corvus shoulder pads (b)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Corvus/Shoulder pads/Corvus_sp_modelB_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Corvus/Shoulder pads/Corvus_sp_modelB</wornGraphicPath>
+		</apparel>
+		<comps>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>4</maskCount> -->
+				<!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKVIShoulderPads">
+		<defName>GW_SM_CorvusShoulderPads_TypeC</defName>
+		<label>corvus shoulder pads (c)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Corvus/Shoulder pads/Corvus_sp_modelC_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Corvus/Shoulder pads/Corvus_sp_modelC</wornGraphicPath>
+		</apparel>
+		<comps>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>4</maskCount> -->
+				<!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="GW_SM_MKVIShoulderPads">
+		<defName>GW_SM_CorvusShoulderPads_TypeD</defName>
+		<label>corvus shoulder pads (d)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Corvus/Shoulder pads/Corvus_sp_modelD_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Corvus/Shoulder pads/Corvus_sp_modelD</wornGraphicPath>
+		</apparel>
+		<comps>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>5</maskCount> -->
+				<!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
+		</comps>
+	</ThingDef>
+
+        <!--MKVII-->
+	<ThingDef Abstract="True" Name="GW_SM_MKVIIShoulderPads" ParentName="HP_AoD_ShoulderBase">
+		<description>Middleweight shoulder pads, built for Mk VII Aquila-pattern Power Armor. \n\nWhile most recruitment from rimworlds is for the Astra Militarum, a select few are chosen to be added to the Adeptus Astartes. Taken by choice or through kidnapping, the recruits are thoroughly indoctrinated into proper Space Marines, their very identities obliterated and replaced with a more fitting persona. \n\nAs far as they know, they were always Imperial.</description>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
+        </recipeMaker>
+		<statBases>
+			<WorkToMake>10000</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Mass>3</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.5</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<costList>
+			<ComponentSpacer>5</ComponentSpacer>
+			<Plasteel>250</Plasteel>
+			<Steel>180</Steel>
+			<Uranium>90</Uranium>
+			<HP_Ceramite>30</HP_Ceramite>
+		</costList>
+		<apparel>
+			<tags>
+				<li>GW_Aquilla</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKVIIShoulderPads">
+		<defName>GW_SM_AquillaShoulderPads_TypeA</defName>
+		<label>aquila shoulder pads (a)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Aquilla/Shoulder pads/Aquilla_sp_modelA_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Aquilla/Shoulder pads/Aquilla_sp_modelA</wornGraphicPath>
+		</apparel>
+		<comps>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>6</maskCount> -->
+				<!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKVIIShoulderPads">
+		<defName>GW_SM_AquillaShoulderPads_TypeB</defName>
+		<label>aquila shoulder pads (b)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Aquilla/Shoulder pads/Aquilla_sp_modelB_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Aquilla/Shoulder pads/Aquilla_sp_modelB</wornGraphicPath>
+		</apparel>
+		<comps>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>6</maskCount> -->
+				<!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKVIIShoulderPads">
+		<defName>GW_SM_AquillaShoulderPads_TypeC</defName>
+		<label>aquila shoulder pads (c)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Aquilla/Shoulder pads/Aquilla_sp_modelC_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Aquilla/Shoulder pads/Aquilla_sp_modelC</wornGraphicPath>
+		</apparel>
+		<comps>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>6</maskCount> -->
+				<!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
+		</comps>
+	</ThingDef>
+
+		<!--MKX Tacticus-->
+	<ThingDef Abstract="True" Name="GW_SM_MKXShoulderPads" ParentName="HP_AoD_ShoulderBase">
+		<description>Power Armor shoulder pads of the Mk X Tacticus pattern. \n\nSome Space Marine chapters were initially slow to adopt Primaris Marines as their own, such as the Space Wolves. Indeed, there were even incidents of grave violence, such as the slaying of a Custodian and his delivery of Primaris Marines by the Black Templars.</description>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
+        </recipeMaker>
+        <statBases>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>260</MaxHitPoints>
+			<Mass>2.0</Mass>
+			<MarketValue>400</MarketValue>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.22</ArmorRating_Heat>
+			<Insulation_Cold>3</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<MoveSpeed>-0.1</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<Plasteel>90</Plasteel>
+			<Steel>150</Steel>
+			<HP_Ceramite>100</HP_Ceramite>
+		</costList>
+		<apparel>
+			<drawData>
+                <scale>1</scale>
+                <childScale>1</childScale>
+            </drawData>
+			<tags>
+				<li>GW_Tacticus</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKXShoulderPads">
+		<defName>GW_SM_TacticusShoulderPads_TypeA</defName>
+		<label>tacticus shoulder pads (a)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Tacticus/Shoulder pads/Tacticus_sp_modelA_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Tacticus/Shoulder pads/Tacticus_sp_modelA</wornGraphicPath>
+		</apparel>
+        <comps>
+            <!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+                <!-- <maskCount>6</maskCount> -->
+                <!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+                <!-- <defaultPalette> -->
+                    <!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+                <!-- </defaultPalette> -->
+            <!-- </li> -->
+        </comps>
+    </ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKXShoulderPads">
+		<defName>GW_SM_TacticusShoulderPads_TypeB</defName>
+		<label>tacticus shoulder pads (b)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Tacticus/Shoulder pads/Tacticus_sp_modelB_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Tacticus/Shoulder pads/Tacticus_sp_modelB</wornGraphicPath>
+		</apparel>
+		<comps>
+            <!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+                <!-- <maskCount>6</maskCount> -->
+                <!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+                <!-- <defaultPalette> -->
+                    <!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+                <!-- </defaultPalette> -->
+            <!-- </li> -->
+        </comps>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKXShoulderPads">
+		<defName>GW_SM_TacticusShoulderPads_TypeC</defName>
+		<label>tacticus shoulder pads (c)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Tacticus/Shoulder pads/Tacticus_sp_modelC_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Tacticus/Shoulder pads/Tacticus_sp_modelC</wornGraphicPath>
+		</apparel>
+		<comps>
+            <!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+                <!-- <maskCount>3</maskCount> -->
+                <!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+                <!-- <defaultPalette> -->
+                    <!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+                <!-- </defaultPalette> -->
+            <!-- </li> -->
+        </comps>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKXShoulderPads">
+		<defName>GW_SM_TacticusShoulderPads_TypeD</defName>
+		<label>tacticus shoulder pads (d)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Tacticus/Shoulder pads/Tacticus_sp_modelD_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Tacticus/Shoulder pads/Tacticus_sp_modelD</wornGraphicPath>
+		</apparel>
+		<comps>
+            <!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+                <!-- <maskCount>6</maskCount> -->
+                <!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+                <!-- <defaultPalette> -->
+                    <!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+                <!-- </defaultPalette> -->
+            <!-- </li> -->
+        </comps>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKXShoulderPads">
+		<defName>GW_SM_TacticusShoulderPads_NightLord</defName>
+		<label>Night lord shoulder pads (a)</label>
+		<description>Mk X Tacticus shoulder pads, modified to fit the Night Lords. \n\nThe Night Lords, though they are Chaos Space Marines, do not worship Chaos as the others do. They desire only power, and if that power is gifted from the pleased forces of Chaos, then they would not reject it. \n\nTheir common assertion that they are "untainted" by Chaos is, however, more doubtful.</description>
+		<graphicData>
+			<texPath>Things/Apparel/ArmorUpgrade_NightLords/Shoulder pads/NightLordsTacticus_sp_modelA_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/ArmorUpgrade_NightLords/Shoulder pads/NightLordsTacticus_sp_modelA</wornGraphicPath>
+		</apparel>
+		<comps>
+            <!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+                <!-- <maskCount>3</maskCount> -->
+                <!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+                <!-- <defaultPalette> -->
+                    <!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+                <!-- </defaultPalette> -->
+            <!-- </li> -->
+        </comps>
+		<researchPrerequisites>
+			<li>GW_SM_NightLord</li>
+			<li>GW_SM_AstartesMedium</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKXShoulderPads">
+		<defName>GW_SM_TacticusShoulderPads_Salamander</defName>
+		<label>Salamander shoulder pads (a)</label>
+		<description>WIP.</description>
+		<graphicData>
+			<texPath>Things/Apparel/ArmorUpgrade_Salamander/Shoulders/SalamanderGravis_sp_modelA_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/ArmorUpgrade_Salamander/Shoulders/SalamanderGravis_sp_modelA</wornGraphicPath>
+		</apparel>
+		<comps>
+            <!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+                <!-- <maskCount>4</maskCount> -->
+                <!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+                <!-- <defaultPalette> -->
+                    <!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+                <!-- </defaultPalette> -->
+            <!-- </li> -->
+        </comps>
+		<researchPrerequisites>
+			<li>GW_SM_Salamander</li>
+			<li>GW_SM_AstartesMedium</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+		<!--Gravis-->
+	<ThingDef Abstract="True" Name="GW_SM_GravisShoulderPads" ParentName="HP_AoD_ShoulderBase">
+		<description>Heavy shoulder pads of the Gravis pattern, protecting the user's shoulders from enemy attack. \n\nEven Power Armor does not protect against everything, and Space Marine recruitment is struggling to replace the casualties they take. Many Marines have been claimed by the pulse-charged rounds of glitterworld cataphracts or the infamous Doomsday Rocket Launcher. Others still have been isolated and ground down by outlanders and pirates, or hacked to pieces by tribals.</description>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+        </recipeMaker>
+        <statBases>
+			<WorkToMake>30000</WorkToMake>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Mass>2.0</Mass>
+			<MarketValue>450</MarketValue>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>0.55</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.40</ArmorRating_Heat>
+			<Insulation_Cold>2</Insulation_Cold>
+			<Insulation_Heat>4</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<MoveSpeed>-0.2</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<Plasteel>150</Plasteel>
+			<Steel>200</Steel>
+			<HP_Ceramite>100</HP_Ceramite>
+		</costList>
+		<apparel>
+			<tags>
+				<li>PrestigeCombatGear</li>
+				<li>GW_Gravis</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_GravisShoulderPads">
+		<defName>GW_SM_GravisShoulderPads_TypeA</defName>
+		<label>gravis shoulder pads (a)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Gravis/Shoulder pads/Gravis_sp_modelA_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Gravis/Shoulder pads/Gravis_sp_modelA</wornGraphicPath>
+		</apparel>
+        <comps>
+            <!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+                <!-- <maskCount>6</maskCount> -->
+                <!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+                <!-- <defaultPalette> -->
+                    <!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+                <!-- </defaultPalette> -->
+            <!-- </li> -->
+        </comps>
+    </ThingDef>
+
+	<ThingDef ParentName="GW_SM_GravisShoulderPads">
+		<defName>GW_SM_GravisShoulderPads_TypeB</defName>
+		<label>gravis shoulder pads (b)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Gravis/Shoulder pads/Gravis_sp_modelB_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Gravis/Shoulder pads/Gravis_sp_modelB</wornGraphicPath>
+		</apparel>
+		<comps>
+            <!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+                <!-- <maskCount>6</maskCount> -->
+                <!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+                <!-- <defaultPalette> -->
+                    <!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+                <!-- </defaultPalette> -->
+            <!-- </li> -->
+        </comps>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_GravisShoulderPads">
+		<defName>GW_SM_GravisShoulderPads_TypeC</defName>
+		<label>gravis shoulder pads (c)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Gravis/Shoulder pads/Gravis_sp_modelC_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Gravis/Shoulder pads/Gravis_sp_modelC</wornGraphicPath>
+		</apparel>
+		<comps>
+            <!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+                <!-- <maskCount>6</maskCount> -->
+                <!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+                <!-- <defaultPalette> -->
+                    <!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+                <!-- </defaultPalette> -->
+            <!-- </li> -->
+        </comps>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_GravisShoulderPads">
+		<defName>GW_SM_GravisShoulderPads_TypeD</defName>
+		<label>gravis shoulder pads (d)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Gravis/Shoulder pads/Gravis_sp_modelD_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Gravis/Shoulder pads/Gravis_sp_modelD</wornGraphicPath>
+		</apparel>
+		<comps>
+            <!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+                <!-- <maskCount>5</maskCount> -->
+                <!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+                <!-- <defaultPalette> -->
+                    <!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+                <!-- </defaultPalette> -->
+            <!-- </li> -->
+        </comps>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_GravisShoulderPads">
+		<defName>GW_SM_GravisShoulderPads_TypeE</defName>
+		<label>gravis shoulder pads (e)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Gravis/Shoulder pads/Gravis_sp_modelE_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Gravis/Shoulder pads/Gravis_sp_modelE</wornGraphicPath>
+		</apparel>
+		<comps>
+            <!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+                <!-- <maskCount>4</maskCount> -->
+                <!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+                <!-- <defaultPalette> -->
+                    <!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+                <!-- </defaultPalette> -->
+            <!-- </li> -->
+        </comps>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_GravisShoulderPads">
+		<defName>GW_SM_GravisShoulderPads_NightLord</defName>
+		<label>Night lord shoulder pads (b)</label>
+		<description>Heavy Mk X Gravis shoulder pads, adjusted to befit the tastes of the Night Lords. \n\nThough Konrad Curze wanted his Legion to be made of the best of Nostromo, the corrupt nobility sent him criminals instead. This led the Night Haunter to hate his Legion - to him, they were the same kind of scum that he wanted to wipe off the face of the galaxy.</description>
+		<graphicData>
+			<texPath>Things/Apparel/ArmorUpgrade_NightLords/Shoulder pads/NightLordsGravis_sp_modelA_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/ArmorUpgrade_NightLords/Shoulder pads/NightLordsGravis_sp_modelA</wornGraphicPath>
+		</apparel>
+		<comps>
+            <!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+                <!-- <maskCount>2</maskCount> -->
+                <!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+                <!-- <defaultPalette> -->
+                    <!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+                <!-- </defaultPalette> -->
+            <!-- </li> -->
+        </comps>
+		<researchPrerequisites>
+			<li>GW_SM_NightLord</li>
+			<li>GW_SM_AstartesHeavy</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+    	<!--Terminator-->
+	<ThingDef Abstract="True" Name="GW_SM_TerminatorShoulderPads" ParentName="HP_AoD_ShoulderBase">
+		<description>Large and heavy shoulder pads, built for Terminator Armor. It is just as durable - and expensive - as the plates themselves. \n\nAccording to the Codex Astartes, only the veteran 1st Company has access to Terminator Armor, and even then, one must earn a rare award known as the “Crux Terminatus” to wear it. \n\nIt is said that the Crux Terminatus contains a tiny shard of the One True Armor - the Power Armor once worn by the God-Emperor of Mankind.</description>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+        </recipeMaker>
+        <statBases>
+			<WorkToMake>35000</WorkToMake>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Mass>2.0</Mass>
+			<MarketValue>550</MarketValue>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.50</ArmorRating_Heat>
+			<Insulation_Cold>7</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<MoveSpeed>-0.2</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<Plasteel>170</Plasteel>
+			<Steel>220</Steel>
+			<HP_Ceramite>120</HP_Ceramite>
+			<HP_Adamantium>5</HP_Adamantium>
+		</costList>
+		<apparel>
+			<drawData>
+				<defaultData>
+					<offset>(0.0, 0.0, -0.1)</offset>
+				</defaultData>
+            </drawData>
+			<tags>
+				<li>PrestigeCombatGear</li>
+				<li>GW_Terminator</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_TerminatorShoulderPads">
+		<defName>GW_SM_TerminatorShoulderPads_TypeA</defName>
+		<label>terminator shoulder pads (a)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_IndomitusTerminator/Shoulder pads/Indomitus_sp_modelA_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_IndomitusTerminator/Shoulder pads/Indomitus_sp_modelA</wornGraphicPath>
+		</apparel>
+        <comps>
+            <!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+                <!-- <maskCount>2</maskCount> -->
+                <!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+                <!-- <defaultPalette> -->
+                    <!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+                <!-- </defaultPalette> -->
+            <!-- </li> -->
+        </comps>
+    </ThingDef>
+
+	<ThingDef ParentName="GW_SM_TerminatorShoulderPads">
+		<defName>GW_SM_TerminatorShoulderPads_TypeB</defName>
+		<label>terminator shoulder pads (b)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_IndomitusTerminator/Shoulder pads/Indomitus_sp_modelB_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_IndomitusTerminator/Shoulder pads/Indomitus_sp_modelB</wornGraphicPath>
+		</apparel>
+        <comps>
+            <!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+                <!-- <maskCount>4</maskCount> -->
+                <!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+                <!-- <defaultPalette> -->
+                    <!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+                <!-- </defaultPalette> -->
+            <!-- </li> -->
+        </comps>
+    </ThingDef>
+
+	<ThingDef ParentName="GW_SM_TerminatorShoulderPads">
+		<defName>GW_SM_TerminatorShoulderPads_TypeC</defName>
+		<label>terminator shoulder pads (c)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_IndomitusTerminator/Shoulder pads/Indomitus_sp_modelC_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_IndomitusTerminator/Shoulder pads/Indomitus_sp_modelC</wornGraphicPath>
+		</apparel>
+        <comps>
+            <!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+                <!-- <maskCount>4</maskCount> -->
+                <!-- <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets> -->
+                <!-- <defaultPalette> -->
+                    <!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+                <!-- </defaultPalette> -->
+            <!-- </li> -->
+        </comps>
+    </ThingDef>
+</Defs>

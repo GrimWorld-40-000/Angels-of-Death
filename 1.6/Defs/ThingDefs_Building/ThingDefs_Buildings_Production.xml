@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="GrimworldFabricationBenchBase">
+        <defName>HP_ImperialFabricationBench</defName>
+        <label>astartes weapon workbench</label>
+        <description>A workbench for assembling Astartes-grade weaponry. \n\nThese weapons are much too big for a baseline human to handle normally, but with Power Armor, a skilled user can cut a swathe through the galaxy.</description>
+        <costList>
+            <Steel>100</Steel>
+            <Plasteel>50</Plasteel>
+            <ComponentIndustrial>6</ComponentIndustrial>
+            <ComponentSpacer>1</ComponentSpacer>
+            <HP_Ceramite>15</HP_Ceramite>
+        </costList>
+        <recipes>
+            <li>GW_Make_ComponentRelic</li>
+        </recipes>
+        <graphicData>
+            <texPath>Things/Building/Production/AstartesWeaponBench/40KBenches_Astartes_Weapon</texPath>
+        </graphicData>
+        <researchPrerequisites>
+            <li>GW_SM_AstartesFabrication</li>
+        </researchPrerequisites>
+    </ThingDef>
+
+    <ThingDef ParentName="GrimworldFabricationBenchBase">
+        <defName>GW_SM_ArmorBench</defName>
+        <label>astartes armor workbench</label>
+        <description>A workbench for assembling Astartes-grade armor. \n\nThe first suits of Power Armor were worn by the techno-barbarians of Terra, and were adopted for use by the Emperor of Mankind’s Thunder Warriors and their Space Marine replacements.</description>
+        <costList>
+            <Steel>100</Steel>
+            <Plasteel>50</Plasteel>
+            <ComponentIndustrial>6</ComponentIndustrial>
+            <ComponentSpacer>1</ComponentSpacer>
+            <HP_Ceramite>15</HP_Ceramite>
+        </costList>
+        <recipes>
+            <li>GW_Make_ComponentRelic</li>
+        </recipes>
+        <graphicData>
+            <texPath>Things/Building/Production/AstartesArmorBench/40KBenches_Astartes_Armor</texPath>
+        </graphicData>
+        <researchPrerequisites>
+            <li>GW_SM_AstartesFabrication</li>
+        </researchPrerequisites>
+    </ThingDef>
+
+    <WorkGiverDef ParentName="GWFabricationWorkGiverBase">
+        <defName>DoBillsImperialFabricationBench</defName>
+        <fixedBillGiverDefs>
+            <li>HP_ImperialFabricationBench</li>
+            <li>GW_SM_ArmorBench</li>
+        </fixedBillGiverDefs>
+    </WorkGiverDef>
+</Defs>

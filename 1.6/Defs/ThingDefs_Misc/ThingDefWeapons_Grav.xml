@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<!--===== Grav Cannon Projectile =====-->
+
+	<ThingDef ParentName="BaseBullet">
+        <defName>GW_AOD_GravCannon_Bullet</defName>
+        <label>Grav</label>
+        <description>grav beam</description>
+        <drawOffscreen>true</drawOffscreen>
+        <seeThroughFog>true</seeThroughFog>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Projectiles/Grav_Projectile</texPath>
+            <shaderType>TransparentPostLight</shaderType>
+            <drawSize>1</drawSize>
+        </graphicData>
+        <projectile>
+            <damageDef>Burn</damageDef>
+            <damageAmountBase>15</damageAmountBase>
+            <armorPenetrationBase>0.70</armorPenetrationBase>
+            <stoppingPower>2.0</stoppingPower>
+            <speed>50</speed>
+        </projectile>
+        <thingClass>taranchuk_lasers.LaserProjectile</thingClass>
+        <modExtensions>
+            <li Class="taranchuk_lasers.LaserProperties">
+                <damageTickRate>9</damageTickRate>
+                <lifetimeTicks>140</lifetimeTicks>
+                <beamWidth>1.2</beamWidth>
+                <beamWidthDrawScale>1</beamWidthDrawScale>
+                <sweepRatePerTick>0</sweepRatePerTick>
+                <maxSweepAngle>0</maxSweepAngle>
+                <damageThingsAcrossBeamLine>false</damageThingsAcrossBeamLine>
+                <debugCells>false</debugCells>
+                <textureScrollOffsetPerTick>(0, -0.1)</textureScrollOffsetPerTick>
+                <lockOnTarget>true</lockOnTarget>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+	<!--===== Grav Rifle Projectile =====-->
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>GW_SM_GravRifle_Bullet</defName>
+		<label>grav rifle bomb</label>
+		<drawOffscreen>true</drawOffscreen>
+        <seeThroughFog>true</seeThroughFog>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Projectiles/Grav_Projectile</texPath>
+            <shaderType>TransparentPostLight</shaderType>
+            <drawSize>1</drawSize>
+        </graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+            <damageDef>Burn</damageDef>
+            <damageAmountBase>10</damageAmountBase>
+            <armorPenetrationBase>0.70</armorPenetrationBase>
+            <stoppingPower>2.0</stoppingPower>
+            <speed>50</speed>
+        </projectile>
+		<thingClass>taranchuk_lasers.LaserProjectile</thingClass>
+        <modExtensions>
+            <li Class="taranchuk_lasers.LaserProperties">
+                <damageTickRate>9</damageTickRate>
+                <lifetimeTicks>120</lifetimeTicks>
+                <beamWidth>1.2</beamWidth>
+                <beamWidthDrawScale>1</beamWidthDrawScale>
+                <sweepRatePerTick>0</sweepRatePerTick>
+                <maxSweepAngle>0</maxSweepAngle>
+                <damageThingsAcrossBeamLine>false</damageThingsAcrossBeamLine>
+                <debugCells>false</debugCells>
+                <textureScrollOffsetPerTick>(0, -0.1)</textureScrollOffsetPerTick>
+                <lockOnTarget>true</lockOnTarget>
+            </li>
+        </modExtensions>
+	</ThingDef>
+
+	<!--===== Grav Pistol Projectile =====-->
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>GW_SM_GravPistol_Bullet</defName>
+		<label>grav pistol bomb</label>
+		<drawOffscreen>true</drawOffscreen>
+        <seeThroughFog>true</seeThroughFog>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Projectiles/Grav_Projectile</texPath>
+            <shaderType>TransparentPostLight</shaderType>
+            <drawSize>1</drawSize>
+        </graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+            <damageDef>Burn</damageDef>
+            <damageAmountBase>6</damageAmountBase>
+            <armorPenetrationBase>0.09</armorPenetrationBase>
+            <stoppingPower>2.0</stoppingPower>
+            <speed>50</speed>
+        </projectile>
+		<thingClass>taranchuk_lasers.LaserProjectile</thingClass>
+        <modExtensions>
+            <li Class="taranchuk_lasers.LaserProperties">
+                <damageTickRate>9</damageTickRate>
+                <lifetimeTicks>60</lifetimeTicks>
+                <beamWidth>1.2</beamWidth>
+                <beamWidthDrawScale>1</beamWidthDrawScale>
+                <sweepRatePerTick>0</sweepRatePerTick>
+                <maxSweepAngle>0</maxSweepAngle>
+                <damageThingsAcrossBeamLine>false</damageThingsAcrossBeamLine>
+                <debugCells>false</debugCells>
+                <textureScrollOffsetPerTick>(0, -0.1)</textureScrollOffsetPerTick>
+                <lockOnTarget>true</lockOnTarget>
+            </li>
+        </modExtensions>
+	</ThingDef>
+
+	<!--===== Grav Weapon base =====-->
+	
+	<ThingDef Abstract="true" ParentName="BaseHumanMakeableGun" Name="GW_SM_GravBase">
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<recipeMaker>
+			<displayPriority>420</displayPriority>
+		</recipeMaker>
+		<thingSetMakerTags>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+		<tradeTags>
+			<li>HPRanged</li>
+		</tradeTags>
+		<weaponTags>
+			<li>GW_SM_Ranged</li>
+			<li>GW_SM_RangedHeavy</li>
+			<li>GW_SM_TerminatorRanged</li>
+		</weaponTags>
+	</ThingDef>
+	
+	<!--===== Grav Cannon =====-->
+
+	<ThingDef ParentName="GW_SM_GravBase">
+		<defName>GW_AOD_Gun_GravCannon</defName>
+		<label>graviton cannon</label>
+		<description>A special design of graviton weapon. With its higher output, even great bunker walls of thick plascrete will collapse before long. \n\nWhile graviton cannons are typically vehicle-mounted, the techmarines of the Deathwatch created this man-portable design.</description>
+		<graphicData>
+			<texPath>Things/Weapons/Grav/GravCannon</texPath>
+			<drawSize>1.4</drawSize>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<recipeMaker>
+			<recipeUsers Inherit="False">
+				<li>HP_ImperialFabricationBench</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>15</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>90000</WorkToMake>
+			<Mass>8</Mass>
+			<MarketValue>2300</MarketValue>
+			<AccuracyTouch>1</AccuracyTouch>
+			<AccuracyShort>1</AccuracyShort>
+			<AccuracyMedium>1</AccuracyMedium>
+			<AccuracyLong>1</AccuracyLong>
+			<!-- <RangedWeapon_Cooldown>6</RangedWeapon_Cooldown> -->
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.30</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<Plasteel>35</Plasteel>
+			<HP_Ceramite>15</HP_Ceramite>
+			<HP_Adamantium>10</HP_Adamantium>
+			<GW_ComponentRelic>1</GW_ComponentRelic>
+		</costList>
+		<weaponClasses>
+			<li>RangedHeavy</li>
+		</weaponClasses>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>GW_AOD_GravCannon_Bullet</defaultProjectile>
+				<!-- <forcedMissRadius>2.9</forcedMissRadius> -->
+				<warmupTime>2</warmupTime>
+				<range>18</range>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>GW_SM_Grav_Sound</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>10</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>2.5</cooldownTime>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="GravDamege.ModExtension_MassToDamage">
+                <weightThreshold>1.5</weightThreshold> <!-- added bonus every X kg, in this case. it 5kg -->
+                <damagePerBonus>1</damagePerBonus> <!-- bonus damage per threshold, in this case it 1 damage per 5kg -->
+                <showBonusDamageText>true</showBonusDamageText> <!-- throw a little green text next to target on hit, telling how much bonus damage is done -->
+            </li>
+		</modExtensions>
+	</ThingDef>
+
+	<!--===== Grav Rifle =====-->
+
+	<ThingDef ParentName="GW_SM_GravBase">
+		<defName>GW_SM_Gun_GravRifle</defName>
+		<label>graviton rifle</label>
+		<description>A rare demolition weapon of the Adeptus Astartes - a rifle that fires gravitons, crushing the enemy and their fortifications with their own mass. \n\nTheir secrets of manufacture have only been discovered very recently. Before that, they were carefully guarded by the Adeptus Mechanicus, and only rarely fielded by the Space Marines.</description>
+		<graphicData>
+			<texPath>Things/Weapons/Grav/GravGun</texPath>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<recipeMaker>
+			<recipeUsers Inherit="False">
+				<li>HP_ImperialFabricationBench</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>15</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>60000</WorkToMake>
+			<Mass>5</Mass>
+			<MarketValue>1000</MarketValue>
+			<AccuracyTouch>1</AccuracyTouch>
+			<AccuracyShort>1</AccuracyShort>
+			<AccuracyMedium>1</AccuracyMedium>
+			<AccuracyLong>1</AccuracyLong>
+			<!-- <RangedWeapon_Cooldown>4</RangedWeapon_Cooldown> -->
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.20</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<Plasteel>35</Plasteel>
+			<HP_Ceramite>15</HP_Ceramite>
+			<HP_Adamantium>10</HP_Adamantium>
+			<GW_ComponentRelic>1</GW_ComponentRelic>
+		</costList>
+		<weaponClasses>
+			<li>RangedHeavy</li>
+		</weaponClasses>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>GW_SM_GravRifle_Bullet</defaultProjectile>
+				<!-- <forcedMissRadius>1.9</forcedMissRadius> -->
+				<warmupTime>2</warmupTime>
+				<range>15</range>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>GW_SM_Grav_Sound</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>10</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>2.5</cooldownTime>
+			</li>
+			<li>
+				<label>grip</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2.8</cooldownTime>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="GravDamege.ModExtension_MassToDamage">
+                <weightThreshold>2</weightThreshold> <!-- added bonus every X kg, in this case. it 5kg -->
+                <damagePerBonus>1</damagePerBonus> <!-- bonus damage per threshold, in this case it 0.55 damage per 5kg -->
+                <showBonusDamageText>true</showBonusDamageText> <!-- throw a little green text next to target on hit, telling how much bonus damage is done -->
+            </li>
+		</modExtensions>
+	</ThingDef>
+
+	<!--===== Grav Pistol =====-->
+
+	<ThingDef ParentName="GW_SM_GravBase">
+		<defName>GW_SM_Gun_GravPistol</defName>
+		<label>graviton pistol</label>
+		<description>A pistol-sized graviton gun. Just as rare as their larger cousins, the weaker “grav-pistol” can still bring down a house containing enemy heretics. \n\nGraviton weapons date back to the Dark Age of Technology. Even by the time of the Great Crusade, they were a rare sight.</description>
+		<graphicData>
+			<texPath>Things/Weapons/Grav/GravPistol</texPath>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<recipeMaker>
+			<recipeUsers Inherit="False">
+				<li>HP_ImperialFabricationBench</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>15</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>50000</WorkToMake>
+			<MarketValue>900</MarketValue>
+			<Mass>3</Mass>
+			<AccuracyTouch>1</AccuracyTouch>
+			<AccuracyShort>1</AccuracyShort>
+			<AccuracyMedium>1</AccuracyMedium>
+			<AccuracyLong>0.62</AccuracyLong>
+			<RangedWeapon_Cooldown>0</RangedWeapon_Cooldown>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.10</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<Plasteel>40</Plasteel>
+			<HP_Ceramite>30</HP_Ceramite>
+			<HP_Adamantium>10</HP_Adamantium>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<weaponClasses>
+			<li>RangedHeavy</li>
+		</weaponClasses>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>GW_SM_GravPistol_Bullet</defaultProjectile>
+				<!-- <forcedMissRadius>0.9</forcedMissRadius> -->
+				<warmupTime>1</warmupTime>
+				<range>10</range>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>GW_SM_Grav_Sound</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>10</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>2.5</cooldownTime>
+			</li>
+			<li>
+				<label>grip</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2.8</cooldownTime>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="GravDamege.ModExtension_MassToDamage">
+                <weightThreshold>3</weightThreshold> <!-- added bonus every X kg, in this case. it 5kg -->
+                <damagePerBonus>1</damagePerBonus> <!-- bonus damage per threshold, in this case it 0.2 damage per 5kg -->
+                <showBonusDamageText>true</showBonusDamageText> <!-- throw a little green text next to target on hit, telling how much bonus damage is done -->
+            </li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

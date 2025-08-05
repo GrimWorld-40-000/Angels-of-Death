@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef Abstract="true" Name="GW_SM_HelmetBase" ParentName="ArmorHelmetMakeableBase">
+		<techLevel>Spacer</techLevel>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1.6</drawSize>
+		</graphicData>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>15</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>GW_SM_ArmorBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<uiIconScale>1.0</uiIconScale>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.50</ToxicEnvironmentResistance>
+			<VacuumResistance MayRequire="ludeon.rimworld.odyssey">0.3</VacuumResistance>
+		</equippedStatOffsets>
+		<tradeTags>
+			<li>HPHelmet</li>
+		</tradeTags>
+		<apparel>
+			<tags>
+				<li>Spacer</li>
+				<li>EVA</li>
+			</tags>
+			<drawData>
+				<!--<scale>1.5</scale> Uncomment these to increase size while equipped
+                <childScale>1.5</childScale>-->
+			</drawData>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>EyeCover</li>
+				<li MayRequire="ceteam.combatextended">StrappedHead</li>
+				<li MayRequire="ceteam.combatextended">OnHead</li>
+				<li>Overhead</li> <!--Needs to be last for the tool to properly label this a helmet-->
+			</layers>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+
+	<!-- Scout-->
+	<ThingDef Name="GW_SM_ScoutHelmet_Base" ParentName="GW_SM_HelmetBase">
+		<defName>GW_SM_ScoutHelmet_A</defName>
+		<label>scout helmet (a)</label>
+		<description>A Space Marine Scout helmet, used alongside its armor. It is reasonably protective, but its light weight is its main appeal. \n\nScout Marines are not equipped for open combat, but if they can run no further, they will strike back with the viciousness of a cornered animal and the focus of a true warrior.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Scouts/Display/Scout_helmetA</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Scouts/Display/Scout_helmetA</uiIconPath>
+		<apparel>
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
+			<tags Inherit="False">
+				<!--<li>Spacer</li>-->
+				<li>GW_Scout</li>
+			</tags>
+			<wornGraphicPath>Things/Apparel/Armor_Scouts/Head/Helmet/Scout_helmetA</wornGraphicPath>
+		</apparel>
+		<comps>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>2</maskCount> -->
+				<!-- <palettePresets>GW_SM_HelmetChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
+		</comps>
+		<equippedStatOffsets Inherit="False">
+			<ToxicEnvironmentResistance>0.50</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.1</AimingDelayFactor>
+			<ShootingAccuracyPawn>1</ShootingAccuracyPawn>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Plasteel>20</Plasteel>						
+			<HP_Ceramite>10</HP_Ceramite>
+		</costList>
+		<statBases>
+			<WorkToMake>30000</WorkToMake>
+			<MaxHitPoints>260</MaxHitPoints>
+			<Mass>0.8</Mass>
+			<MarketValue>150</MarketValue>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.18</ArmorRating_Heat>
+			<Insulation_Cold>4</Insulation_Cold>
+			<Insulation_Heat>8</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>GW_SM_AstartesFabrication</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_ScoutHelmet_Base">
+		<defName>GW_SM_ScoutHelmet_B</defName>
+		<label>scout helmet (b)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Scouts/Display/Scout_helmetB</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Scouts/Display/Scout_helmetB</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Scouts/Head/Helmet/Scout_helmetB</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_ScoutHelmet_Base">
+		<defName>GW_SM_ScoutHelmet_C</defName>
+		<label>scout helmet (c)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Scouts/Display/Scout_helmetC</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Scouts/Display/Scout_helmetC</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Scouts/Head/Helmet/Scout_helmetC</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_ScoutHelmet_Base">
+		<defName>GW_SM_ScoutHelmet_D</defName>
+		<label>scout helmet (d)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Scouts/Display/Scout_helmetD</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Scouts/Display/Scout_helmetD</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Scouts/Head/Helmet/Scout_helmetD</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_ScoutHelmet_Base">
+		<defName>GW_SM_ScoutHelmet_E</defName>
+		<label>scout helmet (e)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Scouts/Display/Scout_helmetE</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Scouts/Display/Scout_helmetE</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Scouts/Head/Helmet/Scout_helmetE</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--MKX Reiver-->
+	<ThingDef Name="GW_SM_MKXReiverHelmet_Base" ParentName="GW_SM_HelmetBase">
+		<defName>GW_SM_ReiverHelmet_Simple</defName>
+		<label>Reiver helmet</label>
+		<description>A skull-faced Mk X Phobos helmet modified for Space Marine Reivers. \n\nSome have argued that, since all of the Imperial military branches (such as the Space Marines and Imperial Guard) mostly use baseline humans now, they should be merged into a single fighting force. Their corpses can be found frozen in orbit.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Reiver/Helmets/Reiver_helmet_simple_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Reiver/Helmets/Reiver_helmet_simple_south</uiIconPath>
+		<apparel>
+			<tags>
+				<li>GW_Reiver</li>
+			</tags>
+			<wornGraphicPath>Things/Apparel/Armor_Reiver/Helmets/Reiver_helmet_simple</wornGraphicPath>
+		</apparel>
+		<comps>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>8</maskCount> -->
+				<!-- <palettePresets>GW_SM_HelmetChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
+		</comps>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<MeleeHitChance>2</MeleeHitChance>
+		</equippedStatOffsets>
+		<costList>
+			<Plasteel>40</Plasteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+			<HP_Ceramite>40</HP_Ceramite>
+		</costList>
+		<statBases>
+			<WorkToMake>40000</WorkToMake>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Mass>1</Mass>
+			<MarketValue>400</MarketValue>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>0.95</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.43</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.49</ArmorRating_Heat>
+			<Insulation_Cold>5</Insulation_Cold>
+			<Insulation_Heat>4</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>GW_SM_AstartesLight</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKXReiverHelmet_Base">
+		<defName>GW_SM_ReiverHelmet_Skull</defName>
+		<label>reiver helmet (skull)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Reiver/Helmets/Reiver_helmet_skull_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Reiver/Helmets/Reiver_helmet_skull_south</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Reiver/Helmets/Reiver_helmet_skull</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKXReiverHelmet_Base">
+		<defName>GW_SM_ReiverHelmet_Studs</defName>
+		<label>reiver helmet (studs)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Reiver/Helmets/Reiver_helmet_studs_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Reiver/Helmets/Reiver_helmet_studs_south</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Reiver/Helmets/Reiver_helmet_studs</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--MKX Phobos-->
+	<ThingDef Name="GW_SM_MKXPhobosHelmet_Base" ParentName="GW_SM_HelmetBase">
+		<defName>GW_SM_PhobosHelmet_Simple</defName>
+		<label>phobos helmet</label>
+		<description>A Power Armor helmet of the Mk X Phobos pattern. The “auto-senses”, or the tactical targeting system integrated into each helmet, is top-notch. \n\nThe God-Emperor of Mankind once declared that his Space Marines shall know no fear. \n\nBut now, stranded from the Imperium and on the far side of the Cicatrix Maledictum without much hope of returning, that has proven untrue.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Phobos/Helmets/Phobos_helmet_simple_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Phobos/Helmets/Phobos_helmet_simple_south</uiIconPath>
+		<apparel>
+			<tags>
+				<li>GW_Phobos</li>
+			</tags>
+			<wornGraphicPath>Things/Apparel/Armor_Phobos/Helmets/Phobos_helmet_simple</wornGraphicPath>
+		</apparel>
+		<comps>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>9</maskCount> -->
+				<!-- <palettePresets>GW_SM_HelmetChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
+		</comps>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<ShootingAccuracyPawn>0.5</ShootingAccuracyPawn>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>40</Plasteel>
+			<HP_Ceramite>40</HP_Ceramite>
+		</costList>
+		<statBases>
+			<WorkToMake>40000</WorkToMake>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Mass>1</Mass>
+			<MarketValue>400</MarketValue>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>0.95</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.43</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.49</ArmorRating_Heat>
+			<Insulation_Cold>5</Insulation_Cold>
+			<Insulation_Heat>4</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>GW_SM_AstartesLight</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKXPhobosHelmet_Base">
+		<defName>GW_SM_PhobosHelmet_Skull</defName>
+		<label>phobos helmet (skull)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Phobos/Helmets/Phobos_helmet_skull_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Phobos/Helmets/Phobos_helmet_skull_south</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Phobos/Helmets/Phobos_helmet_skull</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKXPhobosHelmet_Base">
+		<defName>GW_SM_PhobosHelmet_Reinforced</defName>
+		<label>phobos helmet (reinforced)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Phobos/Helmets/Phobos_helmet_reinforced_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Phobos/Helmets/Phobos_helmet_reinforced_south</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Phobos/Helmets/Phobos_helmet_reinforced</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--MKIV-->
+	<ThingDef Name="GW_SM_MKIVHelmet_Base" ParentName="GW_SM_HelmetBase">
+		<defName>GW_SM_MaximusHelmet_Simple</defName>
+		<label>Maximus helmet</label>
+		<description>A helmet of the old Mk IV Maximus pattern of Power Armor. Far from being obsolete, the Maximus pattern is a product of the Imperium's zenith. \n\nWith his twenty Space Marine Legions and the support of the new Imperial Army, the Emperor sallied forth into the galaxy to reunite the scattered remnants of humanity. This Great Crusade formed the Imperium of Man, crushing all opposition beneath His heel - whether human or not.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Maximus/Helmets/Maximus_helmet_simple_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Maximus/Helmets/Maximus_helmet_simple_south</uiIconPath>
+		<apparel>
+			<tags>
+				<li>GW_Maximus</li>
+			</tags>
+			<wornGraphicPath>Things/Apparel/Armor_Maximus/Helmets/Maximus_helmet_simple</wornGraphicPath>
+		</apparel>
+		<comps>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>9</maskCount> -->
+				<!-- <palettePresets>GW_SM_HelmetChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
+		</comps>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.2</AimingDelayFactor>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>100</Plasteel>
+			<Steel>50</Steel>
+			<Uranium>15</Uranium>
+			<HP_Ceramite>10</HP_Ceramite>
+		</costList>
+		<statBases>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>700</MaxHitPoints>
+			<Mass>3</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.10</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKIVHelmet_Base">
+		<defName>GW_SM_MaximusHelmet_Skull</defName>
+		<label>maximus helmet (skull)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Maximus/Helmets/Maximus_helmet_skull_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Maximus/Helmets/Maximus_helmet_skull_south</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Maximus/Helmets/Maximus_helmet_skull</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKIVHelmet_Base">
+		<defName>GW_SM_MaximusHelmet_Studs</defName>
+		<label>maximus helmet (studs)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Maximus/Helmets/Maximus_helmet_studs_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Maximus/Helmets/Maximus_helmet_studs_south</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Maximus/Helmets/Maximus_helmet_studs</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKIVHelmet_Base">
+		<defName>GW_SM_MaximusHelmet_Laurels</defName>
+		<label>maximus helmet (laurels)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Maximus/Helmets/Maximus_helmet_withlaurels_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Maximus/Helmets/Maximus_helmet_withlaurels_south</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Maximus/Helmets/Maximus_helmet_withlaurels</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--MKVI-->
+	<ThingDef Name="GW_SM_MKVIHelmet_Base" ParentName="GW_SM_HelmetBase">
+		<defName>GW_SM_CorvusHelmet_Simple</defName>
+		<label>Corvus helmet</label>
+		<description>A Mk VI Corvus-pattern helmet. Its unique “beak” contains additional sensory systems, increasing the user’s battlefield awareness. \n\nBy the time of the Siege of Terra, the Mk VI armor was the most numerous in battle - not only in the Loyalist armies, but in the Traitor ranks as well, due to Dark Mechanicum design theft.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Corvus/Helmets/Corvus_helmet_simple_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Corvus/Helmets/Corvus_helmet_simple_south</uiIconPath>
+		<apparel>
+			<tags>
+				<li>GW_Corvus</li>
+			</tags>
+			<wornGraphicPath>Things/Apparel/Armor_Corvus/Helmets/Corvus_helmet_simple</wornGraphicPath>
+		</apparel>
+		<comps>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>8</maskCount> -->
+				<!-- <palettePresets>GW_SM_HelmetChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
+		</comps>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.2</AimingDelayFactor>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>100</Plasteel>
+			<Steel>50</Steel>
+			<Uranium>15</Uranium>
+			<HP_Ceramite>10</HP_Ceramite>
+		</costList>
+		<statBases>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>700</MaxHitPoints>
+			<Mass>3</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.10</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKVIHelmet_Base">
+		<defName>GW_SM_CorvusHelmet_Skull</defName>
+		<label>corvus helmet (skull)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Corvus/Helmets/Corvus_helmet_skull_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Corvus/Helmets/Corvus_helmet_skull_south</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Corvus/Helmets/Corvus_helmet_skull</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKVIHelmet_Base">
+		<defName>GW_SM_CorvusHelmet_Laurels</defName>
+		<label>corvus helmet (laurels)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Corvus/Helmets/Corvus_helmet_withlaurels_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Corvus/Helmets/Corvus_helmet_withlaurels_south</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Corvus/Helmets/Corvus_helmet_withlaurels</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!--MKVII-->
+	<ThingDef Name="GW_SM_MKVIIHelmet_Base" ParentName="GW_SM_HelmetBase">
+		<defName>GW_SM_AquillaHelmet_Simple</defName>
+		<label>Aquila helmet</label>
+		<description>A Power Armor helmet of Mk VII Aquila design. Well-suited to shrugging off moderate enemy fire. \n\nIt is a trialing time for everyone, even the gene-enhanced veteran Marines. More than one has had a mental or philosophical breakdown on the Imperial voidships. \n\nMost can be calmed down eventually. Some cannot.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Aquilla/Helmets/Aquilla_helmet_simple_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Aquilla/Helmets/Aquilla_helmet_simple_south</uiIconPath>
+		<apparel>
+			<tags>
+				<li>GW_Aquilla</li>
+			</tags>
+			<wornGraphicPath>Things/Apparel/Armor_Aquilla/Helmets/Aquilla_helmet_simple</wornGraphicPath>
+		</apparel>
+		<comps>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>9</maskCount> -->
+				<!-- <palettePresets>GW_SM_HelmetChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
+		</comps>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.2</AimingDelayFactor>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>100</Plasteel>
+			<Steel>50</Steel>
+			<Uranium>15</Uranium>
+			<HP_Ceramite>10</HP_Ceramite>
+		</costList>
+		<statBases>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>700</MaxHitPoints>
+			<Mass>3</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.10</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKVIIHelmet_Base">
+		<defName>GW_SM_AquillaHelmet_Skull</defName>
+		<label>aquila helmet (skull)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Aquilla/Helmets/Aquilla_helmet_skull_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Aquilla/Helmets/Aquilla_helmet_skull_south</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Aquilla/Helmets/Aquilla_helmet_skull</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKVIIHelmet_Base">
+		<defName>GW_SM_AquillaHelmet_Studs</defName>
+		<label>aquila helmet (studs)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Aquilla/Helmets/Aquilla_helmet_studs_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Aquilla/Helmets/Aquilla_helmet_studs_south</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Aquilla/Helmets/Aquilla_helmet_studs</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKVIIHelmet_Base">
+		<defName>GW_SM_AquillaHelmet_Laurels</defName>
+		<label>aquila helmet (laurels)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Aquilla/Helmets/Aquilla_helmet_withlaurels_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Aquilla/Helmets/Aquilla_helmet_withlaurels_south</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Aquilla/Helmets/Aquilla_helmet_withlaurels</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKVIIHelmet_Base">
+		<defName>GW_SM_AquillaHelmet_Winged</defName>
+		<label>Night Lord helmet (a)</label>
+		<description>A modified Mk VII Power Armor helmet, decorated in the manner of the Night Lords. \n\nThe Primarch of the Night Lords, Konrad Curze, grew up an orphan on the planet of Nostromo, a world of eternal night and unchecked crime and corruption. As a young man, plagued by terrible visions of the future, he used his Primarch strength to wage a vigilante crusade at all levels of society, becoming so feared by all that he was crowned the first monarch of the entire planet. \n\nWhen the Emperor of Mankind came for the "Night Haunter", he knew exactly what He intended to make of him.</description>
+		<graphicData>
+			<texPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Aquilla_helmet_winged_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Aquilla_helmet_winged_south</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Aquilla_helmet_winged</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>GW_SM_NightLord</li>
+				<li>GW_SM_AstartesMedium</li>
+			</researchPrerequisites>
+		</recipeMaker>
+	</ThingDef>	
+
+	<!--MKX Tacticus-->
+	<ThingDef Name="GW_SM_MKXHelmet_Base" ParentName="GW_SM_HelmetBase">
+		<defName>GW_SM_TacticusHelmet_Simple</defName>
+		<label>Tacticus helmet</label>
+		<description>A helmet built for the Mk X Tacticus suit of Power Armor. It strongly resembles the Mk IV Maximus pattern helmet - indeed, the designs of Mk X armor draw inspiration from the most sophisticated patterns of Power Armor. \n\nIn this fleet, there is little distinction between a Firstborn Space Marine and a Primaris Space Marine any more - the surviving Marines emerged from the Warp disaster as equals. The gene-enhanced Astartes are nowadays seldom deployed to the field, instead spending their days training “mortals” to wield their equipment or volunteering for Cawl's Primarch project.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Tacticus/Helmets/Tacticus_helmet_simple_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Tacticus/Helmets/Tacticus_helmet_simple_south</uiIconPath>
+		<apparel>
+			<tags>
+				<li>GW_Tacticus</li>
+			</tags>
+			<wornGraphicPath>Things/Apparel/Armor_Tacticus/Helmets/Tacticus_helmet_simple</wornGraphicPath>
+		</apparel>		
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<MoveSpeed>-0.05</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>40</Plasteel>
+			<HP_Ceramite>40</HP_Ceramite>
+		</costList>
+		<statBases>
+			<WorkToMake>45000</WorkToMake>
+			<MaxHitPoints>320</MaxHitPoints>
+			<Mass>2</Mass>
+			<MarketValue>600</MarketValue>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.47</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.58</ArmorRating_Heat>
+			<Insulation_Cold>6</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>GW_SM_AstartesMedium</li>
+			</researchPrerequisites>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKXHelmet_Base">
+		<defName>GW_SM_TacticusHelmet_Skull</defName>
+		<label>tacticus helmet (skull)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Tacticus/Helmets/Tacticus_helmet_skull_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Tacticus/Helmets/Tacticus_helmet_skull_south</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Tacticus/Helmets/Tacticus_helmet_skull</wornGraphicPath>
+		</apparel>
+		<comps>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>9</maskCount> -->
+				<!-- <palettePresets>GW_SM_HelmetChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKXHelmet_Base">
+		<defName>GW_SM_TacticusHelmet_Laurels</defName>
+		<label>tacticus helmet (laurels)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Tacticus/Helmets/Tacticus_helmet_withlaurels_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Tacticus/Helmets/Tacticus_helmet_withlaurels_south</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Tacticus/Helmets/Tacticus_helmet_withlaurels</wornGraphicPath>
+		</apparel>
+		<comps>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>9</maskCount> -->
+				<!-- <palettePresets>GW_SM_HelmetChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKXHelmet_Base">
+		<defName>GW_SM_TacticusHelmet_Winged</defName>
+		<label>Night Lord helmet (b)</label>
+		<description>A modified Mk X Tacticus helmet, bearing the iconography of the Night Lords. \n\nThe Night Lords use terror tactics to dominate the minds of their enemies. As enemy soldiers bear witness to scenes of unspeakable violence and hear the agonised screams of their comrades, their discipline breaks down and their will to fight evaporates.</description>
+		<graphicData>
+			<texPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Tacticus_helmet_winged_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Tacticus_helmet_winged_south</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Tacticus_helmet_winged</wornGraphicPath>
+		</apparel>
+		<researchPrerequisites>
+				<li>GW_SM_NightLord</li>
+				<li>GW_SM_AstartesMedium</li>
+		</researchPrerequisites>
+		<comps>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>9</maskCount> -->
+				<!-- <palettePresets>GW_SM_HelmetChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKXHelmet_Base">
+		<defName>GW_SM_SalamanderHelmet</defName>
+		<label>Salamander Helmet</label>
+		<description>WIP.</description>
+		<graphicData>
+			<texPath>Things/Apparel/ArmorUpgrade_Salamander/Helmets/SalamandersTacticus_helmet_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/ArmorUpgrade_Salamander/Helmets/SalamandersTacticus_helmet_south</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/ArmorUpgrade_Salamander/Helmets/SalamandersTacticus_helmet</wornGraphicPath>
+		</apparel>
+		<researchPrerequisites>
+				<li>GW_SM_Salamander</li>
+				<li>GW_SM_AstartesMedium</li>
+		</researchPrerequisites>
+		<comps>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>2</maskCount> -->
+				<!-- <palettePresets>GW_SM_HelmetChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
+		</comps>
+	</ThingDef>
+
+	<!--Gravis-->
+	<ThingDef Name="GW_SM_GravisHelmet_Base" ParentName="GW_SM_HelmetBase">
+		<defName>GW_SM_GravisHelmet_Simple</defName>
+		<label>Gravis helmet</label>
+		<description>A tough helmet, built for Mk X Gravis Power Armor. This suit acts as a middle ground between regular Power Armor and the super-heavy Terminator Armor. \n\nUnlike their gene-enhanced ancestors, baseline humans have trouble moving in the heavier Power Armor suits, even with the assistance of their fibrovest and the armor's servos.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_simple_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_simple_south</uiIconPath>
+		<apparel>
+			<tags>
+				<li>PrestigeCombatGear</li>
+				<li>GW_Gravis</li>
+			</tags>
+			<wornGraphicPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_simple</wornGraphicPath>
+		</apparel>
+		<comps>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>9</maskCount> -->
+				<!-- <palettePresets>GW_SM_HelmetChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
+		</comps>
+		<recipeMaker>
+			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+		</recipeMaker>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<MoveSpeed>-0.1</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>2</ComponentSpacer>
+			<Plasteel>65</Plasteel>
+			<HP_Ceramite>80</HP_Ceramite>
+		</costList>
+		<statBases>
+			<WorkToMake>50000</WorkToMake>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Mass>1</Mass>
+			<MarketValue>500</MarketValue>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.05</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.55</ArmorRating_Heat>
+			<Insulation_Cold>4</Insulation_Cold>
+			<Insulation_Heat>6</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_GravisHelmet_Base">
+		<defName>GW_SM_GravisHelmet_Skull</defName>
+		<label>gravis helmet (skull)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_skull_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_skull_south</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_skull</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_GravisHelmet_Base">
+		<defName>GW_SM_GravisHelmet_Laurels</defName>
+		<label>gravis helmet (laurels)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_withlaurels_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_withlaurels_south</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_withlaurels</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_GravisHelmet_Base">
+		<defName>GW_SM_GravisHelmet_Interceptor</defName>
+		<label>interceptor helmet</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_inceptor_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_inceptor_south</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_inceptor</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_GravisHelmet_Base">
+		<defName>GW_SM_GravisHelmet_ClosedInterceptor</defName>
+		<label>closed interceptor helmet</label>
+		<comps Inherit="False">
+			<li Class="CompProperties_Forbiddable" />
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Styleable"></li>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>4</maskCount> -->
+				<!-- <palettePresets>GW_SM_HelmetChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
+		</comps>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_inceptorclosed_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_inceptorclosed_south</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_inceptorclosed</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_GravisHelmet_Base">
+		<defName>GW_SM_GravisHelmet_Winged</defName>
+		<label>Night Lord helmet (c)</label>
+		<description>A modified Mk X Gravis helmet, decorated with the regalia of the Night Lords. \n\nWhile the Night Lords generally prefer hit-and-run terror attacks, a very different kind of terror can be evoked with heavier armor. A sudden explosion of violence, where men are literally ripped limb-from-limb by nigh-unstoppable giants, can break an army's will like a pane of glass before a sledgehammer.</description>
+		<graphicData>
+			<texPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Gravis_helmet_winged_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Gravis_helmet_winged_south</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Gravis_helmet_winged</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>GW_SM_NightLord</li>
+				<li>GW_SM_AstartesHeavy</li>
+			</researchPrerequisites>
+		</recipeMaker>
+	</ThingDef>
+
+	<!--Terminator-->
+	<ThingDef Name="GW_SM_TerminatorHelmet" ParentName="GW_SM_HelmetBase">
+		<defName>GW_SM_TerminatorHelmet_Simple</defName>
+		<label>Terminator helmet</label>
+		<description>A heavy and durable helmet, worn by Space Marines Terminators of the Adeptus Astartes. \n\nTerminator Armor dates back to the Great Crusade - its origins a mix of normal Power Armor, the armor of Dreadnoughts, and the hostile environment suits of engineers. While it was not as invincible as the Mechanicum designers hoped, and its costs of manufacture prevented widespread issue, it still found a suitable place in the Space Marine arsenal as a heavy infantry suit.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_IndomitusTerminator/Helmets/Indomitus_helmet_simple_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_IndomitusTerminator/Helmets/Indomitus_helmet_simple_south</uiIconPath>
+		<comps>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>8</maskCount> -->
+				<!-- <palettePresets>GW_SM_HelmetChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
+		</comps>
+		<apparel>
+			<drawData>
+				<dataWest>
+					<offset>(-0.01, 0.0, -0.04)</offset>
+				</dataWest>
+				<dataEast>
+					<offset>(-0.01, 0.0, -0.04)</offset>
+				</dataEast>
+			</drawData>
+			<tags>
+				<li>PrestigeCombatGear</li>
+				<li>GW_Terminator</li>
+			</tags>
+			<wornGraphicPath>Things/Apparel/Armor_IndomitusTerminator/Helmets/Indomitus_helmet_simple</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+		</recipeMaker>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<MoveSpeed>-0.2</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<ComponentSpacer>3</ComponentSpacer>
+			<Plasteel>80</Plasteel>
+			<HP_Ceramite>80</HP_Ceramite>
+		</costList>
+		<statBases>
+			<WorkToMake>55000</WorkToMake>
+			<MaxHitPoints>400</MaxHitPoints>
+			<Mass>1</Mass>
+			<MarketValue>750</MarketValue>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.20</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.52</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.62</ArmorRating_Heat>
+			<Insulation_Cold>6</Insulation_Cold>
+			<Insulation_Heat>4</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_TerminatorHelmet">
+		<defName>GW_SM_TerminatorHelmet_Lensed</defName>
+		<label>lensed terminator helmet</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_IndomitusTerminator/Helmets/Indomitus_helmet_withlenses_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_IndomitusTerminator/Helmets/Indomitus_helmet_withlenses_south</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_IndomitusTerminator/Helmets/Indomitus_helmet_withlenses</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+</Defs>

@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+            <!--Generic armor base. Every armor will have these things. Only add/change stuff in this if you want every armor to be affected-->
+    <ThingDef Abstract="true" Name="GW_SM_ArmorBase" ParentName="ArmorMachineableBase">
+        <techLevel>Spacer</techLevel>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>15</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="false">
+				<li>GW_SM_ArmorBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<uiIconScale>1.0</uiIconScale>
+        <tradeTags>
+            <li>HPArmor</li>
+        </tradeTags>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.50</ToxicEnvironmentResistance>
+			<VacuumResistance MayRequire="ludeon.rimworld.odyssey">0.6</VacuumResistance>
+		</equippedStatOffsets>
+		<apparel>
+			<drawData>
+				<dataNorth>
+					<layer>74</layer>
+				</dataNorth>
+                <dataWest>
+                    <offset>(0.0, 0.0, -0.1)</offset>
+                </dataWest>
+                <dataEast>
+                    <offset>(0.0, 0.0, -0.1)</offset>
+                </dataEast>
+                <!--<scale>1.5</scale> Uncomment these to increase size while equipped
+                <childScale>1.5</childScale>-->
+            </drawData>
+			<tags>
+				<li>Spacer</li>
+				<li>EVA</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<countsAsClothingForNudity>true</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li MayRequire="ceteam.combatextended">Hands</li>
+				<li MayRequire="ceteam.combatextended">Feet</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<comps>
+            <!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+                <!-- <maskCount>4</maskCount> -->
+                <!-- <palettePresets>GW_SM_TorsoChapterPalettes</palettePresets> -->
+                <!-- <defaultPalette> -->
+                    <!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+                <!-- </defaultPalette> -->
+            <!-- </li> -->
+        </comps>
+	    <modExtensions>
+			<li Class="VEF.Apparels.ApparelExtension">
+                <isUnifiedApparel>true</isUnifiedApparel>
+				<hideHead>false</hideHead>
+            </li>
+            <li Class="CombatExtended.PartialArmorExt" MayRequire="ceteam.combatextended">
+                <stats>		  				  
+                    <li>
+                        <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+                        <parts>
+                            <li>Hand</li>
+                        </parts>
+                    </li>
+                    <li>
+                        <ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+                        <parts>
+                            <li>Hand</li>
+                        </parts>
+                    </li>
+                </stats>
+            </li>
+	    </modExtensions>
+    </ThingDef>
+
+		<!--Scout-->
+	<ThingDef ParentName="GW_SM_ArmorBase">
+		<defName>GW_SM_Scout</defName>
+		<label>scout armor</label>
+        	<description>An enlarged, unpowered suit of carapace armor issued to Scout Marines. While it lacks the protection and other benefits of actual Power Armor, this suit of armor is less restrictive on movement and is quieter to move, making it more suitable for reconnaissance and unconventional warfare.\n\nScout Marines are typically the newest recruits of a Space Marine chapter. The Codex Astartes dictates that the 10th Company of a chapter should consist only of Scout Marines and Vanguard Space Marines.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Scouts/Display/Scout_torso</texPath>
+		</graphicData>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesFabrication</researchPrerequisite>
+        </recipeMaker>
+        <statBases>
+			<WorkToMake>58000</WorkToMake>
+			<MaxHitPoints>360</MaxHitPoints>
+			<Mass>4</Mass>
+			<MarketValue>900</MarketValue>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>.80</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.34</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.40</ArmorRating_Heat>
+			<Insulation_Cold>28</Insulation_Cold>
+			<Insulation_Heat>8</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets Inherit="false">
+			<ToxicEnvironmentResistance>0.50</ToxicEnvironmentResistance>
+			<MoveSpeed>-0.1</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<Plasteel>80</Plasteel>						
+			<HP_Ceramite>40</HP_Ceramite>
+		</costList>
+		<comps Inherit="False">
+            <!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+                <!-- <maskCount>9</maskCount> -->
+                <!-- <palettePresets>GW_SM_TorsoChapterPalettes</palettePresets> -->
+                <!-- <defaultPalette> -->
+                    <!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+                <!-- </defaultPalette> -->
+            <!-- </li> -->
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Styleable" />
+			<li Class="CompProperties_Forbiddable"/>
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>
+        </comps>
+		<apparel>
+            <wornGraphicPath>Things/Apparel/Armor_Scouts/Scout_torso</wornGraphicPath>
+			<tags Inherit="False">
+				<!--<li>Spacer</li>-->
+                <li>GW_Scout</li>
+			</tags>
+		</apparel>
+    </ThingDef>
+
+		<!--MKX Reiver-->
+	<ThingDef ParentName="GW_SM_ArmorBase">
+        <defName>GW_SM_ReiverArmor</defName>
+		<label>reiver power armor</label>
+        	<description>A further modification of Mk X Phobos Power Armor, worn by Reivers of the Primaris Space Marines. This design of armor is so silent that a man would be unaware of a well-trained Reiver behind him until the moment his throat is cut. \n\nReivers are a type of Vanguard Space Marine, specializing in close-quarters guerrilla strikes. They can be upon the enemy before they even notice, hacking them into gory pieces, then disappear just as quickly and silently before an effective response can be made.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Reiver/Reiver_torso_south</texPath>
+		</graphicData>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesLight</researchPrerequisite>
+        </recipeMaker>
+		<statBases>
+			<WorkToMake>65000</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<MarketValue>1300</MarketValue>
+			<Mass>9</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>.98</ArmorRating_Sharp>
+			<ArmorRating_Blunt>.42</ArmorRating_Blunt>
+			<ArmorRating_Heat>.48</ArmorRating_Heat>
+			<Insulation_Cold>34</Insulation_Cold>
+			<Insulation_Heat>12</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<MeleeHitChance>2</MeleeHitChance>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>2</ComponentSpacer>
+			<Plasteel>120</Plasteel>
+			<HP_Ceramite>70</HP_Ceramite>
+		</costList>
+		<apparel>
+            <wornGraphicPath>Things/Apparel/Armor_Reiver/Reiver_torso</wornGraphicPath>
+			<tags>
+                <li>GW_Reiver</li>
+			</tags>
+		</apparel>
+    </ThingDef>
+
+		<!--MKX Phobos-->
+	<ThingDef ParentName="GW_SM_ArmorBase">
+        <defName>GW_SM_PhobosArmor</defName>
+		<label>phobos power armor</label>
+        	<description>A suit of Adeptus Astartes power armor of the Mk X Phobos pattern. It is a variant of the mainline Tacticus pattern, trading protection for lighter weight, higher mobility, and silent servomotors.\n\nArmor like this is worn by Primaris Space Marines - specifically Vanguard Infiltrators (tasked with sabotage and communications disruption) and Vanguard Eliminators (who neutralise high-value targets from long range).</description>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Phobos/Phobos_torso_south</texPath>
+		</graphicData>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesLight</researchPrerequisite>
+        </recipeMaker>
+        <statBases>
+			<WorkToMake>65000</WorkToMake>
+			<MaxHitPoints>400</MaxHitPoints>
+			<MarketValue>1300</MarketValue>
+			<Mass>9</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>.98</ArmorRating_Sharp>
+			<ArmorRating_Blunt>.42</ArmorRating_Blunt>
+			<ArmorRating_Heat>.48</ArmorRating_Heat>
+			<Insulation_Cold>34</Insulation_Cold>
+			<Insulation_Heat>12</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<ShootingAccuracyPawn>0.5</ShootingAccuracyPawn>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>2</ComponentSpacer>
+			<Plasteel>120</Plasteel>
+			<HP_Ceramite>70</HP_Ceramite>
+		</costList>
+		<apparel>
+            <wornGraphicPath>Things/Apparel/Armor_Phobos/Phobos_torso</wornGraphicPath>
+			<tags>
+                <li>GW_Phobos</li>
+			</tags>
+		</apparel>
+    </ThingDef>
+
+        <!--MKIV-->
+	<ThingDef ParentName="GW_SM_ArmorBase">
+        <defName>GW_SM_MaximusArmor</defName>
+		<label>maximus power armor</label>
+        	<description>A suit of Power Armor, following the Great Crusade-era Mk IV Maximus pattern. As a medium Power Armor suit, it possesses both average protection and mobility. \n\nThough succeeded by many designs, Maximus armor remains useful in the 41st Millennium, although only a few Chapters of Space Marines can produce it.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Maximus/Maximus_torso_south</texPath>
+		</graphicData>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
+        </recipeMaker>
+        <statBases>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<Mass>11</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.30</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.4</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>10</ComponentSpacer>
+			<Plasteel>400</Plasteel>
+			<Steel>500</Steel>
+			<Uranium>75</Uranium>
+			<HP_Ceramite>50</HP_Ceramite>
+		</costList>
+		<apparel>
+            <wornGraphicPath>Things/Apparel/Armor_Maximus/Maximus_torso</wornGraphicPath>
+			<tags>
+                <li>GW_Maximus</li>
+			</tags>
+		</apparel>
+    </ThingDef>
+
+        <!--MKVI-->
+	<ThingDef ParentName="GW_SM_ArmorBase">
+        <defName>GW_SM_CorvusArmor</defName>
+		<label>Corvus power armor</label>
+        	<description>A suit of Space Marine Power Armor, following the Mk VI Corvus pattern. Developed during the Horus Heresy, this mainline armor strikes a balance between mobility and protection, while also being surprisingly stealthy. \n\nThe armor is named after the Primarch of the Raven Guard legion, Corvus Corax. During the pre-Heresy Scalland Campaign against the Eldar, Raven Guard Space Marines field-tested the armor’s prototypes and helped improve the design - it was they who received the first batches of the finalized armor.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Corvus/Corvus_torso_south</texPath>
+		</graphicData>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
+        </recipeMaker>
+        <statBases>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<Mass>11</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.30</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.4</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>10</ComponentSpacer>
+			<Plasteel>400</Plasteel>
+			<Steel>500</Steel>
+			<Uranium>75</Uranium>
+			<HP_Ceramite>50</HP_Ceramite>
+		</costList>
+		<apparel>
+            <wornGraphicPath>Things/Apparel/Armor_Corvus/Corvus_torso</wornGraphicPath>
+			<tags>
+                <li>GW_Corvus</li>
+			</tags>
+		</apparel>
+    </ThingDef>
+
+        <!--MKVII-->
+	<ThingDef ParentName="GW_SM_ArmorBase">
+        <defName>GW_SM_AquillaArmor</defName>
+		<label>Aquila power armor</label>
+        	<description>Adeptus Astartes Power Armor, of the Mk VII Aquila pattern. Developed in the last days of the Horus Heresy, the Aquilla armor only became widely adopted after the civil war was over. \n\nUp until the Ultima Founding and the subsequent Indomitus Crusade, this was the armor of the typical Space Marine.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Aquilla/Aquilla_torso_south</texPath>
+		</graphicData>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
+        </recipeMaker>
+        <statBases>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<Mass>11</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.30</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.4</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>10</ComponentSpacer>
+			<Plasteel>400</Plasteel>
+			<Steel>500</Steel>
+			<Uranium>75</Uranium>
+			<HP_Ceramite>50</HP_Ceramite>
+		</costList>
+		<apparel>
+            <wornGraphicPath>Things/Apparel/Armor_Aquilla/Aquilla_torso</wornGraphicPath>
+			<tags>
+                <li>GW_Aquilla</li>
+			</tags>
+		</apparel>
+    </ThingDef>
+
+        <!--MKX Tacticus-->
+	<ThingDef ParentName="GW_SM_ArmorBase">
+        <defName>GW_SM_TacticusArmor</defName>
+		<label>Tacticus power armor</label>
+        	<description>A suit of middleweight Mk X Tacticus Power Armor. The standard fare for the vast majority of the Primaris Space Marines, it features improved protection over older patterns while retaining mobility. \n\nThe Primarch Roboute Guilliman instructed Archmagos Belisarius Cawl to begin the development of the Primaris Marines in the 31st Millennium, just after the horrors of the Horus Heresy. Ten thousand years later, the two reunited just in time to see the project's completion.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Tacticus/Tacticus_torso_south</texPath>
+		</graphicData>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
+        </recipeMaker>
+        <statBases>
+			<WorkToMake>72000</WorkToMake>
+			<MaxHitPoints>480</MaxHitPoints>
+			<MarketValue>1700</MarketValue>
+			<Mass>9</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>.49</ArmorRating_Blunt>
+			<ArmorRating_Heat>.58</ArmorRating_Heat>
+			<Insulation_Cold>34</Insulation_Cold>
+			<Insulation_Heat>12</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<MoveSpeed>-0.2</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>3</ComponentSpacer>
+			<Plasteel>160</Plasteel>
+			<HP_Ceramite>120</HP_Ceramite>
+		</costList>
+		<comps Inherit="False">
+            <!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+                <!-- <maskCount>4</maskCount> -->
+                <!-- <palettePresets>GW_SM_TorsoChapterPalettes</palettePresets> -->
+                <!-- <defaultPalette> -->
+                    <!-- <colorA>(255, 255, 255)</colorA> -->
+					<!-- <colorB>(255, 255, 255)</colorB> -->
+					<!-- <colorC>(255, 255, 255)</colorC> -->
+                <!-- </defaultPalette> -->
+            <!-- </li> -->
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Styleable" />
+			<li Class="CompProperties_Forbiddable"/>
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>
+        </comps>
+		<apparel>
+            <wornGraphicPath>Things/Apparel/Armor_Tacticus/Tacticus_torso</wornGraphicPath>
+			<tags>
+                <li>GW_Tacticus</li>
+			</tags>
+		</apparel>
+    </ThingDef>
+
+		<!--Gravis-->
+	<ThingDef Name="GW_SM_GravisArmorBase" ParentName="GW_SM_ArmorBase">
+        <defName>GW_SM_GravisArmor</defName>
+		<label>Gravis power armor (a)</label>
+        	<description>A heavyweight suit of Power Armor, of the Mk X Gravis pattern. A cut above standard Tacticus armor, it allows the wearer to take more fire than normal while responding in kind. \n\nThe heavyweight Aggressors, the plasma-wielding Eradicators, and some officers of the Primaris Space Marines all wear this armor. Inceptors, wearing jump-packs, also use this armor to great effect, compensating for lower mobility with the power to leap long distances.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Gravis/Gravis_torso_south</texPath>
+		</graphicData>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+        </recipeMaker>
+        <statBases>
+			<WorkToMake>80000</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<MarketValue>2300</MarketValue>
+			<Mass>11</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.2</ArmorRating_Sharp>
+			<ArmorRating_Blunt>.56</ArmorRating_Blunt>
+			<ArmorRating_Heat>.63</ArmorRating_Heat>
+			<Insulation_Cold>38</Insulation_Cold>
+			<Insulation_Heat>15</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<MoveSpeed>-0.3</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>4</ComponentSpacer>
+			<Plasteel>220</Plasteel>
+			<HP_Ceramite>165</HP_Ceramite>
+		</costList>
+		<apparel>
+			<drawData>
+				<dataWest>
+					<layer>70</layer>
+				</dataWest>
+				<dataEast>
+					<layer>70</layer>
+				</dataEast>
+            </drawData>
+            <wornGraphicPath>Things/Apparel/Armor_Gravis/Gravis_torso</wornGraphicPath>
+			<tags>
+				<li>PrestigeCombatGear</li>
+                <li>GW_Gravis</li>
+			</tags>
+		</apparel>
+    </ThingDef>
+
+	<ThingDef ParentName="GW_SM_GravisArmorBase">
+		<defName>GW_SM_GravisArmorNeckPlate</defName>
+		<label>Gravis power armor (b)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Gravis/Gravis_necktorso_south</texPath>
+		</graphicData>
+		<apparel>
+            <wornGraphicPath>Things/Apparel/Armor_Gravis/Gravis_necktorso</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+		<!--Terminator-->
+	<ThingDef ParentName="GW_SM_ArmorBase">
+        <defName>GW_SM_IndomitusTerminatorArmor</defName>
+		<label>Terminator power armor</label>
+        	<description>A rare and powerful suit of Power Armor, also known as “Tactical Dreadnought Armor”. Space Marine Terminators are greatly feared, for their thick ceramite-plasteel armor plates can shrug off a great deal of firepower while the Marines respond with heavy weaponry. \n\nThis particular suit is of the Indomitus pattern, the most common version across the Imperium. \n\nWhile it slows down the wearer, some situations call for firepower and durability over maneuverability. Woe betide the foe that faces a Terminator squad in a confined space, such as that of a Space Hulk.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_IndomitusTerminator/Indomitus_torso_south</texPath>
+		</graphicData>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+        </recipeMaker>
+        <statBases>
+			<WorkToMake>85000</WorkToMake>
+			<MaxHitPoints>700</MaxHitPoints>
+			<MarketValue>2700</MarketValue>
+			<Mass>13</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.25</ArmorRating_Sharp>
+			<ArmorRating_Blunt>.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>.72</ArmorRating_Heat>
+			<Insulation_Cold>40</Insulation_Cold>
+			<Insulation_Heat>14</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<MoveSpeed>-0.5</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>5</ComponentSpacer>
+			<Plasteel>250</Plasteel>
+			<HP_Ceramite>180</HP_Ceramite>
+			<HP_Adamantium>10</HP_Adamantium>
+		</costList>
+		<apparel>
+			<drawData>
+				<dataWest>
+					<layer>70</layer>
+				</dataWest>
+				<dataEast>
+					<layer>70</layer>
+				</dataEast>
+                <!--<scale>1.5</scale> Uncomment these to increase size while equipped
+                <childScale>1.5</childScale>-->
+            </drawData>
+            <wornGraphicPath>Things/Apparel/Armor_IndomitusTerminator/Indomitus_torso</wornGraphicPath>
+			<layers>
+                <li>Belt</li>
+				<li>Backpack</li>
+			</layers>
+			<tags>
+				<li>PrestigeCombatGear</li>
+                <li>GW_Terminator</li>
+			</tags>
+		</apparel>
+		<modExtensions Inherit="False">
+            <li Class="VEF.Apparels.ApparelExtension">
+                <isUnifiedApparel>true</isUnifiedApparel>
+				<hideHead>false</hideHead>
+            </li>
+			<li Class="CombatExtended.PartialArmorExt" MayRequire="ceteam.combatextended">
+                <stats>		  				  
+                    <li>
+                        <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+                        <parts>
+                            <li>Hand</li>
+                        </parts>
+                    </li>
+                    <li>
+                        <ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+                        <parts>
+                            <li>Hand</li>
+                        </parts>
+                    </li>
+                </stats>
+            </li>
+		</modExtensions>
+    </ThingDef>
+</Defs>
