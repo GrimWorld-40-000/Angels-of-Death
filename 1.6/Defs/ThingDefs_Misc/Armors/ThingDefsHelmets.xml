@@ -17,6 +17,10 @@
 			</recipeUsers>
 		</recipeMaker>
 		<uiIconScale>1.0</uiIconScale>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.50</ToxicEnvironmentResistance>
+			<VacuumResistance MayRequire="ludeon.rimworld.odyssey">0.3</VacuumResistance>
+		</equippedStatOffsets>
 		<tradeTags>
 			<li>HPHelmet</li>
 		</tradeTags>
@@ -76,7 +80,8 @@
 				<!-- </defaultPalette> -->
 			<!-- </li> -->
 		</comps>
-		<equippedStatOffsets>
+		<equippedStatOffsets Inherit="False">
+			<ToxicEnvironmentResistance>0.50</ToxicEnvironmentResistance>
 			<AimingDelayFactor>-0.1</AimingDelayFactor>
 			<ShootingAccuracyPawn>1</ShootingAccuracyPawn>
 		</equippedStatOffsets>

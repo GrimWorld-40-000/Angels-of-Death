@@ -26,7 +26,7 @@
         </tradeTags>
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>0.50</ToxicEnvironmentResistance>
-			<VacuumResistance MayRequire="ludeon.rimworld.odyssey">0.2</VacuumResistance>
+			<VacuumResistance MayRequire="ludeon.rimworld.odyssey">0.6</VacuumResistance>
 		</equippedStatOffsets>
 		<apparel>
 			<drawData>
@@ -124,7 +124,8 @@
 			<Insulation_Heat>8</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
-		<equippedStatOffsets>
+		<equippedStatOffsets Inherit="false">
+			<ToxicEnvironmentResistance>0.50</ToxicEnvironmentResistance>
 			<MoveSpeed>-0.1</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
