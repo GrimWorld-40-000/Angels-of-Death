@@ -325,7 +325,7 @@
                 <range>18</range>
                 <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
                 <burstShotCount>1</burstShotCount>
-                <soundCast>GW_Melta_Gun_Sound</soundCast>
+                <soundCast>GW_Multi_Melta_Gun_Sound</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>12</muzzleFlashScale>	
             </li>
@@ -653,7 +653,7 @@
 				<range>10</range>
 				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
 				<burstShotCount>1</burstShotCount>
-				<soundCast>GW_Melta_Gun_Sound</soundCast>
+				<soundCast>GW_Multi_Melta_Gun_Sound</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>12</muzzleFlashScale>	
 			</li>
