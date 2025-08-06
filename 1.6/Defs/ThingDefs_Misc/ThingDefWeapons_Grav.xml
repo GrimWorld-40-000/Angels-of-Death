@@ -172,10 +172,10 @@
 			<MoveSpeed>-0.30</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
-			<Plasteel>35</Plasteel>
-			<HP_Ceramite>15</HP_Ceramite>
-			<HP_Adamantium>10</HP_Adamantium>
-			<GW_ComponentRelic>1</GW_ComponentRelic>
+			<Plasteel>50</Plasteel>
+			<HP_Ceramite>30</HP_Ceramite>
+			<HP_Adamantium>20</HP_Adamantium>
+			<GW_ComponentRelic>2</GW_ComponentRelic>
 		</costList>
 		<weaponClasses>
 			<li>RangedHeavy</li>

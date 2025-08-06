@@ -25,7 +25,22 @@
 	</ThingDef>
 	
 	<!--=====Assualt Cannon =====-->
-	
+	<ThingDef ParentName="BaseBullet">
+      <defName>GW_AOD_Bullet_Assaultcannon</defName>
+      <label>assault cannon round</label>
+      <graphicData>
+              <texPath>Things/Projectile/Bullet_Big</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1</drawSize>
+      </graphicData>
+      <projectile>
+        <damageDef>Bullet</damageDef>
+        <damageAmountBase>13</damageAmountBase>
+        <stoppingPower>0.5</stoppingPower>
+        <armorPenetrationBase>0.25</armorPenetrationBase>
+        <speed>70</speed>
+      </projectile>
+    </ThingDef>
 	<ThingDef ParentName="GW_SM_TermBase">
 		<defName>GW_AOD_Gun_AssualtCannon</defName>
 		<label>Assault cannon</label>
@@ -63,22 +78,23 @@
 			</skillRequirements>
 		</recipeMaker>
 		<statBases>
-			<WorkToMake>48000</WorkToMake>
-			<Mass>11</Mass>
+			<WorkToMake>90000</WorkToMake>
+			<MarketValue>1000</MarketValue>
+			<Mass>10</Mass>
 			<AccuracyTouch>0.25</AccuracyTouch>
 			<AccuracyShort>0.40</AccuracyShort>
 			<AccuracyMedium>0.35</AccuracyMedium>
 			<AccuracyLong>0.15</AccuracyLong>
-			<RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
 			<MarketValue>1800</MarketValue>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.20</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
-			<Steel>550</Steel>
-			<ComponentIndustrial>35</ComponentIndustrial>
-			<HP_Ceramite>30</HP_Ceramite>
+			<Plasteel>90</Plasteel>
+			<HP_Adamantium>47</HP_Adamantium>
+			<ComponentSpacer>4</ComponentSpacer>			
 		</costList>
 		<weaponTags>
 			<li>IndustrialGunAdvanced</li>
@@ -93,11 +109,11 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>GW_Bullet_Assaultcannon</defaultProjectile>
-				<warmupTime>6</warmupTime>
+				<defaultProjectile>GW_AOD_Bullet_Assaultcannon</defaultProjectile>
+				<warmupTime>3</warmupTime>
 				<range>30</range>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-				<burstShotCount>11</burstShotCount>
+				<burstShotCount>10</burstShotCount>
 				<soundCast>GW_Heavy_Bolt_Gun_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>10</muzzleFlashScale>
@@ -118,7 +134,22 @@
 	</ThingDef>
 	
 	<!--===== Reaper Autocannon =====-->
-	
+	<ThingDef ParentName="BaseBullet">
+      <defName>GW_AOD_Bullet_ReaperAutocannon</defName>
+      <label>autocannon round</label>
+      <graphicData>
+              <texPath>Things/Projectile/Bullet_Big</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.2</drawSize>
+      </graphicData>
+      <projectile>
+        <damageDef>Bullet</damageDef>
+        <damageAmountBase>20</damageAmountBase>
+        <stoppingPower>2</stoppingPower>
+        <armorPenetrationBase>0.4</armorPenetrationBase>
+        <speed>75</speed>
+      </projectile>
+    </ThingDef>
 	<ThingDef ParentName="GW_SM_TermBase">
 		<defName>GW_AOD_Gun_ReaperCannon</defName>
 		<label>reaper autocannon</label>
@@ -187,7 +218,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>GW_Bullet_Autocannon</defaultProjectile>
+				<defaultProjectile>GW_AOD_Bullet_ReaperAutocannon</defaultProjectile>
 				<warmupTime>4.5</warmupTime>
 				<range>35.5</range>
 				<ticksBetweenBurstShots>16</ticksBetweenBurstShots>
@@ -212,7 +243,21 @@
 	</ThingDef>
 	
 	<!--===== Storm Bolter =====-->
-	
+	<ThingDef ParentName="BaseBullet">
+    <defName>GW_AOD_Bullet_StormBolter</defName>
+    <label>bolter round</label>
+    <graphicData>
+      <texPath>Things/Projectiles/Bolter_Projectile</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+      <stoppingPower>1</stoppingPower>
+	  <armorPenetrationBase>0.3</armorPenetrationBase>
+      <speed>80</speed>
+    </projectile>
+  </ThingDef>
 	<ThingDef ParentName="GW_SM_TermBase">
 		<defName>GW_AOD_Gun_StormBolter</defName>
 		<label>Umbra storm bolter</label>
@@ -263,7 +308,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>GW_Bullet_Bolter</defaultProjectile>
+				<defaultProjectile>GW_AOD_Bullet_StormBolter</defaultProjectile>
 				<warmupTime>2</warmupTime>
 				<range>28</range>
 				<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
@@ -297,7 +342,26 @@
 	</ThingDef>
 	
 	<!--===== Plasma Cannon =====-->
-	
+	<ThingDef ParentName="BaseBullet">
+        <defName>GW_AOD_Bullet_Plasma_CannonShot</defName>
+        <label>plasma shot</label>
+        <graphicData>
+            <texPath>Things/Projectiles/Plasma_Projectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+            <drawSize>1.5</drawSize>
+        </graphicData>
+        <thingClass>Projectile_Explosive</thingClass>
+        <projectile>
+            <damageDef>Burn</damageDef>
+            <damageAmountBase>30</damageAmountBase>
+            <stoppingPower>2.5</stoppingPower>
+            <explosionRadius>2.4</explosionRadius>
+            <armorPenetrationBase>0.85</armorPenetrationBase>
+            <speed>120</speed>
+			<explosionEffect>GW_PlasmaEffecter</explosionEffect>
+        </projectile>
+    </ThingDef>
 	<ThingDef ParentName="GW_SM_TermBase">
 		<defName>GW_AOD_Gun_PlasmaCannon</defName>
 		<label>terminator plasma cannon</label>
@@ -335,22 +399,22 @@
 			</skillRequirements>
 		</recipeMaker>
 		<statBases>
-			<WorkToMake>62000</WorkToMake>
+			<WorkToMake>85000</WorkToMake>
 			<Mass>14</Mass>
-			<AccuracyTouch>0.35</AccuracyTouch>
-			<AccuracyShort>0.45</AccuracyShort>
-			<AccuracyMedium>0.80</AccuracyMedium>
-			<AccuracyLong>0.75</AccuracyLong>
-			<RangedWeapon_Cooldown>5.4</RangedWeapon_Cooldown>
+			<AccuracyTouch>0.60</AccuracyTouch>
+			<AccuracyShort>0.80</AccuracyShort>
+			<AccuracyMedium>0.65</AccuracyMedium>
+			<AccuracyLong>0.35</AccuracyLong>
+			<RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.50</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
-			<Steel>625</Steel>
-			<Plasteel>175</Plasteel>
-			<ComponentIndustrial>40</ComponentIndustrial>
-			<HP_Ceramite>55</HP_Ceramite>
+			<Plasteel>60</Plasteel>
+			<ComponentSpacer>5</ComponentSpacer>
+			<HP_Ceramite>40</HP_Ceramite>
+			<HP_Adamantium>25</HP_Adamantium>
 		</costList>
 		<weaponTags>
 			<li>IndustrialGunAdvanced</li>
@@ -365,9 +429,9 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>GW_Bullet_Plasma_CannonShot</defaultProjectile>
-				<warmupTime>5</warmupTime>
-				<range>75</range>
+				<defaultProjectile>GW_AOD_Bullet_Plasma_CannonShot</defaultProjectile>
+				<warmupTime>2.2</warmupTime>
+				<range>35</range>
 				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
 				<burstShotCount>1</burstShotCount>
 				<forcedMissRadius>2.9</forcedMissRadius>
@@ -472,7 +536,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>GW_Bullet_Plasma_CannonShot</defaultProjectile>
+				<defaultProjectile>GW_AOD_Bullet_Plasma_CannonShot</defaultProjectile>
 				<warmupTime>1.2</warmupTime>
 				<range>35</range>
 				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>

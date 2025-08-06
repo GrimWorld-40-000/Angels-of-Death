@@ -15,10 +15,10 @@
         <thingClass>Projectile_Explosive</thingClass>
         <projectile>
             <damageDef>Burn</damageDef>
-            <damageAmountBase>35</damageAmountBase>
-            <stoppingPower>1.4</stoppingPower>
-            <explosionRadius>2.8</explosionRadius>
-            <armorPenetrationBase>0.5</armorPenetrationBase>
+            <damageAmountBase>22</damageAmountBase>
+            <stoppingPower>0.7</stoppingPower>
+            <explosionRadius>1</explosionRadius>
+            <armorPenetrationBase>0.37</armorPenetrationBase>
             <speed>60</speed>
 			<explosionEffect>GW_PlasmaEffecter</explosionEffect>
         </projectile>
@@ -36,13 +36,14 @@
         </graphicData>
         <soundInteract>Interact_ChargeRifle</soundInteract>
         <statBases>
-            <WorkToMake>60000</WorkToMake>
-            <Mass>8</Mass>
-            <AccuracyTouch>0.60</AccuracyTouch>
-            <AccuracyShort>0.80</AccuracyShort>
-            <AccuracyMedium>0.65</AccuracyMedium>
-            <AccuracyLong>0.30</AccuracyLong>
-            <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+            <WorkToMake>50000</WorkToMake>
+			<MarketValue>700</MarketValue>
+            <Mass>3.5</Mass>
+            <AccuracyTouch>0.8</AccuracyTouch>
+            <AccuracyShort>0.65</AccuracyShort>
+            <AccuracyMedium>0.30</AccuracyMedium>
+            <AccuracyLong>0.10</AccuracyLong>
+            <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
             <MarketValue>1800</MarketValue>
         </statBases>
 		<equippedStatOffsets>
@@ -58,10 +59,10 @@
             </skillRequirements>
         </recipeMaker>
         <costList>
-            <Plasteel>40</Plasteel>
-            <HP_Adamantium>10</HP_Adamantium>
-            <ComponentSpacer>4</ComponentSpacer>
-            <HP_Ceramite>20</HP_Ceramite>
+            <Plasteel>25</Plasteel>
+            <HP_Adamantium>2</HP_Adamantium>
+            <ComponentSpacer>2</ComponentSpacer>
+            <HP_Ceramite>10</HP_Ceramite>
         </costList>
         <weaponTags>
             <li>SpacerGun</li>
@@ -80,7 +81,7 @@
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GW_AOD_Bullet_PlasmGun_Shot</defaultProjectile>
                 <warmupTime>1</warmupTime>
-                <range>32</range>
+                <range>18</range>
                 <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
                 <forcedMissRadius>0.9</forcedMissRadius>
                 <burstShotCount>1</burstShotCount>
@@ -129,10 +130,10 @@
         <thingClass>Projectile_Explosive</thingClass>
         <projectile>
             <damageDef>Burn</damageDef>
-            <damageAmountBase>38</damageAmountBase>
-            <stoppingPower>1.4</stoppingPower>
+            <damageAmountBase>27</damageAmountBase>
+            <stoppingPower>1.7</stoppingPower>
             <explosionRadius>2.6</explosionRadius>
-            <armorPenetrationBase>0.5</armorPenetrationBase>
+            <armorPenetrationBase>0.59</armorPenetrationBase>
             <speed>60</speed>
 			<explosionEffect>GW_PlasmaEffecter</explosionEffect>
         </projectile>
@@ -172,9 +173,9 @@
         </recipeMaker>
         <costList>
             <Plasteel>55</Plasteel>
+            <HP_Ceramite>30</HP_Ceramite>
             <HP_Adamantium>15</HP_Adamantium>
             <ComponentSpacer>5</ComponentSpacer>
-            <HP_Ceramite>30</HP_Ceramite>
         </costList>
         <weaponTags>
             <li>SpacerGun</li>
@@ -354,7 +355,43 @@
     </ThingDef>
   
     <!-- ====================== MultiMelta  ===================== -->
-
+	
+	<ThingDef ParentName="BaseBullet">
+        <defName>GW_AOD_Bullet_MultiMeltaGun</defName>
+        <label>Melta</label>
+        <description>melta beam</description>
+        <drawOffscreen>true</drawOffscreen>
+        <seeThroughFog>true</seeThroughFog>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Projectiles/Melta_Projectile</texPath>
+            <shaderType>TransparentPostLight</shaderType>
+            <drawSize>1</drawSize>
+        </graphicData>
+        <projectile>
+            <damageDef>Burn</damageDef>
+            <damageAmountBase>33</damageAmountBase>
+            <armorPenetrationBase>0.70</armorPenetrationBase>
+            <stoppingPower>2.0</stoppingPower>
+            <speed>50</speed>
+        </projectile>
+        <thingClass>taranchuk_lasers.LaserProjectile</thingClass>
+        <modExtensions>
+            <li Class="taranchuk_lasers.LaserProperties">
+                <damageTickRate>9</damageTickRate>
+                <lifetimeTicks>280</lifetimeTicks>
+                <beamWidth>1.5</beamWidth>
+                <beamWidthDrawScale>1</beamWidthDrawScale>
+                <sweepRatePerTick>0</sweepRatePerTick>
+                <maxSweepAngle>0</maxSweepAngle>
+                <damageThingsAcrossBeamLine>true</damageThingsAcrossBeamLine>
+                <debugCells>false</debugCells>
+                <textureScrollOffsetPerTick>(0, -0.1)</textureScrollOffsetPerTick>
+                <lockOnTarget>false</lockOnTarget>
+                <!-- <endEffecterDef>GW_MeltaEffecter</endEffecterDef>  -->
+            </li>
+        </modExtensions>
+    </ThingDef>
     <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>GW_AOD_Multimelta</defName>
         <label>multi-melta</label>
@@ -409,7 +446,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>GW_Bullet_MultiMelta</defaultProjectile>
+                <defaultProjectile>GW_AOD_Bullet_MultiMeltaGun</defaultProjectile>
                 <warmupTime>5</warmupTime>
 				<forcedMissRadius>0.01</forcedMissRadius>
                 <range>45</range>
