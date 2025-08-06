@@ -851,18 +851,9 @@
 		<tradeTags>
 			<li>HPRanged</li>
 		</tradeTags>
-		<comps>
-			<li Class="CompProperties_ApparelReloadable">
-				<maxCharges>1</maxCharges>
-				<destroyOnEmpty>true</destroyOnEmpty>
-				<hotKey>Misc4</hotKey>
-				<chargeNoun>charge</chargeNoun>
-				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
-			</li>
-		</comps>
 		<verbs>
 			<li>
-				<verbClass>Verb_Shoot</verbClass>
+				<verbClass>Verb_ShootOneUse</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GW_SM_LauncherFrag_Bullet</defaultProjectile>
 				<forcedMissRadius>2.2</forcedMissRadius>
