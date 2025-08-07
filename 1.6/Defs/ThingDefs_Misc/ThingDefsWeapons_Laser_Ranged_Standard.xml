@@ -448,7 +448,6 @@
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GW_AOD_Bullet_MultiMeltaGun</defaultProjectile>
                 <warmupTime>5</warmupTime>
-				<forcedMissRadius>0.01</forcedMissRadius>
                 <range>45</range>
                 <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
                 <burstShotCount>2</burstShotCount>
