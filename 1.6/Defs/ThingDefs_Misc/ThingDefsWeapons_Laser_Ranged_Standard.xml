@@ -373,13 +373,13 @@
             <damageAmountBase>33</damageAmountBase>
             <armorPenetrationBase>0.70</armorPenetrationBase>
             <stoppingPower>2.0</stoppingPower>
-            <speed>50</speed>
+            <speed>1000</speed>
         </projectile>
         <thingClass>taranchuk_lasers.LaserProjectile</thingClass>
         <modExtensions>
             <li Class="taranchuk_lasers.LaserProperties">
                 <damageTickRate>9</damageTickRate>
-                <lifetimeTicks>280</lifetimeTicks>
+                <lifetimeTicks>8</lifetimeTicks>
                 <beamWidth>1.5</beamWidth>
                 <beamWidthDrawScale>1</beamWidthDrawScale>
                 <sweepRatePerTick>0</sweepRatePerTick>
