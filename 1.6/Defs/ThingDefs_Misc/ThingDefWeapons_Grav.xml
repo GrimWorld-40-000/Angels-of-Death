@@ -27,7 +27,7 @@
         <modExtensions>
             <li Class="taranchuk_lasers.LaserProperties">
                 <damageTickRate>9</damageTickRate>
-                <lifetimeTicks>140</lifetimeTicks>
+                <lifetimeTicks>8</lifetimeTicks>
                 <beamWidth>1.2</beamWidth>
                 <beamWidthDrawScale>1</beamWidthDrawScale>
                 <sweepRatePerTick>0</sweepRatePerTick>
@@ -65,7 +65,7 @@
         <modExtensions>
             <li Class="taranchuk_lasers.LaserProperties">
                 <damageTickRate>9</damageTickRate>
-                <lifetimeTicks>120</lifetimeTicks>
+                <lifetimeTicks>8</lifetimeTicks>
                 <beamWidth>1.2</beamWidth>
                 <beamWidthDrawScale>1</beamWidthDrawScale>
                 <sweepRatePerTick>0</sweepRatePerTick>
@@ -103,7 +103,7 @@
         <modExtensions>
             <li Class="taranchuk_lasers.LaserProperties">
                 <damageTickRate>9</damageTickRate>
-                <lifetimeTicks>60</lifetimeTicks>
+                <lifetimeTicks>8</lifetimeTicks>
                 <beamWidth>1.2</beamWidth>
                 <beamWidthDrawScale>1</beamWidthDrawScale>
                 <sweepRatePerTick>0</sweepRatePerTick>
