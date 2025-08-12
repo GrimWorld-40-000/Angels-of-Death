@@ -25,7 +25,7 @@
         <description>A turret emplacement of Adeptus Astartes design, using technology borrowed from the Tarantula auto-turret. This turret is armed with a twin-linked heavy bolter of even higher power than normal. \n\nThe Adeptus Astartes, favoring high-mobility warfare as they do, rarely use static defenses. Any turrets that they do use are strictly unmanned, to avoid removing precious Space Marines from the offensive.</description>
         <thingClass>Building_TurretGun</thingClass>
         <drawerType>MapMeshAndRealTime</drawerType>
-        <uiIconPath>Things/Building/Emplacement/AstartesTurret_HeavyBolter_UI</uiIconPath>
+        <uiIconPath>Things/Building/Emplacement/AstartesTurret_bolter_UI</uiIconPath>
         <uiIconScale>1.1</uiIconScale>
         <graphicData>
             <texPath>Things/Building/Emplacement/AstartesTurret_Base</texPath>
@@ -236,7 +236,7 @@
         <description>A high-powered lascannon, aimed and fired by the Machine Spirit of the turret emplacement's systems.</description>
         <recoilPower>3</recoilPower>
         <graphicData>
-            <texPath>Things/Building/Emplacement/AstartesTurret_Las_Top</texPath>
+            <texPath>Things/Building/Emplacement/AstartesTurret_Lascannon_Top</texPath>
             <drawSize>(1,1)</drawSize>
         </graphicData>
         <statBases>
