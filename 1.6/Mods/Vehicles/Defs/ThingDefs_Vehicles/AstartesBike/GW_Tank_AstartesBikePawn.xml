@@ -48,7 +48,7 @@
 		</race>
 		<properties>
 			
-			<customRoadCosts AssignDefaults="0.33" />
+			<customRoadCosts AssignDefaults="0.33"/>
 			<winterSpeedMultiplier>0.95</winterSpeedMultiplier>
 			<worldSpeedMultiplier>1.40</worldSpeedMultiplier>
 			<offRoadMultiplier>0.95</offRoadMultiplier>
@@ -58,33 +58,33 @@
 			<diagonalRotation>false</diagonalRotation>
 			<roles>
 				<li>
-		<key>rider</key>
-		<label>Rider</label>
+					<key>rider</key>
+					<label>Rider</label>
 
-		<slots>1</slots>
-		<slotsToOperate>1</slotsToOperate>	
+					<slots>1</slots>
+					<slotsToOperate>1</slotsToOperate>
 
-		<handlingTypes>
-		<li>Movement</li>
-		<li>Turret</li>
-		</handlingTypes>
+					<handlingTypes>
+						<li>Movement</li>
+						<li>Turret</li>
+					</handlingTypes>
 			
-		<turretIds>
-		<li>mainTurret</li>
-		</turretIds>
+					<turretIds>
+						<li>sideTurret</li>
+					</turretIds>
 
-		<pawnRenderer>
-		<layer>1</layer>
-		<layerNorth>1</layerNorth>
-		<layerSouth>-1</layerSouth>
-		<angleNorth>0</angleNorth>
-		<angleEast>0</angleEast>
-		<angleNorthEast>0</angleNorthEast>
-		<angleSouthEast>0</angleSouthEast>
-		<drawOffsetNorth>(0,0,-0.01)</drawOffsetNorth>
-		<drawOffsetSouth>(0,0,-0.01)</drawOffsetSouth>
-		<drawOffsetEast>(-0.5,0,-0.15)</drawOffsetEast>
-		</pawnRenderer>
+					<pawnRenderer>
+						<layer>1</layer>
+						<layerNorth>1</layerNorth>
+						<layerSouth>-1</layerSouth>
+						<angleNorth>0</angleNorth>
+						<angleEast>0</angleEast>
+						<angleNorthEast>0</angleNorthEast>
+						<angleSouthEast>0</angleSouthEast>
+						<drawOffsetNorth>(0,0,-0.01)</drawOffsetNorth>
+						<drawOffsetSouth>(0,0,-0.01)</drawOffsetSouth>
+						<drawOffsetEast>(-0.5,0,-0.15)</drawOffsetEast>
+					</pawnRenderer>
 				</li>
 			</roles>
 		</properties>
@@ -184,7 +184,7 @@
 				<health>150</health>
 				<depth>Internal</depth>
 				<reactors>
-					<li Class="Vehicles.Reactor_FuelLeak" />
+					<li Class="Vehicles.Reactor_FuelLeak"/>
 				</reactors>
 				<hitbox>
 					<cells>
@@ -214,6 +214,9 @@
 			</li>
 		</components>
 		<comps>
+			<li Class = "Vehicles.CompProperties_UpgradeTree">
+				<def>GW_AOD_AstartesBike_UpgradeTree</def>
+			</li>
 			<li Class="Vehicles.CompProperties_FueledTravel">
 				<fuelType>Chemfuel</fuelType>
 				<leakDef>Filth_Fuel</leakDef>
@@ -222,25 +225,25 @@
 				<fuelCapacity>135</fuelCapacity>
 			</li>
 
-		<li Class="Vehicles.CompProperties_VehicleTurrets">
-		<turrets>
-				<li>
-		<turretDef>GW_AstartesBike_Main</turretDef>
+			<li Class="Vehicles.CompProperties_VehicleTurrets">
+				<turrets>
+					<li>
+						<turretDef>GW_AstartesBike_Main</turretDef>
 						
-		<renderProperties>
-		<north>(0, 0)</north>
-		<south>(0, 0)</south>
-		<east>(0.9, -0.5)</east>
-		</renderProperties>
+						<renderProperties>
+							<north>(0, 0)</north>
+							<south>(0, 0)</south>
+							<east>(0.9, -0.5)</east>
+						</renderProperties>
 						
 
-		<gizmoLabel>Main Turret</gizmoLabel>
+						<gizmoLabel>Main Turret</gizmoLabel>
 						
-		<defaultAngleRotated>0</defaultAngleRotated>
-		<angleRestricted>(340,20)</angleRestricted>
-		<aimPieOffset>(0, 1.1)</aimPieOffset>
+						<defaultAngleRotated>0</defaultAngleRotated>
+						<angleRestricted>(340,20)</angleRestricted>
+						<aimPieOffset>(0, 1.1)</aimPieOffset>
 						
-		<key>mainTurret</key>
+						<key>mainTurret</key>
 					</li>
 				</turrets>
 			</li>
