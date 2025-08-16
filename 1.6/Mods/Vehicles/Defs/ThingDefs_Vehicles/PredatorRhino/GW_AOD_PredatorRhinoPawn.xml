@@ -3,7 +3,7 @@
 
 <Vehicles.VehicleDef ParentName="BaseVehiclePawn">
 		<defName>GW_AOD_PredatorRhino</defName>
-		<label>Rhino</label>
+		<label>Rhino Chassis</label>
 		<description>An armored personnel carrier used by the Adeptus Astartes, as well as other elite Imperial forces. Its ten passengers are covered by a Storm Bolter mounted on top of the vehicle. \n\nThe Rhino dates back all the way to the Dark Age of Technology, where it was used to explore newly-colonized planets and transport troops into combat. When an STC fragment for it was recovered, it was quickly adopted by the Imperium of Man. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x10\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		<graphicData>
 			<texPath>Things/Vehicles/PredatorAndRhino/Chassis/MainChassis</texPath>
@@ -338,6 +338,9 @@
 			</li>
 		</components>
 		<comps>
+			<li Class = "Vehicles.CompProperties_UpgradeTree">
+				<def>GW_AOD_RhinoChassis_UpgradeTree</def>
+			</li>
 			<li Class="Vehicles.CompProperties_FueledTravel">
 				<fuelType>Chemfuel</fuelType>
 				<leakDef>Filth_Fuel</leakDef>
@@ -347,6 +350,20 @@
 			</li>
 			<li Class="Vehicles.CompProperties_VehicleTurrets">
 				<turrets>
+					<li>
+						<turretDef>GW_AOD_PredatorRhino_StormBolter</turretDef>
+						<renderProperties>
+							<north>(0.5,1.25)</north>
+							<south>(-0.5, -0.8)</south>
+							<east>(1, -0.084)</east>
+							<west>(-1, -0.08)</west>
+						</renderProperties>
+						<gizmoLabel>Main Turret</gizmoLabel>
+						<!-- <angleRestricted>(-85, 85)</angleRestricted> -->
+						<aimPieOffset>(0, 1)</aimPieOffset>
+						<drawLayer>1</drawLayer>
+						<key>mainTurret</key>
+					</li>
 				</turrets>
 			</li>
 		</comps>
