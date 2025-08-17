@@ -13,8 +13,8 @@
         </graphicData>
         <projectile>
             <damageDef>Bullet</damageDef>
-            <damageAmountBase>100</damageAmountBase>
-            <stoppingPower>0.6</stoppingPower>
+            <damageAmountBase>31</damageAmountBase>
+            <stoppingPower>0.45</stoppingPower>
             <speed>70</speed>
         </projectile>
     </ThingDef>
@@ -89,7 +89,7 @@
         </statBases>
         <building>
             <turretGunDef>GW_SM_BuildingGun_HeavyBolter</turretGunDef>
-            <turretBurstCooldownTime>2</turretBurstCooldownTime>
+            <turretBurstCooldownTime>3.5</turretBurstCooldownTime>
         </building>
         <placeWorkers>
             <li>PlaceWorker_TurretTop</li>
@@ -122,7 +122,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <defaultProjectile>GW_SM_BuildingBullet_HeavyBolter</defaultProjectile>
-                <warmupTime>1.5</warmupTime>
+                <warmupTime>0</warmupTime>
                 <range>40</range>
                 <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
                 <burstShotCount>10</burstShotCount>
@@ -149,8 +149,8 @@
         </graphicData>
         <projectile>
             <damageDef>Burn</damageDef>
-            <damageAmountBase>170</damageAmountBase>
-            <armorPenetrationBase>1.5</armorPenetrationBase>
+            <damageAmountBase>57</damageAmountBase>
+            <armorPenetrationBase>0.85</armorPenetrationBase>
             <stoppingPower>2.0</stoppingPower>
         </projectile>
     </ThingDef>
@@ -215,12 +215,12 @@
             </li>
         </comps>
         <statBases>
-            <ShootingAccuracyTurret>1.5</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>0.98</ShootingAccuracyTurret> <!-- like level 14 human shooter -->
             <MaxHitPoints>630</MaxHitPoints>
         </statBases>
         <building>
             <turretGunDef>GW_SM_BuildingGun_Lascannon</turretGunDef>
-            <turretBurstCooldownTime>3</turretBurstCooldownTime>
+            <turretBurstCooldownTime>3.2</turretBurstCooldownTime>
         </building>
         <placeWorkers>
             <li>PlaceWorker_TurretTop</li>
