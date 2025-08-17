@@ -255,26 +255,26 @@
             <researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
         </recipeMaker>
         <statBases>
-			<WorkToMake>25000</WorkToMake>
-			<MaxHitPoints>1000</MaxHitPoints>
-			<Mass>11</Mass>
+			<WorkToMake>72000</WorkToMake>
+			<MaxHitPoints>480</MaxHitPoints>
+			<MarketValue>1700</MarketValue>
+			<Mass>9</Mass>
 			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
-			<ArmorRating_Blunt>1.30</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.0</ArmorRating_Heat>
-			<Insulation_Cold>20</Insulation_Cold>
-			<Insulation_Heat>20</Insulation_Heat>
-			<EquipDelay>4</EquipDelay>
+			<ArmorRating_Sharp>1.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>.49</ArmorRating_Blunt>
+			<ArmorRating_Heat>.58</ArmorRating_Heat>
+			<Insulation_Cold>34</Insulation_Cold>
+			<Insulation_Heat>12</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>-0.4</MoveSpeed>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<MoveSpeed>-0.2</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
-			<ComponentSpacer>10</ComponentSpacer>
-			<Plasteel>400</Plasteel>
-			<Steel>500</Steel>
-			<Uranium>75</Uranium>
-			<HP_Ceramite>50</HP_Ceramite>
+			<ComponentSpacer>3</ComponentSpacer>
+			<Plasteel>160</Plasteel>
+			<HP_Ceramite>120</HP_Ceramite>
 		</costList>
 		<apparel>
             <wornGraphicPath>Things/Apparel/Armor_Maximus/Maximus_torso</wornGraphicPath>
@@ -296,26 +296,26 @@
             <researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
         </recipeMaker>
         <statBases>
-			<WorkToMake>25000</WorkToMake>
-			<MaxHitPoints>1000</MaxHitPoints>
-			<Mass>11</Mass>
+			<WorkToMake>72000</WorkToMake>
+			<MaxHitPoints>480</MaxHitPoints>
+			<MarketValue>1700</MarketValue>
+			<Mass>9</Mass>
 			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
-			<ArmorRating_Blunt>1.30</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.0</ArmorRating_Heat>
-			<Insulation_Cold>20</Insulation_Cold>
-			<Insulation_Heat>20</Insulation_Heat>
-			<EquipDelay>4</EquipDelay>
+			<ArmorRating_Sharp>1.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>.49</ArmorRating_Blunt>
+			<ArmorRating_Heat>.58</ArmorRating_Heat>
+			<Insulation_Cold>34</Insulation_Cold>
+			<Insulation_Heat>12</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>-0.4</MoveSpeed>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<MoveSpeed>-0.2</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
-			<ComponentSpacer>10</ComponentSpacer>
-			<Plasteel>400</Plasteel>
-			<Steel>500</Steel>
-			<Uranium>75</Uranium>
-			<HP_Ceramite>50</HP_Ceramite>
+			<ComponentSpacer>3</ComponentSpacer>
+			<Plasteel>160</Plasteel>
+			<HP_Ceramite>120</HP_Ceramite>
 		</costList>
 		<apparel>
             <wornGraphicPath>Things/Apparel/Armor_Corvus/Corvus_torso</wornGraphicPath>
