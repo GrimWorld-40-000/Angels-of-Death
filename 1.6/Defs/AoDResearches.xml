@@ -223,7 +223,7 @@
 			<li>GW_SM_AstartesHeavy</li>
 		</prerequisites>
   			<researchViewX>11.00</researchViewX>
-  			<researchViewY>1.50</researchViewY>
+  			<researchViewY>0.70</researchViewY>
         <modExtensions>
             <!-- <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions"> -->
                 <!-- <StudyLocation>GW_Cogitator</StudyLocation> -->
