@@ -49,6 +49,7 @@
 			<shaderType>CutoutComplexPattern</shaderType>
 			<drawSize>(1.75, 1.75)</drawSize>
 		</graphicData>
+		<gizmoIconTexPath>Things/Vehicles/PredatorAndRhino/Sponsons/BolterTurret_Rhino</gizmoIconTexPath>
 		<ammunition>
 			<thingDefs>
 				<li>GW_HeavyBolterNonCE</li>
@@ -104,6 +105,7 @@
 			<shaderType>CutoutComplexPattern</shaderType>
 			<drawSize>(1.75, 1.75)</drawSize>
 		</graphicData>
+		<gizmoIconTexPath>Things/Vehicles/PredatorAndRhino/Sponsons/Sponson_Bolter</gizmoIconTexPath>
 		<ammunition>
 			<thingDefs>
 				<li>GW_HeavyBolterNonCE</li>
@@ -193,6 +195,7 @@
 			<shaderType>CutoutComplexPattern</shaderType>
 			<drawSize>(1.75, 1.75)</drawSize>
 		</graphicData>
+		<gizmoIconTexPath>Things/Vehicles/PredatorAndRhino/Sponsons/Camera_Sponson</gizmoIconTexPath>
 		<ammunition>
 			<thingDefs>
 				<li>GW_LascannonammoNonCE</li>
@@ -233,6 +236,7 @@
 			<shaderType>CutoutComplexPattern</shaderType>
 			<drawSize>(1.75, 1.75)</drawSize>
 		</graphicData>
+		<gizmoIconTexPath>Things/Vehicles/PredatorAndRhino/Sponsons/Sponson_Flammer</gizmoIconTexPath>
 		<ammunition>
 			<thingDefs>
 				<li>Chemfuel</li>
@@ -282,6 +286,7 @@
 			<shaderType>CutoutComplexPattern</shaderType>
 			<drawSize>(5, 5)</drawSize>
 		</graphicData>
+		<gizmoIconTexPath>Things/Vehicles/Predator/Predator_Cannontop_Gatling</gizmoIconTexPath>
 		<ammunition>
 			<thingDefs>
 				<li>GW_HeavyBolterNonCE</li>
@@ -338,6 +343,7 @@
 			<shaderType>CutoutComplexPattern</shaderType>
 			<drawSize>(5, 5)</drawSize>
 		</graphicData>
+		<gizmoIconTexPath>Things/Vehicles/Predator/Predator_LasCannonTop</gizmoIconTexPath>
 		<ammunition>
 			<thingDefs>
 				<li>GW_LascannonammoNonCE</li>
@@ -394,6 +400,7 @@
 			<shaderType>CutoutComplexPattern</shaderType>
 			<drawSize>(5, 5)</drawSize>
 		</graphicData>
+		<gizmoIconTexPath>Things/Vehicles/Predator/Predator_Cannontop_Plasma</gizmoIconTexPath>
 		<ammunition>
 			<thingDefs>
 				<li>GW_HeavyPlasmaNonCE</li>
@@ -465,6 +472,7 @@
 			<shaderType>CutoutComplexPattern</shaderType>
 			<drawSize>(5, 5)</drawSize>
 		</graphicData>
+		<gizmoIconTexPath>Things/Vehicles/Predator/Predator_Cannontop_Cannon</gizmoIconTexPath>
 		<ammunition>
 			<thingDefs>
 				<li>GW_AutocannonammoNonCE</li>

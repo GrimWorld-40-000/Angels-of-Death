@@ -242,6 +242,186 @@
 				 <GW_VehicleCannon>1</GW_VehicleCannon>
 				</ingredients>
 			</li>
+			<li>
+				<key>ImprovedCargo</key>
+				<label>Improved Cargo</label>
+				<description>By removing every non-essential bit inside the vehicle, extra cargo capacity has been found.</description>
+				
+				<icon>Things/Building/Furniture/ShelfSmall_south</icon>
+				
+				<work>2000</work>
+				<ingredients>
+					<Steel>100</Steel>
+					<HP_Ceramite>100</HP_Ceramite>
+					<ComponentIndustrial>4</ComponentIndustrial>
+				</ingredients>
+				
+				<gridCoordinate>(10, 5)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				
+				<upgrades>
+					<li Class="Vehicles.StatUpgrade">
+						<vehicleStats>
+							<li>
+								<def>CargoCapacity</def>
+								<value>120</value>
+							</li>
+						</vehicleStats>
+					</li>
+				</upgrades>
+			</li>
+			<li>
+				<key>ImprovedEngine</key>
+				<label>Improved Engine</label>
+				<description>Fine tunes the vehicles multiple engines to work better to the conditions of this RimWorld’s atmosphere and gravity.</description>
+				
+				<icon>Things/Item/Resource/VehicleParts/Vehicle_Engine</icon>
+				
+				<work>2000</work>
+				<ingredients>
+					<Steel>100</Steel>
+					<HP_Ceramite>100</HP_Ceramite>
+					<ComponentIndustrial>4</ComponentIndustrial>
+				</ingredients>
+				
+				<gridCoordinate>(15, 5)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				
+				<upgrades>
+					<li Class="Vehicles.StatUpgrade">
+						<statCategories>
+							<li>
+								<def>FuelConsumptionRate</def>
+								<value>2</value>
+							</li>
+						</statCategories>
+						<vehicleStats>
+							<li MayRequire="oskarpotocki.vanillavehiclesexpanded">
+								<def>AccelerationRate</def>
+								<value>0.03</value>
+							</li>
+							<li>
+								<def>MoveSpeed</def>
+								<value>2</value>
+							</li>
+						</vehicleStats>
+					</li>
+				</upgrades>
+			</li>
+			<li>
+				<key>ImprovedAspiration</key>
+				<label>Improved aspiration</label>
+				<description>Adapted filters and aspiration system to the planetary surface.</description>
+				
+				<icon>Things/Item/Resource/VehicleParts/Vehicle_Exhaust</icon>
+				
+				<work>2000</work>
+				<ingredients>
+					<Steel>100</Steel>
+					<HP_Ceramite>100</HP_Ceramite>
+					<ComponentIndustrial>4</ComponentIndustrial>
+				</ingredients>
+				
+				<gridCoordinate>(10, 10)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				
+				<upgrades>
+					<li Class="Vehicles.StatUpgrade">
+						<vehicleStats>
+							<li MayRequire="oskarpotocki.vanillavehiclesexpanded">
+								<def>AccelerationRate</def>
+								<value>0.03</value>
+							</li>
+							<li>
+								<def>MoveSpeed</def>
+								<value>2</value>
+							</li>
+						</vehicleStats>
+					</li>
+				</upgrades>
+			</li>
+			<li>
+				<key>ImprovedTrack</key>
+				<label>Improved Track</label>
+				<description>Adds rubber-like pads to the tracks of the vehicle, increasing road speed.</description>
+				
+				<icon>Things/Vehicles/PredatorAndRhino/ArmorUpgrades/Armor_Chassis_east</icon>
+				
+				<work>2000</work>
+				<ingredients>
+					<Steel>100</Steel>
+					<HP_Ceramite>100</HP_Ceramite>
+				</ingredients>
+				
+				<gridCoordinate>(15, 10)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>				
+				
+				<upgrades>
+					<li Class="Vehicles.StatUpgrade">
+						<statCategories>
+							<li>
+								<def>OffRoadMultiplier</def>
+								<value>0.5</value>
+								<type>Add</type>
+							</li>
+							<li>
+								<def>WinterCostMultiplier</def>
+								<value>1</value>
+								<type>Add</type>
+							</li>
+							<li>
+								<def>WorldSpeedMultiplier</def>
+								<value>0.5</value>
+								<type>Add</type>
+							</li>
+						</statCategories>
+					</li>
+				</upgrades>
+			</li>
+			<li>
+				<key>DozerBlade</key>
+				<label>Dozer blade</label>
+				<description>Adds dozer blades to the front of the vehicle. increase front armor health and collision damage.</description>
+				
+				<icon>Things/Vehicles/PredatorAndRhino/DozerBlade/DozerBlade_east</icon>
+				
+				<work>2000</work>
+				<ingredients>
+					<Steel>100</Steel>
+					<HP_Ceramite>10</HP_Ceramite>
+				</ingredients>
+				
+				<gridCoordinate>(10, 15)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>				
+				
+				<upgrades>
+					<li Class="Vehicles.StatUpgrade">
+						<vehicleStats>
+							<li>
+								<def>Mass</def>
+								<value>100</value>
+							</li>
+						</vehicleStats>
+					</li>
+					<li Class="Vehicles.VehicleUpgrade">
+						<health>
+							<li>
+								<key>FrontArmorPlating</key>
+								<value>200</value>
+							</li>
+						</health>
+						<armor>
+							<li>
+								<key>FrontArmorPlating</key>
+								<statModifiers>
+									<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+									<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+								</statModifiers>
+							</li>
+						</armor>
+					</li>
+				</upgrades>
+			</li>
 		</nodes>
 	</Vehicles.UpgradeTreeDef>
 	
