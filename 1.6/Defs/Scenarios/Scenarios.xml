@@ -53,9 +53,7 @@
 				</li>
 				<li Class="ScenPart_GameStartDialog">
 					<def>GameStartDialog</def>
-					<text>Two scouts of the Adeptus Astartes, cut off from their Chapter after a disastrous orbital assault, crash-land on a hostile frontier world. With their strike cruiser destroyed and no reinforcements inbound, they must hold the Emperor’s light against relentless xenos, heretics, and the crushing environment. Survival is not enough — they must turn this desolate ground into a bastion, or die in His name.
-					</text>
-					<textKey>GameStartDialog</textKey>
+					<text>Two scouts of the Adeptus Astartes, cut off from their Chapter after a disastrous orbital assault, crash-land on a hostile frontier world. With their strike cruiser destroyed and no reinforcements inbound, they must hold the Emperor’s light against relentless xenos, heretics, and the crushing environment. Survival is not enough — they must turn this desolate ground into a bastion, or die in His name.</text>
 					<closeSound>GameStartSting</closeSound>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
