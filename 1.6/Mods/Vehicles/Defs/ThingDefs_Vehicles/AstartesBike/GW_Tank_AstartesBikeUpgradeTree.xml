@@ -122,58 +122,58 @@
 					</li>
 				</upgrades>	
 			</li>
-			<li>
-				<key>SidecarUpgrade</key>
-				<label>Sidecar</label>
-				<description>Adds a side car with a bolter.</description>
+			<!-- <li> -->
+				<!-- <key>SidecarUpgrade</key> -->
+				<!-- <label>Sidecar</label> -->
+				<!-- <description>Adds a side car with a bolter.</description> -->
 				
-				<icon>Things/Item/Resource/VehicleParts/Vehicle_Engine</icon>
+				<!-- <icon>Things/Item/Resource/VehicleParts/Vehicle_Engine</icon> -->
 				
-				<work>2000</work>
-				<ingredients>
-					<Steel>100</Steel>
-					<HP_Ceramite>100</HP_Ceramite>
-					<ComponentIndustrial>4</ComponentIndustrial>
-				</ingredients>
+				<!-- <work>2000</work> -->
+				<!-- <ingredients> -->
+					<!-- <Steel>100</Steel> -->
+					<!-- <HP_Ceramite>100</HP_Ceramite> -->
+					<!-- <ComponentIndustrial>4</ComponentIndustrial> -->
+				<!-- </ingredients> -->
 				
-				<gridCoordinate>(20, 5)</gridCoordinate>
-				<drawSize>(80, 80)</drawSize>
+				<!-- <gridCoordinate>(20, 5)</gridCoordinate> -->
+				<!-- <drawSize>(80, 80)</drawSize> -->
 				
-				<upgrades>
-					<li Class = "Vehicles.VehicleUpgrade">
-						<roles>
-							<li>
-								<key>Passenger</key>
-								<label>Passenger</label>
+				<!-- <upgrades> -->
+					<!-- <li Class = "Vehicles.VehicleUpgrade"> -->
+						<!-- <roles> -->
+							<!-- <li> -->
+								<!-- <key>Passenger</key> -->
+								<!-- <label>Passenger</label> -->
 
-								<slots>1</slots>
+								<!-- <slots>1</slots> -->
 
-								<handlingTypes>
-									<li>Turret</li>
-								</handlingTypes>
+								<!-- <handlingTypes> -->
+									<!-- <li>Turret</li> -->
+								<!-- </handlingTypes> -->
 						
-								<turretIds>
-									<li>mainTurret</li>
-								</turretIds>
+								<!-- <turretIds> -->
+									<!-- <li>mainTurret</li> -->
+								<!-- </turretIds> -->
 
-								<pawnRenderer>
-									<layer>1</layer>
-									<layerNorth>1</layerNorth>
-									<layerSouth>-1</layerSouth>
-									<layerEast>-1</layerEast>
-									<angleNorth>0</angleNorth>
-									<angleEast>0</angleEast>
-									<angleNorthEast>0</angleNorthEast>
-									<angleSouthEast>0</angleSouthEast>
-									<drawOffsetNorth>(-1,0,-0.01)</drawOffsetNorth>
-									<drawOffsetSouth>(1,0,-0.01)</drawOffsetSouth>
-									<drawOffsetEast>(0,0,-0.3)</drawOffsetEast>
-								</pawnRenderer>
-							</li>
-						</roles>
-					</li>
-				</upgrades>	
-			</li>
+								<!-- <pawnRenderer> -->
+									<!-- <layer>1</layer> -->
+									<!-- <layerNorth>1</layerNorth> -->
+									<!-- <layerSouth>-1</layerSouth> -->
+									<!-- <layerEast>-1</layerEast> -->
+									<!-- <angleNorth>0</angleNorth> -->
+									<!-- <angleEast>0</angleEast> -->
+									<!-- <angleNorthEast>0</angleNorthEast> -->
+									<!-- <angleSouthEast>0</angleSouthEast> -->
+									<!-- <drawOffsetNorth>(-1,0,-0.01)</drawOffsetNorth> -->
+									<!-- <drawOffsetSouth>(1,0,-0.01)</drawOffsetSouth> -->
+									<!-- <drawOffsetEast>(0,0,-0.3)</drawOffsetEast> -->
+								<!-- </pawnRenderer> -->
+							<!-- </li> -->
+						<!-- </roles> -->
+					<!-- </li> -->
+				<!-- </upgrades>	 -->
+			<!-- </li> -->
 		</nodes>
 	
 	</Vehicles.UpgradeTreeDef>
