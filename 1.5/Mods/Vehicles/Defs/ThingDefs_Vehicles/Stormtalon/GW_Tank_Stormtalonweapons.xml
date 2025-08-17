@@ -7,7 +7,7 @@
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_Stormtalon_AssaultCannons</defName>
 		<label>Assault Cannons</label>
-		<description>WIP</description>
+		<description>The Stormtalon’s assault cannons are high-rate-of-fire rotary weapons, capable of shredding infantry and light armor with relentless volleys of explosive rounds.</description>
 		
 		<turretType>Rotatable</turretType>
 		<shotSound>OverlordHBolter</shotSound>
@@ -143,7 +143,7 @@
 		<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 			<defName>GW_Stormtalon_lascannon</defName>
 			<label>Lascannon</label>
-			<description>Lascannon, WIP</description>
+			<description>The Stormtalon’s lascannon is a powerful, single-shot energy weapon, designed to penetrate heavy armor and destroy fortified targets with precision.</description>
 			<turretType>Static</turretType>
 
 			<shotSound>OverlordHBolter</shotSound>

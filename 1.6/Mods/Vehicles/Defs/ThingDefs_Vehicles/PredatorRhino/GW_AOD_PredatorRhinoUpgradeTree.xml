@@ -7,7 +7,7 @@
 			<li>
 				<key>PredatorRoof</key>
 				<label>Predator Roof</label>
-				<description>Rhino roof.</description>
+				<description>The Rhino’s roof is reinforced armor plating that protects the vehicle’s interior and passengers from overhead attacks while maintaining structural integrity during combat.</description>
 				
 				<icon>Things/Vehicles/PredatorAndRhino/Predator/Predator_TopGraphic_east</icon>
 				
@@ -102,8 +102,8 @@
 			
 			<li>
 				<key>PredTurretPlasma</key>
-				<label>Predator Plasma Turret</label>
-				<description>WIP</description>
+				<label>Predator plasma turret</label>
+				<description>The Predator’s plasma turret is a high-energy, turret-mounted weapon that fires superheated plasma bolts, capable of melting through enemy armor and fortified positions with precision and devastating effect.</description>
 				<icon>Things/Vehicles/PredatorAndRhino/PredTurrets/PredTurret_PlasmaCannon</icon>
 				<work>7500</work>
 				<gridCoordinate>(5, 20)</gridCoordinate>
@@ -150,7 +150,7 @@
 			<li>
 				<key>PredTurretBaal</key>
 				<label>Predator Baal Turret</label>
-				<description>WIP</description>
+				<description>The Predator Baal is a fast-attack variant equipped with a flamestorm cannon and additional heavy bolters, built to scorch enemy infantry and clear fortifications with overwhelming fire.</description>
 				<icon>Things/Vehicles/PredatorAndRhino/PredTurrets/PredTurret_Baal</icon>
 				<work>7500</work>
 				<gridCoordinate>(10, 20)</gridCoordinate>
@@ -196,8 +196,8 @@
 			</li>
 			<li>
 				<key>PredTurretLas</key>
-				<label>Predator Anihilator Turret</label>
-				<description>WIP</description>
+				<label>Predator Annihilator turret</label>
+				<description>The Predator Annihilator is a heavy-weapon variant, fitted with a massive, high-caliber main cannon and secondary weapons, designed to destroy enemy armor and fortifications with devastating firepower.</description>
 				<icon>Things/Vehicles/PredatorAndRhino/PredTurrets/PredTurret_Lasgun</icon>
 				<work>7500</work>
 				<gridCoordinate>(15, 20)</gridCoordinate>
@@ -243,8 +243,8 @@
 			</li>
 			<li>
 				<key>PredTurretAutoCannon</key>
-				<label>Predator Autocannon Turret</label>
-				<description>WIP</description>
+				<label>Predator autocannon turret</label>
+				<description>The Predator’s main autocannon is a high-velocity, rapid-fire weapon designed to punch through enemy armor and mow down infantry with sustained, accurate fire.</description>
 				<icon>Things/Vehicles/PredatorAndRhino/PredTurrets/PredTurret_Autocannon</icon>
 				<work>7500</work>
 				<gridCoordinate>(20, 20)</gridCoordinate>
@@ -291,8 +291,8 @@
 			
 			<li>
 				<key>SideSponsonUpgrade_Bolter</key>
-				<label>Side-Bolters</label>
-				<description>WIP</description>
+				<label>Sponson bolters</label>
+				<description>The Rhino’s side sponson bolter turrets are small, mounted weapons on either side of the vehicle, providing suppressive fire against infantry and light threats while the transport moves through the battlefield.</description>
 				<icon>Things/Vehicles/PredatorAndRhino/Sponsons/Sponson_Bolter</icon>
 				<work>5000</work>
 				<gridCoordinate>(20, 15)</gridCoordinate>
@@ -351,8 +351,8 @@
 			</li>			
 			<li>
 				<key>SideSponsonUpgrade_Flamer</key>
-				<label>Side-Flamer</label>
-				<description>WIP</description>
+				<label>Side flamer</label>
+				<description>The Rhino’s side flamers are mounted short-range weapons that project streams of fire along the vehicle’s flanks, clearing infantry and obstacles while advancing through enemy lines.</description>
 				<icon>Things/Vehicles/PredatorAndRhino/Sponsons/Sponson_Flammer</icon>
 				<work>5000</work>
 				<gridCoordinate>(20, 10)</gridCoordinate>
@@ -410,8 +410,8 @@
 			</li>
 			<li>
 				<key>SideSponsonUpgrade_Laser</key>
-				<label>Side-Las</label>
-				<description>WIP</description>
+				<label>Side lascannons</label>
+				<description>The Rhino’s side lascannons are powerful, turret-mounted energy weapons, designed to strike heavily armored targets and fortified positions with precision from either side of the vehicle.</description>
 				<icon>Things/Vehicles/PredatorAndRhino/Sponsons/Camera_Sponson</icon>
 				<work>5000</work>
 				<gridCoordinate>(25, 15)</gridCoordinate>

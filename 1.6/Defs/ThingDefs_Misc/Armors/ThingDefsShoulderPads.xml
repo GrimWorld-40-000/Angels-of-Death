@@ -872,7 +872,7 @@
 	<ThingDef ParentName="GW_SM_MKXShoulderPads">
 		<defName>GW_SM_TacticusShoulderPads_Salamander</defName>
 		<label>Salamander shoulder pads (a)</label>
-		<description>WIP.</description>
+		<description>Fully custom/adjusted Tartaros Terminator armor pattern shoulderpads. \n\nSalamanders are resilient Space Marines, known for their courage and loyalty. On the battlefield, they favor close-range combat, flamers, and incendiary weapons, protecting civilians while unleashing devastating fire on their enemies.</description>
 		<graphicData>
 			<texPath>Things/Apparel/ArmorUpgrade_Salamander/Shoulders/SalamanderGravis_sp_modelA_south</texPath>
 		</graphicData>

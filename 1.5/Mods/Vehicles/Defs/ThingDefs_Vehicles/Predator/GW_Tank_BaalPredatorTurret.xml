@@ -4,7 +4,7 @@
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_BaalPredator_MainTurret</defName>
 		<label>Predator main autocannon</label>
-		<description>WIP</description>
+		<description>The Predator’s main autocannon is a high-velocity, rapid-fire weapon designed to punch through enemy armor and mow down infantry with sustained, accurate fire.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>Shot_TurretSniper</shotSound>
 		<projectile>GW_SM_Term_VCannonBullet</projectile>

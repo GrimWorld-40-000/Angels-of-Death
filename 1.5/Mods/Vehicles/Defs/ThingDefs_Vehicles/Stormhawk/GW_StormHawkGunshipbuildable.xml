@@ -4,7 +4,7 @@
 	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
 		<defName>stormHawkbuild</defName>
 		<label>Stormhawk</label>
-		<description>The Stormhawk, WIP \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<description>The Stormhawk Flayer is a versatile Space Marine flyer designed for close air support. Armed with potent flamer-based weapons, it can rain fire onto enemy infantry and light fortifications, clearing paths for ground forces while maintaining high speed and maneuverability to evade counterattacks. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		
 		<designationCategory>VF_Vehicles</designationCategory>
 		

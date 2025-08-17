@@ -7,7 +7,7 @@
 			<li>
 				<key>GW_StormHawkLasTalonUpgrade</key>
 				<label>Las-Talon</label>
-				<description>WIP</description>
+				<description>The Stormhawk’s Las-Talon is a heavy, forward-mounted lascannon weapon, designed to punch through armored vehicles and fortified targets with precision energy blasts.</description>
 				<icon>Things/Vehicles/Stormhawk/stormhawk_lastalon</icon>
 				<work>7500</work>
 				<gridCoordinate>(5, 5)</gridCoordinate>
@@ -45,7 +45,7 @@
 			<li>
 				<key>GW_StormHawkStormCannonUpgrade</key>
 				<label>Storm Cannon</label>
-				<description>WIP</description>
+				<description>The Stormhawk’s Storm Cannon is a rapid-fire, high-energy weapon that unleashes a storm of explosive shells, effective against infantry and light vehicles alike.</description>
 				<icon>Things/Vehicles/Stormhawk/Icarus_Stormcannon1</icon>
 				<work>7500</work>
 				<gridCoordinate>(10, 5)</gridCoordinate>

@@ -552,7 +552,7 @@
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>GW_AOD_DeathwatchShotgun</defName>
 		<label>deathwatch pattern shotgun</label>
-		<description>WIP.</description>
+		<description>The Deathwatch-pattern shotgun fires a single, massive slug projectile, delivering tremendous stopping power in a single shot, ideal for penetrating armor or taking down tough targets at close range.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/DeathwatchShotgun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

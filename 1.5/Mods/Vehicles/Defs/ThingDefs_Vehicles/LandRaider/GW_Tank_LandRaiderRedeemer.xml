@@ -4,7 +4,7 @@
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_RedeemerLandRaiderAC_MainTurret</defName>
 		<label>Land Raider main autocannon</label>
-		<description>WIP</description>
+		<description>The Land Raider’s main autocannon is a heavy, twin-linked weapon designed for sustained fire, capable of tearing through infantry and light vehicles with high-velocity shells.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>Shot_TurretSniper</shotSound>
 		<projectile>GW_SM_Term_VCannonBullet</projectile>
@@ -61,7 +61,7 @@
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_LandRaider_Sidebolter</defName>
 		<label>Hurricane Bolter</label>
-		<description>bolt.</description>
+		<description>The Hurricane Bolter is a cluster of linked bolters mounted together, unleashing a storm of rapid-fire rounds to shred infantry and lightly armored targets.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>GW_Heavy_Bolt_Gun_Sound</shotSound>
 		<projectile>GW_Bullet_HeavyBolter</projectile>
@@ -107,7 +107,7 @@
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_Flamestorm_SideTurret</defName>
 		<label>Flamestorm cannon</label>
-		<description>WIP</description>
+		<description>The Flamestorm Cannon is a powerful flamer weapon that projects torrents of burning promethium, engulfing enemies in fire and overwhelming cover.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>Shot_MiniFlameblaster</shotSound>
 		<projectile>GW_Bullet_HeavyFlamer</projectile>

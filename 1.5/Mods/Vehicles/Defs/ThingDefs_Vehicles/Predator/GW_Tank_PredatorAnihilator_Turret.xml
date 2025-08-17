@@ -4,7 +4,7 @@
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_PredatorAnihilator_MainTurret</defName>
 		<label>Predator main cannon</label>
-		<description>WIP</description>
+		<description>The Predator’s main cannon is a powerful, turret-mounted weapon designed to destroy armored targets and fortified positions with high-impact shells.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>OverlordLascannon</shotSound>
 		<projectile>GW_LascanonShot</projectile>

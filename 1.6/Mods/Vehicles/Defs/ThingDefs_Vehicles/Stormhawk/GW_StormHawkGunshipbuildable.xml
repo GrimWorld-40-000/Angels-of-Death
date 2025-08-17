@@ -4,7 +4,7 @@
 	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
 		<defName>stormHawkbuild</defName>
 		<label>Stormhawk</label>
-		<description>The Stormhawk, WIP \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<description>The Stormhawk is a fast and agile Space Marine flyer, armed with twin-linked assault cannons and optional missiles, designed for air-to-ground strikes and rapid battlefield response. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		
 		<designationCategory>VF_Vehicles</designationCategory>
 		

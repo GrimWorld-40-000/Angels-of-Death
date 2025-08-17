@@ -4,7 +4,7 @@
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_BaalPredator_MainTurret</defName>
 		<label>Predator main autocannon</label>
-		<description>WIP</description>
+		<description>The Predator Baal is a fast-attack variant equipped with a flamestorm cannon and additional heavy bolters, built to scorch enemy infantry and clear fortifications with overwhelming fire.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>Shot_TurretSniper</shotSound>
 		<projectile>GW_SM_Term_VCannonBullet</projectile>

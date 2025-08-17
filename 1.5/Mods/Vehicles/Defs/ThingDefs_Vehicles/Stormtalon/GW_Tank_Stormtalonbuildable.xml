@@ -4,7 +4,7 @@
 	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
 		<defName>StormTalonbuild</defName>
 		<label>Stormtalon</label>
-		<description>The Stormtalon, WIP \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<description>The Stormtalon is a fast and maneuverable Space Marine gunship, built for close air support. Armed with heavy bolters, assault cannons, or flamer weaponry, it excels at striking enemy infantry and light vehicles while providing rapid response across the battlefield. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		
 		<designationCategory>VF_Vehicles</designationCategory>
 		

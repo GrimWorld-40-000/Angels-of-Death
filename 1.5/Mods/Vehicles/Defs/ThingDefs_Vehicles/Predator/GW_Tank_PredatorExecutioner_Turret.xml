@@ -27,7 +27,7 @@
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_PredatorExecutioner_MainTurret</defName>
 		<label>Predator main cannon</label>
-		<description>WIP</description>
+		<description>The Executioner’s main cannon is a massive, high-caliber gun built to obliterate heavily armored vehicles and fortifications with devastating explosive shells.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>Shot_TurretSniper</shotSound>
 		<projectile>Bullet_PredatorExecutioner_MainTurret</projectile>

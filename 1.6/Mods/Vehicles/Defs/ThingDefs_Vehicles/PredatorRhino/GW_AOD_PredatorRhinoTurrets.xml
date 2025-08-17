@@ -247,7 +247,7 @@
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_BaalPredator_MainTurret_Rhino</defName>
 		<label>Predator main autocannon</label>
-		<description>WIP</description>
+		<description>The Predator Baal is a fast-attack variant equipped with a flamestorm cannon and additional heavy bolters, built to scorch enemy infantry and clear fortifications with overwhelming fire.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>Shot_TurretSniper</shotSound>
 		<projectile>GW_SM_Term_VCannonBullet</projectile>
@@ -304,7 +304,7 @@
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_PredatorAnihilator_MainTurret_Rhino</defName>
 		<label>Predator main cannon</label>
-		<description>WIP</description>
+		<description>The Predator’s main cannon is a powerful, turret-mounted weapon designed to destroy armored targets and fortified positions with high-impact shells.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>OverlordLascannon</shotSound>
 		<projectile>GW_LascanonShot</projectile>
@@ -361,7 +361,7 @@
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_PredatorExecutioner_MainTurret_Rhino</defName>
 		<label>Predator main cannon</label>
-		<description>WIP</description>
+		<description>The Executioner’s main cannon is a massive, high-caliber gun built to obliterate heavily armored vehicles and fortifications with devastating explosive shells.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>Shot_TurretSniper</shotSound>
 		<projectile>Bullet_PredatorExecutioner_MainTurret</projectile>

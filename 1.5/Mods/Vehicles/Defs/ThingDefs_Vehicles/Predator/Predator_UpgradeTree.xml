@@ -8,7 +8,7 @@
 			<li>
 				<key>ExecutionerPUpgrade</key>
 				<label>Executioner</label>
-				<description>WIP</description>
+				<description>The Predator Executioner is a variant of the Predator tank, armed with a heavy, high-impact main cannon and secondary weapons, specialized for taking out heavily armored vehicles and fortified positions.</description>
 				<icon>Things/Vehicles/Predator/Predator_Cannontop_Plasma</icon>
 				<work>7500</work>
 				<gridCoordinate>(3, 3)</gridCoordinate>
@@ -48,7 +48,7 @@
 		    <li>
 				<key>BaalUpgrade</key>
 				<label>Baal</label>
-				<description>WIP</description>
+				<description>The Predator Baal is a fast-attack variant equipped with a twinlinked  onslaught gatling cannon and additional heavy bolters, built to scorch enemy infantry and clear fortifications with overwhelming fire.</description>
 				<icon>Things/Vehicles/Predator/Predator_Cannontop_Gatling</icon>
 				<work>7500</work>
 				<gridCoordinate>(3, 8)</gridCoordinate>
@@ -88,7 +88,7 @@
 			<li>
 				<key>DestructorUpgrade</key>
 				<label>Destructor</label>
-				<description>WIP</description>
+				<description>The Predator Destructor is a close-support variant, mounting a high-rate-of-fire main cannon and secondary weapons, designed to smash infantry and light-to-medium vehicles with relentless firepower.</description>
 				<icon>Things/Vehicles/Predator/Predator_Cannontop_Cannon</icon>
 				<work>7500</work>
 				<gridCoordinate>(3, 13)</gridCoordinate>
@@ -127,8 +127,8 @@
 			</li>
 			<li>
 				<key>AnihilatorUpgrade</key>
-				<label>Anihilator</label>
-				<description>WIP</description>
+				<label>Annihilator</label>
+				<description>The Predator Annihilator is a heavy-weapon variant, mounting a top-mounted lascannon alongside its main armament, built to punch through heavily armored vehicles and fortifications with precision fire.</description>
 				<icon>Things/Vehicles/Predator/Predator_LasCannonTop</icon>
 				<work>7500</work>
 				<gridCoordinate>(3, 18)</gridCoordinate>

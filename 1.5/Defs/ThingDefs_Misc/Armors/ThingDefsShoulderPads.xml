@@ -861,7 +861,7 @@
 	<ThingDef ParentName="GW_SM_MKXShoulderPads">
 		<defName>GW_SM_TacticusShoulderPads_Salamander</defName>
 		<label>Salamander shoulder pads (a)</label>
-		<description>WIP.</description>
+		<description>A modified or rather fully custom tartaros terminator shoulderpads, bearing the iconography of the Salamanders. \n\n Salamanders are the most kind among almost all Astartes chapters. Forged in fire of Nocturne and following teachings of thier Primarchs Vulcan to protect humans above everything else. Enemies are lucky that they dont see thier fire in thier red eyes caused by gene-seed mutation.</description>
 		<graphicData>
 			<texPath>Things/Apparel/ArmorUpgrade_Salamander/Shoulders/SalamanderGravis_sp_modelA_south</texPath>
 		</graphicData>

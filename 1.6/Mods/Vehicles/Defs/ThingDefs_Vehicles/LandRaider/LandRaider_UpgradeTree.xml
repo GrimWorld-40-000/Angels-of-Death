@@ -8,7 +8,7 @@
 			<li>
 				<key>RedeemerUpgrade</key>
 				<label>Redeemer</label>
-				<description>WIP</description>
+				<description>The Land Raider Redeemer is a heavily armored transport and assault tank, armed with twin-linked lascannons and a Flamestorm Cannon, built to deliver Space Marines into the thick of battle while blasting foes with fire and firepower.</description>
 				<icon>Things/Vehicles/LandRaider/DualMinigun_Turret</icon>
 				<work>7500</work>
 				<gridCoordinate>(5, 5)</gridCoordinate>
@@ -93,7 +93,7 @@
 		    <li>
 				<key>CrusaderUpgrade</key>
 				<label>Crusader</label>
-				<description>WIP</description>
+				<description>The Land Raider Crusader is a heavily armored assault transport, equipped with twin-linked lascannons and heavy bolters, designed to carry Space Marines safely into battle while laying down devastating fire.</description>
 				<icon>Things/Vehicles/LandRaider/SideTurret_Flammer</icon>
 				<work>7500</work>
 				<gridCoordinate>(5, 10)</gridCoordinate>
@@ -178,7 +178,7 @@
 			<li>
 				<key>PhobosUpgrade</key>
 				<label>Phobos</label>
-				<description>WIP</description>
+				<description>The Phobos Land Raider is a anti tank focused variant, equipped with twin-linked lascannons and heavy bolters, optimized for delivering elite Space Marines silently into enemy lines.</description>
 				<icon>Things/Vehicles/LandRaider/DualBolter_Turret</icon>
 				<work>7500</work>
 				<gridCoordinate>(5, 15)</gridCoordinate>

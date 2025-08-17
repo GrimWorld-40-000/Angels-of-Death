@@ -336,7 +336,7 @@
     <ThingDef ParentName="GWShieldBase">
         <defName>GW_SM_SalamanderShield</defName>
         <label>salamander shield</label>
-        <description>WIP.</description>
+        <description>A modified storm shield, bearing the iconography of the Salamanders. \n\n Salamanders are the most kind among almost all Astartes chapters. Forged in fire of Nocturne and following teachings of thier Primarchs Vulcan to protect humans above everything else. Enemies are lucky that they dont see thier fire in thier red eyes caused by gene-seed mutation.</description>
         <graphicData>
             <texPath>Things/Apparel/ArmorUpgrade_Salamander/Shields/SalamandersShield_south</texPath>
             <graphicClass>Graphic_Single</graphicClass>

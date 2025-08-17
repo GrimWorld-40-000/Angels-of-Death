@@ -371,7 +371,7 @@
     <ThingDef ParentName="GWShieldBase">
         <defName>GW_SM_SalamanderShield</defName>
         <label>salamander shield</label>
-        <description>WIP.
+        <description>A modified storm shield bearing the iconography of the Salamanders \n\nThe mighty dragon will always protect the weak, the most important job which Salamanders bear into the battle.
 		\n\n&lt;color=#FFFF00&gt;Parry Stat&lt;/color&gt;\nParry Chance: 20%\nParry Cooldown: 1.5s\nStun Duration: 2s\nDamage Reduction: 50%\nDamage Nullify Chance: 15%\nPose Break duration: 2s\nReflect Damage Chance: 5%\nReflect Multiplier: 100%\nKnockback: No\nReflect Projectile chance: 5%</description>
         <graphicData>
             <texPath>Things/Apparel/ArmorUpgrade_Salamander/Shields/SalamandersShield_south</texPath>
