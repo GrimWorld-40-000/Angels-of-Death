@@ -12,28 +12,27 @@
 		<apparel>
 			<wornGraphicPath>Things/Apparel/DarkAngel/Shoulders/DAGravis_sp_modelA</wornGraphicPath>
 		</apparel>
-		<equippedStatOffsets>
-			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
-			<AimingDelayFactor>-0.2</AimingDelayFactor>
-		</equippedStatOffsets>
 		<statBases>
 			<WorkToMake>25000</WorkToMake>
-			<MaxHitPoints>700</MaxHitPoints>
-			<Mass>3</Mass>
+			<MaxHitPoints>260</MaxHitPoints>
+			<Mass>2.0</Mass>
+			<MarketValue>400</MarketValue>
 			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
-			<ArmorRating_Blunt>1.10</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.0</ArmorRating_Heat>
-			<Insulation_Cold>20</Insulation_Cold>
-			<Insulation_Heat>20</Insulation_Heat>
+			<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.22</ArmorRating_Heat>
+			<Insulation_Cold>3</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<MoveSpeed>-0.1</MoveSpeed>
+		</equippedStatOffsets>
 		<costList>
-			<ComponentSpacer>1</ComponentSpacer>
-			<Plasteel>100</Plasteel>
-			<Steel>50</Steel>
-			<Uranium>15</Uranium>
-			<HP_Ceramite>10</HP_Ceramite>
+			<Plasteel>90</Plasteel>
+			<Steel>150</Steel>
+			<HP_Ceramite>100</HP_Ceramite>
 		</costList>
         <comps>
             <!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
@@ -107,28 +106,27 @@
 		<apparel>
 			<wornGraphicPath>Things/Apparel/Ultramarines/Shoulders/UMGravis_sp_modelA</wornGraphicPath>
 		</apparel>
-		<equippedStatOffsets>
-			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
-			<AimingDelayFactor>-0.2</AimingDelayFactor>
-		</equippedStatOffsets>
 		<statBases>
 			<WorkToMake>25000</WorkToMake>
-			<MaxHitPoints>700</MaxHitPoints>
-			<Mass>3</Mass>
+			<MaxHitPoints>260</MaxHitPoints>
+			<Mass>2.0</Mass>
+			<MarketValue>400</MarketValue>
 			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
-			<ArmorRating_Blunt>1.10</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.0</ArmorRating_Heat>
-			<Insulation_Cold>20</Insulation_Cold>
-			<Insulation_Heat>20</Insulation_Heat>
+			<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.22</ArmorRating_Heat>
+			<Insulation_Cold>3</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<MoveSpeed>-0.1</MoveSpeed>
+		</equippedStatOffsets>
 		<costList>
-			<ComponentSpacer>1</ComponentSpacer>
-			<Plasteel>100</Plasteel>
-			<Steel>50</Steel>
-			<Uranium>15</Uranium>
-			<HP_Ceramite>10</HP_Ceramite>
+			<Plasteel>90</Plasteel>
+			<Steel>150</Steel>
+			<HP_Ceramite>100</HP_Ceramite>
 		</costList>
         <comps>
             <!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->

@@ -28,30 +28,29 @@
 				<!-- </defaultPalette> -->
 			<!-- </li> -->
 		</comps>
-		<equippedStatOffsets>
-			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
-			<AimingDelayFactor>-0.2</AimingDelayFactor>
-			<VacuumResistance MayRequire="ludeon.rimworld.odyssey">0.6</VacuumResistance>
-		</equippedStatOffsets>
-		<costList>
-			<ComponentSpacer>1</ComponentSpacer>
-			<Plasteel>100</Plasteel>
-			<Steel>50</Steel>
-			<Uranium>15</Uranium>
-			<HP_Ceramite>10</HP_Ceramite>
-		</costList>
 		<statBases>
 			<WorkToMake>25000</WorkToMake>
-			<MaxHitPoints>700</MaxHitPoints>
+			<MaxHitPoints>240</MaxHitPoints>
+			<MarketValue>350</MarketValue>
 			<Mass>3</Mass>
 			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
-			<ArmorRating_Blunt>1.10</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.0</ArmorRating_Heat>
-			<Insulation_Cold>20</Insulation_Cold>
-			<Insulation_Heat>20</Insulation_Heat>
+			<ArmorRating_Sharp>0.28</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.20</ArmorRating_Heat>
+			<Insulation_Cold>4</Insulation_Cold>
+			<Insulation_Heat>6</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
+		<equippedStatOffsets>
+			<CarryingCapacity>15</CarryingCapacity>
+			<VEF_MassCarryCapacity>15</VEF_MassCarryCapacity>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>75</Plasteel>
+			<HP_Ceramite>40</HP_Ceramite>
+		</costList>
 		<recipeMaker>
 			<researchPrerequisite>GW_SM_DarkAngels</researchPrerequisite>
 		</recipeMaker>
@@ -79,30 +78,29 @@
 		<apparel>
 			<wornGraphicPath>Things/Apparel/DarkAngel/Helmets/Gravis_helmet_hood</wornGraphicPath>
 		</apparel>
-		<costList>
-			<ComponentSpacer>5</ComponentSpacer>
-			<Plasteel>350</Plasteel>
-			<Steel>300</Steel>
-			<Uranium>100</Uranium>
-			<HP_Ceramite>25</HP_Ceramite>
-		</costList>
 		<statBases>
-			<WorkToMake>55000</WorkToMake>
-			<MaxHitPoints>900</MaxHitPoints>
-			<Mass>4</Mass>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>240</MaxHitPoints>
+			<MarketValue>350</MarketValue>
+			<Mass>3</Mass>
 			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>1.85</ArmorRating_Sharp>
-			<ArmorRating_Blunt>1.55</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.3</ArmorRating_Heat>
-			<Insulation_Cold>40</Insulation_Cold>
-			<Insulation_Heat>40</Insulation_Heat>
-			<EquipDelay>3</EquipDelay>
+			<ArmorRating_Sharp>0.28</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.20</ArmorRating_Heat>
+			<Insulation_Cold>4</Insulation_Cold>
+			<Insulation_Heat>6</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
-			<AimingDelayFactor>-0.3</AimingDelayFactor>
-			<SocialImpact>0.35</SocialImpact>
+			<CarryingCapacity>15</CarryingCapacity>
+			<VEF_MassCarryCapacity>15</VEF_MassCarryCapacity>
 		</equippedStatOffsets>
+		<costList>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>75</Plasteel>
+			<HP_Ceramite>40</HP_Ceramite>
+		</costList>
 	</ThingDef>
 	
 	<ThingDef ParentName="GW_CM_DAngelHelmet_Base">
@@ -115,29 +113,29 @@
 		<apparel>
 			<wornGraphicPath>Things/Apparel/DarkAngel/Helmets/Tacticus_helmet_hood</wornGraphicPath>
 		</apparel>
-		<equippedStatOffsets>
-			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
-			<AimingDelayFactor>-0.2</AimingDelayFactor>
-		</equippedStatOffsets>
-		<costList>
-			<ComponentSpacer>1</ComponentSpacer>
-			<Plasteel>100</Plasteel>
-			<Steel>50</Steel>
-			<Uranium>15</Uranium>
-			<HP_Ceramite>10</HP_Ceramite>
-		</costList>
 		<statBases>
 			<WorkToMake>25000</WorkToMake>
-			<MaxHitPoints>700</MaxHitPoints>
+			<MaxHitPoints>240</MaxHitPoints>
+			<MarketValue>350</MarketValue>
 			<Mass>3</Mass>
 			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>1.65</ArmorRating_Sharp>
-			<ArmorRating_Blunt>1.25</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.0</ArmorRating_Heat>
-			<Insulation_Cold>30</Insulation_Cold>
-			<Insulation_Heat>30</Insulation_Heat>
+			<ArmorRating_Sharp>0.28</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.20</ArmorRating_Heat>
+			<Insulation_Cold>4</Insulation_Cold>
+			<Insulation_Heat>6</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
+		<equippedStatOffsets>
+			<CarryingCapacity>15</CarryingCapacity>
+			<VEF_MassCarryCapacity>15</VEF_MassCarryCapacity>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>75</Plasteel>
+			<HP_Ceramite>40</HP_Ceramite>
+		</costList>
 	</ThingDef>
 	
 	<!-- Ultramarine -->
@@ -153,30 +151,29 @@
 		<apparel>
 			<wornGraphicPath>Things/Apparel/Ultramarines/Helmets/Aquilla_helmet_fcrest</wornGraphicPath>
 		</apparel>
-		<equippedStatOffsets>
-			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
-			<AimingDelayFactor>-0.2</AimingDelayFactor>
-			<VacuumResistance MayRequire="ludeon.rimworld.odyssey">0.6</VacuumResistance>
-		</equippedStatOffsets>
-		<costList>
-			<ComponentSpacer>1</ComponentSpacer>
-			<Plasteel>100</Plasteel>
-			<Steel>50</Steel>
-			<Uranium>15</Uranium>
-			<HP_Ceramite>10</HP_Ceramite>
-		</costList>
 		<statBases>
 			<WorkToMake>25000</WorkToMake>
-			<MaxHitPoints>700</MaxHitPoints>
+			<MaxHitPoints>240</MaxHitPoints>
+			<MarketValue>350</MarketValue>
 			<Mass>3</Mass>
 			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
-			<ArmorRating_Blunt>1.10</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.0</ArmorRating_Heat>
-			<Insulation_Cold>20</Insulation_Cold>
-			<Insulation_Heat>20</Insulation_Heat>
+			<ArmorRating_Sharp>0.28</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.20</ArmorRating_Heat>
+			<Insulation_Cold>4</Insulation_Cold>
+			<Insulation_Heat>6</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
+		<equippedStatOffsets>
+			<CarryingCapacity>15</CarryingCapacity>
+			<VEF_MassCarryCapacity>15</VEF_MassCarryCapacity>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>75</Plasteel>
+			<HP_Ceramite>40</HP_Ceramite>
+		</costList>
 		<comps>
 			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
 				<!-- <maskCount>13</maskCount> -->
@@ -214,29 +211,29 @@
 				<!-- </defaultPalette> -->
 			<!-- </li> -->
 		</comps>
-		<equippedStatOffsets>
-			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
-			<AimingDelayFactor>-0.2</AimingDelayFactor>
-		</equippedStatOffsets>
-		<costList>
-			<ComponentSpacer>1</ComponentSpacer>
-			<Plasteel>100</Plasteel>
-			<Steel>50</Steel>
-			<Uranium>15</Uranium>
-			<HP_Ceramite>10</HP_Ceramite>
-		</costList>
 		<statBases>
 			<WorkToMake>25000</WorkToMake>
-			<MaxHitPoints>700</MaxHitPoints>
+			<MaxHitPoints>240</MaxHitPoints>
+			<MarketValue>350</MarketValue>
 			<Mass>3</Mass>
 			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
-			<ArmorRating_Blunt>1.10</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.0</ArmorRating_Heat>
-			<Insulation_Cold>20</Insulation_Cold>
-			<Insulation_Heat>20</Insulation_Heat>
+			<ArmorRating_Sharp>0.28</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.20</ArmorRating_Heat>
+			<Insulation_Cold>4</Insulation_Cold>
+			<Insulation_Heat>6</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
+		<equippedStatOffsets>
+			<CarryingCapacity>15</CarryingCapacity>
+			<VEF_MassCarryCapacity>15</VEF_MassCarryCapacity>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>75</Plasteel>
+			<HP_Ceramite>40</HP_Ceramite>
+		</costList>
 	</ThingDef>
 	
 	<ThingDef ParentName="GW_CM_UltramarineHelmet_Base">
@@ -260,29 +257,29 @@
 				<!-- </defaultPalette> -->
 			<!-- </li> -->
 		</comps>
-		<equippedStatOffsets>
-			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
-			<AimingDelayFactor>-0.2</AimingDelayFactor>
-		</equippedStatOffsets>
-		<costList>
-			<ComponentSpacer>1</ComponentSpacer>
-			<Plasteel>100</Plasteel>
-			<Steel>50</Steel>
-			<Uranium>15</Uranium>
-			<HP_Ceramite>10</HP_Ceramite>
-		</costList>
 		<statBases>
 			<WorkToMake>25000</WorkToMake>
-			<MaxHitPoints>700</MaxHitPoints>
+			<MaxHitPoints>240</MaxHitPoints>
+			<MarketValue>350</MarketValue>
 			<Mass>3</Mass>
 			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
-			<ArmorRating_Blunt>1.10</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.0</ArmorRating_Heat>
-			<Insulation_Cold>20</Insulation_Cold>
-			<Insulation_Heat>20</Insulation_Heat>
+			<ArmorRating_Sharp>0.28</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.20</ArmorRating_Heat>
+			<Insulation_Cold>4</Insulation_Cold>
+			<Insulation_Heat>6</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
+		<equippedStatOffsets>
+			<CarryingCapacity>15</CarryingCapacity>
+			<VEF_MassCarryCapacity>15</VEF_MassCarryCapacity>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>75</Plasteel>
+			<HP_Ceramite>40</HP_Ceramite>
+		</costList>
 	</ThingDef>
 	
 	<ThingDef ParentName="GW_CM_UltramarineHelmet_Base">
@@ -306,29 +303,29 @@
 				<!-- </defaultPalette> -->
 			<!-- </li> -->
 		</comps>
-		<equippedStatOffsets>
-			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
-			<AimingDelayFactor>-0.2</AimingDelayFactor>
-		</equippedStatOffsets>
-		<costList>
-			<ComponentSpacer>1</ComponentSpacer>
-			<Plasteel>100</Plasteel>
-			<Steel>50</Steel>
-			<Uranium>15</Uranium>
-			<HP_Ceramite>10</HP_Ceramite>
-		</costList>
 		<statBases>
 			<WorkToMake>25000</WorkToMake>
-			<MaxHitPoints>700</MaxHitPoints>
+			<MaxHitPoints>240</MaxHitPoints>
+			<MarketValue>350</MarketValue>
 			<Mass>3</Mass>
 			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
-			<ArmorRating_Blunt>1.10</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.0</ArmorRating_Heat>
-			<Insulation_Cold>20</Insulation_Cold>
-			<Insulation_Heat>20</Insulation_Heat>
+			<ArmorRating_Sharp>0.28</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.20</ArmorRating_Heat>
+			<Insulation_Cold>4</Insulation_Cold>
+			<Insulation_Heat>6</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
+		<equippedStatOffsets>
+			<CarryingCapacity>15</CarryingCapacity>
+			<VEF_MassCarryCapacity>15</VEF_MassCarryCapacity>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>75</Plasteel>
+			<HP_Ceramite>40</HP_Ceramite>
+		</costList>
 	</ThingDef>
 	
 	<ThingDef ParentName="GW_CM_UltramarineHelmet_Base">
@@ -352,30 +349,29 @@
 				<!-- </defaultPalette> -->
 			<!-- </li> -->
 		</comps>
-		<costList>
-			<ComponentSpacer>5</ComponentSpacer>
-			<Plasteel>350</Plasteel>
-			<Steel>300</Steel>
-			<Uranium>100</Uranium>
-			<HP_Ceramite>25</HP_Ceramite>
-		</costList>
 		<statBases>
-			<WorkToMake>55000</WorkToMake>
-			<MaxHitPoints>900</MaxHitPoints>
-			<Mass>4</Mass>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>240</MaxHitPoints>
+			<MarketValue>350</MarketValue>
+			<Mass>3</Mass>
 			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>1.85</ArmorRating_Sharp>
-			<ArmorRating_Blunt>1.55</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.3</ArmorRating_Heat>
-			<Insulation_Cold>40</Insulation_Cold>
-			<Insulation_Heat>40</Insulation_Heat>
-			<EquipDelay>3</EquipDelay>
+			<ArmorRating_Sharp>0.28</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.20</ArmorRating_Heat>
+			<Insulation_Cold>4</Insulation_Cold>
+			<Insulation_Heat>6</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
-			<AimingDelayFactor>-0.3</AimingDelayFactor>
-			<SocialImpact>0.35</SocialImpact>
+			<CarryingCapacity>15</CarryingCapacity>
+			<VEF_MassCarryCapacity>15</VEF_MassCarryCapacity>
 		</equippedStatOffsets>
+		<costList>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>75</Plasteel>
+			<HP_Ceramite>40</HP_Ceramite>
+		</costList>
 	</ThingDef>
 	
 </Defs>
