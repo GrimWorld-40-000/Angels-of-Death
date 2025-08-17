@@ -339,26 +339,26 @@
 			<!-- </li> -->
 		</comps>
 		<equippedStatOffsets>
-			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
-			<AimingDelayFactor>-0.2</AimingDelayFactor>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<MoveSpeed>-0.05</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
+			<ComponentIndustrial>2</ComponentIndustrial>
 			<ComponentSpacer>1</ComponentSpacer>
-			<Plasteel>100</Plasteel>
-			<Steel>50</Steel>
-			<Uranium>15</Uranium>
-			<HP_Ceramite>10</HP_Ceramite>
+			<Plasteel>40</Plasteel>
+			<HP_Ceramite>40</HP_Ceramite>
 		</costList>
 		<statBases>
-			<WorkToMake>25000</WorkToMake>
-			<MaxHitPoints>700</MaxHitPoints>
-			<Mass>3</Mass>
+			<WorkToMake>45000</WorkToMake>
+			<MaxHitPoints>320</MaxHitPoints>
+			<Mass>2</Mass>
+			<MarketValue>600</MarketValue>
 			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
-			<ArmorRating_Blunt>1.10</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.0</ArmorRating_Heat>
-			<Insulation_Cold>20</Insulation_Cold>
-			<Insulation_Heat>20</Insulation_Heat>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.47</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.58</ArmorRating_Heat>
+			<Insulation_Cold>6</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<recipeMaker>
@@ -429,26 +429,26 @@
 			<!-- </li> -->
 		</comps>
 		<equippedStatOffsets>
-			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
-			<AimingDelayFactor>-0.2</AimingDelayFactor>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<MoveSpeed>-0.05</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
+			<ComponentIndustrial>2</ComponentIndustrial>
 			<ComponentSpacer>1</ComponentSpacer>
-			<Plasteel>100</Plasteel>
-			<Steel>50</Steel>
-			<Uranium>15</Uranium>
-			<HP_Ceramite>10</HP_Ceramite>
+			<Plasteel>40</Plasteel>
+			<HP_Ceramite>40</HP_Ceramite>
 		</costList>
 		<statBases>
-			<WorkToMake>25000</WorkToMake>
-			<MaxHitPoints>700</MaxHitPoints>
-			<Mass>3</Mass>
+			<WorkToMake>45000</WorkToMake>
+			<MaxHitPoints>320</MaxHitPoints>
+			<Mass>2</Mass>
+			<MarketValue>600</MarketValue>
 			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
-			<ArmorRating_Blunt>1.10</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.0</ArmorRating_Heat>
-			<Insulation_Cold>20</Insulation_Cold>
-			<Insulation_Heat>20</Insulation_Heat>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.47</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.58</ArmorRating_Heat>
+			<Insulation_Cold>6</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<recipeMaker>
@@ -507,26 +507,26 @@
 			<!-- </li> -->
 		</comps>
 		<equippedStatOffsets>
-			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
-			<AimingDelayFactor>-0.2</AimingDelayFactor>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<MoveSpeed>-0.05</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
+			<ComponentIndustrial>2</ComponentIndustrial>
 			<ComponentSpacer>1</ComponentSpacer>
-			<Plasteel>100</Plasteel>
-			<Steel>50</Steel>
-			<Uranium>15</Uranium>
-			<HP_Ceramite>10</HP_Ceramite>
+			<Plasteel>40</Plasteel>
+			<HP_Ceramite>40</HP_Ceramite>
 		</costList>
 		<statBases>
-			<WorkToMake>25000</WorkToMake>
-			<MaxHitPoints>700</MaxHitPoints>
-			<Mass>3</Mass>
+			<WorkToMake>45000</WorkToMake>
+			<MaxHitPoints>320</MaxHitPoints>
+			<Mass>2</Mass>
+			<MarketValue>600</MarketValue>
 			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
-			<ArmorRating_Blunt>1.10</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.0</ArmorRating_Heat>
-			<Insulation_Cold>20</Insulation_Cold>
-			<Insulation_Heat>20</Insulation_Heat>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.47</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.58</ArmorRating_Heat>
+			<Insulation_Cold>6</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<recipeMaker>

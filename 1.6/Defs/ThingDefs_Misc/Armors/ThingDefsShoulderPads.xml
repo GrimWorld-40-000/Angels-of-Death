@@ -405,23 +405,26 @@
             <researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
         </recipeMaker>
 		<statBases>
-			<WorkToMake>10000</WorkToMake>
-			<MaxHitPoints>500</MaxHitPoints>
-			<Mass>3</Mass>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>260</MaxHitPoints>
+			<Mass>2.0</Mass>
+			<MarketValue>400</MarketValue>
 			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.65</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.5</ArmorRating_Heat>
-			<Insulation_Cold>10</Insulation_Cold>
-			<Insulation_Heat>10</Insulation_Heat>
+			<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.22</ArmorRating_Heat>
+			<Insulation_Cold>3</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<MoveSpeed>-0.1</MoveSpeed>
+		</equippedStatOffsets>
 		<costList>
-			<ComponentSpacer>5</ComponentSpacer>
-			<Plasteel>250</Plasteel>
-			<Steel>180</Steel>
-			<Uranium>90</Uranium>
-			<HP_Ceramite>30</HP_Ceramite>
+			<Plasteel>90</Plasteel>
+			<Steel>150</Steel>
+			<HP_Ceramite>100</HP_Ceramite>
 		</costList>
 		<apparel>
 			<tags>
@@ -504,23 +507,26 @@
             <researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
         </recipeMaker>
 		<statBases>
-			<WorkToMake>10000</WorkToMake>
-			<MaxHitPoints>500</MaxHitPoints>
-			<Mass>3</Mass>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>260</MaxHitPoints>
+			<Mass>2.0</Mass>
+			<MarketValue>400</MarketValue>
 			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.65</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.5</ArmorRating_Heat>
-			<Insulation_Cold>10</Insulation_Cold>
-			<Insulation_Heat>10</Insulation_Heat>
+			<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.22</ArmorRating_Heat>
+			<Insulation_Cold>3</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<MoveSpeed>-0.1</MoveSpeed>
+		</equippedStatOffsets>
 		<costList>
-			<ComponentSpacer>5</ComponentSpacer>
-			<Plasteel>250</Plasteel>
-			<Steel>180</Steel>
-			<Uranium>90</Uranium>
-			<HP_Ceramite>30</HP_Ceramite>
+			<Plasteel>90</Plasteel>
+			<Steel>150</Steel>
+			<HP_Ceramite>100</HP_Ceramite>
 		</costList>
 		<apparel>
 			<tags>
@@ -624,23 +630,26 @@
             <researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
         </recipeMaker>
 		<statBases>
-			<WorkToMake>10000</WorkToMake>
-			<MaxHitPoints>500</MaxHitPoints>
-			<Mass>3</Mass>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>260</MaxHitPoints>
+			<Mass>2.0</Mass>
+			<MarketValue>400</MarketValue>
 			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.65</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.5</ArmorRating_Heat>
-			<Insulation_Cold>10</Insulation_Cold>
-			<Insulation_Heat>10</Insulation_Heat>
+			<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.22</ArmorRating_Heat>
+			<Insulation_Cold>3</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<MoveSpeed>-0.1</MoveSpeed>
+		</equippedStatOffsets>
 		<costList>
-			<ComponentSpacer>5</ComponentSpacer>
-			<Plasteel>250</Plasteel>
-			<Steel>180</Steel>
-			<Uranium>90</Uranium>
-			<HP_Ceramite>30</HP_Ceramite>
+			<Plasteel>90</Plasteel>
+			<Steel>150</Steel>
+			<HP_Ceramite>100</HP_Ceramite>
 		</costList>
 		<apparel>
 			<tags>
