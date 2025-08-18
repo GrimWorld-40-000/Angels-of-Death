@@ -21,13 +21,13 @@
             <damageAmountBase>15</damageAmountBase>
             <armorPenetrationBase>0.70</armorPenetrationBase>
             <stoppingPower>2.0</stoppingPower>
-            <speed>50</speed>
+            <speed>1000</speed>
         </projectile>
         <thingClass>taranchuk_lasers.LaserProjectile</thingClass>
         <modExtensions>
             <li Class="taranchuk_lasers.LaserProperties">
                 <damageTickRate>9</damageTickRate>
-                <lifetimeTicks>8</lifetimeTicks>
+                <lifetimeTicks>210</lifetimeTicks>
                 <beamWidth>1.2</beamWidth>
                 <beamWidthDrawScale>1</beamWidthDrawScale>
                 <sweepRatePerTick>0</sweepRatePerTick>
@@ -53,26 +53,26 @@
             <shaderType>TransparentPostLight</shaderType>
             <drawSize>1</drawSize>
         </graphicData>
-		<thingClass>Projectile_Explosive</thingClass>
+		<!-- <thingClass>Projectile_Explosive</thingClass> -->
 		<projectile>
             <damageDef>Burn</damageDef>
             <damageAmountBase>10</damageAmountBase>
             <armorPenetrationBase>0.70</armorPenetrationBase>
             <stoppingPower>2.0</stoppingPower>
-            <speed>50</speed>
+            <speed>1000</speed>
         </projectile>
 		<thingClass>taranchuk_lasers.LaserProjectile</thingClass>
         <modExtensions>
             <li Class="taranchuk_lasers.LaserProperties">
                 <damageTickRate>9</damageTickRate>
-                <lifetimeTicks>8</lifetimeTicks>
+                <lifetimeTicks>210</lifetimeTicks>
                 <beamWidth>1.2</beamWidth>
                 <beamWidthDrawScale>1</beamWidthDrawScale>
                 <sweepRatePerTick>0</sweepRatePerTick>
                 <maxSweepAngle>0</maxSweepAngle>
                 <damageThingsAcrossBeamLine>false</damageThingsAcrossBeamLine>
                 <debugCells>false</debugCells>
-                <textureScrollOffsetPerTick>(0, -0.1)</textureScrollOffsetPerTick>
+                <textureScrollOffsetPerTick>(0, -0.3)</textureScrollOffsetPerTick>
                 <lockOnTarget>true</lockOnTarget>
             </li>
         </modExtensions>
@@ -91,7 +91,7 @@
             <shaderType>TransparentPostLight</shaderType>
             <drawSize>1</drawSize>
         </graphicData>
-		<thingClass>Projectile_Explosive</thingClass>
+		<!-- <thingClass>Projectile_Explosive</thingClass> -->
 		<projectile>
             <damageDef>Burn</damageDef>
             <damageAmountBase>6</damageAmountBase>
@@ -103,7 +103,7 @@
         <modExtensions>
             <li Class="taranchuk_lasers.LaserProperties">
                 <damageTickRate>9</damageTickRate>
-                <lifetimeTicks>8</lifetimeTicks>
+                <lifetimeTicks>210</lifetimeTicks>
                 <beamWidth>1.2</beamWidth>
                 <beamWidthDrawScale>1</beamWidthDrawScale>
                 <sweepRatePerTick>0</sweepRatePerTick>
@@ -166,7 +166,7 @@
 			<AccuracyShort>1</AccuracyShort>
 			<AccuracyMedium>1</AccuracyMedium>
 			<AccuracyLong>1</AccuracyLong>
-			<!-- <RangedWeapon_Cooldown>6</RangedWeapon_Cooldown> -->
+			<RangedWeapon_Cooldown>6</RangedWeapon_Cooldown>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.30</MoveSpeed>
@@ -242,7 +242,7 @@
 			<AccuracyShort>1</AccuracyShort>
 			<AccuracyMedium>1</AccuracyMedium>
 			<AccuracyLong>1</AccuracyLong>
-			<!-- <RangedWeapon_Cooldown>4</RangedWeapon_Cooldown> -->
+			<RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.20</MoveSpeed>
@@ -326,7 +326,7 @@
 			<AccuracyShort>1</AccuracyShort>
 			<AccuracyMedium>1</AccuracyMedium>
 			<AccuracyLong>0.62</AccuracyLong>
-			<RangedWeapon_Cooldown>0</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.10</MoveSpeed>
