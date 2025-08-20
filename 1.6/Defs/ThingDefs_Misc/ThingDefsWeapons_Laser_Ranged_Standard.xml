@@ -258,7 +258,7 @@
                 <beamWidthDrawScale>1</beamWidthDrawScale>
                 <sweepRatePerTick>0</sweepRatePerTick>
                 <maxSweepAngle>0</maxSweepAngle>
-                <damageThingsAcrossBeamLine>true</damageThingsAcrossBeamLine>
+                <damageThingsAcrossBeamLine>False</damageThingsAcrossBeamLine>
                 <debugCells>false</debugCells>
                 <textureScrollOffsetPerTick>(0, -0.1)</textureScrollOffsetPerTick>
                 <lockOnTarget>false</lockOnTarget>
