@@ -512,18 +512,17 @@
 			<li>HPRanged</li>
 		</tradeTags>
 		<verbs>
-			<li Class="Shotgunz.Verb_Properties_Shotgunz">
-				<verbClass>Shotgunz.Verb_Shoot_Shotgunz</verbClass>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GW_AOD_ShotgunBullet</defaultProjectile>
 				<warmupTime>0.80</warmupTime>
 				<range>16</range>
-				<burstShotCount>3</burstShotCount>
-				<ticksBetweenBurstShots>25</ticksBetweenBurstShots>
+				<burstShotCount>6</burstShotCount>
+				<ticksBetweenBurstShots>0</ticksBetweenBurstShots>
 				<soundCast>Shot_Shotgun</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>10</muzzleFlashScale>
-				<pellets>6</pellets>
 			</li>
 		</verbs>
 		<tools>
@@ -595,8 +594,8 @@
 			<li>HPRanged</li>
 		</tradeTags>
 		<verbs>
-			<li Class="Shotgunz.Verb_Properties_Shotgunz">
-				<verbClass>Shotgunz.Verb_Shoot_Shotgunz</verbClass>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GW_AOD_DW_ShotgunBullet</defaultProjectile>
 				<warmupTime>0.70</warmupTime>
@@ -606,7 +605,6 @@
 				<soundCast>Shot_Shotgun</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>10</muzzleFlashScale>
-				<pellets>1</pellets>
 			</li>
 		</verbs>
 		<tools>

@@ -137,16 +137,10 @@
 
         <!-- Lascannon -->
 
-    <ThingDef ParentName="GW_LaserBullet">
+    <ThingDef ParentName="GW_LaserBullet" Class="VEF.Weapons.LaserBeamDef">
         <defName>GW_SM_BuildingBullet_LascanonShot</defName>
         <label>Lascannon shot</label>
-        <description>An heavily charged beam of focused light fired from a lascannon.</description>
-		<graphicData>
-            <texPath>Things/Projectiles/Las_Bolt</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-            <shaderType>TransparentPostLight</shaderType>
-            <drawSize>1.5</drawSize>
-        </graphicData>
+        <description>An heavily charged beam of focused light fired from a lascannon.</description>		
         <projectile>
             <damageDef>Burn</damageDef>
             <damageAmountBase>57</damageAmountBase>

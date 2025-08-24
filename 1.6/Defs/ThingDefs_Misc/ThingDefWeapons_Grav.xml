@@ -4,116 +4,60 @@
 
 	<!--===== Grav Cannon Projectile =====-->
 
-	<ThingDef ParentName="BaseBullet">
+	<ThingDef ParentName="GW_LaserBullet" Class="VEF.Weapons.LaserBeamDef">
         <defName>GW_AOD_GravCannon_Bullet</defName>
         <label>Grav</label>
         <description>grav beam</description>
-        <drawOffscreen>true</drawOffscreen>
-        <seeThroughFog>true</seeThroughFog>
-        <graphicData>
-            <graphicClass>Graphic_Single</graphicClass>
-            <texPath>Things/Projectiles/Grav_Projectile</texPath>
-            <shaderType>TransparentPostLight</shaderType>
-            <drawSize>1</drawSize>
-        </graphicData>
+		<textures>
+			<li>Things/Projectiles/Grav_Projectile</li>
+		</textures>
+		<canExplode>true</canExplode>		
         <projectile>
             <damageDef>Burn</damageDef>
             <damageAmountBase>15</damageAmountBase>
             <armorPenetrationBase>0.70</armorPenetrationBase>
             <stoppingPower>2.0</stoppingPower>
             <speed>1000</speed>
+			<explosionRadius>3.0</explosionRadius>			
         </projectile>
-        <thingClass>taranchuk_lasers.LaserProjectile</thingClass>
-        <modExtensions>
-            <li Class="taranchuk_lasers.LaserProperties">
-                <damageTickRate>9</damageTickRate>
-                <lifetimeTicks>210</lifetimeTicks>
-                <beamWidth>1.2</beamWidth>
-                <beamWidthDrawScale>1</beamWidthDrawScale>
-                <sweepRatePerTick>0</sweepRatePerTick>
-                <maxSweepAngle>0</maxSweepAngle>
-                <damageThingsAcrossBeamLine>false</damageThingsAcrossBeamLine>
-                <debugCells>false</debugCells>
-                <textureScrollOffsetPerTick>(0, -0.1)</textureScrollOffsetPerTick>
-                <lockOnTarget>true</lockOnTarget>
-            </li>
-        </modExtensions>
     </ThingDef>
 	
 	<!--===== Grav Rifle Projectile =====-->
 
-	<ThingDef ParentName="BaseBullet">
+	<ThingDef ParentName="GW_LaserBullet" Class="VEF.Weapons.LaserBeamDef">
 		<defName>GW_SM_GravRifle_Bullet</defName>
 		<label>grav rifle bomb</label>
-		<drawOffscreen>true</drawOffscreen>
-        <seeThroughFog>true</seeThroughFog>
-        <graphicData>
-            <graphicClass>Graphic_Single</graphicClass>
-            <texPath>Things/Projectiles/Grav_Projectile</texPath>
-            <shaderType>TransparentPostLight</shaderType>
-            <drawSize>1</drawSize>
-        </graphicData>
-		<!-- <thingClass>Projectile_Explosive</thingClass> -->
+        <textures>
+			<li>Things/Projectiles/Grav_Projectile</li>
+		</textures>
+		<canExplode>true</canExplode>		
 		<projectile>
             <damageDef>Burn</damageDef>
             <damageAmountBase>10</damageAmountBase>
             <armorPenetrationBase>0.70</armorPenetrationBase>
             <stoppingPower>2.0</stoppingPower>
             <speed>1000</speed>
+			<explosionRadius>2.0</explosionRadius>			
         </projectile>
-		<thingClass>taranchuk_lasers.LaserProjectile</thingClass>
-        <modExtensions>
-            <li Class="taranchuk_lasers.LaserProperties">
-                <damageTickRate>9</damageTickRate>
-                <lifetimeTicks>210</lifetimeTicks>
-                <beamWidth>1.2</beamWidth>
-                <beamWidthDrawScale>1</beamWidthDrawScale>
-                <sweepRatePerTick>0</sweepRatePerTick>
-                <maxSweepAngle>0</maxSweepAngle>
-                <damageThingsAcrossBeamLine>false</damageThingsAcrossBeamLine>
-                <debugCells>false</debugCells>
-                <textureScrollOffsetPerTick>(0, -0.3)</textureScrollOffsetPerTick>
-                <lockOnTarget>true</lockOnTarget>
-            </li>
-        </modExtensions>
 	</ThingDef>
 
 	<!--===== Grav Pistol Projectile =====-->
 
-	<ThingDef ParentName="BaseBullet">
+	<ThingDef ParentName="GW_LaserBullet" Class="VEF.Weapons.LaserBeamDef">
 		<defName>GW_SM_GravPistol_Bullet</defName>
 		<label>grav pistol bomb</label>
-		<drawOffscreen>true</drawOffscreen>
-        <seeThroughFog>true</seeThroughFog>
-        <graphicData>
-            <graphicClass>Graphic_Single</graphicClass>
-            <texPath>Things/Projectiles/Grav_Projectile</texPath>
-            <shaderType>TransparentPostLight</shaderType>
-            <drawSize>1</drawSize>
-        </graphicData>
-		<!-- <thingClass>Projectile_Explosive</thingClass> -->
+		<textures>
+			<li>Things/Projectiles/Grav_Projectile</li>
+		</textures>
+		<canExplode>true</canExplode>		
 		<projectile>
             <damageDef>Burn</damageDef>
             <damageAmountBase>6</damageAmountBase>
             <armorPenetrationBase>0.09</armorPenetrationBase>
             <stoppingPower>2.0</stoppingPower>
             <speed>50</speed>
+			<explosionRadius>1.0</explosionRadius>			
         </projectile>
-		<thingClass>taranchuk_lasers.LaserProjectile</thingClass>
-        <modExtensions>
-            <li Class="taranchuk_lasers.LaserProperties">
-                <damageTickRate>9</damageTickRate>
-                <lifetimeTicks>210</lifetimeTicks>
-                <beamWidth>1.2</beamWidth>
-                <beamWidthDrawScale>1</beamWidthDrawScale>
-                <sweepRatePerTick>0</sweepRatePerTick>
-                <maxSweepAngle>0</maxSweepAngle>
-                <damageThingsAcrossBeamLine>false</damageThingsAcrossBeamLine>
-                <debugCells>false</debugCells>
-                <textureScrollOffsetPerTick>(0, -0.1)</textureScrollOffsetPerTick>
-                <lockOnTarget>true</lockOnTarget>
-            </li>
-        </modExtensions>
 	</ThingDef>
 
 	<!--===== Grav Weapon base =====-->
