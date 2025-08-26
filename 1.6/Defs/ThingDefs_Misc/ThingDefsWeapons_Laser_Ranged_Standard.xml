@@ -242,7 +242,7 @@
             <damageAmountBase>33</damageAmountBase>
             <armorPenetrationBase>0.70</armorPenetrationBase>
             <stoppingPower>2.0</stoppingPower>
-            <speed>50</speed>
+            <speed>10000</speed>
         </projectile>
         <modExtensions>
         </modExtensions>
