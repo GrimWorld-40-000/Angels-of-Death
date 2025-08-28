@@ -69,7 +69,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/Boltgun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.1</drawSize>
+			<drawSize>1.0</drawSize>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>
@@ -152,7 +152,7 @@
 		<description>A semi-automatic pistol firing smaller, but still powerful bolts. A common sidearm of Space Marines.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
-			<drawSize>1.1</drawSize>
+			<drawSize>1.0</drawSize>
 			<graphicClass>Graphic_Single</graphicClass>
 			<texPath>Things/Weapons/Ranged/GW_AOD_BoltPistol</texPath>
 		</graphicData>
@@ -255,7 +255,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/ExecutorBoltRifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.1</drawSize>
+			<drawSize>1.0</drawSize>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>
@@ -355,7 +355,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/HeavyBolter</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.1</drawSize>
+			<drawSize>1.0</drawSize>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>
@@ -473,7 +473,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/AstartesShotgun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.2</drawSize>
+			<drawSize>1.0</drawSize>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>
@@ -555,7 +555,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/DeathwatchShotgun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.2</drawSize>
+			<drawSize>1.0</drawSize>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>
@@ -639,7 +639,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/SniperRifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.3</drawSize>
+			<drawSize>1.0</drawSize>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>
@@ -723,7 +723,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/HeavyBoltPistol</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.1</drawSize>
+			<drawSize>1.0</drawSize>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>
@@ -807,7 +807,7 @@
 		<description>A shoulder-fired rocket launcher of suitable size for Adeptus Astartes use. Suitable for bunker-busting and anti-personnel fighting alike, all one has to do is fire this launcher at the enemy, and heresy shall be detected no more. \n\nThis design is relatively new, based on the older Soundstrike pattern. Those missile launchers included a missile rack and autoloading arm, which was attached to the Space Marine’s backpack. Every time the Soundstrike launcher was fired, the autoloader would reload the launcher without any action required from the Marine.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/GW_AOD_RocketLauncher</texPath>
-			<drawSize>1.3</drawSize>
+			<drawSize>1.0</drawSize>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
