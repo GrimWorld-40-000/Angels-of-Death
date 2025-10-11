@@ -13,10 +13,17 @@
 				<factionDef>GW_CrashlandedAngels</factionDef>
 			</playerFaction>
 			<parts>
-				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
-					<def>ConfigPage_ConfigureStartingPawns</def>
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
+					<def>ConfigurePawnsKindDefs</def>
 					<pawnChoiceCount>2</pawnChoiceCount>
-					<pawnCount>2</pawnCount>
+					<leftBehindPawnKind>GW_CrashlandedAngel_Starter</leftBehindPawnKind>
+					<kindCounts>
+						<li>
+							<kindDef>GW_CrashlandedAngel_Starter</kindDef>
+							<count>2</count>
+							<requiredAtStart>true</requiredAtStart>
+						</li>
+					</kindCounts>
 				</li>
 				<li Class="ScenPart_PlayerPawnsArriveMethod">
 					<def>PlayerPawnsArriveMethod</def>
@@ -233,11 +240,50 @@
 	</FactionDef>
 
 	<PawnKindDef ParentName="BasePlayerPawnKind">
-		<defName>GW_CrashlandedAngel</defName>
+		<defName>GW_CrashlandedAngel_Starter</defName>
 		<label>crashlanded angel</label>
 		<defaultFactionType>GW_CrashlandedAngels</defaultFactionType>
 		<chemicalAddictionChance>0</chemicalAddictionChance>
 		<fixedGender>Male</fixedGender>
+		<skills>
+			<li>
+				<skill>Melee</skill>
+				<range>7~10</range>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<range>7~10</range>
+			</li>
+		</skills>
+		<apparelTags>
+			<li>GW_SM_OnSkin</li>
+			<li>GW_Tacticus</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>GW_SM_FibroVest</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<apparelMoney>1000~2000</apparelMoney>
+		<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+		<techHediffsChance>0.03</techHediffsChance>
+		<techHediffsMoney>400~800</techHediffsMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+			<li>ImplantEmpireCommon</li>
+		</techHediffsTags>
+		<techHediffsDisallowTags>
+			<li>PainCauser</li>
+		</techHediffsDisallowTags>
+		<initialResistanceRange>13~21</initialResistanceRange>
+		<modExtensions>
+		</modExtensions>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="BasePlayerPawnKind">
+		<defName>GW_CrashlandedAngel</defName>
+		<label>crashlanded angel</label>
+		<defaultFactionType>GW_CrashlandedAngels</defaultFactionType>
+		<chemicalAddictionChance>0</chemicalAddictionChance>
 		<skills>
 			<li>
 				<skill>Melee</skill>
