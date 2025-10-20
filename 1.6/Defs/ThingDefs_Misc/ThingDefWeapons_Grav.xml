@@ -9,7 +9,7 @@
         <label>Grav</label>
         <description>grav beam</description>
 		<textures>
-			<li>Things/Projectiles/Grav_Projectile</li>
+			<li>Things/Projectiles/Grav_projectile</li>
 		</textures>
 		<canExplode>true</canExplode>		
         <projectile>
@@ -28,7 +28,7 @@
 		<defName>GW_SM_GravRifle_Bullet</defName>
 		<label>grav rifle bomb</label>
         <textures>
-			<li>Things/Projectiles/Grav_Projectile</li>
+			<li>Things/Projectiles/Grav_projectile</li>
 		</textures>
 		<canExplode>true</canExplode>		
 		<projectile>
@@ -47,7 +47,7 @@
 		<defName>GW_SM_GravPistol_Bullet</defName>
 		<label>grav pistol bomb</label>
 		<textures>
-			<li>Things/Projectiles/Grav_Projectile</li>
+			<li>Things/Projectiles/Grav_projectile</li>
 		</textures>
 		<canExplode>true</canExplode>		
 		<projectile>
