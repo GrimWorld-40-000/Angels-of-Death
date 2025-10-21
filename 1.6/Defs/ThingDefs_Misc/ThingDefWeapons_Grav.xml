@@ -3,11 +3,18 @@
 <Defs>
 
 	<!--===== Grav Cannon Projectile =====-->
+	
 
 	<ThingDef ParentName="GW_LaserBullet" Class="VEF.Weapons.LaserBeamDef">
         <defName>GW_AOD_GravCannon_Bullet</defName>
         <label>Grav</label>
         <description>grav beam</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Projectiles/Grav_projectile</texPath>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>1.5</drawSize>
+		</graphicData>
 		<textures Inherit="False">
 			<li>Things/Projectiles/Grav_projectile</li>
 		</textures>
@@ -27,6 +34,12 @@
 	<ThingDef ParentName="GW_LaserBullet" Class="VEF.Weapons.LaserBeamDef">
 		<defName>GW_SM_GravRifle_Bullet</defName>
 		<label>grav rifle bomb</label>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Projectiles/Grav_projectile</texPath>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>1.5</drawSize>
+		</graphicData>
 		<textures Inherit="False">
 			<li>Things/Projectiles/Grav_projectile</li>
 		</textures>
@@ -46,6 +59,12 @@
 	<ThingDef ParentName="GW_LaserBullet" Class="VEF.Weapons.LaserBeamDef">
 		<defName>GW_SM_GravPistol_Bullet</defName>
 		<label>grav pistol bomb</label>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Projectiles/Grav_projectile</texPath>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>1.5</drawSize>
+		</graphicData>
 		<textures Inherit="False">
 			<li>Things/Projectiles/Grav_projectile</li>
 		</textures>
