@@ -8,7 +8,7 @@
         <defName>GW_AOD_GravCannon_Bullet</defName>
         <label>Grav</label>
         <description>grav beam</description>
-		<textures>
+		<textures Inherit="False">
 			<li>Things/Projectiles/Grav_projectile</li>
 		</textures>
 		<canExplode>true</canExplode>		
@@ -27,7 +27,7 @@
 	<ThingDef ParentName="GW_LaserBullet" Class="VEF.Weapons.LaserBeamDef">
 		<defName>GW_SM_GravRifle_Bullet</defName>
 		<label>grav rifle bomb</label>
-        <textures>
+		<textures Inherit="False">
 			<li>Things/Projectiles/Grav_projectile</li>
 		</textures>
 		<canExplode>true</canExplode>		
@@ -46,7 +46,7 @@
 	<ThingDef ParentName="GW_LaserBullet" Class="VEF.Weapons.LaserBeamDef">
 		<defName>GW_SM_GravPistol_Bullet</defName>
 		<label>grav pistol bomb</label>
-		<textures>
+		<textures Inherit="False">
 			<li>Things/Projectiles/Grav_projectile</li>
 		</textures>
 		<canExplode>true</canExplode>		
