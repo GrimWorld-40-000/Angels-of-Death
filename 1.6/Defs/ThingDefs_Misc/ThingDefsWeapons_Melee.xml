@@ -14,8 +14,8 @@
 				<compClass>CompQuality</compClass>
 			</li>
 		</comps>
-		<smeltable>true</smeltable>
 		<burnableByRecipe>true</burnableByRecipe>
+		<smeltable> false </smeltable>
 		<thingCategories>
 			<li>WeaponsMelee</li>
 		</thingCategories>
