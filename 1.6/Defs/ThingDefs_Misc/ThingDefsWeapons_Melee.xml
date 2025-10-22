@@ -165,14 +165,6 @@
 		<relicChance>5</relicChance>
 		<costStuffCount>100</costStuffCount>
 		<equippedAngleOffset>-65</equippedAngleOffset>
-	   <costList>
-			<Plasteel>30</Plasteel>
-			<ComponentIndustrial>6</ComponentIndustrial>
-			<Steel>100</Steel>
-		</costList>
-		<stuffCategories>
-		  <li>Metallic</li>
-		</stuffCategories>
 		<tools>
 			<li>
 				<label>handle</label>
@@ -228,16 +220,6 @@
 				</extraMeleeDamages>
 			</li>
 		</tools>
-		<recipeMaker>
-		  <recipeUsers Inherit="False">
-			<li>HP_ImperialFabricationBench</li>
-		  </recipeUsers>		
-		  <researchPrerequisite>GW_Chainswords</researchPrerequisite>
-		  <skillRequirements>
-			<Crafting>15</Crafting>
-			</skillRequirements>
-		  <displayPriority>410</displayPriority>
-		</recipeMaker>
 		<comps>
             <!-- <li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"> -->
 				<!-- <maxNumberCraftable>3</maxNumberCraftable> -->
@@ -351,11 +333,6 @@
 		</statBases>
 		<relicChance>2</relicChance>
 		<equippedAngleOffset>-45</equippedAngleOffset>
-	   <costList>
-		  	<Plasteel>80</Plasteel>
-			<ComponentSpacer>3</ComponentSpacer>
-			<HP_Adamantium>25</HP_Adamantium>
-		</costList>
 		<tools>
 		  <li>
 			<label>handle</label>
@@ -382,23 +359,13 @@
 			<capacities>
 			  <li>Stab</li>
 			</capacities>
-			<power>40</power>
+			<power>60</power>
 			<cooldownTime>2</cooldownTime>
 			<armorPenetration>2</armorPenetration>
 			<soundMeleeHit>PowerSword</soundMeleeHit>
 			<soundMeleeMiss>Smite</soundMeleeMiss>
 		  </li>
 		</tools>
-		<recipeMaker>
-		  <recipeUsers Inherit="False">
-			<li>HP_ImperialFabricationBench</li>
-		  </recipeUsers>		
-		  <researchPrerequisite>GW_PowerMeleeWeapons</researchPrerequisite>
-		  <skillRequirements>
-			<Crafting>15</Crafting>
-			</skillRequirements>
-		  <displayPriority>410</displayPriority>
-		</recipeMaker>
 		<comps>
             <!-- <li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"> -->
 				<!-- <maxNumberCraftable>3</maxNumberCraftable> -->
