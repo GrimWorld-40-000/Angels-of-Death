@@ -18,7 +18,7 @@
             <damageAmountBase>30</damageAmountBase>
             <stoppingPower>0.7</stoppingPower>
             <explosionRadius>1</explosionRadius>
-            <armorPenetrationBase>0.75<armorPenetrationBase>
+            <armorPenetrationBase>0.75</armorPenetrationBase>
             <speed>60</speed>
 			<explosionEffect>GW_PlasmaEffecter</explosionEffect>
         </projectile>

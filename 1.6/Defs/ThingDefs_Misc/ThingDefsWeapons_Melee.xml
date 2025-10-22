@@ -165,6 +165,14 @@
 		<relicChance>5</relicChance>
 		<costStuffCount>100</costStuffCount>
 		<equippedAngleOffset>-65</equippedAngleOffset>
+		<costList>
+			<Plasteel>30</Plasteel>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<Steel>100</Steel>
+		</costList>
+		<stuffCategories>
+		  <li>Metallic</li>
+		</stuffCategories>
 		<tools>
 			<li>
 				<label>handle</label>
@@ -333,6 +341,11 @@
 		</statBases>
 		<relicChance>2</relicChance>
 		<equippedAngleOffset>-45</equippedAngleOffset>
+		 <costList>
+		  	<Plasteel>80</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+			<HP_Adamantium>25</HP_Adamantium>
+		</costList>
 		<tools>
 		  <li>
 			<label>handle</label>

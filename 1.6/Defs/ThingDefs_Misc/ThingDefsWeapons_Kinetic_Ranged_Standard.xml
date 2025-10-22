@@ -50,7 +50,7 @@
 		<thingClass>Projectile_Explosive</thingClass>
 		<projectile>
 			<damageDef>Bomb</damageDef>
-			<damageAmountBase>60<damageAmountBase>
+			<damageAmountBase>60</damageAmountBase>
 			<explosionRadius>4.5</explosionRadius>
 			<stoppingPower>4</stoppingPower>
 			<armorPenetrationBase>0.50</armorPenetrationBase>
