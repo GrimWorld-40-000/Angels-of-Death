@@ -143,7 +143,7 @@
             <drawSize>1.2</drawSize>
       </graphicData>
       <projectile>
-        <damageDef>bomb</damageDef>
+        <damageDef>Bomb</damageDef>
         <damageAmountBase>35</damageAmountBase>
         <stoppingPower>2</stoppingPower>
         <armorPenetrationBase>0.4</armorPenetrationBase>
