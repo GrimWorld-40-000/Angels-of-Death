@@ -452,7 +452,7 @@
 		</graphicData>
         <thingClass>Projectile_Explosive</thingClass>
 		<projectile>
-			<damageDef>bomb</damageDef>
+			<damageDef>Bomb</damageDef>
 			<damageAmountBase>22</damageAmountBase>
 			<stoppingPower>0.7</stoppingPower>
 			<armorPenetrationBase>0.37</armorPenetrationBase>

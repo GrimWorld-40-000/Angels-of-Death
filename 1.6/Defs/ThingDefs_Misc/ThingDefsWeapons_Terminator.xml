@@ -353,7 +353,7 @@
         </graphicData>
         <thingClass>Projectile_Explosive</thingClass>
         <projectile>
-            <damageDef>vaporize</damageDef>
+            <damageDef>Vaporize</damageDef>
             <damageAmountBase>50</damageAmountBase>
             <stoppingPower>2.5</stoppingPower>
             <explosionRadius>2.4</explosionRadius>
