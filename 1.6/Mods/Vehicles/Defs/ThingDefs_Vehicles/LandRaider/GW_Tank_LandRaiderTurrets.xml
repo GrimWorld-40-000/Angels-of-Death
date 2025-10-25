@@ -24,13 +24,26 @@
 		<maxRange>42.9</maxRange>
 		<fireModes>
 			<li>
-				<shotsPerBurst>1</shotsPerBurst>
+				<shotsPerBurst>10</shotsPerBurst>
 				<ticksBetweenShots>5</ticksBetweenShots>
 				<ticksBetweenBursts>100</ticksBetweenBursts>
-				<spreadRadius>1</spreadRadius>
+				<AccuracyTouch>0.85</AccuracyTouch>
+				<AccuracyShort>0.75</AccuracyShort>
+				<AccuracyMedium>0.55</AccuracyMedium>
+				<AccuracyLong>0.25</AccuracyLong>
 				<label>Burst</label>
 				<texPath>UI/Gizmos/FireRate_Burst</texPath>
 			</li>
+			<li>
+				<shotsPerBurst>1</shotsPerBurst>
+				<ticksBetweenShots>5</ticksBetweenShots>
+				<ticksBetweenBursts>60</ticksBetweenBursts>
+				<AccuracyTouch>1</AccuracyTouch>
+				<AccuracyShort>0.95</AccuracyShort>
+				<AccuracyMedium>0.75</AccuracyMedium>
+				<AccuracyLong>0.65</AccuracyLong>
+				<label>single</label>
+				<texPath>UI/Gizmos/FireRate_Single</texPath>
 		</fireModes>
 		<graphicData>
 			<texPath>Things/Vehicles/LandRaider/SideTurret_Lasgun</texPath>
@@ -73,7 +86,10 @@
 				<shotsPerBurst>10</shotsPerBurst>
 				<ticksBetweenShots>5</ticksBetweenShots>
 				<ticksBetweenBursts>60</ticksBetweenBursts>
-				<spreadRadius>2</spreadRadius>
+				<AccuracyTouch>0.70</AccuracyTouch>
+				<AccuracyShort>0.75</AccuracyShort>
+				<AccuracyMedium>0.65</AccuracyMedium>
+				<AccuracyLong>0.35</AccuracyLong>
 				<label>Auto</label>
 				<texPath>UI/Gizmos/FireRate_Auto</texPath>
 			</li>

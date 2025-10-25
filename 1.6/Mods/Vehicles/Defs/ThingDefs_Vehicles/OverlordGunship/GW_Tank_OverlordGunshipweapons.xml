@@ -3,8 +3,8 @@
 <Defs>
 	<!--===== this def can be deleted safely if you do not need a slot for a new projectile =====-->
 	<ThingDef ParentName="BaseBullet">
-		<defName>OVboltor</defName>
-		<label>Boltor shot</label>
+		<defName>OVbolter</defName>
+		<label>Bolter shot</label>
 		<thingClass>Projectile_Explosive</thingClass>
 		
 		<graphicData>
@@ -87,14 +87,22 @@
 				<shotsPerBurst>5</shotsPerBurst>
 				<ticksBetweenShots>5</ticksBetweenShots>
 				<ticksBetweenBursts>30</ticksBetweenBursts>
+				<AccuracyTouch>0.75</AccuracyTouch>
+				<AccuracyShort>0.95</AccuracyShort>
+				<AccuracyMedium>0.66</AccuracyMedium>
+				<AccuracyLong>0.40</AccuracyLong>
 				<label>Single</label>
 				<texPath>UI/Gizmos/FireRate_Single</texPath>
+				
 			</li>
 			<li>
 				<shotsPerBurst>10</shotsPerBurst>
 				<ticksBetweenShots>5</ticksBetweenShots>
 				<ticksBetweenBursts>30</ticksBetweenBursts>
-				<spreadRadius>1</spreadRadius>
+				<AccuracyTouch>0.65</AccuracyTouch>
+				<AccuracyShort>0.75</AccuracyShort>
+				<AccuracyMedium>0.60</AccuracyMedium>
+				<AccuracyLong>0.50</AccuracyLong>
 				<label>Burst</label>
 				<texPath>UI/Gizmos/FireRate_Burst</texPath>
 			</li>
@@ -102,6 +110,10 @@
 				<shotsPerBurst>25</shotsPerBurst>
 				<ticksBetweenShots>5</ticksBetweenShots>
 				<ticksBetweenBursts>45</ticksBetweenBursts>
+				<AccuracyTouch>0.77</AccuracyTouch>
+				<AccuracyShort>0.62</AccuracyShort>
+				<AccuracyMedium>0.50</AccuracyMedium>
+				<AccuracyLong>0.40</AccuracyLong>
 				<label>Auto</label>
 				<texPath>UI/Gizmos/FireRate_Auto</texPath>
 			</li>
@@ -144,7 +156,7 @@
 
 			<projectileOffset>0</projectileOffset>
 
-			<maxRange>28.9</maxRange>
+			<maxRange>35.9</maxRange>
 
 			<attachProjectileFlag>GW_Tank</attachProjectileFlag>
 
@@ -153,6 +165,10 @@
 				<shotsPerBurst>5</shotsPerBurst>
 				<ticksBetweenShots>5</ticksBetweenShots>
 				<ticksBetweenBursts>30</ticksBetweenBursts>
+				<AccuracyTouch>0.85</AccuracyTouch>
+				<AccuracyShort>0.95</AccuracyShort>
+				<AccuracyMedium>0.66</AccuracyMedium>
+				<AccuracyLong>0.30</AccuracyLong>
 				<label>Single</label>
 				<texPath>UI/Gizmos/FireRate_Single</texPath>
 			</li>
@@ -160,7 +176,10 @@
 				<shotsPerBurst>10</shotsPerBurst>
 				<ticksBetweenShots>5</ticksBetweenShots>
 				<ticksBetweenBursts>30</ticksBetweenBursts>
-				<spreadRadius>1</spreadRadius>
+				<AccuracyTouch>0.65</AccuracyTouch>
+				<AccuracyShort>0.75</AccuracyShort>
+				<AccuracyMedium>0.60</AccuracyMedium>
+				<AccuracyLong>0.25</AccuracyLong>
 				<label>Burst</label>
 				<texPath>UI/Gizmos/FireRate_Burst</texPath>
 			</li>
@@ -168,6 +187,10 @@
 				<shotsPerBurst>25</shotsPerBurst>
 				<ticksBetweenShots>5</ticksBetweenShots>
 				<ticksBetweenBursts>45</ticksBetweenBursts>
+				<AccuracyTouch>0.77</AccuracyTouch>
+				<AccuracyShort>0.62</AccuracyShort>
+				<AccuracyMedium>0.45</AccuracyMedium>
+				<AccuracyLong>0.24</AccuracyLong>
 				<label>Auto</label>
 				<texPath>UI/Gizmos/FireRate_Auto</texPath>
 			</li>

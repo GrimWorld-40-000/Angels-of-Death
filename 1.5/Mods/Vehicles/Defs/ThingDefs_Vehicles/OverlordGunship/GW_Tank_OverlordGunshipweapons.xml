@@ -3,7 +3,7 @@
 <Defs>
 	<!--===== this def can be deleted safely if you do not need a slot for a new projectile =====-->
 	<ThingDef ParentName="BaseBullet">
-		<defName>OVboltor</defName>
+		<defName>OVbolter</defName>
 		<label>Boltor shot</label>
 		<thingClass>Projectile_Explosive</thingClass>
 		

@@ -614,6 +614,24 @@
 					</landingProperties>
 				</launchProtocol>
 			</li>
+			<li Class="Vehicles.CompProperties_VehicleTurrets">
+				<turrets>
+					<li>
+						<turretDef>GW_AOD_PredatorRhino_StormBolter</turretDef>
+						<renderProperties>
+							<north>(0,0)</north>
+							<south>(0,0)</south>
+							<east>(0,0)</east>
+							<west>(0,0)</west>
+						</renderProperties>
+						<gizmoLabel>Main Turret</gizmoLabel>
+						<!-- <angleRestricted>(-85, 85)</angleRestricted> -->
+						<aimPieOffset>(0, 1)</aimPieOffset>
+						<drawLayer>1</drawLayer>
+						<key>mainTurret</key>
+					</li>
+				</turrets>
+			</li>
 		</comps>
 	</Vehicles.VehicleDef>
 </Defs>
