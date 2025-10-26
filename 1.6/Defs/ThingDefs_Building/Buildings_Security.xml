@@ -110,10 +110,10 @@
         </graphicData>
         <statBases>
             <Mass>15</Mass>
-            <accuracyTouch>0.85</accuracyTouch>
-            <accuracyShort>0.78</accuracyShort>
-            <accuracyMedium>0.70</accuracyMedium>
-            <accuracyLong>0.55</accuracyLong>
+            <AccuracyTouch>0.85</AccuracyTouch>
+            <AccuracyShort>0.78</AccuracyShort>
+            <AccuracyMedium>0.70</AccuracyMedium>
+            <AccuracyLong>0.55</AccuracyLong>
             <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
             <DeteriorationRate>0</DeteriorationRate>
             <Flammability>0</Flammability>
@@ -234,10 +234,10 @@
             <drawSize>(1,1)</drawSize>
         </graphicData>
         <statBases>
-            <accuracyTouch>0.40</accuracyTouch>
-            <accuracyShort>0.55</accuracyShort>
-            <accuracyMedium>0.870</accuracyMedium>
-            <accuracyLong>0.95</accuracyLong>
+            <AccuracyTouch>0.40</AccuracyTouch>
+            <AccuracyShort>0.55</AccuracyShort>
+            <AccuracyMedium>0.870</AccuracyMedium>
+            <AccuracyLong>0.95</AccuracyLong>
             <RangedWeapon_Cooldown>3.2</RangedWeapon_Cooldown>
             <DeteriorationRate>0</DeteriorationRate>
             <Mass>15</Mass>
