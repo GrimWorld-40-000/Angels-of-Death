@@ -218,7 +218,7 @@
 			<MaxHitPoints>400</MaxHitPoints>
 			<MarketValue>1300</MarketValue>
 			<Mass>9</Mass>
-			<Flammability>0.2</Flammability>
+			<Flammability>0.1</Flammability>
 			<ArmorRating_Sharp>1.05</ArmorRating_Sharp>
 			<ArmorRating_Blunt>.55</ArmorRating_Blunt>
 			<ArmorRating_Heat>.55</ArmorRating_Heat>
@@ -259,7 +259,7 @@
 			<MaxHitPoints>480</MaxHitPoints>
 			<MarketValue>1700</MarketValue>
 			<Mass>9</Mass>
-			<Flammability>0.2</Flammability>
+			<Flammability>0.1</Flammability>
 			<ArmorRating_Sharp>1.1</ArmorRating_Sharp>
 			<ArmorRating_Blunt>.55</ArmorRating_Blunt>
 			<ArmorRating_Heat>.58</ArmorRating_Heat>
@@ -300,7 +300,7 @@
 			<MaxHitPoints>480</MaxHitPoints>
 			<MarketValue>1700</MarketValue>
 			<Mass>9</Mass>
-			<Flammability>0.2</Flammability>
+			<Flammability>0.1</Flammability>
 			<ArmorRating_Sharp>1.1</ArmorRating_Sharp>
 			<ArmorRating_Blunt>.55</ArmorRating_Blunt>
 			<ArmorRating_Heat>.58</ArmorRating_Heat>
@@ -341,7 +341,7 @@
 			<MaxHitPoints>480</MaxHitPoints>
 			<MarketValue>1700</MarketValue>
 			<Mass>9</Mass>
-			<Flammability>0.2</Flammability>
+			<Flammability>0.1</Flammability>
 			<ArmorRating_Sharp>1.1</ArmorRating_Sharp>
 			<ArmorRating_Blunt>.55</ArmorRating_Blunt>
 			<ArmorRating_Heat>.58</ArmorRating_Heat>
@@ -382,7 +382,7 @@
 			<MaxHitPoints>480</MaxHitPoints>
 			<MarketValue>1700</MarketValue>
 			<Mass>9</Mass>
-			<Flammability>0.2</Flammability>
+			<Flammability>0.1</Flammability>
 			<ArmorRating_Sharp>1.1</ArmorRating_Sharp>
 			<ArmorRating_Blunt>.55</ArmorRating_Blunt>
 			<ArmorRating_Heat>.58</ArmorRating_Heat>
@@ -442,7 +442,7 @@
 			<MaxHitPoints>500</MaxHitPoints>
 			<MarketValue>2300</MarketValue>
 			<Mass>11</Mass>
-			<Flammability>0.2</Flammability>
+			<Flammability>0.0</Flammability>
 			<ArmorRating_Sharp>1.25</ArmorRating_Sharp>
 			<ArmorRating_Blunt>.56</ArmorRating_Blunt>
 			<ArmorRating_Heat>.63</ArmorRating_Heat>
@@ -503,7 +503,7 @@
 			<MaxHitPoints>700</MaxHitPoints>
 			<MarketValue>2700</MarketValue>
 			<Mass>13</Mass>
-			<Flammability>0.2</Flammability>
+			<Flammability>0.0</Flammability>
 			<ArmorRating_Sharp>1.25</ArmorRating_Sharp>
 			<ArmorRating_Blunt>.7</ArmorRating_Blunt>
 			<ArmorRating_Heat>.75</ArmorRating_Heat>
