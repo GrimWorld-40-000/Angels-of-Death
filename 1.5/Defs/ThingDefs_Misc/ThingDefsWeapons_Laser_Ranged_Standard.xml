@@ -38,10 +38,10 @@
         <statBases>
             <WorkToMake>38000</WorkToMake>
             <Mass>5.5</Mass>
-            <AccuracyTouch>0.90</AccuracyTouch>
-            <AccuracyShort>0.85</AccuracyShort>
-            <AccuracyMedium>0.75</AccuracyMedium>
-            <AccuracyLong>0.70</AccuracyLong>
+            <accuracyTouch>0.90</accuracyTouch>
+            <accuracyShort>0.85</accuracyShort>
+            <accuracyMedium>0.75</accuracyMedium>
+            <accuracyLong>0.70</accuracyLong>
             <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
         </statBases>
 		<equippedStatOffsets>
@@ -149,10 +149,10 @@
         <statBases>
             <WorkToMake>50000</WorkToMake>
             <Mass>7.5</Mass>
-            <AccuracyTouch>0.100</AccuracyTouch>
-            <AccuracyShort>0.95</AccuracyShort>
-            <AccuracyMedium>0.85</AccuracyMedium>
-            <AccuracyLong>0.80</AccuracyLong>
+            <accuracyTouch>0.100</accuracyTouch>
+            <accuracyShort>0.95</accuracyShort>
+            <accuracyMedium>0.85</accuracyMedium>
+            <accuracyLong>0.80</accuracyLong>
             <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
         </statBases>
 		<equippedStatOffsets>
@@ -257,10 +257,10 @@
         <statBases>
             <WorkToMake>38000</WorkToMake>
             <Mass>5.5</Mass>
-            <AccuracyTouch>0.90</AccuracyTouch>
-            <AccuracyShort>0.70</AccuracyShort>
-            <AccuracyMedium>0.70</AccuracyMedium>
-            <AccuracyLong>0.50</AccuracyLong>
+            <accuracyTouch>0.90</accuracyTouch>
+            <accuracyShort>0.70</accuracyShort>
+            <accuracyMedium>0.70</accuracyMedium>
+            <accuracyLong>0.50</accuracyLong>
             <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
         </statBases>
 		<equippedStatOffsets>
@@ -344,10 +344,10 @@
         <statBases>
             <WorkToMake>50000</WorkToMake>
             <Mass>7.5</Mass>
-            <AccuracyTouch>1.0</AccuracyTouch>
-            <AccuracyShort>0.90</AccuracyShort>
-            <AccuracyMedium>0.70</AccuracyMedium>
-            <AccuracyLong>0.50</AccuracyLong>
+            <accuracyTouch>1.0</accuracyTouch>
+            <accuracyShort>0.90</accuracyShort>
+            <accuracyMedium>0.70</accuracyMedium>
+            <accuracyLong>0.50</accuracyLong>
             <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
         </statBases>
         <equippedStatOffsets>
@@ -452,10 +452,10 @@
 		<statBases>
 			<WorkToMake>26000</WorkToMake>
 			<Mass>4.5</Mass>
-			<AccuracyTouch>0.85</AccuracyTouch>
-			<AccuracyShort>0.90</AccuracyShort>
-			<AccuracyMedium>0.70</AccuracyMedium>
-			<AccuracyLong>0.62</AccuracyLong>
+			<accuracyTouch>0.85</accuracyTouch>
+			<accuracyShort>0.90</accuracyShort>
+			<accuracyMedium>0.70</accuracyMedium>
+			<accuracyLong>0.62</accuracyLong>
 			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
 		</statBases>
 		<equippedStatOffsets>
@@ -560,10 +560,10 @@
 		<statBases>
 			<WorkToMake>26000</WorkToMake>
 			<Mass>4.8</Mass>
-			<AccuracyTouch>0.90</AccuracyTouch>
-			<AccuracyShort>0.80</AccuracyShort>
-			<AccuracyMedium>0.70</AccuracyMedium>
-            <AccuracyLong>0.50</AccuracyLong>
+			<accuracyTouch>0.90</accuracyTouch>
+			<accuracyShort>0.80</accuracyShort>
+			<accuracyMedium>0.70</accuracyMedium>
+            <accuracyLong>0.50</accuracyLong>
 			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
 		</statBases>
 		<equippedStatOffsets>
