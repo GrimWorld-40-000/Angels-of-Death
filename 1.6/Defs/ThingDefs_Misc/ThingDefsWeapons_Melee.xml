@@ -440,7 +440,6 @@
 			<ComponentSpacer>3</ComponentSpacer>
 			<HP_Adamantium>40</HP_Adamantium>
 		</costList>
-		<costStuffCount>90</costStuffCount>
 		<tools>
 			<li>
 				<label>fist</label>
