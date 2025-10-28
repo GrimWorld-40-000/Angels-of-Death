@@ -24,6 +24,12 @@
         <configurationListOrderPriority>999</configurationListOrderPriority>
         <leaderTitle>captain</leaderTitle>
         <techLevel>Ultra</techLevel>
+        <xenotypeSet>
+            <xenotypeChances>
+                <BEWH_SpaceMarine MayRequire="Phonicmas.40kGenes">.7</BEWH_SpaceMarine>
+                <BEWH_PrimarisSpaceMarine MayRequire="Phonicmas.40kGenes">.3</BEWH_PrimarisSpaceMarine>
+            </xenotypeChances>
+        </xenotypeSet>
         <fixedName>The Adeptus Astartes</fixedName>
         <factionIconPath>UI/Icons/AdeptusAstartes</factionIconPath>
         <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
