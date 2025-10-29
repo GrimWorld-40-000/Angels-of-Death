@@ -21,8 +21,8 @@
 		<!-- <canExplode>true</canExplode>		 -->
         <projectile>
             <damageDef>Bomb</damageDef>
-            <damageAmountBase>30</damageAmountBase>
-            <armorPenetrationBase>0.70</armorPenetrationBase>
+            <damageAmountBase>50</damageAmountBase>
+            <armorPenetrationBase>4</armorPenetrationBase>
             <stoppingPower>2.0</stoppingPower>
             <speed>1000</speed>
 			<!-- <explosionRadius>3.0</explosionRadius>			 -->
@@ -45,9 +45,9 @@
 		</textures>
 		<!-- <canExplode>true</canExplode>		 -->
 		<projectile>
-            <damageDef>Burn</damageDef>
-            <damageAmountBase>10</damageAmountBase>
-            <armorPenetrationBase>0.70</armorPenetrationBase>
+            <damageDef>Bomb</damageDef>
+            <damageAmountBase>30</damageAmountBase>
+            <armorPenetrationBase>4</armorPenetrationBase>
             <stoppingPower>2.0</stoppingPower>
             <speed>1000</speed>
 			<!-- <explosionRadius>2.0</explosionRadius>			 -->
@@ -70,9 +70,9 @@
 		</textures>
 		<!-- <canExplode>true</canExplode>		 -->
 		<projectile>
-            <damageDef>Burn</damageDef>
-            <damageAmountBase>6</damageAmountBase>
-            <armorPenetrationBase>0.09</armorPenetrationBase>
+            <damageDef>Bomb</damageDef>
+            <damageAmountBase>10</damageAmountBase>
+            <armorPenetrationBase>4</armorPenetrationBase>
             <stoppingPower>2.0</stoppingPower>
             <speed>1000</speed>
 			<!-- <explosionRadius>1.0</explosionRadius>			 -->
