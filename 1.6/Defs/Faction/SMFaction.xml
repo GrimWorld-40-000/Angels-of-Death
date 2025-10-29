@@ -26,8 +26,8 @@
         <techLevel>Ultra</techLevel>
         <xenotypeSet>
             <xenotypeChances>
-                <BEWH_SpaceMarine MayRequire="Phonicmas.40kGenes">.7</BEWH_SpaceMarine>
-                <BEWH_PrimarisSpaceMarine MayRequire="Phonicmas.40kGenes">.3</BEWH_PrimarisSpaceMarine>
+                <BEWH_SpaceMarine MayRequire="Phonicmas.RimDark.MankindsFinest">.7</BEWH_SpaceMarine>
+                <BEWH_PrimarisSpaceMarine MayRequire="Phonicmas.RimDark.MankindsFinest">.3</BEWH_PrimarisSpaceMarine>
             </xenotypeChances>
         </xenotypeSet>
         <fixedName>The Adeptus Astartes</fixedName>
