@@ -120,7 +120,7 @@
 				<li>
 					<key>Passenger</key>
 					<label>Passenger</label>
-					<slots>4</slots>
+					<slots>10</slots>
 				</li>
 			</roles>
 		</properties>
