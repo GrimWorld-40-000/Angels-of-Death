@@ -14,8 +14,8 @@
 				<compClass>CompQuality</compClass>
 			</li>
 		</comps>
-		<smeltable>true</smeltable>
 		<burnableByRecipe>true</burnableByRecipe>
+		<smeltable> false </smeltable>
 		<thingCategories>
 			<li>WeaponsMelee</li>
 		</thingCategories>
@@ -94,7 +94,7 @@
 					<li>Cut</li>
 				</capacities>
 				<power>9</power>
-				<cooldownTime>1</cooldownTime>
+				<cooldownTime>.75</cooldownTime>
 				<soundMeleeHit>ChainSword</soundMeleeHit>
 				<soundMeleeMiss>Smite</soundMeleeMiss>
 				<armorPenetration>0.27</armorPenetration>
@@ -165,7 +165,7 @@
 		<relicChance>5</relicChance>
 		<costStuffCount>100</costStuffCount>
 		<equippedAngleOffset>-65</equippedAngleOffset>
-	   <costList>
+		<costList>
 			<Plasteel>30</Plasteel>
 			<ComponentIndustrial>6</ComponentIndustrial>
 			<Steel>100</Steel>
@@ -200,44 +200,34 @@
 					<li>Cut</li>
 				</capacities>
 				<power>9</power>
-				<cooldownTime>1</cooldownTime>
+				<cooldownTime>.75</cooldownTime>
 				<soundMeleeHit>ChainSword</soundMeleeHit>
 				<soundMeleeMiss>Smite</soundMeleeMiss>
 				<armorPenetration>0.29</armorPenetration>
 				<extraMeleeDamages>
 					<li>
 						<def>Cut</def>
-						<amount>4</amount>
+						<amount>6</amount>
 						<chance>0.75</chance>
 					</li>
 					<li>
 						<def>Cut</def>
-						<amount>4</amount>
-						<chance>0.75</chance>
+						<amount>6</amount>
+						<chance>1</chance>
 					</li>
 					<li>
 						<def>Cut</def>
-						<amount>4</amount>
-						<chance>0.75</chance>
+						<amount>6</amount>
+						<chance>1</chance>
 					</li>
 					<li>
 						<def>Cut</def>
-						<amount>4</amount>
-						<chance>0.75</chance>
+						<amount>6</amount>
+						<chance>1</chance>
 					</li>
 				</extraMeleeDamages>
 			</li>
 		</tools>
-		<recipeMaker>
-		  <recipeUsers Inherit="False">
-			<li>HP_ImperialFabricationBench</li>
-		  </recipeUsers>		
-		  <researchPrerequisite>GW_Chainswords</researchPrerequisite>
-		  <skillRequirements>
-			<Crafting>15</Crafting>
-			</skillRequirements>
-		  <displayPriority>410</displayPriority>
-		</recipeMaker>
 		<comps>
             <!-- <li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"> -->
 				<!-- <maxNumberCraftable>3</maxNumberCraftable> -->
@@ -269,21 +259,17 @@
 		  <li>HPMelee</li>
 		</tradeTags>
 		<statBases>
-		  <WorkToMake>30000</WorkToMake>
+		  <WorkToMake>20000</WorkToMake>
 			<Mass>5</Mass>
 			<MarketValue>720</MarketValue>
 		</statBases>
 		<relicChance>2</relicChance>
-		<costStuffCount>100</costStuffCount>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<costList>
 		  	<Plasteel>70</Plasteel>
 			<ComponentSpacer>2</ComponentSpacer>
 			<HP_Adamantium>20</HP_Adamantium>
 		</costList>
-		<stuffCategories>
-		  <li>Metallic</li>
-		</stuffCategories>
 		<tools>
 		  <li>
 			<label>handle</label>
@@ -299,9 +285,9 @@
 			<capacities>
 			  <li>Cut</li>
 			</capacities>
-			<power>30</power>
+			<power>40</power>
 			<cooldownTime>1.6</cooldownTime>
-			<armorPenetration>0.70</armorPenetration>
+			<armorPenetration>2</armorPenetration>
 			<soundMeleeHit>PowerSword</soundMeleeHit>
 			<soundMeleeMiss>Smite</soundMeleeMiss>
 		  </li>
@@ -312,7 +298,7 @@
 			</capacities>
 			<power>33</power>
 			<cooldownTime>2</cooldownTime>
-			<armorPenetration>0.73</armorPenetration>
+			<armorPenetration>2</armorPenetration>
 			<soundMeleeHit>PowerSword</soundMeleeHit>
 			<soundMeleeMiss>Smite</soundMeleeMiss>
 		  </li>
@@ -354,16 +340,12 @@
 			<MarketValue>800</MarketValue>
 		</statBases>
 		<relicChance>2</relicChance>
-		<costStuffCount>100</costStuffCount>
 		<equippedAngleOffset>-45</equippedAngleOffset>
-	   <costList>
+		 <costList>
 		  	<Plasteel>80</Plasteel>
 			<ComponentSpacer>3</ComponentSpacer>
 			<HP_Adamantium>25</HP_Adamantium>
 		</costList>
-		<stuffCategories>
-		  <li>Metallic</li>
-		</stuffCategories>
 		<tools>
 		  <li>
 			<label>handle</label>
@@ -379,9 +361,9 @@
 			<capacities>
 			  <li>Cut</li>
 			</capacities>
-			<power>32</power>
+			<power>45</power>
 			<cooldownTime>1.6</cooldownTime>
-			<armorPenetration>0.72</armorPenetration>
+			<armorPenetration>2</armorPenetration>
 			<soundMeleeHit>PowerSword</soundMeleeHit>
 			<soundMeleeMiss>Smite</soundMeleeMiss>
 		  </li>
@@ -390,23 +372,13 @@
 			<capacities>
 			  <li>Stab</li>
 			</capacities>
-			<power>35</power>
+			<power>60</power>
 			<cooldownTime>2</cooldownTime>
-			<armorPenetration>0.76</armorPenetration>
+			<armorPenetration>2</armorPenetration>
 			<soundMeleeHit>PowerSword</soundMeleeHit>
 			<soundMeleeMiss>Smite</soundMeleeMiss>
 		  </li>
 		</tools>
-		<recipeMaker>
-		  <recipeUsers Inherit="False">
-			<li>HP_ImperialFabricationBench</li>
-		  </recipeUsers>		
-		  <researchPrerequisite>GW_PowerMeleeWeapons</researchPrerequisite>
-		  <skillRequirements>
-			<Crafting>15</Crafting>
-			</skillRequirements>
-		  <displayPriority>410</displayPriority>
-		</recipeMaker>
 		<comps>
             <!-- <li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"> -->
 				<!-- <maxNumberCraftable>3</maxNumberCraftable> -->
@@ -458,7 +430,7 @@
 			<li>HPMelee</li>
 		</tradeTags>
 		<statBases>
-			<WorkToMake>45000</WorkToMake>
+			<WorkToMake>24000</WorkToMake>
 			<Mass>4</Mass>
 			<MarketValue>700</MarketValue>
 		</statBases>
@@ -468,10 +440,6 @@
 			<ComponentSpacer>3</ComponentSpacer>
 			<HP_Adamantium>40</HP_Adamantium>
 		</costList>
-		<costStuffCount>90</costStuffCount>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
 		<tools>
 			<li>
 				<label>fist</label>
@@ -479,9 +447,9 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>38</power>
+				<power>50</power>
 				<cooldownTime>3</cooldownTime>
-				<armorPenetration>0.85</armorPenetration>
+				<armorPenetration>1.85</armorPenetration>
 			</li>
 			<li>
 				<label>grip</label>
@@ -489,9 +457,9 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>33</power>
-				<cooldownTime>1.9</cooldownTime>
-				<armorPenetration>0.55</armorPenetration>
+				<power>30</power>
+				<cooldownTime>1</cooldownTime>
+				<armorPenetration>1</armorPenetration>
 			</li>
 		</tools>
 		<recipeMaker>
@@ -560,9 +528,9 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>14</power>
-				<cooldownTime>2.5</cooldownTime>
-				<armorPenetration>0.18</armorPenetration>
+				<power>15</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.20</armorPenetration>
 			</li>
 			<li>
 				<label>head</label>
@@ -570,10 +538,10 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-					<power>37</power>
-					<cooldownTime>2.5</cooldownTime>
+					<power>50</power>
+					<cooldownTime>3</cooldownTime>
 				<soundMeleeHit>GW_SM_ThunderHammer</soundMeleeHit>
-				<armorPenetration>0.40</armorPenetration>
+				<armorPenetration>0.75</armorPenetration>
 			</li>
 		</tools>
 	</ThingDef>

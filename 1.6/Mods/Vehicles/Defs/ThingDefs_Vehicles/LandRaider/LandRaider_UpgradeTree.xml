@@ -35,7 +35,7 @@
 								<key>mainTurret</key>
 							</li>
 							<li>
-								<turretDef>GW_LandRaider_Sidebolter</turretDef>
+								<turretDef>GW_Flamestorm_SideTurret</turretDef>
 								<renderProperties>
                             <north>(-4.5, -1.2)</north>
                             <south>(4.5, 1)</south>
@@ -49,7 +49,7 @@
                               <key>leftMountedTurret</key>
 							</li>
 							<li>
-								<turretDef>GW_LandRaider_Sidebolter</turretDef>
+								<turretDef>GW_Flamestorm_SideTurret</turretDef>
 								<renderProperties>
 							<north>(4.5, -1.2)</north>
 							<south>(-4.5, 1)</south>
@@ -120,7 +120,7 @@
 								<key>mainTurret</key>
 							</li>
 							<li>
-								<turretDef>GW_Flamestorm_SideTurret</turretDef>
+								<turretDef>GW_LandRaider_Sidebolter</turretDef>
 								<renderProperties>
                             <north>(-4.5, -1.2)</north>
                             <south>(4.5, 1)</south>
@@ -134,7 +134,7 @@
                               <key>leftMountedTurret</key>
 							</li>
 							<li>
-								<turretDef>GW_Flamestorm_SideTurret</turretDef>
+								<turretDef>GW_LandRaider_Sidebolter</turretDef>
 								<renderProperties>
 							<north>(4.5, -1.2)</north>
 							<south>(-4.5, 1)</south>

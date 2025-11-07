@@ -85,7 +85,10 @@
 				<shotsPerBurst>30</shotsPerBurst>
 				<ticksBetweenShots>4</ticksBetweenShots>
 				<ticksBetweenBursts>60</ticksBetweenBursts>
-				<spreadRadius>3</spreadRadius>
+				<accuracyTouch>0.77</accuracyTouch>
+				<accuracyShort>0.62</accuracyShort>
+				<accuracyMedium>0.45</accuracyMedium>
+				<accuracyLong>0.25</accuracyLong>
 				<label>Auto</label>
 				<texPath>UI/Gizmos/FireRate_Auto</texPath>
 			</li>
@@ -127,7 +130,7 @@
 			<li>
 				<shotsPerBurst>1</shotsPerBurst>
 				<ticksBetweenBursts>1</ticksBetweenBursts>
-				<spreadRadius>3.9</spreadRadius>
+				<spreadRadius>1</spreadRadius>
 				<label>Fire Spew</label>
 				<texPath>UI/Gizmos/FireRate_Single</texPath>
 			</li>

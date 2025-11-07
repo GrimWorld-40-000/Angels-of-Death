@@ -37,6 +37,10 @@
 				<ticksBetweenShots>5</ticksBetweenShots>
 				<ticksBetweenBursts>30</ticksBetweenBursts>
 				<label>Single</label>
+				<accuracyTouch>0.55</accuracyTouch>
+				<accuracyShort>0.75</accuracyShort>
+				<accuracyMedium>0.95</accuracyMedium>
+				<accuracyLong>0.65</accuracyLong>
 				<texPath>UI/Gizmos/FireRate_Single</texPath>
 			</li>
 			<li>
@@ -45,6 +49,10 @@
 				<ticksBetweenBursts>30</ticksBetweenBursts>
 				<spreadRadius>1</spreadRadius>
 				<label>Burst</label>
+				<accuracyTouch>0.60</accuracyTouch>
+				<accuracyShort>0.65</accuracyShort>
+				<accuracyMedium>0.755</accuracyMedium>
+				<accuracyLong>0.65</accuracyLong>
 				<texPath>UI/Gizmos/FireRate_Burst</texPath>
 			</li>
 			<li>
@@ -52,6 +60,10 @@
 				<ticksBetweenShots>5</ticksBetweenShots>
 				<ticksBetweenBursts>45</ticksBetweenBursts>
 				<label>Auto</label>
+				<accuracyTouch>0.70</accuracyTouch>
+				<accuracyShort>0.45</accuracyShort>
+				<accuracyMedium>0.55</accuracyMedium>
+				<accuracyLong>0.40</accuracyLong>
 				<texPath>UI/Gizmos/FireRate_Auto</texPath>
 			</li>
 		</fireModes>
@@ -103,13 +115,20 @@
 				<ticksBetweenShots>5</ticksBetweenShots>
 				<ticksBetweenBursts>30</ticksBetweenBursts>
 				<label>Single</label>
+				<accuracyTouch>0.85</accuracyTouch>
+				<accuracyShort>0.60</accuracyShort>
+				<accuracyMedium>0.50</accuracyMedium>
+				<accuracyLong>0.50</accuracyLong>
 				<texPath>UI/Gizmos/FireRate_Single</texPath>
 			</li>
 			<li>
 				<shotsPerBurst>15</shotsPerBurst>
 				<ticksBetweenShots>5</ticksBetweenShots>
 				<ticksBetweenBursts>30</ticksBetweenBursts>
-				<spreadRadius>1</spreadRadius>
+				<accuracyTouch>0.70</accuracyTouch>
+				<accuracyShort>0.65</accuracyShort>
+				<accuracyMedium>0.45</accuracyMedium>
+				<accuracyLong>0.35</accuracyLong>
 				<label>Burst</label>
 				<texPath>UI/Gizmos/FireRate_Burst</texPath>
 			</li>
@@ -117,6 +136,10 @@
 				<shotsPerBurst>25</shotsPerBurst>
 				<ticksBetweenShots>5</ticksBetweenShots>
 				<ticksBetweenBursts>45</ticksBetweenBursts>
+				<accuracyTouch>0.75</accuracyTouch>
+				<accuracyShort>0.45</accuracyShort>
+				<accuracyMedium>0.35</accuracyMedium>
+				<accuracyLong>0.25</accuracyLong>
 				<label>Auto</label>
 				<texPath>UI/Gizmos/FireRate_Auto</texPath>
 			</li>
@@ -139,7 +162,7 @@
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 			<defName>GW_Stormhawk_AssaultCannon</defName>
 			<label>Assault Cannons</label>
-			<description>The Heavy Bolter, a formidable weapon in the Warhammer 40,000 universe, is often mounted on vehicles to enhance their firepower. This versatile weapon, characterized by its rapid and powerful firepower, serves as a potent anti-infantry and suppressive tool on the battlefield. When mounted on a vehicle, it becomes a symbol of mobile and devastating firepower, capable of mowing down enemy infantry and providing valuable support in diverse combat scenarios.</description>
+			<description>The Assault Cannon, a formidable weapon in the Warhammer 40,000 universe, is often mounted on vehicles to enhance their firepower. This versatile weapon, characterized by its rapid and powerful firepower, serves as a potent anti-infantry and suppressive tool on the battlefield. When mounted on a vehicle, it becomes a symbol of mobile and devastating firepower, capable of mowing down enemy infantry and providing valuable support in diverse combat scenarios.</description>
 			<turretType>Rotatable</turretType>
 
 			<shotSound>OverlordHBolter</shotSound>
@@ -169,13 +192,20 @@
 				<ticksBetweenShots>1</ticksBetweenShots>
 				<ticksBetweenBursts>30</ticksBetweenBursts>
 				<label>Single</label>
+				<accuracyTouch>0.95</accuracyTouch>
+				<accuracyShort>0.95</accuracyShort>
+				<accuracyMedium>0.75</accuracyMedium>
+				<accuracyLong>0.65</accuracyLong>
 				<texPath>UI/Gizmos/FireRate_Single</texPath>
 			</li>
 			<li>
 				<shotsPerBurst>25</shotsPerBurst>
 				<ticksBetweenShots>1</ticksBetweenShots>
 				<ticksBetweenBursts>30</ticksBetweenBursts>
-				<spreadRadius>1</spreadRadius>
+				<accuracyTouch>0.85</accuracyTouch>
+				<accuracyShort>0.75</accuracyShort>
+				<accuracyMedium>0.65</accuracyMedium>
+				<accuracyLong>0.55</accuracyLong>
 				<label>Burst</label>
 				<texPath>UI/Gizmos/FireRate_Burst</texPath>
 			</li>
@@ -183,6 +213,10 @@
 				<shotsPerBurst>50</shotsPerBurst>
 				<ticksBetweenShots>1</ticksBetweenShots>
 				<ticksBetweenBursts>45</ticksBetweenBursts>
+				<accuracyTouch>0.70</accuracyTouch>
+				<accuracyShort>0.60</accuracyShort>
+				<accuracyMedium>0.50</accuracyMedium>
+				<accuracyLong>0.35</accuracyLong>
 				<label>Auto</label>
 				<texPath>UI/Gizmos/FireRate_Auto</texPath>
 			</li>

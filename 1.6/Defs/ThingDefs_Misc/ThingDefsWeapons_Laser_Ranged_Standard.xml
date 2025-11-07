@@ -14,11 +14,11 @@
         </graphicData>
         <thingClass>Projectile_Explosive</thingClass>
         <projectile>
-            <damageDef>Burn</damageDef>
-            <damageAmountBase>22</damageAmountBase>
+            <damageDef>Bomb</damageDef>
+            <damageAmountBase>30</damageAmountBase>
             <stoppingPower>0.7</stoppingPower>
             <explosionRadius>1</explosionRadius>
-            <armorPenetrationBase>0.37</armorPenetrationBase>
+            <armorPenetrationBase>0.75</armorPenetrationBase>
             <speed>60</speed>
 			<explosionEffect>GW_PlasmaEffecter</explosionEffect>
         </projectile>
@@ -36,7 +36,7 @@
         </graphicData>
         <soundInteract>Interact_ChargeRifle</soundInteract>
         <statBases>
-            <WorkToMake>50000</WorkToMake>
+            <WorkToMake>24000</WorkToMake>
 			<MarketValue>700</MarketValue>
             <Mass>3.5</Mass>
             <AccuracyTouch>0.8</AccuracyTouch>
@@ -60,7 +60,6 @@
         </recipeMaker>
         <costList>
             <Plasteel>25</Plasteel>
-            <HP_Adamantium>2</HP_Adamantium>
             <ComponentSpacer>2</ComponentSpacer>
             <HP_Ceramite>10</HP_Ceramite>
         </costList>
@@ -129,8 +128,8 @@
         </graphicData>
         <thingClass>Projectile_Explosive</thingClass>
         <projectile>
-            <damageDef>Burn</damageDef>
-            <damageAmountBase>27</damageAmountBase>
+            <damageDef>Vaporize</damageDef>
+            <damageAmountBase>40</damageAmountBase>
             <stoppingPower>1.7</stoppingPower>
             <explosionRadius>2.6</explosionRadius>
             <armorPenetrationBase>0.59</armorPenetrationBase>
@@ -151,7 +150,7 @@
         </graphicData>
         <soundInteract>Interact_ChargeRifle</soundInteract>
         <statBases>
-            <WorkToMake>75000</WorkToMake>
+            <WorkToMake>28000</WorkToMake>
             <Mass>8.5</Mass>
             <AccuracyTouch>0.60</AccuracyTouch>
             <AccuracyShort>0.80</AccuracyShort>
@@ -173,8 +172,7 @@
         </recipeMaker>
         <costList>
             <Plasteel>55</Plasteel>
-            <HP_Ceramite>30</HP_Ceramite>
-            <HP_Adamantium>15</HP_Adamantium>
+            <HP_Adamantium>20</HP_Adamantium>
             <ComponentSpacer>5</ComponentSpacer>
         </costList>
         <weaponTags>
@@ -238,9 +236,9 @@
 			<li>Things/Projectiles/Melta_Projectile</li>
 		</textures>
         <projectile>
-            <damageDef>Burn</damageDef>
+            <damageDef>Vaporize</damageDef>
             <damageAmountBase>33</damageAmountBase>
-            <armorPenetrationBase>0.70</armorPenetrationBase>
+            <armorPenetrationBase>1</armorPenetrationBase>
             <stoppingPower>2.0</stoppingPower>
             <speed>10000</speed>
         </projectile>
@@ -345,9 +343,9 @@
 			<li>Things/Projectiles/Melta_Projectile</li>
 		</textures>
         <projectile>
-            <damageDef>Burn</damageDef>
-            <damageAmountBase>33</damageAmountBase>
-            <armorPenetrationBase>0.70</armorPenetrationBase>
+            <damageDef>Vaporize</damageDef>
+            <damageAmountBase>50</damageAmountBase>
+            <armorPenetrationBase>1.5</armorPenetrationBase>
             <stoppingPower>2.0</stoppingPower>
             <speed>1000</speed>
         </projectile>
@@ -366,7 +364,7 @@
         </graphicData>
         <soundInteract>Interact_ChargeRifle</soundInteract>
         <statBases>
-            <WorkToMake>85000</WorkToMake>
+            <WorkToMake>30000</WorkToMake>
             <Mass>8</Mass>
             <AccuracyTouch>0.65</AccuracyTouch>
             <AccuracyShort>0.80</AccuracyShort>
@@ -390,8 +388,8 @@
         <costList>
             <Plasteel>80</Plasteel>
             <HP_Adamantium>25</HP_Adamantium>
-            <ComponentSpacer>5</ComponentSpacer>
-            <HP_Ceramite>35</HP_Ceramite>
+            <ComponentSpacer>4</ComponentSpacer>
+            <HP_Ceramite>60</HP_Ceramite>
         </costList>
         <weaponTags>
             <li>SpacerGun</li>
@@ -454,7 +452,7 @@
 		</graphicData>
         <thingClass>Projectile_Explosive</thingClass>
 		<projectile>
-			<damageDef>Burn</damageDef>
+			<damageDef>Bomb</damageDef>
 			<damageAmountBase>22</damageAmountBase>
 			<stoppingPower>0.7</stoppingPower>
 			<armorPenetrationBase>0.37</armorPenetrationBase>
@@ -476,7 +474,7 @@
 		</graphicData>
 		<soundInteract>Interact_ChargeRifle</soundInteract>
 		<statBases>
-			<WorkToMake>50000</WorkToMake>
+			<WorkToMake>20000</WorkToMake>
 			<Mass>3.5</Mass>
 			<AccuracyTouch>0.80</AccuracyTouch>
 			<AccuracyShort>0.65</AccuracyShort>
@@ -486,7 +484,7 @@
             <MarketValue>700</MarketValue>
 		</statBases>
 		<equippedStatOffsets>
-            <MoveSpeed>0.10</MoveSpeed>
+            <MoveSpeed>1</MoveSpeed>
         </equippedStatOffsets>
 		<recipeMaker>
 			<recipeUsers Inherit="False">
@@ -564,9 +562,9 @@
 			<li>Things/Projectiles/Melta_Projectile</li>
 		</textures>
         <projectile>
-            <damageDef>Burn</damageDef>
+            <damageDef>Vaporize</damageDef>
             <damageAmountBase>20</damageAmountBase>
-            <armorPenetrationBase>0.70</armorPenetrationBase>
+            <armorPenetrationBase>1</armorPenetrationBase>
             <stoppingPower>1.5</stoppingPower>
             <speed>50</speed>
         </projectile>
@@ -586,9 +584,9 @@
 		</graphicData>
 		<soundInteract>Interact_ChargeRifle</soundInteract>
 		<statBases>
-			<WorkToMake>50000</WorkToMake>
+			<WorkToMake>24000</WorkToMake>
 			<Mass>3.5</Mass>
-			<AccuracyTouch>0.80</AccuracyTouch>
+			<AccuracyTouch>0.75</AccuracyTouch>
 			<AccuracyShort>0.65</AccuracyShort>
 			<AccuracyMedium>0.30</AccuracyMedium>
             <AccuracyLong>0.10</AccuracyLong>
@@ -596,7 +594,7 @@
             <MarketValue>700</MarketValue>
 		</statBases>
 		<equippedStatOffsets>
-            <MoveSpeed>0.10</MoveSpeed>
+            <MoveSpeed>1</MoveSpeed>
         </equippedStatOffsets>
 		<recipeMaker>
 			<recipeUsers Inherit="False">
