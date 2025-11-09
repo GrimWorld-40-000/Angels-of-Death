@@ -18,15 +18,15 @@
 			<wornGraphicPath>Things/Apparel/DarkAngel/Helmets/Aquilla_helmet_hood</wornGraphicPath>
 		</apparel>
 		<comps>
-			<li Class="GW4KArmor.CompProperties_TriColorMask">
-				<maskCount>8</maskCount>
-				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
-				<defaultPalette>
-					<colorA>(250, 176, 67)</colorA>
-					<colorB>(250, 176, 67)</colorB>
-					<colorC>(180, 65, 74)</colorC>
-				</defaultPalette>
-			</li>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>8</maskCount> -->
+				<!-- <palettePresets>GW_SM_HelmetChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
 		</comps>
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
@@ -175,15 +175,15 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<comps>
-			<li Class="GW4KArmor.CompProperties_TriColorMask">
-				<maskCount>13</maskCount>
-				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
-				<defaultPalette>
-					<colorA>(250, 176, 67)</colorA>
-					<colorB>(250, 176, 67)</colorB>
-					<colorC>(180, 65, 74)</colorC>
-				</defaultPalette>
-			</li>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>13</maskCount> -->
+				<!-- <palettePresets>GW_SM_HelmetChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
 		</comps>
 		<recipeMaker>
 			<researchPrerequisite>GW_SM_Ultarmarines</researchPrerequisite>
@@ -201,15 +201,15 @@
 			<wornGraphicPath>Things/Apparel/Ultramarines/Helmets/Aquilla_helmet_screst</wornGraphicPath>
 		</apparel>
 		<comps>
-			<li Class="GW4KArmor.CompProperties_TriColorMask">
-				<maskCount>13</maskCount>
-				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
-				<defaultPalette>
-					<colorA>(250, 176, 67)</colorA>
-					<colorB>(250, 176, 67)</colorB>
-					<colorC>(180, 65, 74)</colorC>
-				</defaultPalette>
-			</li>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>13</maskCount> -->
+				<!-- <palettePresets>GW_SM_HelmetChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
 		</comps>
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
@@ -247,15 +247,15 @@
 			<wornGraphicPath>Things/Apparel/Ultramarines/Helmets/Tacticus_helmet_fcrest</wornGraphicPath>
 		</apparel>
 		<comps>
-			<li Class="GW4KArmor.CompProperties_TriColorMask">
-				<maskCount>13</maskCount>
-				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
-				<defaultPalette>
-					<colorA>(250, 176, 67)</colorA>
-					<colorB>(250, 176, 67)</colorB>
-					<colorC>(180, 65, 74)</colorC>
-				</defaultPalette>
-			</li>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>13</maskCount> -->
+				<!-- <palettePresets>GW_SM_HelmetChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
 		</comps>
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
@@ -293,15 +293,15 @@
 			<wornGraphicPath>Things/Apparel/Ultramarines/Helmets/Tacticus_helmet_screst</wornGraphicPath>
 		</apparel>
 		<comps>
-			<li Class="GW4KArmor.CompProperties_TriColorMask">
-				<maskCount>13</maskCount>
-				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
-				<defaultPalette>
-					<colorA>(250, 176, 67)</colorA>
-					<colorB>(250, 176, 67)</colorB>
-					<colorC>(180, 65, 74)</colorC>
-				</defaultPalette>
-			</li>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>13</maskCount> -->
+				<!-- <palettePresets>GW_SM_HelmetChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
 		</comps>
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
@@ -339,15 +339,15 @@
 			<wornGraphicPath>Things/Apparel/Ultramarines/Helmets/Victrix_helmet_simple</wornGraphicPath>
 		</apparel>
 		<comps>
-			<li Class="GW4KArmor.CompProperties_TriColorMask">
-				<maskCount>3</maskCount>
-				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
-				<defaultPalette>
-					<colorA>(250, 176, 67)</colorA>
-					<colorB>(250, 176, 67)</colorB>
-					<colorC>(180, 65, 74)</colorC>
-				</defaultPalette>
-			</li>
+			<!-- <li Class="GW4KArmor.CompProperties_TriColorMask"> -->
+				<!-- <maskCount>3</maskCount> -->
+				<!-- <palettePresets>GW_SM_HelmetChapterPalettes</palettePresets> -->
+				<!-- <defaultPalette> -->
+					<!-- <colorA>(250, 176, 67)</colorA> -->
+					<!-- <colorB>(250, 176, 67)</colorB> -->
+					<!-- <colorC>(180, 65, 74)</colorC> -->
+				<!-- </defaultPalette> -->
+			<!-- </li> -->
 		</comps>
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
