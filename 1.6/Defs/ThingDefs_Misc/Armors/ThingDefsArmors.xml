@@ -372,7 +372,7 @@
 		<label>Tacticus power armor</label>
         	<description>A suit of middleweight Mk X Tacticus Power Armor. The standard fare for the vast majority of the Primaris Space Marines, it features improved protection over older patterns while retaining mobility. \n\nThe Primarch Roboute Guilliman instructed Archmagos Belisarius Cawl to begin the development of the Primaris Marines in the 31st Millennium, just after the horrors of the Horus Heresy. Ten thousand years later, the two reunited just in time to see the project's completion.</description>
 		<graphicData>
-			<texPath>Things/Apparel/Armor_Tacticus/Tacticus_torso_south</texPath>
+			<texPath>Things/Apparel/Armor_Tacticus/Tacticus_torso</texPath>
 		</graphicData>
 		<recipeMaker>
             <researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
@@ -420,6 +420,7 @@
         </comps>
 		<apparel>
             <wornGraphicPath>Things/Apparel/Armor_Tacticus/Tacticus_torso</wornGraphicPath>
+			<useWornGraphicMask>True</useWornGraphicMask>
 			<tags>
                 <li>GW_Tacticus</li>
 			</tags>

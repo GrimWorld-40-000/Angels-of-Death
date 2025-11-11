@@ -595,14 +595,14 @@
 		<label>Tacticus helmet</label>
 		<description>A helmet built for the Mk X Tacticus suit of Power Armor. It strongly resembles the Mk IV Maximus pattern helmet - indeed, the designs of Mk X armor draw inspiration from the most sophisticated patterns of Power Armor. \n\nIn this fleet, there is little distinction between a Firstborn Space Marine and a Primaris Space Marine any more - the surviving Marines emerged from the Warp disaster as equals. The gene-enhanced Astartes are nowadays seldom deployed to the field, instead spending their days training “mortals” to wield their equipment or volunteering for Cawl's Primarch project.</description>
 		<graphicData>
-			<texPath>Things/Apparel/Armor_Tacticus/Helmets/Tacticus_helmet_simple_south</texPath>
+			<texPath>Things/Apparel/Armor_Tacticus/Helmets/Tacticus_helmet_simple</texPath>
 		</graphicData>
-		<uiIconPath>Things/Apparel/Armor_Tacticus/Helmets/Tacticus_helmet_simple_south</uiIconPath>
 		<apparel>
 			<tags>
 				<li>GW_Tacticus</li>
 			</tags>
 			<wornGraphicPath>Things/Apparel/Armor_Tacticus/Helmets/Tacticus_helmet_simple</wornGraphicPath>
+			<useWornGraphicMask>True</useWornGraphicMask>
 		</apparel>		
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
@@ -633,6 +633,15 @@
 			</researchPrerequisites>
 		</recipeMaker>
 		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>9</maskCount>
+				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+				<defaultPalette>
+					<colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+				</defaultPalette>
+			</li>
 		</comps>
 	</ThingDef>
 
@@ -715,11 +724,12 @@
 		<label>Salamander Helmet</label>
 		<description>A modified Mk X Tacticus helmet, bearing the iconography of Salamanders. \n\nSalamanders are known for being most kind and wholesome chapter among Astartes, they care much more about humans life than anything else. Enemies are lucky that they dont see thier eyes... fire red with burning passion to help others.</description>
 		<graphicData>
-			<texPath>Things/Apparel/ArmorUpgrade_Salamander/Helmets/SalamandersTacticus_helmet_south</texPath>
+			<texPath>Things/Apparel/ArmorUpgrade_Salamander/Helmets/SalamandersTacticus_helmet</texPath>
 		</graphicData>
 		<uiIconPath>Things/Apparel/ArmorUpgrade_Salamander/Helmets/SalamandersTacticus_helmet_south</uiIconPath>
 		<apparel>
 			<wornGraphicPath>Things/Apparel/ArmorUpgrade_Salamander/Helmets/SalamandersTacticus_helmet</wornGraphicPath>
+			<useWornGraphicMask>True</useWornGraphicMask>
 		</apparel>
 		<researchPrerequisites>
 				<li>GW_SM_Salamander</li>
