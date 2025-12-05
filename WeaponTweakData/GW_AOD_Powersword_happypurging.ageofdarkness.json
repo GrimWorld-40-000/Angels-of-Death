@@ -1,0 +1,7 @@
+{
+  "TextureModID": "happypurging.ageofdarkness",
+  "ItemDefName": "GW_AOD_Powersword",
+  "ItemType": "ThingDef",
+  "ItemTypeNamespace": "Verse",
+  "MeleeWeaponType": 6
+}

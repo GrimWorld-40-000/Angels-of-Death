@@ -1,0 +1,10 @@
+{
+  "TextureModID": "happypurging.ageofdarkness",
+  "ItemDefName": "GW_AOD_CombatKnife",
+  "ItemType": "ThingDef",
+  "ItemTypeNamespace": "Verse",
+  "OffX": 0.279438317,
+  "BladeStart": 0.02605364,
+  "BladeEnd": 0.743295,
+  "MeleeWeaponType": 6
+}
