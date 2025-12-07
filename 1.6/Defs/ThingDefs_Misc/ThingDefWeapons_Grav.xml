@@ -109,8 +109,9 @@
 		<description>A special design of graviton weapon. With its higher output, even great bunker walls of thick plascrete will collapse before long. \n\nWhile graviton cannons are typically vehicle-mounted, the techmarines of the Deathwatch created this man-portable design.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Grav/GravCannon</texPath>
-			<drawSize>1.0</drawSize>
+			<drawSize>1.5</drawSize>
 		</graphicData>
+		<uiIconScale>0.8</uiIconScale>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>
 			<recipeUsers Inherit="False">
@@ -185,8 +186,9 @@
 		<description>A rare demolition weapon of the Adeptus Astartes - a rifle that fires gravitons, crushing the enemy and their fortifications with their own mass. \n\nTheir secrets of manufacture have only been discovered very recently. Before that, they were carefully guarded by the Adeptus Mechanicus, and only rarely fielded by the Space Marines.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Grav/GravGun</texPath>
-			<drawSize>1.0</drawSize>
+			<drawSize>1.5</drawSize>
 		</graphicData>
+		<uiIconScale>0.8</uiIconScale>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>
 			<recipeUsers Inherit="False">
@@ -269,8 +271,9 @@
 		<description>A pistol-sized graviton gun. Just as rare as their larger cousins, the weaker “grav-pistol” can still bring down a house containing enemy heretics. \n\nGraviton weapons date back to the Dark Age of Technology. Even by the time of the Great Crusade, they were a rare sight.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Grav/GravPistol</texPath>
-			<drawSize>1.0</drawSize>
+			<drawSize>1.5</drawSize>
 		</graphicData>
+		<uiIconScale>0.8</uiIconScale>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>
 			<recipeUsers Inherit="False">
