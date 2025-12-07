@@ -65,8 +65,9 @@
 		</modExtensions>
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/AssaultCannon</texPath>
-			<drawSize>1.0</drawSize>
+			<drawSize>1.5</drawSize>
 		</graphicData>
+		<uiIconScale>0.8</uiIconScale>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>
 			<recipeUsers Inherit="False">
@@ -174,8 +175,9 @@
 		</modExtensions>
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/ReaperAutocannon</texPath>
-			<drawSize>1.0</drawSize>
+			<drawSize>1.5</drawSize>
 		</graphicData>
+		<uiIconScale>0.8</uiIconScale>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>
 			<recipeUsers Inherit="False">
@@ -264,8 +266,9 @@
 		<description>A double-barrel, rapid-fire bolter used by Space Marines. Storm Bolters are surprisingly compact for such a powerful weapon, possessing a blistering rate of fire without compromising the power of every bolt. Its size makes it quick to aim and fire, but causes it to lose out on range compared to standard bolters. \n\nThe Umbra-pattern Storm Bolter is popular with Terminators of the Red Scorpions chapter of the Adeptus Astartes. Other chapters use their own patterns of Storm Bolter, and the Astra Militarum uses Storm Bolter emplacements as a crowd control weapon.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/StormBolter</texPath>
-			<drawSize>1.0</drawSize>
+			<drawSize>1.5</drawSize>
 		</graphicData>
+		<uiIconScale>0.8</uiIconScale>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>
 			<recipeUsers Inherit="False">
@@ -386,8 +389,9 @@
 		</modExtensions>
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/PlasmaCannon</texPath>
-			<drawSize>1.0</drawSize>
+			<drawSize>1.5</drawSize>
 		</graphicData>
+		<uiIconScale>0.8</uiIconScale>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>
 			<recipeUsers Inherit="False">
@@ -488,8 +492,9 @@
 		</modExtensions>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/AstartesPlasmaCannon</texPath>
-			<drawSize>1.0</drawSize>
+			<drawSize>1.5</drawSize>
 		</graphicData>
+		<uiIconScale>0.8</uiIconScale>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>
 			<recipeUsers Inherit="False">
@@ -603,8 +608,9 @@
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/ThunderHammerOneHand</texPath>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>1.0</drawSize>
+			<drawSize>1.5</drawSize>
 		</graphicData>
+		<uiIconScale>0.8</uiIconScale>
 		<thingSetMakerTags>
 			<li>RewardStandardQualitySuper</li>
 		</thingSetMakerTags>
@@ -662,8 +668,9 @@
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/FistWSkull</texPath>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>1.0</drawSize>
+			<drawSize>2.0</drawSize>
 		</graphicData>
+		<uiIconScale>0.8</uiIconScale>
 		<modExtensions>
 			<li Class="VEF.Things.ThingDefExtension">
 				<weaponCarryDrawOffsets>
@@ -742,10 +749,10 @@
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/TermSword</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.0</drawSize>
+			<drawSize>1.7</drawSize>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<uiIconScale>1.2</uiIconScale>
+		<uiIconScale>0.8</uiIconScale>
 		<techLevel>Industrial</techLevel>
 		<thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
 		<weaponTags>
