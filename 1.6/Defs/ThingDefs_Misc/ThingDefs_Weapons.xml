@@ -8,9 +8,10 @@
             <texPath>Things/Weapons/Melee/GW_Phaseblade</texPath>
             <graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-            <drawSize>1.0</drawSize>
+            <drawSize>1.5</drawSize>
 			<onGroundRandomRotateAngle>45</onGroundRandomRotateAngle>
         </graphicData>
+		<uiIconScale>0.8</uiIconScale>
         <tradeability>Sellable</tradeability>
 		<uiIconPath>Things/Weapons/Melee/GW_Phaseblade</uiIconPath>
         <techLevel>Spacer</techLevel>
