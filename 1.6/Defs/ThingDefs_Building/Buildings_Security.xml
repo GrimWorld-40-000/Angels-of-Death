@@ -84,7 +84,11 @@
             </li>
         </comps>
         <statBases>
-            <ShootingAccuracyTurret>1.10</ShootingAccuracyTurret>
+            <Mass>15</Mass>
+            <AccuracyTouch>0.85</AccuracyTouch>
+            <AccuracyShort>0.78</AccuracyShort>
+            <AccuracyMedium>0.70</AccuracyMedium>
+            <AccuracyLong>0.55</AccuracyLong>
             <MaxHitPoints>630</MaxHitPoints>
         </statBases>
         <building>
