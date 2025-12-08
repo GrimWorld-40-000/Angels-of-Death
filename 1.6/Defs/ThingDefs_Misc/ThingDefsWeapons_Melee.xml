@@ -41,10 +41,10 @@
 		<graphicData>
 			<texPath>Things/Weapons/Melee/ChainSwordStandard</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.0</drawSize>
+			<drawSize>1.8</drawSize>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<uiIconScale>1.2</uiIconScale>
+		<uiIconScale>0.7</uiIconScale>
 		<techLevel>Industrial</techLevel>
 		<thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
 		<weaponTags>
@@ -144,10 +144,10 @@
 		<graphicData>
 		  <texPath>Things/Weapons/Melee/ChainSword</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
-		  <drawSize>1.0</drawSize>
+		  <drawSize>1.8</drawSize>
 		  <shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<uiIconScale>1.2</uiIconScale>
+		<uiIconScale>0.7</uiIconScale>
 		<techLevel>Spacer</techLevel>
 		<thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
 		<weaponTags>
@@ -245,10 +245,10 @@
 		<graphicData>
 		  <texPath>Things/Weapons/Melee/PowerSword2</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
-		  <drawSize>1.0</drawSize>
+		  <drawSize>1.8</drawSize>
 		  <shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<uiIconScale>1.2</uiIconScale>
+		<uiIconScale>0.7</uiIconScale>
 		<techLevel>Industrial</techLevel>
 		<thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
 		<weaponTags>
@@ -325,10 +325,10 @@
 		<graphicData>
 		  <texPath>Things/Weapons/Melee/PowerSword</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
-		  <drawSize>1.0</drawSize>
+		  <drawSize>1.8</drawSize>
 		  <shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<uiIconScale>1.2</uiIconScale>
+		<uiIconScale>0.7</uiIconScale>
 		<techLevel>Spacer</techLevel>
 		<thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
 		<weaponTags>
@@ -396,10 +396,10 @@
 		<graphicData>
 			<texPath>Things/Weapons/Melee/Fist</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.0</drawSize>
+			<drawSize>2.0</drawSize>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<uiIconScale>1.2</uiIconScale>
+		<uiIconScale>0.7</uiIconScale>
 		<modExtensions>
 			<li Class="VEF.Things.ThingDefExtension">
 				<weaponCarryDrawOffsets>
@@ -486,8 +486,9 @@
 			<texPath>Things/Weapons/Melee/ThunderHammer</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.0</drawSize>
+			<drawSize>2.2</drawSize>
 		</graphicData>
+		<uiIconScale>0.8</uiIconScale>
 		<thingSetMakerTags>
 			<li>RewardStandardQualitySuper</li>
 		</thingSetMakerTags>
@@ -557,9 +558,9 @@
 			<texPath>Things/Weapons/Melee/Combat-knife</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>1.0</drawSize>
+			<drawSize>1.4</drawSize>
 		</graphicData>
-		<uiIconScale>1.2</uiIconScale>
+		<uiIconScale>0.8</uiIconScale>
 		<techLevel>Industrial</techLevel>
 		<thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
 		<weaponTags>

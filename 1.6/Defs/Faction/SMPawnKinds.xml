@@ -558,134 +558,182 @@
     <PawnKindDef ParentName="GW_SM_SniperScout">
         <defName>GW_SM_AR_SniperScout</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
-                <!-- <defaultPalette> -->
-                    <!-- <colorA>(38, 35, 36)</colorA> -->
-                    <!-- <colorB>(171, 53, 53)</colorB> -->
-                    <!-- <colorC>(198, 2, 15)</colorC> -->
-                <!-- </defaultPalette> -->
-            <!-- </li> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(38, 35, 36)</colorA>
+                    <colorB>(171, 53, 53)</colorB>
+                    <colorC>(198, 2, 15)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
     
     <PawnKindDef ParentName="GW_SM_ShotgunScout">
         <defName>GW_SM_AR_ShotgunScout</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
-                <!-- <defaultPalette> -->
-                    <!-- <colorA>(38, 35, 36)</colorA> -->
-                    <!-- <colorB>(171, 53, 53)</colorB> -->
-                    <!-- <colorC>(198, 2, 15)</colorC> -->
-                <!-- </defaultPalette> -->
-            <!-- </li> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(38, 35, 36)</colorA>
+                    <colorB>(171, 53, 53)</colorB>
+                    <colorC>(198, 2, 15)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_BolterScout">
         <defName>GW_SM_AR_BolterScout</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(38, 35, 36)</colorA>
+                    <colorB>(171, 53, 53)</colorB>
+                    <colorC>(198, 2, 15)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_PlasmaScout">
         <defName>GW_SM_AR_PlasmaScout</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(38, 35, 36)</colorA>
+                    <colorB>(171, 53, 53)</colorB>
+                    <colorC>(198, 2, 15)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier1">
         <defName>GW_SM_AR_RangedTier1</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
-                <!-- <defaultPalette> -->
-                    <!-- <colorA>(38, 35, 36)</colorA> -->
-                    <!-- <colorB>(171, 53, 53)</colorB> -->
-                    <!-- <colorC>(198, 2, 15)</colorC> -->
-                <!-- </defaultPalette> -->
-            <!-- </li> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(38, 35, 36)</colorA>
+                    <colorB>(171, 53, 53)</colorB>
+                    <colorC>(198, 2, 15)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier1">
         <defName>GW_SM_AR_MeleeTier1</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
-                <!-- <defaultPalette> -->
-                    <!-- <colorA>(38, 35, 36)</colorA> -->
-                    <!-- <colorB>(171, 53, 53)</colorB> -->
-                    <!-- <colorC>(198, 2, 15)</colorC> -->
-                <!-- </defaultPalette> -->
-            <!-- </li> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(38, 35, 36)</colorA>
+                    <colorB>(171, 53, 53)</colorB>
+                    <colorC>(198, 2, 15)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier2">
         <defName>GW_SM_AR_RangedTier2</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
-                <!-- <defaultPalette> -->
-                    <!-- <colorA>(38, 35, 36)</colorA> -->
-                    <!-- <colorB>(171, 53, 53)</colorB> -->
-                    <!-- <colorC>(198, 2, 15)</colorC> -->
-                <!-- </defaultPalette> -->
-            <!-- </li> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(38, 35, 36)</colorA>
+                    <colorB>(171, 53, 53)</colorB>
+                    <colorC>(198, 2, 15)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier2">
         <defName>GW_SM_AR_MeleeTier2</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
-                <!-- <defaultPalette> -->
-                    <!-- <colorA>(38, 35, 36)</colorA> -->
-                    <!-- <colorB>(171, 53, 53)</colorB> -->
-                    <!-- <colorC>(198, 2, 15)</colorC> -->
-                <!-- </defaultPalette> -->
-            <!-- </li> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(38, 35, 36)</colorA>
+                    <colorB>(171, 53, 53)</colorB>
+                    <colorC>(198, 2, 15)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier3">
         <defName>GW_SM_AR_RangedTier3</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(38, 35, 36)</colorA>
+                    <colorB>(171, 53, 53)</colorB>
+                    <colorC>(198, 2, 15)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier3">
         <defName>GW_SM_AR_MeleeTier3</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(38, 35, 36)</colorA>
+                    <colorB>(171, 53, 53)</colorB>
+                    <colorC>(198, 2, 15)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier4">
         <defName>GW_SM_AR_RangedTier4</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(38, 35, 36)</colorA>
+                    <colorB>(171, 53, 53)</colorB>
+                    <colorC>(198, 2, 15)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier4">
         <defName>GW_SM_AR_MeleeTier4</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(38, 35, 36)</colorA>
+                    <colorB>(171, 53, 53)</colorB>
+                    <colorC>(198, 2, 15)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier5">
         <defName>GW_SM_AR_RangedTier5</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(38, 35, 36)</colorA>
+                    <colorB>(171, 53, 53)</colorB>
+                    <colorC>(198, 2, 15)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier5">
         <defName>GW_SM_AR_MeleeTier5</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(38, 35, 36)</colorA>
+                    <colorB>(171, 53, 53)</colorB>
+                    <colorC>(198, 2, 15)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>    
 
@@ -693,104 +741,182 @@
     <PawnKindDef ParentName="GW_SM_SniperScout">
         <defName>GW_SM_BT_SniperScout</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
-                <!-- <defaultPalette> -->
-                    <!-- <colorA>(57, 56, 61)</colorA> -->
-                    <!-- <colorB>(255, 255, 255)</colorB> -->
-                    <!-- <colorC>(192, 157, 88)</colorC> -->
-                <!-- </defaultPalette> -->
-            <!-- </li> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
     
     <PawnKindDef ParentName="GW_SM_ShotgunScout">
         <defName>GW_SM_BT_ShotgunScout</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_BolterScout">
         <defName>GW_SM_BT_BolterScout</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_PlasmaScout">
         <defName>GW_SM_BT_PlasmaScout</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
     
     <PawnKindDef ParentName="GW_SM_RangedTier1">
         <defName>GW_SM_BT_RangedTier1</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier1">
         <defName>GW_SM_BT_MeleeTier1</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier2">
         <defName>GW_SM_BT_RangedTier2</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier2">
         <defName>GW_SM_BT_MeleeTier2</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier3">
         <defName>GW_SM_BT_RangedTier3</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier3">
         <defName>GW_SM_BT_MeleeTier3</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier4">
         <defName>GW_SM_BT_RangedTier4</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier4">
         <defName>GW_SM_BT_MeleeTier4</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier5">
         <defName>GW_SM_BT_RangedTier5</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier5">
         <defName>GW_SM_BT_MeleeTier5</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
@@ -798,104 +924,182 @@
     <PawnKindDef ParentName="GW_SM_SniperScout">
         <defName>GW_SM_BL_SniperScout</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
-                <!-- <defaultPalette> -->
-                    <!-- <colorA>(183, 42, 42)</colorA> -->
-                    <!-- <colorB>(183, 42, 42)</colorB> -->
-                    <!-- <colorC>(98, 100, 106)</colorC> -->
-                <!-- </defaultPalette> -->
-            <!-- </li> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(183, 42, 42)</colorB>
+                    <colorC>(98, 100, 106)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
     
     <PawnKindDef ParentName="GW_SM_ShotgunScout">
         <defName>GW_SM_BL_ShotgunScout</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(183, 42, 42)</colorB>
+                    <colorC>(98, 100, 106)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_BolterScout">
         <defName>GW_SM_BL_BolterScout</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(183, 42, 42)</colorB>
+                    <colorC>(98, 100, 106)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_PlasmaScout">
         <defName>GW_SM_BL_PlasmaScout</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(183, 42, 42)</colorB>
+                    <colorC>(98, 100, 106)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>    
 
     <PawnKindDef ParentName="GW_SM_RangedTier1">
         <defName>GW_SM_BL_RangedTier1</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(183, 42, 42)</colorB>
+                    <colorC>(98, 100, 106)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier1">
         <defName>GW_SM_BL_MeleeTier1</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(183, 42, 42)</colorB>
+                    <colorC>(98, 100, 106)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier2">
         <defName>GW_SM_BL_RangedTier2</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(183, 42, 42)</colorB>
+                    <colorC>(98, 100, 106)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier2">
         <defName>GW_SM_BL_MeleeTier2</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(183, 42, 42)</colorB>
+                    <colorC>(98, 100, 106)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier3">
         <defName>GW_SM_BL_RangedTier3</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(183, 42, 42)</colorB>
+                    <colorC>(98, 100, 106)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier3">
         <defName>GW_SM_BL_MeleeTier3</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(183, 42, 42)</colorB>
+                    <colorC>(98, 100, 106)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier4">
         <defName>GW_SM_BL_RangedTier4</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(183, 42, 42)</colorB>
+                    <colorC>(98, 100, 106)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier4">
         <defName>GW_SM_BL_MeleeTier4</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(183, 42, 42)</colorB>
+                    <colorC>(98, 100, 106)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier5">
         <defName>GW_SM_BL_RangedTier5</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(183, 42, 42)</colorB>
+                    <colorC>(98, 100, 106)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier5">
         <defName>GW_SM_BL_MeleeTier5</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(183, 42, 42)</colorB>
+                    <colorC>(98, 100, 106)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
@@ -903,104 +1107,182 @@
     <PawnKindDef ParentName="GW_SM_SniperScout">
         <defName>GW_SM_BR_SniperScout</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
-                <!-- <defaultPalette> -->
-                    <!-- <colorA>(133, 39, 39)</colorA> -->
-                    <!-- <colorB>(133, 39, 39)</colorB> -->
-                    <!-- <colorC>(69, 68, 75)</colorC> -->
-                <!-- </defaultPalette> -->
-            <!-- </li> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(133, 39, 39)</colorA>
+                    <colorB>(133, 39, 39)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
     
     <PawnKindDef ParentName="GW_SM_ShotgunScout">
         <defName>GW_SM_BR_ShotgunScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(133, 39, 39)</colorA>
+                    <colorB>(133, 39, 39)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_BolterScout">
         <defName>GW_SM_BR_BolterScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(133, 39, 39)</colorA>
+                    <colorB>(133, 39, 39)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_PlasmaScout">
         <defName>GW_SM_BR_PlasmaScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(133, 39, 39)</colorA>
+                    <colorB>(133, 39, 39)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier1">
         <defName>GW_SM_BR_RangedTier1</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(133, 39, 39)</colorA>
+                    <colorB>(133, 39, 39)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier1">
         <defName>GW_SM_BR_MeleeTier1</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(133, 39, 39)</colorA>
+                    <colorB>(133, 39, 39)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier2">
         <defName>GW_SM_BR_RangedTier2</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(133, 39, 39)</colorA>
+                    <colorB>(133, 39, 39)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier2">
         <defName>GW_SM_BR_MeleeTier2</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(133, 39, 39)</colorA>
+                    <colorB>(133, 39, 39)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier3">
         <defName>GW_SM_BR_RangedTier3</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(133, 39, 39)</colorA>
+                    <colorB>(133, 39, 39)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier3">
         <defName>GW_SM_BR_MeleeTier3</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(133, 39, 39)</colorA>
+                    <colorB>(133, 39, 39)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier4">
         <defName>GW_SM_BR_RangedTier4</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(133, 39, 39)</colorA>
+                    <colorB>(133, 39, 39)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier4">
         <defName>GW_SM_BR_MeleeTier4</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(133, 39, 39)</colorA>
+                    <colorB>(133, 39, 39)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier5">
         <defName>GW_SM_BR_RangedTier5</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(133, 39, 39)</colorA>
+                    <colorB>(133, 39, 39)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier5">
         <defName>GW_SM_BR_MeleeTier5</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(133, 39, 39)</colorA>
+                    <colorB>(133, 39, 39)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
     
@@ -1008,104 +1290,182 @@
     <PawnKindDef ParentName="GW_SM_SniperScout">
         <defName>GW_SM_CAR_SniperScout</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
-                <!-- <defaultPalette> -->
-                    <!-- <colorA>(211, 211, 211)</colorA> -->
-                    <!-- <colorB>(211, 211, 211)</colorB> -->
-                    <!-- <colorC>(69, 68, 75)</colorC> -->
-                <!-- </defaultPalette> -->
-            <!-- </li> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(211, 211, 211)</colorA>
+                    <colorB>(211, 211, 211)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
     
     <PawnKindDef ParentName="GW_SM_ShotgunScout">
         <defName>GW_SM_CAR_ShotgunScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(211, 211, 211)</colorA>
+                    <colorB>(211, 211, 211)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_BolterScout">
         <defName>GW_SM_CAR_BolterScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(211, 211, 211)</colorA>
+                    <colorB>(211, 211, 211)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_PlasmaScout">
         <defName>GW_SM_CAR_PlasmaScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(211, 211, 211)</colorA>
+                    <colorB>(211, 211, 211)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier1">
         <defName>GW_SM_CAR_RangedTier1</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(211, 211, 211)</colorA>
+                    <colorB>(211, 211, 211)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier1">
         <defName>GW_SM_CAR_MeleeTier1</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(211, 211, 211)</colorA>
+                    <colorB>(211, 211, 211)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier2">
         <defName>GW_SM_CAR_RangedTier2</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(211, 211, 211)</colorA>
+                    <colorB>(211, 211, 211)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier2">
         <defName>GW_SM_CAR_MeleeTier2</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(211, 211, 211)</colorA>
+                    <colorB>(211, 211, 211)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier3">
         <defName>GW_SM_CAR_RangedTier3</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(211, 211, 211)</colorA>
+                    <colorB>(211, 211, 211)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier3">
         <defName>GW_SM_CAR_MeleeTier3</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(211, 211, 211)</colorA>
+                    <colorB>(211, 211, 211)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier4">
         <defName>GW_SM_CAR_RangedTier4</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(211, 211, 211)</colorA>
+                    <colorB>(211, 211, 211)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier4">
         <defName>GW_SM_CAR_MeleeTier4</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(211, 211, 211)</colorA>
+                    <colorB>(211, 211, 211)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier5">
         <defName>GW_SM_CAR_RangedTier5</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(211, 211, 211)</colorA>
+                    <colorB>(211, 211, 211)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier5">
         <defName>GW_SM_CAR_MeleeTier5</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(211, 211, 211)</colorA>
+                    <colorB>(211, 211, 211)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
@@ -1113,104 +1473,182 @@
     <PawnKindDef ParentName="GW_SM_SniperScout">
         <defName>GW_SM_DA_SniperScout</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
-                <!-- <defaultPalette> -->
-                    <!-- <colorA>(16, 97, 56)</colorA> -->
-                    <!-- <colorB>(16, 97, 56)</colorB> -->
-                    <!-- <colorC>(255, 255, 255)</colorC> -->
-                <!-- </defaultPalette> -->
-            <!-- </li> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(16, 97, 56)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
     
     <PawnKindDef ParentName="GW_SM_ShotgunScout">
         <defName>GW_SM_DA_ShotgunScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(16, 97, 56)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_BolterScout">
         <defName>GW_SM_DA_BolterScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(16, 97, 56)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_PlasmaScout">
         <defName>GW_SM_DA_PlasmaScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(16, 97, 56)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier1">
         <defName>GW_SM_DA_RangedTier1</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(16, 97, 56)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier1">
         <defName>GW_SM_DA_MeleeTier1</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(16, 97, 56)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier2">
         <defName>GW_SM_DA_RangedTier2</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(16, 97, 56)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier2">
         <defName>GW_SM_DA_MeleeTier2</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(16, 97, 56)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier3">
         <defName>GW_SM_DA_RangedTier3</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(16, 97, 56)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier3">
         <defName>GW_SM_DA_MeleeTier3</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(16, 97, 56)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier4">
         <defName>GW_SM_DA_RangedTier4</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(16, 97, 56)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier4">
         <defName>GW_SM_DA_MeleeTier4</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(16, 97, 56)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier5">
         <defName>GW_SM_DA_RangedTier5</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(16, 97, 56)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier5">
         <defName>GW_SM_DA_MeleeTier5</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(16, 97, 56)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
@@ -1218,104 +1656,182 @@
     <PawnKindDef ParentName="GW_SM_SniperScout">
         <defName>GW_SM_IF_SniperScout</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
-                <!-- <defaultPalette> -->
-                    <!-- <colorA>(250, 176, 67)</colorA> -->
-                    <!-- <colorB>(250, 176, 67)</colorB> -->
-                    <!-- <colorC>(180, 65, 74)</colorC> -->
-                <!-- </defaultPalette> -->
-            <!-- </li> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+                    <colorB>(250, 176, 67)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
     
     <PawnKindDef ParentName="GW_SM_ShotgunScout">
         <defName>GW_SM_IF_ShotgunScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+                    <colorB>(250, 176, 67)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_BolterScout">
         <defName>GW_SM_IF_BolterScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+                    <colorB>(250, 176, 67)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_PlasmaScout">
         <defName>GW_SM_IF_PlasmaScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+                    <colorB>(250, 176, 67)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier1">
         <defName>GW_SM_IF_RangedTier1</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+                    <colorB>(250, 176, 67)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier1">
         <defName>GW_SM_IF_MeleeTier1</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+                    <colorB>(250, 176, 67)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier2">
         <defName>GW_SM_IF_RangedTier2</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+                    <colorB>(250, 176, 67)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier2">
         <defName>GW_SM_IF_MeleeTier2</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+                    <colorB>(250, 176, 67)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier3">
         <defName>GW_SM_IF_RangedTier3</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+                    <colorB>(250, 176, 67)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier3">
         <defName>GW_SM_IF_MeleeTier3</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+                    <colorB>(250, 176, 67)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier4">
         <defName>GW_SM_IF_RangedTier4</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+                    <colorB>(250, 176, 67)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier4">
         <defName>GW_SM_IF_MeleeTier4</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+                    <colorB>(250, 176, 67)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier5">
         <defName>GW_SM_IF_RangedTier5</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+                    <colorB>(250, 176, 67)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier5">
         <defName>GW_SM_IF_MeleeTier5</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+                    <colorB>(250, 176, 67)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
@@ -1323,104 +1839,182 @@
     <PawnKindDef ParentName="GW_SM_SniperScout">
         <defName>GW_SM_IH_SniperScout</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
-                <!-- <defaultPalette> -->
-                    <!-- <colorA>(57, 56, 61)</colorA> -->
-                    <!-- <colorB>(57, 56, 61)</colorB> -->
-                    <!-- <colorC>(255, 255, 255)</colorC> -->
-                <!-- </defaultPalette> -->
-            <!-- </li> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
     
     <PawnKindDef ParentName="GW_SM_ShotgunScout">
         <defName>GW_SM_IH_ShotgunScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_BolterScout">
         <defName>GW_SM_IH_BolterScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_PlasmaScout">
         <defName>GW_SM_IH_PlasmaScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier1">
         <defName>GW_SM_IH_RangedTier1</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier1">
         <defName>GW_SM_IH_MeleeTier1</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier2">
         <defName>GW_SM_IH_RangedTier2</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier2">
         <defName>GW_SM_IH_MeleeTier2</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier3">
         <defName>GW_SM_IH_RangedTier3</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier3">
         <defName>GW_SM_IH_MeleeTier3</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier4">
         <defName>GW_SM_IH_RangedTier4</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier4">
         <defName>GW_SM_IH_MeleeTier4</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier5">
         <defName>GW_SM_IH_RangedTier5</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier5">
         <defName>GW_SM_IH_MeleeTier5</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
@@ -1428,104 +2022,182 @@
     <PawnKindDef ParentName="GW_SM_SniperScout">
         <defName>GW_SM_LOTD_SniperScout</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
-                <!-- <defaultPalette> -->
-                    <!-- <colorA>(183, 42, 42)</colorA> -->
-                    <!-- <colorB>(16, 97, 56)</colorB> -->
-                    <!-- <colorC>(16, 97, 56)</colorC> -->
-                <!-- </defaultPalette> -->
-            <!-- </li> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(16, 97, 56)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
     
     <PawnKindDef ParentName="GW_SM_ShotgunScout">
         <defName>GW_SM_LOTD_ShotgunScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(16, 97, 56)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_BolterScout">
         <defName>GW_SM_LOTD_BolterScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(16, 97, 56)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_PlasmaScout">
         <defName>GW_SM_LOTD_PlasmaScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(16, 97, 56)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier1">
         <defName>GW_SM_LOTD_RangedTier1</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(16, 97, 56)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier1">
         <defName>GW_SM_LOTD_MeleeTier1</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(16, 97, 56)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier2">
         <defName>GW_SM_LOTD_RangedTier2</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(16, 97, 56)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier2">
         <defName>GW_SM_LOTD_MeleeTier2</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(16, 97, 56)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier3">
         <defName>GW_SM_LOTD_RangedTier3</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(16, 97, 56)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier3">
         <defName>GW_SM_LOTD_MeleeTier3</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(16, 97, 56)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier4">
         <defName>GW_SM_LOTD_RangedTier4</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(16, 97, 56)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier4">
         <defName>GW_SM_LOTD_MeleeTier4</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(16, 97, 56)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier5">
         <defName>GW_SM_LOTD_RangedTier5</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(16, 97, 56)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier5">
         <defName>GW_SM_LOTD_MeleeTier5</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(16, 97, 56)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
@@ -1533,104 +2205,182 @@
     <PawnKindDef ParentName="GW_SM_SniperScout">
         <defName>GW_SM_M_SniperScout</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
-                <!-- <defaultPalette> -->
-                    <!-- <colorA>(57, 56, 61)</colorA> -->
-                    <!-- <colorB>(57, 56, 61)</colorB> -->
-                    <!-- <colorC>(57, 56, 61)</colorC> -->
-                <!-- </defaultPalette> -->
-            <!-- </li> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(57, 56, 61)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
     
     <PawnKindDef ParentName="GW_SM_ShotgunScout">
         <defName>GW_SM_M_ShotgunScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(57, 56, 61)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_BolterScout">
         <defName>GW_SM_M_BolterScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(57, 56, 61)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_PlasmaScout">
         <defName>GW_SM_M_PlasmaScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(57, 56, 61)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier1">
         <defName>GW_SM_M_RangedTier1</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(57, 56, 61)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier1">
         <defName>GW_SM_M_MeleeTier1</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(57, 56, 61)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier2">
         <defName>GW_SM_M_RangedTier2</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(57, 56, 61)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier2">
         <defName>GW_SM_M_MeleeTier2</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(57, 56, 61)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier3">
         <defName>GW_SM_M_RangedTier3</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(57, 56, 61)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier3">
         <defName>GW_SM_M_MeleeTier3</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(57, 56, 61)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier4">
         <defName>GW_SM_M_RangedTier4</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(57, 56, 61)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier4">
         <defName>GW_SM_M_MeleeTier4</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(57, 56, 61)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier5">
         <defName>GW_SM_M_RangedTier5</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(57, 56, 61)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier5">
         <defName>GW_SM_M_MeleeTier5</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(57, 56, 61)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
     
@@ -1638,104 +2388,182 @@
     <PawnKindDef ParentName="GW_SM_SniperScout">
         <defName>GW_SM_RG_SniperScout</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
-                <!-- <defaultPalette> -->
-                    <!-- <colorA>(57, 56, 61)</colorA> -->
-                    <!-- <colorB>(57, 56, 61)</colorB> -->
-                    <!-- <colorC>(183, 184, 187)</colorC> -->
-                <!-- </defaultPalette> -->
-            <!-- </li> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(183, 184, 187)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
     
     <PawnKindDef ParentName="GW_SM_ShotgunScout">
         <defName>GW_SM_RG_ShotgunScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(183, 184, 187)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_BolterScout">
         <defName>GW_SM_RG_BolterScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(183, 184, 187)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_PlasmaScout">
         <defName>GW_SM_RG_PlasmaScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(183, 184, 187)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier1">
         <defName>GW_SM_RG_RangedTier1</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(183, 184, 187)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier1">
         <defName>GW_SM_RG_MeleeTier1</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(183, 184, 187)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier2">
         <defName>GW_SM_RG_RangedTier2</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(183, 184, 187)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier2">
         <defName>GW_SM_RG_MeleeTier2</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(183, 184, 187)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier3">
         <defName>GW_SM_RG_RangedTier3</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(183, 184, 187)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier3">
         <defName>GW_SM_RG_MeleeTier3</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(183, 184, 187)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier4">
         <defName>GW_SM_RG_RangedTier4</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(183, 184, 187)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier4">
         <defName>GW_SM_RG_MeleeTier4</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(183, 184, 187)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier5">
         <defName>GW_SM_RG_RangedTier5</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(183, 184, 187)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier5">
         <defName>GW_SM_RG_MeleeTier5</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(183, 184, 187)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
@@ -1743,104 +2571,182 @@
     <PawnKindDef ParentName="GW_SM_SniperScout">
         <defName>GW_SM_SL_SniperScout</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
-                <!-- <defaultPalette> -->
-                    <!-- <colorA>(6, 136, 71)</colorA> -->
-                    <!-- <colorB>(6, 136, 71)</colorB> -->
-                    <!-- <colorC>(192, 157, 88)</colorC> -->
-                <!-- </defaultPalette> -->
-            <!-- </li> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(6, 136, 71)</colorA>
+                    <colorB>(6, 136, 71)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
     
     <PawnKindDef ParentName="GW_SM_ShotgunScout">
         <defName>GW_SM_SL_ShotgunScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(6, 136, 71)</colorA>
+                    <colorB>(6, 136, 71)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_BolterScout">
         <defName>GW_SM_SL_BolterScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(6, 136, 71)</colorA>
+                    <colorB>(6, 136, 71)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_PlasmaScout">
         <defName>GW_SM_SL_PlasmaScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(6, 136, 71)</colorA>
+                    <colorB>(6, 136, 71)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier1">
         <defName>GW_SM_SL_RangedTier1</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(6, 136, 71)</colorA>
+                    <colorB>(6, 136, 71)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier1">
         <defName>GW_SM_SL_MeleeTier1</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(6, 136, 71)</colorA>
+                    <colorB>(6, 136, 71)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier2">
         <defName>GW_SM_SL_RangedTier2</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(6, 136, 71)</colorA>
+                    <colorB>(6, 136, 71)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier2">
         <defName>GW_SM_SL_MeleeTier2</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(6, 136, 71)</colorA>
+                    <colorB>(6, 136, 71)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier3">
         <defName>GW_SM_SL_RangedTier3</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(6, 136, 71)</colorA>
+                    <colorB>(6, 136, 71)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier3">
         <defName>GW_SM_SL_MeleeTier3</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(6, 136, 71)</colorA>
+                    <colorB>(6, 136, 71)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier4">
         <defName>GW_SM_SL_RangedTier4</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(6, 136, 71)</colorA>
+                    <colorB>(6, 136, 71)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier4">
         <defName>GW_SM_SL_MeleeTier4</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(6, 136, 71)</colorA>
+                    <colorB>(6, 136, 71)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier5">
         <defName>GW_SM_SL_RangedTier5</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(6, 136, 71)</colorA>
+                    <colorB>(6, 136, 71)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier5">
         <defName>GW_SM_SL_MeleeTier5</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(6, 136, 71)</colorA>
+                    <colorB>(6, 136, 71)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
@@ -1848,104 +2754,182 @@
     <PawnKindDef ParentName="GW_SM_SniperScout">
         <defName>GW_SM_SW_SniperScout</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
-                <!-- <defaultPalette> -->
-                    <!-- <colorA>(126, 170, 194)</colorA> -->
-                    <!-- <colorB>(126, 170, 194)</colorB> -->
-                    <!-- <colorC>(192, 157, 88)</colorC> -->
-                <!-- </defaultPalette> -->
-            <!-- </li> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(126, 170, 194)</colorA>
+                    <colorB>(126, 170, 194)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
     
     <PawnKindDef ParentName="GW_SM_ShotgunScout">
         <defName>GW_SM_SW_ShotgunScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(126, 170, 194)</colorA>
+                    <colorB>(126, 170, 194)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_BolterScout">
         <defName>GW_SM_SW_BolterScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(126, 170, 194)</colorA>
+                    <colorB>(126, 170, 194)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_PlasmaScout">
         <defName>GW_SM_SW_PlasmaScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(126, 170, 194)</colorA>
+                    <colorB>(126, 170, 194)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier1">
         <defName>GW_SM_SW_RangedTier1</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(126, 170, 194)</colorA>
+                    <colorB>(126, 170, 194)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier1">
         <defName>GW_SM_SW_MeleeTier1</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(126, 170, 194)</colorA>
+                    <colorB>(126, 170, 194)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier2">
         <defName>GW_SM_SW_RangedTier2</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(126, 170, 194)</colorA>
+                    <colorB>(126, 170, 194)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier2">
         <defName>GW_SM_SW_MeleeTier2</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(126, 170, 194)</colorA>
+                    <colorB>(126, 170, 194)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier3">
         <defName>GW_SM_SW_RangedTier3</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(126, 170, 194)</colorA>
+                    <colorB>(126, 170, 194)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier3">
         <defName>GW_SM_SW_MeleeTier3</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(126, 170, 194)</colorA>
+                    <colorB>(126, 170, 194)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier4">
         <defName>GW_SM_SW_RangedTier4</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(126, 170, 194)</colorA>
+                    <colorB>(126, 170, 194)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier4">
         <defName>GW_SM_SW_MeleeTier4</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(126, 170, 194)</colorA>
+                    <colorB>(126, 170, 194)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier5">
         <defName>GW_SM_SW_RangedTier5</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(126, 170, 194)</colorA>
+                    <colorB>(126, 170, 194)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier5">
         <defName>GW_SM_SW_MeleeTier5</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(126, 170, 194)</colorA>
+                    <colorB>(126, 170, 194)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
@@ -1953,104 +2937,182 @@
     <PawnKindDef ParentName="GW_SM_SniperScout">
         <defName>GW_SM_UM_SniperScout</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
-                <!-- <defaultPalette> -->
-                    <!-- <colorA>(56, 93, 162)</colorA> -->
-                    <!-- <colorB>(56, 93, 162)</colorB> -->
-                    <!-- <colorC>(192, 157, 88)</colorC> -->
-                <!-- </defaultPalette> -->
-            <!-- </li> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(56, 93, 162)</colorA>
+                    <colorB>(56, 93, 162)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
     
     <PawnKindDef ParentName="GW_SM_ShotgunScout">
         <defName>GW_SM_UM_ShotgunScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(56, 93, 162)</colorA>
+                    <colorB>(56, 93, 162)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_BolterScout">
         <defName>GW_SM_UM_BolterScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(56, 93, 162)</colorA>
+                    <colorB>(56, 93, 162)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_PlasmaScout">
         <defName>GW_SM_UM_PlasmaScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(56, 93, 162)</colorA>
+                    <colorB>(56, 93, 162)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier1">
         <defName>GW_SM_UM_RangedTier1</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(56, 93, 162)</colorA>
+                    <colorB>(56, 93, 162)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier1">
         <defName>GW_SM_UM_MeleeTier1</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(56, 93, 162)</colorA>
+                    <colorB>(56, 93, 162)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier2">
         <defName>GW_SM_UM_RangedTier2</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(56, 93, 162)</colorA>
+                    <colorB>(56, 93, 162)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier2">
         <defName>GW_SM_UM_MeleeTier2</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(56, 93, 162)</colorA>
+                    <colorB>(56, 93, 162)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier3">
         <defName>GW_SM_UM_RangedTier3</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(56, 93, 162)</colorA>
+                    <colorB>(56, 93, 162)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier3">
         <defName>GW_SM_UM_MeleeTier3</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(56, 93, 162)</colorA>
+                    <colorB>(56, 93, 162)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier4">
         <defName>GW_SM_UM_RangedTier4</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(56, 93, 162)</colorA>
+                    <colorB>(56, 93, 162)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier4">
         <defName>GW_SM_UM_MeleeTier4</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(56, 93, 162)</colorA>
+                    <colorB>(56, 93, 162)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier5">
         <defName>GW_SM_UM_RangedTier5</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(56, 93, 162)</colorA>
+                    <colorB>(56, 93, 162)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier5">
         <defName>GW_SM_UM_MeleeTier5</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(56, 93, 162)</colorA>
+                    <colorB>(56, 93, 162)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
@@ -2058,104 +3120,182 @@
     <PawnKindDef ParentName="GW_SM_SniperScout">
         <defName>GW_SM_WS_SniperScout</defName>
         <modExtensions>
-            <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
-                <!-- <defaultPalette> -->
-                    <!-- <colorA>(255, 255, 255)</colorA> -->
-                    <!-- <colorB>(255, 255, 255)</colorB> -->
-                    <!-- <colorC>(180, 65, 74)</colorC> -->
-                <!-- </defaultPalette> -->
-            <!-- </li> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(255, 255, 255)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
     
     <PawnKindDef ParentName="GW_SM_ShotgunScout">
         <defName>GW_SM_WS_ShotgunScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(255, 255, 255)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_BolterScout">
         <defName>GW_SM_WS_BolterScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(255, 255, 255)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_PlasmaScout">
         <defName>GW_SM_WS_PlasmaScout</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(255, 255, 255)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier1">
         <defName>GW_SM_WS_RangedTier1</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(255, 255, 255)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier1">
         <defName>GW_SM_WS_MeleeTier1</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(255, 255, 255)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier2">
         <defName>GW_SM_WS_RangedTier2</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(255, 255, 255)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier2">
         <defName>GW_SM_WS_MeleeTier2</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(255, 255, 255)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier3">
         <defName>GW_SM_WS_RangedTier3</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(255, 255, 255)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier3">
         <defName>GW_SM_WS_MeleeTier3</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(255, 255, 255)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier4">
         <defName>GW_SM_WS_RangedTier4</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(255, 255, 255)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier4">
         <defName>GW_SM_WS_MeleeTier4</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(255, 255, 255)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier5">
         <defName>GW_SM_WS_RangedTier5</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(255, 255, 255)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_MeleeTier5">
         <defName>GW_SM_WS_MeleeTier5</defName>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(255, 255, 255)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 
@@ -2172,7 +3312,13 @@
         <techHediffsChance>1</techHediffsChance>
         <techHediffsMoney>15000~20000</techHediffsMoney>
         <modExtensions>
-             <!-- <li Class="GW4KArmor.DefaultPaletteExtension"> -->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(56, 93, 162)</colorA>
+                    <colorB>(56, 93, 162)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
         </modExtensions>
     </PawnKindDef>
 </Defs>
