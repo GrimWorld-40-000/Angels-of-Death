@@ -7,7 +7,7 @@
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_Stormtalon_AssaultCannons</defName>
 		<label>Assault cannons</label>
-		<description>The Stormtalon’s assault cannons are high-rate-of-fire rotary weapons, capable of shredding infantry and light armor with relentless volleys of explosive rounds.</description>
+		<description>The Assault Cannon is a rotary gun designed to eliminate enemy personnel and light armor. Uses 0.998 cal bolts.</description>
 		
 		<turretType>Rotatable</turretType>
 		<shotSound>OverlordHBolter</shotSound>
@@ -88,7 +88,7 @@
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 			<defName>GW_StormTalon_Bolter</defName>
 			<label>Bolter</label>
-			<description>The Heavy Bolter, a formidable weapon in the Warhammer 40,000 universe, is often mounted on vehicles to enhance their firepower. This versatile weapon, characterized by its rapid and powerful firepower, serves as a potent anti-infantry and suppressive tool on the battlefield. When mounted on a vehicle, it becomes a symbol of mobile and devastating firepower, capable of mowing down enemy infantry and providing valuable support in diverse combat scenarios.</description>
+			<description>The Stormtalon’s twin-linked bolters are ideal for mowing down infantry and light vehicles with a storm of high-velocity rounds. Uses 0.998 cal bolts.</description>
 			<turretType>Static</turretType>
 
 			<shotSound>OverlordHBolter</shotSound>
@@ -165,7 +165,7 @@
 		<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 			<defName>GW_Stormtalon_lascannon</defName>
 			<label>Lascannon</label>
-			<description>The Stormtalon’s lascannon is a powerful, single-shot energy weapon, designed to penetrate heavy armor and destroy fortified targets with precision.</description>
+			<description>The Stormtalon’s twin-linked lascannons are powerful, precision energy weapons mounted side-by-side, designed to pierce heavy armor and demolish fortified targets. Uses lascannon batteries.</description>
 			<turretType>Static</turretType>
 
 			<shotSound>OverlordHBolter</shotSound>
