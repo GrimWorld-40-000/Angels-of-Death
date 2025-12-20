@@ -7,7 +7,7 @@
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_Stormhawk_Lastalon</defName>
 		<label>Las-Talon</label>
-		<description>The Stormhawk’s Las-Talon is a heavy, forward-mounted lascannon weapon, designed to punch through armored vehicles and fortified targets with precision energy blasts.</description>
+		<description>Similar to a lascannon, the Stormhawk's Las-Talon is a heavy laser weapon. Its potent blasts can punch through armored vehicles and fortified targets. Uses lascannon batteries.</description>
 		
 		<turretType>Static</turretType>
 		<shotSound>OverlordLascannon</shotSound>
@@ -84,8 +84,8 @@
 
 		<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_Stormhawk_Stormcannon</defName>
-		<label>Storm Cannon</label>
-		<description>The Stormhawk’s Storm Cannon is a rapid-fire, high-energy weapon that unleashes a storm of explosive shells, effective against infantry and light vehicles alike.</description>
+		<label>Icarus Stormcannon</label>
+		<description>The Stormhawk can mount an Icarus Stormcannon - a rapid-fire, triple-barrel rotary autocannon. While specialising in eliminating hostile aircraft, it can also be turned on enemy vehicles and ground troops as well. Uses autocannon ammo.</description>
 		
 		<turretType>Static</turretType>
 		<shotSound>Shot_Autocannon</shotSound>
@@ -162,7 +162,7 @@
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 			<defName>GW_Stormhawk_AssaultCannon</defName>
 			<label>Assault Cannons</label>
-			<description>The Assault Cannon, a formidable weapon in the Warhammer 40,000 universe, is often mounted on vehicles to enhance their firepower. This versatile weapon, characterized by its rapid and powerful firepower, serves as a potent anti-infantry and suppressive tool on the battlefield. When mounted on a vehicle, it becomes a symbol of mobile and devastating firepower, capable of mowing down enemy infantry and providing valuable support in diverse combat scenarios.</description>
+			<description>The Assault Cannon is a rotary gun designed to eliminate enemy personnel and light armor. Uses 0.998 cal bolts.</description>
 			<turretType>Rotatable</turretType>
 
 			<shotSound>OverlordHBolter</shotSound>
