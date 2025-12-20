@@ -7,7 +7,7 @@
 			<li>
 				<key>GW_StormTalonLascannonUpgrade</key>
 				<label>Dual lascannons</label>
-				<description>The Stormtalon’s dual lascannons are powerful, precision energy weapons mounted side by side, designed to pierce heavy armor and demolish fortified targets with concentrated fire.</description>
+				<description>The Stormtalon’s twin-linked lascannons are powerful, precision energy weapons mounted side-by-side, designed to pierce heavy armor and demolish fortified targets. Uses lascannon batteries.</description>
 				<icon>Things/Vehicles/Stormtalon/Stormtalon_MountedLasgun</icon>
 				<work>7500</work>
 				<gridCoordinate>(5, 5)</gridCoordinate>
@@ -59,7 +59,7 @@
 			<li>
 				<key>GW_StormTalonBolterUpgrade</key>
 				<label>Dual bolters</label>
-				<description>The Stormtalon’s dual bolters are paired rapid-fire weapons, ideal for mowing down infantry and light vehicles with a storm of high-velocity rounds.</description>
+				<description>The Stormtalon’s twin-linked bolters are ideal for mowing down infantry and light vehicles with a storm of high-velocity rounds. Uses 0.998 cal bolts.</description>
 				<icon>Things/Vehicles/Stormtalon/Stormtalon_MountedBolter</icon>
 				<work>7500</work>
 				<gridCoordinate>(10, 5)</gridCoordinate>
