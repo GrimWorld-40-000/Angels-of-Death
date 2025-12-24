@@ -765,7 +765,7 @@
 		<statBases>
 			<WorkToMake>55000</WorkToMake>
 			<Mass>5.5</Mass>
-			<MarketValue>100</MarketValue>
+			<MarketValue>10000</MarketValue>
 		</statBases>
 		<relicChance>2</relicChance>
 		<costList>
