@@ -14,7 +14,7 @@
 			</playerFaction>
 			<parts>
 				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
-					<def>ConfigurePawnsKindDefs</def>
+					<def>GW_ConfigurePawnsKindDefs</def>
 					<pawnChoiceCount>2</pawnChoiceCount>
 					<leftBehindPawnKind>GW_CrashlandedAngel_Starter</leftBehindPawnKind>
 					<kindCounts>
