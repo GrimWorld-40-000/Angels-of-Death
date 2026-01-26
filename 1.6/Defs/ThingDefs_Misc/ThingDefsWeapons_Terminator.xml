@@ -19,7 +19,7 @@
 			<li>HPRanged</li>
 		</tradeTags>
 		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
+			
 			<li>GW_SM_TerminatorRanged</li>
 		</weaponTags>
 	</ThingDef>
@@ -98,7 +98,7 @@
 			<ComponentSpacer>4</ComponentSpacer>			
 		</costList>
 		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
+			<li>GW_SM_TerminatorRanged</li>
 		</weaponTags>
 		<weaponClasses>
 			<li>RangedHeavy</li>
@@ -208,7 +208,7 @@
 			<HP_Adamantium>25</HP_Adamantium>
 		</costList>
 		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
+			<li>GW_SM_TerminatorRanged</li>
 		</weaponTags>
 		<weaponClasses>
 			<li>RangedHeavy</li>
@@ -270,6 +270,9 @@
 		</graphicData>
 		<uiIconScale>0.8</uiIconScale>
 		<soundInteract>Interact_Rifle</soundInteract>
+		<thingCategories>
+			<li>GWBolter</li>
+		</thingCategories>
 		<recipeMaker>
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
@@ -299,7 +302,8 @@
 			<HP_Adamantium>40</HP_Adamantium>
     	</costList>
 		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
+			<li>GW_SM_TerminatorRanged</li>
+			<li>GWBolter</li>
 		</weaponTags>
 		<weaponClasses>
 			<li>RangedHeavy</li>
@@ -417,7 +421,7 @@
 			<HP_Adamantium>25</HP_Adamantium>
 		</costList>
 		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
+			<li>GW_SM_TerminatorRanged</li>
 		</weaponTags>
 		<weaponClasses>
 			<li>RangedHeavy</li>
@@ -524,7 +528,7 @@
 			<HP_Ceramite>40</HP_Ceramite>
 		</costList>
 		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
+			<li>GW_SM_TerminatorRanged</li>
 		</weaponTags>
 		<weaponClasses>
 			<li>RangedHeavy</li>
