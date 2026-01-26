@@ -534,7 +534,7 @@
 			<HP_Adamantium>20</HP_Adamantium>
 		</costList>
 		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
+			
 			<li>GW_SM_Ranged</li>
 			<li>GW_SM_ScoutShotgun</li>
 		</weaponTags>
@@ -617,7 +617,7 @@
 			<HP_Adamantium>25</HP_Adamantium>
 		</costList>
 		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
+			
 			<li>GW_SM_Ranged</li>
 			<li>GW_SM_ScoutShotgun</li>
 		</weaponTags>
@@ -705,7 +705,7 @@
 			<HP_Adamantium>45</HP_Adamantium>
 		</costList>
 		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
+			
 			<li>GW_SM_Ranged</li>
 		</weaponTags>
 		<weaponClasses>
@@ -883,7 +883,7 @@
 			<li>RewardStandardQualitySuper</li>
 		</thingSetMakerTags>
 		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
+			
 			<li>GW_SM_Ranged</li>
 		</weaponTags>
 		<tradeTags>
