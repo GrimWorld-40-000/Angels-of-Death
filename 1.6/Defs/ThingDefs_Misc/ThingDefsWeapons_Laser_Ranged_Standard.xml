@@ -65,7 +65,7 @@
             <HP_Ceramite>10</HP_Ceramite>
         </costList>
         <weaponTags>
-            <li>SpacerGun</li>
+            
             <li>GW_SM_Ranged</li>
             <li>GW_SM_ScoutPlasma</li>
         </weaponTags>
@@ -178,7 +178,7 @@
             <ComponentSpacer>5</ComponentSpacer>
         </costList>
         <weaponTags>
-            <li>SpacerGun</li>
+            
             <li>GW_SM_Ranged</li>
         </weaponTags>
         <tradeTags>
@@ -289,7 +289,7 @@
             <HP_Ceramite>25</HP_Ceramite>
         </costList>
         <weaponTags>
-            <li>SpacerGun</li>
+            
             <li>GW_SM_Ranged</li>
             <li>GW_SM_ScoutPlasma</li>
         </weaponTags>
@@ -396,7 +396,7 @@
             <HP_Ceramite>60</HP_Ceramite>
         </costList>
         <weaponTags>
-            <li>SpacerGun</li>
+            
             <li>GW_SM_Ranged</li>
             <li>GW_SM_RangedHeavy</li>
         </weaponTags>
@@ -507,7 +507,7 @@
 			<HP_Ceramite>10</HP_Ceramite>
 		</costList>
 		<weaponTags>
-			<li>SpacerGun</li>
+			
 			<li>GW_SM_Ranged</li>
 		</weaponTags>
 		<tradeTags>
@@ -618,7 +618,7 @@
 			<HP_Ceramite>20</HP_Ceramite>
 		</costList>
 		<weaponTags>
-			<li>SpacerGun</li>
+			
 			<li>GW_SM_Ranged</li>
 		</weaponTags>
 		<tradeTags>

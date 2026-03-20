@@ -89,6 +89,9 @@
 		</graphicData>
 		<uiIconScale>0.8</uiIconScale>
 		<soundInteract>Interact_Rifle</soundInteract>
+		<thingCategories>
+         <li>GWBolter</li>
+        </thingCategories>
 		<recipeMaker>
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
@@ -114,7 +117,7 @@
 			<HP_Adamantium>40</HP_Adamantium>
 		</costList>
 		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
+			<li>GWBolter</li>
 			<li>GW_SM_Ranged</li>
 			<li>GW_SM_ScoutBolter</li>
 		</weaponTags>
@@ -175,11 +178,14 @@
 		</graphicData>
 		<uiIconScale>0.8</uiIconScale>
 		<soundInteract>Interact_Autopistol</soundInteract>
+		<thingCategories>
+         <li>GWBolter</li>
+        </thingCategories>
 		<weaponClasses>
 			<li>RangedHeavy</li>
 		</weaponClasses>
 		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
+			<li>GWBolter</li>
 			<li>GW_SM_Ranged</li>
 		</weaponTags>
 		<statBases>
@@ -277,6 +283,9 @@
 		</graphicData>
 		<uiIconScale>0.8</uiIconScale>
 		<soundInteract>Interact_Rifle</soundInteract>
+		<thingCategories>
+         <li>GWBolter</li>
+        </thingCategories>
 		<recipeMaker>
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
@@ -302,7 +311,7 @@
 			<HP_Adamantium>45</HP_Adamantium>
 		</costList>
 		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
+			<li>GWBolter</li>
 			<li>GW_SM_Ranged</li>
 			<li>GW_SM_ScoutSniper</li>
 		</weaponTags>
@@ -378,6 +387,9 @@
 		</graphicData>
 		<uiIconScale>0.8</uiIconScale>
 		<soundInteract>Interact_Rifle</soundInteract>
+		<thingCategories>
+         <li>GWBolter</li>
+        </thingCategories>
 		<recipeMaker>
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
@@ -406,7 +418,7 @@
 			<HP_Adamantium>45</HP_Adamantium>
 		</costList>
 		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
+			<li>GWBolter</li>
 			<li>GW_SM_Ranged</li>
 			<li>GW_SM_RangedHeavy</li>
 		</weaponTags>
@@ -522,7 +534,7 @@
 			<HP_Adamantium>20</HP_Adamantium>
 		</costList>
 		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
+			
 			<li>GW_SM_Ranged</li>
 			<li>GW_SM_ScoutShotgun</li>
 		</weaponTags>
@@ -605,7 +617,7 @@
 			<HP_Adamantium>25</HP_Adamantium>
 		</costList>
 		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
+			
 			<li>GW_SM_Ranged</li>
 			<li>GW_SM_ScoutShotgun</li>
 		</weaponTags>
@@ -693,7 +705,7 @@
 			<HP_Adamantium>45</HP_Adamantium>
 		</costList>
 		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
+			
 			<li>GW_SM_Ranged</li>
 		</weaponTags>
 		<weaponClasses>
@@ -750,6 +762,9 @@
 		</graphicData>
 		<uiIconScale>0.8</uiIconScale>
 		<soundInteract>Interact_Rifle</soundInteract>
+		<thingCategories>
+         <li>GWBolter</li>
+        </thingCategories>
 		<recipeMaker>
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
@@ -778,7 +793,7 @@
 			<HP_Adamantium>12</HP_Adamantium>
 		</costList>
 		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
+			<li>GWBolter</li>
 			<li>GW_SM_Ranged</li>
 		</weaponTags>
 		<weaponClasses>
@@ -868,7 +883,7 @@
 			<li>RewardStandardQualitySuper</li>
 		</thingSetMakerTags>
 		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
+			
 			<li>GW_SM_Ranged</li>
 		</weaponTags>
 		<tradeTags>
