@@ -32,7 +32,7 @@
 		</equippedStatOffsets>
 		<comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">
-				<maskCount>2</maskCount>
+				<!-- <maskCount>2</maskCount> -->
 				<palettePresets>GW_SM_BackpackChapterPalettes</palettePresets>
 				<defaultPalette>
 					<colorA>(250, 176, 67)</colorA>

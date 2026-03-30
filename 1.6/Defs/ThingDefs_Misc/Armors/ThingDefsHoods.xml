@@ -70,7 +70,7 @@
         </apparel>
         <comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">
-				<maskCount>15</maskCount>
+				<!-- <maskCount>15</maskCount> -->
 				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
 				<defaultPalette>
 					<colorA>(250, 176, 67)</colorA>

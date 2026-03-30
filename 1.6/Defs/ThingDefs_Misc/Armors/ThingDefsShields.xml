@@ -12,7 +12,7 @@
         </graphicData>
         <comps>
             <li Class="GW4KArmor.CompProperties_TriColorMask">
-                <maskCount>3</maskCount>
+                <!-- <maskCount>3</maskCount> -->
                 <palettePresets>GW_SM_ShieldChapterPalettes</palettePresets>
                 <defaultPalette>
                     <colorA>(250, 176, 67)</colorA>
@@ -147,7 +147,7 @@
         </graphicData>
         <comps>
             <li Class="GW4KArmor.CompProperties_TriColorMask">
-                <maskCount>3</maskCount>
+                <!-- <maskCount>3</maskCount> -->
                 <palettePresets>GW_SM_ShieldChapterPalettes</palettePresets>
                 <defaultPalette>
                     <colorA>(250, 176, 67)</colorA>
@@ -281,7 +281,7 @@
         </graphicData>
         <comps>
             <li Class="GW4KArmor.CompProperties_TriColorMask">
-                <maskCount>3</maskCount>
+                <!-- <maskCount>3</maskCount> -->
                 <palettePresets>GW_SM_ShieldChapterPalettes</palettePresets>
                 <defaultPalette>
                     <colorA>(250, 176, 67)</colorA>
@@ -380,7 +380,7 @@
         </graphicData>
         <comps>
             <li Class="GW4KArmor.CompProperties_TriColorMask">
-                <maskCount>1</maskCount>
+                <!-- <maskCount>1</maskCount> -->
                 <palettePresets>GW_SM_ShieldChapterPalettes</palettePresets>
                 <defaultPalette>
                     <colorA>(250, 176, 67)</colorA>

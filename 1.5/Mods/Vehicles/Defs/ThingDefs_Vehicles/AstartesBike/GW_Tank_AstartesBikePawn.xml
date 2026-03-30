@@ -40,7 +40,7 @@
 			<li>
 				<start>IgnitionOn</start>
 				<stop>IgnitionOff</stop>
-				<value>bikelooper</value>
+				<value>bikeloop</value>
 			</li>
 		</soundSustainersOnEvent>
 		

@@ -96,7 +96,7 @@
         </apparel>
         <comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">
-				<maskCount>14</maskCount>
+				<!-- <maskCount>14</maskCount> -->
 				<palettePresets>GW_SM_BackpackChapterPalettes</palettePresets>
 				<defaultPalette>
 					<colorA>(250, 176, 67)</colorA>
