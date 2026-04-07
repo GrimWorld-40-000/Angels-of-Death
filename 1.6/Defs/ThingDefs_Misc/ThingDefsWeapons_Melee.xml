@@ -228,13 +228,22 @@
 				</extraMeleeDamages>
 			</li>
 		</tools>
+		<recipeMaker>
+			<recipeUsers Inherit="False">
+				<li>HP_ImperialFabricationBench</li>
+			</recipeUsers>
+			<researchPrerequisite>GW_Chainswords</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>12</Crafting>
+			</skillRequirements>
+		</recipeMaker>
 		<comps>
             <!-- <li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"> -->
 				<!-- <maxNumberCraftable>3</maxNumberCraftable> -->
 			<!-- </li> -->
         </comps>
 	  </ThingDef>
-	  
+
 		<!-- ====================== Powersword ===================== -->
 	  
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
@@ -379,6 +388,15 @@
 			<soundMeleeMiss>Smite</soundMeleeMiss>
 		  </li>
 		</tools>
+		<recipeMaker>
+			<recipeUsers Inherit="False">
+				<li>HP_ImperialFabricationBench</li>
+			</recipeUsers>
+			<researchPrerequisite>GW_PowerMeleeWeapons</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>15</Crafting>
+			</skillRequirements>
+		</recipeMaker>
 		<comps>
             <!-- <li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"> -->
 				<!-- <maxNumberCraftable>3</maxNumberCraftable> -->
